@@ -1,0 +1,1117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Marcus Aurelius — Roman Personality</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+<style>
+:root {
+  --paper:         #F1E8D2;
+  --paper-2:       #E8DCBE;
+  --paper-3:       #DDCEA8;
+  --ink:           #2A1F18;
+  --ink-soft:      #54473A;
+  --ink-mute:      #8B7F6D;
+  --rule:          #C8B98F;
+  --rule-soft:     #D8C9A1;
+
+  --gold:          #B8954A;
+  --gold-bright:   #D4AE5F;
+  --gold-deep:     #8C6F30;
+  --gold-pale:     #E6D2A0;
+
+  --pagan:         #A0392B;
+  --pagan-deep:    #7A2A1F;
+  --pagan-soft:    #C97164;
+  --pagan-mute:    #E7B8A6;
+
+  --christian:     #2D4858;
+  --christian-soft:#6D8AA5;
+  --christian-mute:#B7C7D5;
+
+  --green:         #4A5D3A;
+  --green-soft:    #7A8E66;
+
+  --dark:          #1A140F;
+  --dark-2:        #2C1F1A;
+}
+
+* { box-sizing: border-box; }
+
+html, body { margin: 0; padding: 0; }
+
+body {
+  background: var(--paper);
+  background-image:
+    radial-gradient(circle at 20% 0%, rgba(184, 149, 74, 0.04), transparent 50%),
+    radial-gradient(circle at 80% 100%, rgba(160, 57, 43, 0.03), transparent 50%);
+  color: var(--ink);
+  font-family: 'EB Garamond', Georgia, serif;
+  font-size: 18px;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ============ MOSAIC SIDE STRIPS ============ */
+.mosaic-strip {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 108px;
+  z-index: 10;
+  background-image: url('../assets/mosaic_strip.png');
+  background-repeat: repeat-y;
+  background-size: 108px auto;
+  background-color: var(--dark);
+}
+.mosaic-left { left: 0; box-shadow: 8px 0 18px -10px rgba(0,0,0,0.45); }
+.mosaic-right {
+  right: 0;
+  box-shadow: -8px 0 18px -10px rgba(0,0,0,0.45);
+  background-image: url('../assets/mosaic_strip_right.png');
+}
+
+/* ============ MAIN ============ */
+.page {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 128px;
+  position: relative;
+}
+
+/* ============ NAV ============ */
+.nav {
+  border-bottom: 1px solid var(--rule);
+  padding: 20px 0;
+  font-family: 'Cinzel', serif;
+  font-size: 12px;
+  letter-spacing: 0.22em;
+  color: var(--ink-soft);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-transform: uppercase;
+}
+.nav .logo { color: var(--ink); font-weight: 600; }
+.nav .crumbs {
+  color: var(--ink-mute);
+  font-weight: 400;
+  letter-spacing: 0.18em;
+  display: inline-flex;
+  align-items: center;
+  gap: 70px;       /* generous gap so sprigs from adjacent items never collide */
+}
+.nav-item {
+  color: var(--ink-soft);
+  text-decoration: none;
+  position: relative;
+  display: inline-block;
+  padding: 4px 0;
+  transition: color 0.2s ease;
+}
+.nav-item:hover { color: var(--pagan-deep); }
+.nav-sep { color: var(--rule); pointer-events: none; }
+
+/* Paired hover sprigs — separate pre-flipped PNGs for left/right so we never
+   touch scaleX(-1) in CSS (that was the bug: scaleX with transform-origin: left
+   reflects content to the LEFT of the origin, putting it inside the word).
+   nav_sprig.png   — leaves curl right, stem dangles down-left. For ::before (left of word).
+   nav_sprig_r.png — same image pre-flipped horizontally. For ::after (right of word).
+   Plant centroid is at 33.95% from top of image, so translateY(-33.95%) puts
+   centroid at the word's vertical midline. */
+:root {
+  --nav-sprig-w: 42px;
+  --nav-sprig-h: 37px;
+  --nav-sprig-gap: 12px;        /* increased from 4px — was too close, leaves brushed text */
+  --nav-sprig-cy: 33.95%;
+}
+.nav-item::before,
+.nav-item::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  width: var(--nav-sprig-w);
+  height: var(--nav-sprig-h);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  opacity: 0;
+  pointer-events: none;
+  z-index: 5;
+  transition: opacity 0.35s ease, transform 0.45s cubic-bezier(.2,.7,.3,1.4);
+}
+.nav-item::before {
+  right: 100%;
+  margin-right: var(--nav-sprig-gap);
+  background-image: url('../assets/nav_sprig.png');
+  transform: translateY(calc(-1 * var(--nav-sprig-cy))) translateX(8px) rotate(-8deg);
+  transform-origin: right var(--nav-sprig-cy);
+}
+.nav-item::after {
+  left: 100%;
+  margin-left: var(--nav-sprig-gap);
+  background-image: url('../assets/nav_sprig_r.png');
+  transform: translateY(calc(-1 * var(--nav-sprig-cy))) translateX(-8px) rotate(8deg);
+  transform-origin: left var(--nav-sprig-cy);
+}
+.nav-item:hover::before {
+  opacity: 0.95;
+  transform: translateY(calc(-1 * var(--nav-sprig-cy))) rotate(-3deg);
+}
+.nav-item:hover::after {
+  opacity: 0.95;
+  transform: translateY(calc(-1 * var(--nav-sprig-cy))) rotate(3deg);
+}
+
+/* ============ HERO ============ */
+.hero {
+  display: grid;
+  grid-template-columns: 320px 1fr;
+  gap: 64px;
+  padding: 72px 0 56px;
+  border-bottom: 1px solid var(--rule);
+  position: relative;
+}
+
+/* === photo-composite bust frame (doorway + vine band) === */
+.bust {
+  width: 320px;
+  position: relative;
+}
+.bust-shell {
+  position: relative;
+  /* frame asset is 1122 x 1402 → aspect ratio 0.800 */
+  width: 100%;
+  aspect-ratio: 1122 / 1402;
+}
+.bust-shell .bust-photo {
+  /* slot in frame2: 19.52% L, 14.55% T, 62.57% W, 72.54% H */
+  position: absolute;
+  left: 19.52%;
+  top: 14.55%;
+  width: 62.57%;
+  height: 72.54%;
+  background: var(--paper-2);
+  overflow: hidden;
+  z-index: 1;
+}
+.bust-shell .bust-photo img,
+.bust-shell .bust-photo svg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.bust-shell .bust-photo svg,
+.bust-shell .bust-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.bust-shell .bust-frame-img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  pointer-events: none;
+  user-select: none;
+}
+
+/* Tradition-based plant corners draped over the carved frame.
+   IMPORTANT — bottom corners broke previously because:
+     - .frame-plant was width 30% × height 30% (percentages of bust-shell, which
+       has a 0.8 aspect, so the box was 30%w × 30%h → rectangular taller-than-wide)
+     - The source image is SQUARE, so background-size: contain letterboxed it
+     - For bottom corners, the empty letterbox sat at the top of the box, then
+       scaleY(-1) flipped it to sit at the bottom — pushing the plant matter
+       UP into the middle of the box, leaving a gap between plant and frame edge.
+   Fix: force aspect-ratio: 1/1 on the box. Now square box, square image, no
+   letterbox, flips behave correctly.
+   Also size bumped from 30% to 40% per request. */
+.bust-shell .frame-plant {
+  position: absolute;
+  width: 40%;
+  aspect-ratio: 1 / 1;          /* square box → no letterbox to flip around */
+  background-size: 100% 100%;   /* fills square box edge-to-edge */
+  background-repeat: no-repeat;
+  z-index: 3;
+  pointer-events: none;
+  opacity: 0.92;
+}
+.bust-shell .frame-plant.tl { top: 0; left: 0; }
+.bust-shell .frame-plant.tr { top: 0; right: 0; transform: scaleX(-1); }
+.bust-shell .frame-plant.bl { bottom: 0; left: 0; transform: scaleY(-1); }
+.bust-shell .frame-plant.br { bottom: 0; right: 0; transform: scale(-1, -1); }
+
+/* Plant species picked by tradition */
+.bust[data-tradition="pagan"]    .frame-plant { background-image: url('../assets/corner_olive.png'); }
+.bust[data-tradition="christian"] .frame-plant { background-image: url('../assets/corner_laurel.png'); }
+
+.bust-caption {
+  font-family: 'EB Garamond', serif;
+  font-style: normal;
+  font-size: 14px;
+  color: var(--ink-mute);
+  margin-top: 14px;
+  text-align: center;
+  line-height: 1.4;
+}
+.bust-caption .src { color: var(--pagan); font-style: normal; font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; }
+
+.hero-meta { padding-top: 4px; }
+.hero-tag {
+  font-family: 'Cinzel', serif;
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.28em;
+  text-transform: uppercase;
+  color: var(--pagan);
+  margin-bottom: 18px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.hero-tag::before { content: ''; display: inline-block; width: 32px; height: 1px; background: var(--pagan); }
+
+.hero h1 {
+  font-family: 'Cinzel', serif;
+  font-size: 56px;
+  font-weight: 600;
+  line-height: 1.0;
+  margin: 0 0 16px;
+  letter-spacing: 0.02em;
+  color: var(--ink);
+  text-transform: uppercase;
+  display: inline-flex;
+  align-items: center;
+  gap: 18px;
+  position: relative;
+}
+.hero h1 .name-sprig {
+  /* cypress asset is 280 × 1068 (aspect 0.262 — tall and slender)
+     90px tall × 24px wide preserves aspect */
+  width: 24px;
+  height: 90px;
+  background-image: url('../assets/cypress.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  opacity: 0.82;
+  flex-shrink: 0;
+}
+.hero h1 .name-sprig.r {
+  transform: scaleX(-1);
+}
+.hero h2 {
+  font-family: 'EB Garamond', serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 22px;
+  color: var(--ink-soft);
+  margin: 0 0 22px;
+  line-height: 1.35;
+}
+.hero .lifespan {
+  font-family: 'Cinzel', serif;
+  font-size: 11px;
+  letter-spacing: 0.22em;
+  font-weight: 500;
+  color: var(--gold-deep);
+  text-transform: uppercase;
+  margin-bottom: 26px;
+  padding: 8px 0;
+  border-top: 1px solid var(--rule-soft);
+  border-bottom: 1px solid var(--rule-soft);
+  display: inline-block;
+  padding: 8px 14px;
+  background: linear-gradient(180deg, transparent, rgba(184, 149, 74, 0.08), transparent);
+}
+.hero .blurb {
+  font-size: 19px;
+  color: var(--ink);
+  margin-bottom: 32px;
+  max-width: 60ch;
+  line-height: 1.6;
+}
+.hero .blurb em { color: var(--pagan-deep); font-style: normal; }
+
+.stats {
+  display: flex;
+  gap: 40px;
+  padding-top: 22px;
+  border-top: 1px solid var(--rule);
+}
+.stat .num {
+  font-family: 'Cinzel', serif;
+  font-size: 34px;
+  font-weight: 600;
+  color: var(--ink);
+  display: block;
+  line-height: 1;
+  letter-spacing: 0.01em;
+}
+.stat .lbl {
+  font-family: 'Cinzel', serif;
+  font-size: 10px;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--ink-mute);
+  margin-top: 8px;
+}
+
+/* ============ SECTION ORNAMENT DIVIDER ============ */
+.divider {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  padding: 0;
+  margin: 0;
+}
+.divider .line { flex: 1; height: 1px; background: var(--rule); }
+.divider .ornament {
+  width: 24px;
+  height: 24px;
+  color: var(--gold-deep);
+}
+
+/* ============ SECTION ============ */
+section {
+  padding: 72px 0;
+  border-bottom: 1px solid var(--rule);
+  position: relative;
+}
+section:last-of-type { border-bottom: none; }
+
+.section-head {
+  font-family: 'Cinzel', serif;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.28em;
+  text-transform: uppercase;
+  color: var(--pagan);
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.section-head::before { content: ''; display: inline-block; width: 32px; height: 1px; background: var(--pagan); }
+
+.section-title {
+  font-family: 'Cinzel', serif;
+  font-size: 36px;
+  font-weight: 500;
+  margin: 0 0 14px;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  color: var(--ink);
+  line-height: 1.15;
+}
+.section-intro {
+  font-family: 'EB Garamond', serif;
+  font-style: normal;
+  color: var(--ink-soft);
+  font-size: 18px;
+  max-width: 65ch;
+  margin: 0 0 40px;
+  line-height: 1.55;
+}
+.section-intro em { color: var(--pagan-deep); }
+
+/* ============ FINGERPRINT ============ */
+.fingerprint {
+  display: grid;
+  grid-template-columns: 1.1fr 1fr;
+  gap: 64px;
+  align-items: center;
+}
+.radar-box {
+  background: var(--paper-2);
+  border: 1px solid var(--rule);
+  padding: 24px;
+  aspect-ratio: 1/1;
+  position: relative;
+  box-shadow: inset 0 0 0 1px var(--paper-3);
+}
+.radar-box::before, .radar-box::after {
+  content: '';
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  border: 1px solid var(--gold-deep);
+  background: var(--paper);
+}
+.radar-box::before { top: -7px; left: -7px; }
+.radar-box::after { bottom: -7px; right: -7px; }
+.radar-corner {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  border: 1px solid var(--gold-deep);
+  background: var(--paper);
+}
+.radar-corner.tr { top: -7px; right: -7px; }
+.radar-corner.bl { bottom: -7px; left: -7px; }
+
+.dominant { padding: 8px 0; }
+.dominant .label {
+  font-family: 'Cinzel', serif;
+  font-size: 10px;
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+  color: var(--ink-mute);
+  margin-bottom: 12px;
+}
+.dominant .dim-name {
+  font-family: 'Cinzel', serif;
+  font-size: 48px;
+  font-weight: 600;
+  margin-bottom: 8px;
+  letter-spacing: 0.02em;
+  color: var(--pagan-deep);
+  text-transform: uppercase;
+}
+.dominant .pct {
+  font-family: 'Cinzel', serif;
+  font-size: 14px;
+  color: var(--gold-deep);
+  font-weight: 600;
+  letter-spacing: 0.12em;
+}
+.dominant .desc {
+  font-family: 'EB Garamond', serif;
+  font-style: normal;
+  color: var(--ink-soft);
+  margin-top: 20px;
+  font-size: 17px;
+  line-height: 1.6;
+  max-width: 40ch;
+}
+.dim-words {
+  font-family: 'EB Garamond', serif;
+  font-size: 15px;
+  color: var(--ink-mute);
+  margin-top: 16px;
+  letter-spacing: 0.02em;
+  line-height: 1.6;
+  padding-top: 14px;
+  border-top: 1px solid var(--rule-soft);
+}
+.dim-words em { color: var(--pagan-deep); font-style: normal; }
+
+/* ============ TRAITS ============ */
+.adj-list { display: flex; flex-wrap: wrap; gap: 8px; max-width: 820px; }
+.adj-chip { font-size: 15px; padding: 5px 13px; border: 1px solid var(--rule, #C8B98F);
+            border-radius: 15px; background: var(--paper-2, #E8DCBE); color: var(--ink-soft, #54473A); }
+.trait-bars { display: grid; gap: 11px; max-width: 760px; }
+.trait-row {
+  display: grid;
+  grid-template-columns: 170px 1fr 40px;
+  align-items: center;
+  gap: 18px;
+}
+.trait-row .word {
+  font-family: 'EB Garamond', serif;
+  font-size: 21px;
+  text-align: right;
+  color: var(--ink);
+  font-style: normal;
+}
+.trait-row .bar {
+  height: 14px;
+  background: linear-gradient(90deg, var(--pagan-deep), var(--pagan));
+  border-radius: 1px;
+  position: relative;
+  box-shadow: inset 0 -1px 0 var(--pagan-deep);
+}
+.trait-row .bar::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(255,255,255,0.15), transparent);
+}
+.trait-row .n {
+  font-family: 'Cinzel', serif;
+  color: var(--ink-soft);
+  font-size: 14px;
+  font-weight: 500;
+  text-align: right;
+}
+.legend-note {
+  font-family: 'EB Garamond', serif;
+  font-style: normal;
+  font-size: 15px;
+  color: var(--ink-mute);
+  margin-top: 24px;
+  padding-top: 18px;
+  border-top: 1px dashed var(--rule);
+  max-width: 70ch;
+}
+
+/* ============ VOICES ============ */
+.voices { display: grid; gap: 0; }
+.voice {
+  display: grid;
+  grid-template-columns: 290px 60px 1fr;
+  align-items: baseline;
+  padding: 20px 0;
+  border-bottom: 1px solid var(--rule-soft);
+  gap: 24px;
+}
+.voice:last-child { border-bottom: none; }
+.voice .who-block { display: flex; align-items: baseline; gap: 12px; flex-wrap: wrap; }
+.voice .who {
+  font-family: 'EB Garamond', serif;
+  font-size: 23px;
+  font-weight: 500;
+  color: var(--ink);
+}
+.voice .count {
+  font-family: 'Cinzel', serif;
+  font-variant-numeric: tabular-nums;
+  font-size: 18px;
+  color: var(--gold-deep);
+  font-weight: 600;
+}
+.voice .ctx {
+  font-family: 'EB Garamond', serif;
+  font-style: normal;
+  color: var(--ink-soft);
+  font-size: 16px;
+  line-height: 1.45;
+}
+.pill {
+  display: inline-block;
+  font-family: 'Cinzel', serif;
+  font-size: 9px;
+  font-weight: 600;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  padding: 3px 9px;
+  border-radius: 0;
+  background: var(--pagan-mute);
+  color: var(--pagan-deep);
+  border: 1px solid var(--pagan);
+}
+.pill.chr { background: var(--christian-mute); color: var(--christian); border-color: var(--christian); }
+.pill.self { background: var(--gold-pale); color: var(--gold-deep); border-color: var(--gold); }
+
+/* ============ DOCS ============ */
+.docs {
+  display: grid;
+  gap: 1px;
+  background: var(--rule-soft);
+  border: 1px solid var(--rule);
+}
+.doc-row {
+  background: var(--paper);
+  padding: 22px 28px;
+  cursor: pointer;
+  transition: background 0.15s;
+  position: relative;
+}
+.doc-row:hover { background: var(--paper-2); }
+.doc-row .top {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 8px;
+  gap: 20px;
+}
+.doc-row .title {
+  font-family: 'EB Garamond', serif;
+  font-size: 22px;
+  font-weight: 500;
+  color: var(--ink);
+}
+.doc-row .meta {
+  font-family: 'Cinzel', serif;
+  font-size: 10px;
+  color: var(--ink-mute);
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  white-space: nowrap;
+  font-weight: 500;
+}
+.doc-row .author { color: var(--pagan-deep); }
+/* italics are reserved for quoted source text (the excerpts below) — nowhere else */
+em { font-style: normal; }
+.doc-row .excerpt {
+  font-family: 'EB Garamond', serif;
+  font-style: italic;
+  font-size: 16px;
+  color: var(--ink-soft);
+  line-height: 1.55;
+  max-width: 85ch;
+}
+.doc-row .excerpt mark {
+  background: rgba(184, 149, 74, 0.22);
+  color: var(--pagan-deep);
+  padding: 0 3px;
+  border-radius: 2px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+/* ============ DEV NOTE ============ */
+.dev-note {
+  background: var(--paper-2);
+  border-left: 3px solid var(--gold);
+  padding: 22px 28px;
+  margin: 56px 0 0;
+  font-family: 'EB Garamond', serif;
+  font-style: normal;
+  font-size: 15px;
+  color: var(--ink-soft);
+  max-width: 760px;
+  line-height: 1.55;
+}
+.dev-note strong { color: var(--ink); font-style: normal; }
+.dev-note code {
+  font-family: 'Inter', monospace;
+  font-style: normal;
+  font-size: 12.5px;
+  background: var(--paper-3);
+  padding: 1px 5px;
+  color: var(--ink);
+}
+
+footer {
+  padding: 56px 0;
+  font-family: 'Cinzel', serif;
+  font-size: 10px;
+  color: var(--ink-mute);
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/* small screens: hide mosaic strips */
+@media (max-width: 1100px) {
+  .mosaic-strip { display: none; }
+  .page { padding: 0 32px; }
+}
+</style>
+</head>
+<body>
+
+<!-- Mosaic vertical margin strips -->
+<div class="mosaic-strip mosaic-left" id="mosaicLeft"></div>
+<div class="mosaic-strip mosaic-right" id="mosaicRight"></div>
+
+<div class="page">
+
+  <!-- NAV -->
+  <div class="nav">
+    <span class="logo">Roman Personality</span>
+    <span class="crumbs">
+      <a class="nav-item" data-sprig="ivy" href="../index.html">Explore</a>
+      <span class="nav-sep">·</span>
+      <a class="nav-item" data-sprig="laurel" href="../quiz.html">Quiz</a>
+      <span class="nav-sep">·</span>
+      <a class="nav-item" data-sprig="olive" href="../profiles.html">Profiles</a>
+      <span class="nav-sep">·</span>
+      <a class="nav-item" data-sprig="ivy" href="../about.html">About</a>
+    </span>
+  </div>
+
+  <!-- HERO -->
+  <div class="hero">
+    <div class="bust" id="bust" data-tradition="pagan">
+      <div class="bust-shell">
+        <!-- Plant decoration at all four corners: olive (pagan) or laurel (christian),
+             species driven by data-tradition on the .bust above -->
+        <div class="frame-plant tl" aria-hidden="true"></div>
+        <div class="frame-plant tr" aria-hidden="true"></div>
+        <div class="frame-plant bl" aria-hidden="true"></div>
+        <div class="frame-plant br" aria-hidden="true"></div>
+        <!-- Bust photo populated by JS using assets/people/index.json as a
+             manifest. If the person isn't in the manifest, we load _anon.jpg
+             directly (no broken-image flash, no onerror race). -->
+        <div class="bust-photo">
+          <img id="bust-photo-img" src="" alt="">
+        </div>
+        <img class="bust-frame-img" src="../assets/bust_frame.png" alt=""/>
+      </div>
+    </div>
+
+    <div class="hero-meta">
+      <div class="hero-tag" id="hero-tag"></div>
+      <h1><span class="name-sprig l" aria-hidden="true"></span><span id="hero-name"></span><span class="name-sprig r" aria-hidden="true"></span></h1>
+      <h2 id="hero-subtitle"></h2>
+      <div class="lifespan" id="hero-lifespan"></div>
+      <div class="blurb" id="hero-blurb"></div>
+      <div class="stats">
+        <div class="stat"><span class="num" id="stat-docs"></span><span class="lbl">Documents</span></div>
+        <div class="stat"><span class="num" id="stat-mentions"></span><span class="lbl">Mentions</span></div>
+        <div class="stat"><span class="num" id="stat-adjectives"></span><span class="lbl">Adjectives</span></div>
+        <div class="stat"><span class="num" id="stat-collections"></span><span class="lbl">Collections</span></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- (character-fingerprint section removed) -->
+
+  <!-- HOW THEY WERE DESCRIBED -->
+  <section>
+    <div class="section-head">How they were described</div>
+    <h3 class="section-title" id="traits-title"></h3>
+    <p class="section-intro" id="traits-intro"></p>
+
+    <div class="trait-bars" id="traitBars"></div>
+
+    <div class="legend-note">
+      These are adjectives <em>others</em> used about this figure — the subject's own usage of words about <em>other</em> people (in works they authored) is filtered out. What's left is the portrait that contemporaries and posterity painted.
+    </div>
+  </section>
+
+  <!-- VOICES -->
+  <section>
+    <div class="section-head">Who described them</div>
+    <h3 class="section-title" id="voices-title"></h3>
+    <p class="section-intro" id="voices-intro"></p>
+    <div class="voices" id="voices-list"></div>
+  </section>
+
+  <!-- DOCUMENTS -->
+  <section>
+    <div class="section-head">Documents they appear in</div>
+    <h3 class="section-title" id="docs-title"></h3>
+    <p class="section-intro" id="docs-intro"></p>
+    <div class="docs" id="docs-list"></div>
+  </section>
+
+  <footer>Roman Personality</footer>
+
+</div>
+
+<script>
+// =========== Mosaic strips are now PNG image assets (set via CSS background-image) ===========
+
+// =================================================================
+// DYNAMIC PROFILE LOADER
+// Reads URL ?p=<slug>, fetches data/people/<slug>.json, populates DOM.
+// If no ?p, defaults to Marcus.
+// =================================================================
+
+const PAGAN_LABELS    = ['Fortitude','Justice','Severity','Loyalty','Vice'];
+const CHRIST_LABELS   = ['Humility','Sanctity','Asceticism'];
+
+// Topic descriptions + canonical top words — used by the Dominant panel
+const TOPIC_INFO = {
+  Fortitude: {
+    desc: 'The dimension defined by adjectives like <em>wise, brave, steadfast, firm, learned, courageous</em> — strength of character under pressure, equal parts mind and will.',
+    words: 'wise · brave · steadfast · firm · learned · courageous · proud · faithful · sage'
+  },
+  Justice: {
+    desc: 'The dimension defined by adjectives like <em>just, merciful, careful, cruel, upright, faithful, kind, fond</em> — moral judgement, fairness, restraint. The classical magistrate\'s virtue, not the warrior\'s.',
+    words: 'just · merciful · careful · cruel · upright · faithful · kind · fond · determined · noble · devoted'
+  },
+  Severity: {
+    desc: 'The dimension defined by adjectives like <em>stern, harsh, savage, severe, peaceful, unmanly, brave</em> — uncompromising authority and martial harshness, often shading toward cruelty.',
+    words: 'stern · harsh · savage · severe · bravest · peaceful · unmanly · brave · lovable'
+  },
+  Loyalty: {
+    desc: 'The dimension defined by adjectives like <em>loyal, righteous, valiant, courageous, clever, devoted, noble, frugal</em> — the martial virtue of fidelity, civic devotion, principled service.',
+    words: 'loyal · righteous · valiant · courageous · clever · devoted · noble · frugal · respected'
+  },
+  Vice: {
+    desc: 'The dimension defined by adjectives like <em>weak, evil, cruel, indolent, righteous, considerate, resolute, depraved</em> — moral failure, vice, corruption — but also (interestingly) sometimes mixed with conventional virtue.',
+    words: 'weak · evil · cruel · indolent · active · righteous · considerate · resolute · depraved'
+  },
+  Humility: {
+    desc: 'The dimension defined by adjectives like <em>righteous, gentle, humble, upright, meek, honorable, loyal</em> — the explicitly Christian inversion of pagan glory: moral lowness as moral height.',
+    words: 'righteous · gentle · humble · upright · meek · honorable · corrupt · loyal'
+  },
+  Sanctity: {
+    desc: 'The dimension defined by adjectives like <em>holy, faithful, just, pious, devout, generous, merciful, noble</em> — outright sacred virtue, the language reserved for saints and bishops.',
+    words: 'holy · faithful · just · pious · devout · generous · merciful · noble'
+  },
+  Asceticism: {
+    desc: 'The dimension defined by adjectives like <em>learned, devoted, wise, ascetic, religious, eloquent, godly</em> — the desert-father virtue: learned, ascetic, world-renouncing.',
+    words: 'learned · devoted · wise · ascetic · religious · eloquent · godly'
+  }
+};
+
+// Read URL param
+const url = new URL(window.location.href);
+const slug = url.searchParams.get('p') || 'marcus_aurelius';
+
+// Fetch BOTH the person record AND the portrait index manifest in parallel.
+Promise.all([
+  fetch(`../data/people/${slug}.json`).then(r => { if (!r.ok) throw new Error('not found'); return r.json(); }),
+  fetch(`../assets/people/index.json`).then(r => r.ok ? r.json() : {}),
+])
+  .then(([person, index]) => render(person, index))
+  .catch(err => {
+    document.body.innerHTML = `<div style="padding: 80px; font-family: Cinzel, serif; color: #54473a; text-align: center;">
+      <h1 style="font-size: 28px;">Person not found</h1>
+      <p style="font-style: normal;">No record for <code style="font-family: monospace;">${slug}</code> in the data/people/ folder.</p>
+    </div>`;
+  });
+
+function $(id) { return document.getElementById(id); }
+function setText(id, text) { const el = $(id); if (el) el.textContent = text; }
+function setHTML(id, html) { const el = $(id); if (el) el.innerHTML = html; }
+
+function render(p, portraitIndex) {
+  // Tradition
+  // Prefer the editorially-resolved display_tradition (clergy roles, person_religion
+  // overrides, etc.) over the raw LDA-derived majority_tradition.
+  const tradition = p.display_tradition || p.person_religion || p.majority_tradition || 'pagan';
+  const isChristian = tradition === 'christian';
+  $('bust').setAttribute('data-tradition', isChristian ? 'christian' : 'pagan');
+
+  // Bust photo — look up in manifest. If person isn't in the index, use anon.
+  // Note: index keys are exact person_name strings; the processed file's stem
+  // is always our slug, with .jpg as extension.
+  const img = $('bust-photo-img');
+  const inIndex = portraitIndex && (p.person_name in portraitIndex);
+  if (inIndex) {
+    img.src = `../assets/people/processed/${p.slug}.jpg`;
+    img.alt = `${p.person_name} — portrait`;
+  } else {
+    img.src = `../assets/people/processed/_anon.jpg`;
+    img.alt = `${p.person_name} — no surviving portrait`;
+  }
+
+  // Hero
+  const tagBits = [];
+  if (tradition) tagBits.push(tradition.charAt(0).toUpperCase() + tradition.slice(1));
+  if (p.religious_tradition && p.religious_tradition !== 'na' && p.religious_tradition !== '')
+    tagBits.push(p.religious_tradition.replace(/_/g,' '));
+  if (p.social_role) tagBits.push(p.social_role.replace(/_/g,' '));
+  setText('hero-tag', tagBits.join('  ·  '));
+
+  // Name: short version — strip the parenthetical for display
+  const shortName = (p.person_name || '').split(',')[0].split('(')[0].trim() || p.person_name;
+  setText('hero-name', shortName);
+
+  // Subtitle from social_role + brief context
+  let subtitle = '';
+  if (p.social_role) subtitle = p.social_role.replace(/_/g,' ');
+  if (p.notes) subtitle = p.notes.split('.')[0]; // first sentence as subtitle
+  $('hero-subtitle').innerHTML = subtitle || '';
+
+  // Lifespan
+  const lifeBits = [];
+  if (p.birth_year_approx != null) lifeBits.push(`b. ${formatYear(p.birth_year_approx)}`);
+  if (p.death_year_approx != null) lifeBits.push(`d. ${formatYear(p.death_year_approx)}`);
+  if (p.approx_century) lifeBits.push(p.approx_century);
+  setText('hero-lifespan', lifeBits.join('  ·  '));
+
+  // Blurb — notes minus the first sentence (which we used as subtitle)
+  let blurb = p.notes || '';
+  if (subtitle && blurb.startsWith(subtitle)) {
+    blurb = blurb.slice(subtitle.length).replace(/^[.\s]+/, '');
+  }
+  $('hero-blurb').innerHTML = blurb;
+
+  // Stats
+  setText('stat-docs', p.n_docs || 0);
+  setText('stat-mentions', Math.round(p.n_adjectives_external_total || 0));
+  setText('stat-adjectives', p.n_adjectives_external_unique || 0);
+  setText('stat-collections', p.n_collections || 0);
+
+  if ($('radar')) {  // === RADAR === (section removed; guard keeps this dead code inert)
+  // Suppress the fingerprint when the figure has too few external mentions
+  // for the topic loadings to be statistically meaningful. At n_adj < 5
+  // the smoothed scoring is averaging over a handful of words; the radar
+  // would convey false precision.
+  const N_ADJ_RADAR_FLOOR = 5;
+  const sparseMentions = (p.n_adjectives_external_total || 0) < N_ADJ_RADAR_FLOOR;
+  const lda = isChristian ? p.lda_christian : p.lda_pagan;
+  const labels = isChristian ? CHRIST_LABELS : PAGAN_LABELS;
+  const loadings = lda && lda.loadings_smoothed_external;
+  let radarData;
+  if (loadings && !sparseMentions) {
+    radarData = labels.map((_, i) => loadings[`topic_${i}`] || 0);
+  } else {
+    radarData = labels.map(() => 0);
+  }
+
+  if (sparseMentions) {
+    // Hide the radar UI entirely and show a caveat in its place.
+    const fpSection = document.querySelector('.fingerprint');
+    if (fpSection) {
+      fpSection.innerHTML = `
+        <div class="sparse-caveat" style="
+          padding: 28px 30px;
+          border: 1px solid #C8B98F;
+          background: rgba(230, 218, 188, 0.35);
+          color: #4a3c2f;
+          font-family: 'Cormorant Garamond', Georgia, serif;
+          font-size: 17px;
+          line-height: 1.55;
+          font-style: normal;
+          text-align: center;
+          margin: 0 auto;
+          max-width: 640px;
+        ">
+          Too few external mentions of ${shortName} survive in the corpus
+          (${p.n_adjectives_external_total || 0} attested adjectives) to draw a
+          statistical fingerprint. The character profile below summarises
+          the available descriptors directly.
+        </div>`;
+    }
+    // Skip rendering the chart and dominant-dimension copy.
+    setHTML('fp-title', `Where ${shortName} sits on the ${isChristian ? 'Christian' : 'pagan'} dimensions`);
+    setHTML('fp-intro', '');
+  } else {
+
+  new Chart($('radar').getContext('2d'), {
+    type: 'radar',
+    data: {
+      labels: labels,
+      datasets: [{
+        label: shortName, data: radarData,
+        backgroundColor: 'rgba(160, 57, 43, 0.20)',
+        borderColor: '#7A2A1F', borderWidth: 2,
+        pointBackgroundColor: '#B8954A', pointBorderColor: '#7A2A1F',
+        pointBorderWidth: 1.5, pointRadius: 5
+      }]
+    },
+    options: {
+      responsive: true, maintainAspectRatio: true,
+      plugins: { legend: { display: false } },
+      scales: {
+        r: {
+          beginAtZero: true, max: Math.max(0.6, ...radarData),
+          ticks: { stepSize: 0.2, color: '#8B7F6D', backdropColor: 'transparent', font: { size: 10, family: 'Cinzel' } },
+          grid: { color: '#C8B98F' }, angleLines: { color: '#C8B98F' },
+          pointLabels: { color: '#2A1F18', font: { size: 14, family: 'Cinzel', weight: '600' } }
+        }
+      }
+    }
+  });
+
+  // Dominant dimension
+  const dominantIdx = lda && lda.dominant_topic_external;
+  const dominantLabel = labels[dominantIdx] || 'Unknown';
+  const dominantPct = loadings ? Math.round(loadings[`topic_${dominantIdx}`] * 100) : 0;
+  setText('dim-name', dominantLabel);
+  setText('dim-pct', `${dominantPct}% LOADING`);
+  setHTML('dim-desc', (TOPIC_INFO[dominantLabel] || {}).desc || '');
+  setHTML('dim-words', `<em>${(TOPIC_INFO[dominantLabel] || {}).words || ''}</em>`);
+
+  // Section intros
+  const traditionWord = isChristian ? 'Christian' : 'pagan';
+  setHTML('fp-title', `Where ${shortName} sits on the ${traditionWord} dimensions`);
+  setHTML('fp-intro',
+    `Topic loadings from a Latent Dirichlet Allocation over the adjectives used about ${traditionWord} figures. ${shortName} loads most heavily on <em>${dominantLabel}</em>.`);
+  }  // end !sparseMentions
+  }  // end radar-guard
+
+  // === ADJECTIVES (no frequency) ===
+  // trait_descriptors_external is already ordered most-frequent-first, so the
+  // most characteristic words lead; we just don't surface the counts.
+  const adjs = Object.keys(p.trait_descriptors_external || {});
+  setHTML('traits-title', `The top adjectives`);
+  setHTML('traits-intro', adjs.length
+    ? `Words others used to describe ${shortName}.`
+    : `No descriptors available.`);
+  setHTML('traitBars', adjs.length
+    ? `<div class="adj-list">${adjs.map(w => `<span class="adj-chip">${w}</span>`).join('')}</div>`
+    : '');
+
+  // === VOICES ===
+  // Aggregate described_by: speaker → number of distinct adjectives they used
+  const voiceMap = {};
+  for (const [adj, speakers] of Object.entries(p.described_by || {})) {
+    const count = (p.trait_descriptors_external || {})[adj] || 0;
+    if (count === 0) continue;
+    const share = count / speakers.length;
+    for (const sp of speakers) {
+      voiceMap[sp] = (voiceMap[sp] || 0) + share;
+    }
+  }
+  // Filter out self-attributions
+  const selfNames = new Set([
+    p.person_name.toLowerCase(),
+    shortName.toLowerCase(),
+    ...(p.aliases || []).map(a => a.toLowerCase()),
+  ]);
+  const voices = Object.entries(voiceMap)
+                       .filter(([sp]) => !selfNames.has(sp.toLowerCase()))
+                       .sort((a,b) => b[1] - a[1]);
+  const totAdj = Math.round(p.n_adjectives_external_total || 0);
+  setHTML('voices-title', `${voices.length} voice${voices.length !== 1 ? 's' : ''} behind ${totAdj} adjective${totAdj !== 1 ? 's' : ''}`);
+  setHTML('voices-intro', voices.length
+    ? `${shortName}'s portrait is built from ${voices.length} external source${voices.length !== 1 ? 's' : ''}.`
+    : `No external descriptions exist for ${shortName}.`);
+  setHTML('voices-list', voices.map(([sp, n]) => `
+    <div class="voice">
+      <div class="who-block"><span class="who">${sp}</span></div>
+      <div class="count">${Math.round(n)}</div>
+      <div class="ctx"></div>
+    </div>
+  `).join(''));
+
+  // === DOCUMENTS ===
+  // Nav-cruft filter: subject_summary occasionally contains newadvent.org nav text
+  // ("Home Encyclopedia Summa Fathers Bible Library A B C D E F G…").
+  // Adjective highlighting: any of THIS PERSON's external adjectives that appear
+  // in the doc excerpt get wrapped in <mark> so readers can find the descriptions
+  // at a glance.
+  function cleanExcerpt(d) {
+    const navRe = /^[\s]*(?:Home\s+Encyclopedia|A\s+B\s+C\s+D\s+E\s+F\s+G)/i;
+    const ss = (d.subject_summary || '').trim();
+    const ex = (d.excerpt || '').trim();
+    if (ex && !navRe.test(ex)) return ex.slice(0, 320);
+    if (ss && !navRe.test(ss)) return ss.slice(0, 320);
+    return '';
+  }
+  function escapeRegex(s) { return s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'); }
+  function escapeHtml(s) { return s.replace(/[&<>"']/g, c =>
+    ({ '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;' }[c])); }
+
+  // Build the highlight regex once from this person's adjective set.
+  const personAdjectives = Object.keys(p.trait_descriptors_external || {})
+                                  .filter(a => a && a.length > 2);
+  // Add word-stem variants (drop final 'e' for -ed/-er/-ing matches, etc.)
+  // Conservative: just match the literal words for now.
+  const highlightRe = personAdjectives.length
+    ? new RegExp('\\b(' + personAdjectives.map(escapeRegex).join('|') + ')\\b', 'gi')
+    : null;
+
+  function highlightAdjectives(text) {
+    if (!text) return '';
+    const safe = escapeHtml(text);
+    if (!highlightRe) return safe;
+    return safe.replace(highlightRe, '<mark>$1</mark>');
+  }
+
+  setHTML('docs-title', `${(p.docs || []).length} document${(p.docs || []).length !== 1 ? 's' : ''} — adjectives highlighted in context`);
+  setHTML('docs-intro', (p.docs || []).length
+    ? `Documents that mention ${shortName}. Words used to describe ${shortName.split(' ')[0]} are highlighted within each excerpt.`
+    : `No documents in the dataset mention ${shortName}.`);
+  setHTML('docs-list', (p.docs || []).map(d => {
+    const excerpt = cleanExcerpt(d);
+    const yearLabel = d.year ? `  ·  ${d.year < 0 ? Math.abs(d.year)+' BCE' : d.year+' CE'}` : '';
+    const html = excerpt ? highlightAdjectives(excerpt) : '';
+    return `
+    <div class="doc-row">
+      <div class="top">
+        <div class="title">${escapeHtml(d.title || d.doc_id)}</div>
+        <div class="meta"><span class="author">${escapeHtml(d.author || '')}</span>${yearLabel}</div>
+      </div>
+      ${html ? `<div class="excerpt">${html}…</div>` : ''}
+    </div>`;
+  }).join(''));
+
+  // Page title
+  document.title = `${shortName} — Roman Personality`;
+}
+
+function formatYear(y) {
+  if (y == null) return '?';
+  return y < 0 ? `${Math.abs(y)} BCE` : `${y} CE`;
+}
+</script>
+
+</body>
+</html>

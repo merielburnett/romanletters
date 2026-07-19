@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Roman Personality</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap" rel="stylesheet">
+
+<script src="https://cdn.jsdelivr.net/npm/d3@7/dist/d3.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/topojson-client@3/dist/topojson-client.min.js"></script>
+
+<style>
+:root {
+  --paper:         #F1E8D2;
+  --paper-2:       #E8DCBE;
+  --paper-3:       #DDCEA8;
+  --ink:           #2A1F18;
+  --ink-soft:      #54473A;
+  --ink-mute:      #8B7F6D;
+  --rule:          #C8B98F;
+  --rule-soft:     #D8C9A1;
+  --gold:          #B8954A;
+  --gold-bright:   #D4AE5F;
+  --gold-deep:     #8C6F30;
+  --pagan:         #B85042;
+  --pagan-deep:    #7A2A1F;
+  --christian:     #6D8AA5;
+  --map-land:      #F2EAD6;
+  --map-water:     #D9E5EE;
+  --map-coast:     #B5A88A;
+  --dark:          #1A140F;
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; height: 100%; }
+body {
+  background: var(--paper);
+  color: var(--ink);
+  font-family: 'EB Garamond', Georgia, serif;
+  -webkit-font-smoothing: antialiased;
+  overflow: hidden;
+}
+
+/* ============ MOSAIC MARGINS ============ */
+.mosaic-strip {
+  position: fixed; top: 0; bottom: 0;
+  width: 108px; z-index: 10;
+  background-image: url('assets/mosaic_strip.png');
+  background-repeat: repeat-y;
+  background-size: 108px auto;
+  background-color: var(--dark);
+}
+.mosaic-left  { left: 0;  box-shadow: 8px 0 18px -10px rgba(0,0,0,0.45); }
+.mosaic-right { right: 0; box-shadow: -8px 0 18px -10px rgba(0,0,0,0.45);
+                background-image: url('assets/mosaic_strip_right.png'); }
+@media (max-width: 1100px) { .mosaic-strip { display: none; } }
+
+/* ============ LAYOUT ============ */
+.page {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 12px 130px 8px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+@media (max-width: 1100px) { .page { padding: 12px 32px; } }
+
+.landing-header { text-align: center; padding: 0 0 6px; flex-shrink: 0; }
+.landing-header h1 {
+  font-family: 'Cinzel', serif;
+  font-size: 28px; font-weight: 600;
+  letter-spacing: 0.10em; text-transform: uppercase;
+  margin: 0;
+  display: inline-flex; align-items: center; gap: 14px;
+}
+.cypress {
+  width: 12px; height: 42px;
+  background-image: url('assets/cypress.png');
+  background-size: contain; background-repeat: no-repeat;
+  background-position: bottom center;
+  opacity: 0.82; flex-shrink: 0;
+}
+.cypress.cypress-r { transform: scaleX(-1); }
+.site-credit {
+  position: fixed; bottom: 7px; left: 118px; z-index: 11;
+  font-family: 'EB Garamond', serif; font-size: 11px;
+  color: var(--ink-mute); opacity: 0.8;
+}
+.site-credit a { color: var(--gold-deep); text-decoration: none; }
+.site-credit a:hover { text-decoration: underline; }
+@media (max-width: 1100px) { .site-credit { left: 10px; } }
+.tagline {
+  font-style: normal; font-size: 13px;
+  color: var(--ink-soft); margin: 2px 0 0;
+  letter-spacing: 0.02em;
+}
+
+/* ============ MAP ============ */
+.map-wrap {
+  flex: 1; position: relative;
+  background: var(--map-water);
+  border: 1px solid var(--rule);
+  box-shadow:
+    inset 0 0 0 1px var(--gold-bright),
+    inset 0 0 0 2px var(--gold-deep),
+    inset 0 0 24px rgba(60, 40, 20, 0.12),
+    0 4px 24px -10px rgba(60, 40, 20, 0.3);
+  overflow: hidden;
+  margin: 2px 0;
+}
+#map { width: 100%; height: 100%; display: block; cursor: grab; }
+#map:active { cursor: grabbing; }
+.map-hint {
+  position: absolute; bottom: 6px; left: 12px;
+  font-family: 'EB Garamond', serif; font-style: normal;
+  font-size: 11px; color: var(--ink-mute); opacity: 0.7;
+  pointer-events: none;
+}
+
+.land { fill: var(--map-land); stroke: var(--map-coast); stroke-width: 0.5; stroke-linejoin: round; }
+.region-label {
+  font-family: 'EB Garamond', serif; font-style: normal;
+  fill: var(--ink-mute); letter-spacing: 0.18em;
+  text-transform: uppercase; pointer-events: none; opacity: 0.55;
+  /* font-size set dynamically and counter-scaled */
+}
+.city-dot {
+  fill: var(--pagan); stroke: var(--pagan-deep); stroke-width: 0.6;
+  opacity: 0.85;
+}
+.city-label {
+  font-family: 'EB Garamond', serif;
+  fill: var(--ink-soft); pointer-events: none;
+  opacity: 0.85;
+  /* font-size set dynamically and counter-scaled */
+}
+
+/* ============ PORTRAIT MARKERS ============ */
+.portrait-marker {
+  cursor: pointer;
+  opacity: 1;                                /* visible by default — visibility
+                                                is now controlled via the parent
+                                                foreignObject's display style */
+  width: 100%; height: 100%;
+  position: relative;
+  /* --label-fs is set by JS so the hover label stays constant-size at any zoom */
+  --label-fs: 9px;
+}
+.portrait-marker:hover { z-index: 5; }
+.portrait-marker:hover .portrait-frame { filter: brightness(1.08); }
+.portrait-frame {
+  position: absolute; inset: 0;
+  pointer-events: none;
+  background-size: contain; background-repeat: no-repeat;
+  background-position: center;
+  transition: filter 0.2s ease;
+}
+.portrait-photo {
+  position: absolute;
+  width: 56%; height: 56%;
+  top: 26%; left: 22%;
+  border-radius: 50%;
+  background-size: cover; background-position: center 22%;
+}
+.portrait-label {
+  position: absolute;
+  top: 100%; left: 50%;
+  transform: translateX(-50%) translateY(4px);
+  font-family: 'Cinzel', serif;
+  font-size: var(--label-fs);
+  font-weight: 600;
+  letter-spacing: 0.1em; text-transform: uppercase;
+  color: var(--ink); background: var(--paper);
+  border: 1px solid var(--gold-deep);
+  padding: 2px 6px; white-space: nowrap;
+  opacity: 0; pointer-events: none;
+  transition: opacity 0.15s ease;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  z-index: 6;
+}
+.portrait-marker:hover .portrait-label { opacity: 1; }
+
+/* "+N" badge. The marker layer sits OUTSIDE the zoom transform, so these px are real screen px
+   and stay put at every zoom level. (When the markers lived inside the zoomed group, this 5px
+   padding was multiplied by the zoom and became a 40px gold slab.) */
+.count-badge {
+  position: absolute;
+  bottom: -3px; right: -3px;
+  background: var(--gold);
+  color: var(--paper);
+  border: 1px solid var(--gold-deep);
+  border-radius: 999px;
+  font-family: 'Cinzel', serif;
+  font-size: 8px;
+  font-weight: 700;
+  padding: 1px 4px;
+  pointer-events: none;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.3);
+  line-height: 1;
+}
+
+/* ============ CITY PANEL (slide-in side drawer) ============ */
+.city-panel {
+  position: fixed;
+  right: 118px;                    /* clear of the mosaic margin */
+  top: 70px;
+  bottom: 50px;
+  width: 380px;
+  background: var(--paper);
+  border: 1px solid var(--gold-deep);
+  box-shadow:
+    inset 0 0 0 1px var(--gold-bright),
+    -6px 0 28px rgba(40, 25, 15, 0.35);
+  z-index: 20;
+  display: flex;
+  flex-direction: column;
+  transform: translateX(140%);
+  transition: transform 0.4s cubic-bezier(.3,.7,.4,1);
+}
+.city-panel.open { transform: translateX(0); }
+.panel-close {
+  position: absolute;
+  top: 10px; right: 12px;
+  width: 28px; height: 28px;
+  font-size: 22px;
+  background: transparent;
+  border: none;
+  color: var(--ink-soft);
+  cursor: pointer;
+  font-family: 'EB Garamond', serif;
+  line-height: 1;
+  transition: color 0.15s;
+}
+.panel-close:hover { color: var(--pagan-deep); }
+.panel-header {
+  padding: 22px 26px 14px;
+  border-bottom: 1px solid var(--rule);
+}
+.panel-header h3 {
+  font-family: 'Cinzel', serif;
+  font-size: 22px; font-weight: 600;
+  margin: 0 0 4px;
+  letter-spacing: 0.06em; text-transform: uppercase;
+  color: var(--ink);
+}
+.panel-header .panel-count {
+  font-style: normal;
+  color: var(--ink-mute);
+  margin: 0;
+  font-size: 13px;
+}
+.panel-list {
+  flex: 1;
+  overflow-y: auto;
+  padding: 6px 0;
+}
+.panel-list::-webkit-scrollbar { width: 8px; }
+.panel-list::-webkit-scrollbar-thumb { background: var(--rule); border-radius: 4px; }
+.panel-row {
+  display: flex; align-items: center;
+  padding: 8px 26px;
+  cursor: pointer;
+  border-bottom: 1px solid var(--rule-soft);
+  transition: background 0.15s;
+  text-decoration: none;
+  color: var(--ink);
+}
+.panel-row:hover { background: var(--paper-2); }
+.panel-row .row-portrait {
+  width: 42px; height: 42px;
+  border-radius: 50%;
+  background-size: cover;
+  background-position: center 22%;
+  border: 1.5px solid var(--gold);
+  margin-right: 14px;
+  flex-shrink: 0;
+}
+.panel-row .row-text { display: flex; flex-direction: column; min-width: 0; }
+.panel-row .row-name {
+  font-family: 'Cinzel', serif;
+  font-size: 13px; font-weight: 500;
+  color: var(--ink);
+  overflow: hidden; text-overflow: ellipsis;
+}
+.panel-row .row-meta {
+  font-family: 'EB Garamond', serif;
+  font-style: normal;
+  font-size: 12px;
+  color: var(--ink-mute);
+}
+
+/* ============ BOTTOM NAV ============ */
+.bottom-nav {
+  display: flex; justify-content: center; align-items: center;
+  gap: 70px; padding: 6px 0 2px;
+  border-top: 1px solid var(--rule);
+  font-family: 'Cinzel', serif;
+  font-size: 13px; font-weight: 500;
+  letter-spacing: 0.22em; text-transform: uppercase;
+  flex-shrink: 0;
+}
+.nav-item {
+  color: var(--ink-soft); text-decoration: none;
+  position: relative; display: inline-block;
+  padding: 4px 0;
+  transition: color 0.2s ease;
+}
+.nav-item:hover { color: var(--pagan-deep); }
+.nav-sep { color: var(--rule); pointer-events: none; }
+
+:root {
+  --nav-sprig-w: 38px; --nav-sprig-h: 33px;
+  --nav-sprig-gap: 10px; --nav-sprig-cy: 33.95%;
+}
+.nav-item::before, .nav-item::after {
+  content: ''; position: absolute; top: 50%;
+  width: var(--nav-sprig-w); height: var(--nav-sprig-h);
+  background-size: 100% 100%; background-repeat: no-repeat;
+  opacity: 0; pointer-events: none; z-index: 5;
+  transition: opacity 0.35s ease, transform 0.45s cubic-bezier(.2,.7,.3,1.4);
+}
+.nav-item::before {
+  right: 100%; margin-right: var(--nav-sprig-gap);
+  background-image: url('assets/nav_sprig.png');
+  transform: translateY(calc(-1 * var(--nav-sprig-cy))) translateX(8px) rotate(-8deg);
+  transform-origin: right var(--nav-sprig-cy);
+}
+.nav-item::after {
+  left: 100%; margin-left: var(--nav-sprig-gap);
+  background-image: url('assets/nav_sprig_r.png');
+  transform: translateY(calc(-1 * var(--nav-sprig-cy))) translateX(-8px) rotate(8deg);
+  transform-origin: left var(--nav-sprig-cy);
+}
+.nav-item:hover::before {
+  opacity: 0.95; transform: translateY(calc(-1 * var(--nav-sprig-cy))) rotate(-3deg);
+}
+.nav-item:hover::after {
+  opacity: 0.95; transform: translateY(calc(-1 * var(--nav-sprig-cy))) rotate(3deg);
+}
+</style>
+</head>
+<body>
+
+<div class="mosaic-strip mosaic-left"></div>
+<div class="mosaic-strip mosaic-right"></div>
+
+<div class="site-credit">Corpus: <a href="https://romanletters.org/" target="_blank" rel="noopener">Roman Letters</a>, compiled by Craig Vander Galien</div>
+
+<div class="page">
+  <header class="landing-header">
+    <h1><span class="cypress cypress-l" aria-hidden="true"></span>Roman Personality<span class="cypress cypress-r" aria-hidden="true"></span></h1>
+    <p class="tagline">Explore figures described in 8,032 antique texts</p>
+  </header>
+
+  <div class="map-wrap" id="map-wrap">
+    <svg id="map"></svg>
+    <div class="map-hint">scroll to zoom · drag to pan · click a portrait to open a city</div>
+  </div>
+
+  <nav class="bottom-nav">
+    <a class="nav-item" href="#explore">Explore</a>
+    <span class="nav-sep">·</span>
+    <a class="nav-item" href="quiz.html">Quiz</a>
+    <span class="nav-sep">·</span>
+    <a class="nav-item" href="profiles.html">Profiles</a>
+    <span class="nav-sep">·</span>
+    <a class="nav-item" href="about.html">About</a>
+  </nav>
+</div>
+
+<!-- City panel — slides in from the right when a city marker is clicked -->
+<aside class="city-panel" id="city-panel">
+  <button class="panel-close" onclick="closeCityPanel()" aria-label="close">×</button>
+  <div class="panel-header">
+    <h3 id="panel-city-name"></h3>
+    <p class="panel-count" id="panel-city-count"></p>
+  </div>
+  <div class="panel-list" id="panel-list"></div>
+</aside>
+
+<script>
+/* =============================================================================
+ * D3 ROMAN MAP — landing
+ *  - One marker per city: the top figure for that city
+ *  - "+N" badge on cities with more than one figure
+ *  - Click a marker → side panel slides in listing every figure at that city
+ *  - All on-map labels (city names + region labels + hover names) counter-scale
+ *    against zoom level via a CSS variable so they stay constant on-screen
+ *  - Initial reveal animates by century — oldest top-figure first
+ *  - PAGAN figures wear LAUREL, CHRISTIAN wear OLIVE
+ * ============================================================================= */
+
+const wrap = document.getElementById('map-wrap');
+const svg  = d3.select('#map');
+
+function sized() {
+  const W = wrap.clientWidth, H = wrap.clientHeight;
+  svg.attr('width', W).attr('height', H);
+  return [W, H];
+}
+let [W, H] = sized();
+
+function makeProjection(W, H) {
+  return d3.geoMercator()
+    .center([18, 44])
+    .scale(W * 0.62)
+    .translate([W / 2, H / 2]);
+}
+let projection = makeProjection(W, H);
+const path = d3.geoPath().projection(projection);
+
+const root = svg.append('g').attr('class', 'root');
+
+let currentZoomK = 1;
+let currentTransform = d3.zoomIdentity;   // markers are placed manually, so we need the full transform
+const zoom = d3.zoom()
+  .scaleExtent([0.7, 20])   // was 8 — too shallow to ever pull dense regions (Latium) apart
+  .on('zoom', (event) => {
+    root.attr('transform', event.transform);
+    currentZoomK = event.transform.k;
+    currentTransform = event.transform;
+    updateScale();
+  });
+svg.call(zoom);
+
+const REGION_LABELS = [
+  { name: 'BRITANNIA',  lng: -2, lat: 53 },
+  { name: 'GALLIA',     lng: 2,  lat: 47 },
+  { name: 'GERMANIA',   lng: 11, lat: 51 },
+  { name: 'PANNONIA',   lng: 19, lat: 46.5 },
+  { name: 'DACIA',      lng: 25, lat: 46 },
+  { name: 'ITALIA',     lng: 13, lat: 42.5 },
+  { name: 'HISPANIA',   lng: -4, lat: 40 },
+  { name: 'GRAECIA',    lng: 22, lat: 39 },
+  { name: 'ASIA MINOR', lng: 33, lat: 39 },
+  { name: 'SYRIA',      lng: 38, lat: 35 },
+  { name: 'AEGYPTUS',   lng: 30, lat: 27 },
+  { name: 'AFRICA',     lng: 7,  lat: 31 },
+];
+
+const PORTRAIT_DIR = 'assets/people/processed';
+const ANON         = `${PORTRAIT_DIR}/_anon.jpg`;
+
+function frameFor(tradition) {
+  return tradition === 'christian'
+    ? 'assets/roundframe_olive.png'
+    : 'assets/roundframe_laurel.png';
+}
+
+function portraitURL(slug, has) {
+  return has ? `${PORTRAIT_DIR}/${slug}.jpg` : ANON;
+}
+
+let cityMarkers = [];   // { fo, marker, city, data }
+let regionTexts;
+let cityTexts;
+
+Promise.all([
+  fetch('https://cdn.jsdelivr.net/npm/world-atlas@2/land-110m.json').then(r => r.json()),
+  fetch('data/places.json').then(r => r.json()),
+  fetch('data/cities.json').then(r => r.json()),
+]).then(([world, places, cities]) => {
+  const land = topojson.feature(world, world.objects.land);
+  render(land, places, cities);
+});
+
+function render(land, places, cities) {
+  // ============ LAND ============
+  root.append('g').attr('class', 'land-layer')
+    .append('path').datum(land).attr('class', 'land').attr('d', path);
+
+  // ============ REGION LABELS ============
+  regionTexts = root.append('g').attr('class', 'region-labels').selectAll('text')
+    .data(REGION_LABELS).enter().append('text')
+    .attr('class', 'region-label')
+    .attr('x', d => projection([d.lng, d.lat])[0])
+    .attr('y', d => projection([d.lng, d.lat])[1])
+    .attr('text-anchor', 'middle')
+    .text(d => d.name);
+
+  // ============ CITY DOTS + LABELS ============
+  // Only render dots/labels for cities that HAVE a portrait marker.
+  // (Previously labeled all 360+ places in places.json — too noisy.)
+  // The labels also respect the same min_zoom threshold as the markers, so as
+  // the user zooms in, more city labels appear together with their portraits.
+  const gCities = root.append('g').attr('class', 'cities');
+  const cityArr = Object.entries(cities).map(([n, c]) => ({ name: n, ...c }));
+  for (const c of cityArr) {
+    const [x, y] = projection([c.lng, c.lat]);
+    gCities.append('circle').attr('class', 'city-dot')
+      .attr('cx', x).attr('cy', y).attr('r', 2.2)
+      .attr('data-min-zoom', c.min_zoom);
+  }
+  cityTexts = gCities.selectAll('text.city-label')
+    .data(cityArr).enter().append('text')
+    .attr('class', 'city-label')
+    .attr('x', d => projection([d.lng, d.lat])[0] + 4)
+    .attr('y', d => projection([d.lng, d.lat])[1] - 4)
+    .attr('data-min-zoom', d => d.min_zoom)
+    .text(d => d.name);
+
+  // ============ CITY PORTRAIT MARKERS ============
+  // NOT inside `root`. root is what the zoom transform scales, and these markers are HTML in a
+  // <foreignObject> — so anything in there gets multiplied by the zoom, including every px of
+  // padding, border and shadow. That's what turned the +N badges into giant gold slabs. Living on
+  // the un-zoomed <svg> instead, their px are literal screen px; we place them by hand each frame.
+  const gMarkers = svg.append('g').attr('class', 'portraits');
+  for (const [cityName, city] of Object.entries(cities)) {
+    const top = city.top;
+    const fo = gMarkers.append('foreignObject')
+      .attr('width', 30).attr('height', 80)
+      .style('overflow', 'visible');
+    // display is set by updateScale() based on this city's min_zoom
+    const xhtml = 'http://www.w3.org/1999/xhtml';
+    const marker = document.createElementNS(xhtml, 'div');
+    marker.className = 'portrait-marker';
+    marker.innerHTML = `
+      <div class="portrait-photo" style="background-image: url('${portraitURL(top.slug, top.has_portrait)}')"></div>
+      <div class="portrait-frame" style="background-image: url('${frameFor(top.tradition)}')"></div>
+      <div class="count-badge" style="display:none"></div>
+      <div class="portrait-label">${top.display}</div>
+    `;
+    // the badge count and the absorbed-neighbours list are recomputed by updateScale() on every
+    // zoom, so the click always opens whatever this marker is currently standing for.
+    const entry = { fo, marker, cityName, data: city,
+                    badge: marker.querySelector('.count-badge'), absorbed: [] };
+    marker.addEventListener('click', (e) => {
+      e.stopPropagation();      // don't let it bubble up to the map-click handler
+      openCluster(entry);
+    });
+    fo.node().appendChild(marker);
+    cityMarkers.push(entry);
+  }
+
+  // Initial layout — sets visibility based on each city's min_zoom
+  updateScale();
+  console.log(`[map] ${cityMarkers.length} city markers placed; default-visible:`,
+    cityMarkers.filter(m => m.data.min_zoom <= currentZoomK + 0.02).map(m => m.cityName));
+}
+
+function updateScale() {
+  // Counter-scale everything that should stay constant-size on screen.
+  const k = currentZoomK || 1;
+  // markers get smaller the further you zoom in, so dense regions (Latium, Campania) become
+  // legible and clickable instead of a pile of same-size portraits.
+  // Keep the icons big and legible at every zoom — they only taper slightly. The trade-off is
+  // deliberate: bigger faces means neighbours that fall within one face-width of each other get
+  // folded together into a single marker, and you press its +N to see who else is there.
+  const portraitPx = k <= 1.5 ? 36 : k <= 2.5 ? 34 : k <= 4 ? 32
+                   : k <= 6   ? 30 : k <= 10  ? 28 : 26;
+
+  // Region labels — counter-scale font-size
+  if (regionTexts) regionTexts.attr('font-size', `${11/k}px`);
+  // City labels and dots — counter-scale AND hide if min_zoom > current zoom
+  if (cityTexts) {
+    cityTexts
+      .attr('font-size', `${9.5/k}px`)
+      .style('display', function(d) {
+        return (parseFloat(d.min_zoom) <= k + 0.02) ? null : 'none';
+      });
+  }
+  // these are still inside the zoomed group, so BOTH the radius and the stroke are in SVG units
+  // and must be counter-scaled — an uncounter-scaled 0.6 stroke becomes a 12px ring at 20x.
+  d3.selectAll('.city-dot')
+    .attr('r', 2.2 / k)
+    .style('stroke-width', 0.6 / k)
+    .style('display', function() {
+      const m = parseFloat(this.getAttribute('data-min-zoom') || '0');
+      return (m <= k + 0.02) ? null : 'none';
+    });
+
+  // Markers: everything below is in SCREEN pixels, because the marker layer is not zoomed. We map
+  // each city through the current transform to get where it actually appears, then declutter: any
+  // marker landing within a portrait-and-a-bit of one already placed is folded into it and shows
+  // up in that marker's +N instead. So nothing is ever hidden with no way to reach it — which is
+  // how Solonius ended up unreachable inside Capua.
+  const T = currentTransform;
+  const shown = cityMarkers.filter(m => m.data.min_zoom <= k + 0.02);
+  cityMarkers.filter(m => m.data.min_zoom > k + 0.02)
+             .forEach(m => { m.fo.style('display', 'none'); m.absorbed = []; });
+
+  // busiest city wins the slot; name breaks ties so the layout doesn't jitter between renders
+  shown.sort((a, b) => (b.data.count - a.data.count) || a.cityName.localeCompare(b.cityName));
+  const minSepPx = portraitPx * 1.35;
+  const kept = [];
+  for (const m of shown) {
+    const [px, py] = T.apply(projection([m.data.lng, m.data.lat]));   // -> screen px
+    m.absorbed = [];
+    if (px < -80 || py < -80 || px > W + 80 || py > H + 80) {         // off-screen, don't bother
+      m.fo.style('display', 'none');
+      continue;
+    }
+    const host = kept.find(h => Math.hypot(px - h.px, py - h.py) < minSepPx);
+    if (host) {
+      host.m.absorbed.push(m);
+      m.fo.style('display', 'none');
+    } else {
+      kept.push({ m, px, py });
+    }
+  }
+
+  for (const { m, px, py } of kept) {
+    m.fo.style('display', null);
+    m.fo.attr('x', px - portraitPx / 2)
+        .attr('y', py - portraitPx / 2)
+        .attr('width', portraitPx)
+        .attr('height', portraitPx + 34);
+    m.marker.style.width  = `${portraitPx}px`;
+    m.marker.style.height = `${portraitPx}px`;
+    m.marker.style.setProperty('--label-fs', '9px');   // real px now — no counter-scaling needed
+    // +N = everyone you can't currently see here: the rest of this city, plus every figure from
+    // the neighbouring cities folded into this marker.
+    const extra = (m.data.count - 1) + m.absorbed.reduce((s, a) => s + a.data.count, 0);
+    m.badge.style.display = extra > 0 ? '' : 'none';
+    m.badge.textContent = `+${extra}`;
+  }
+}
+
+/* ============ CITY PANEL OPEN / CLOSE ============ */
+// a marker may stand for its own city plus any neighbours folded into it at this zoom. clicking it
+// opens everyone it represents; a lone figure goes straight to their profile.
+function openCluster(entry) {
+  const cities = [{ name: entry.cityName, data: entry.data },
+                  ...entry.absorbed.map(a => ({ name: a.cityName, data: a.data }))];
+  const figures = cities.flatMap(c => (c.data.figures || []).map(f => ({ ...f, city: c.name })));
+  if (figures.length === 1) {
+    window.location.href = `person/profile.html?p=${figures[0].slug}`;
+    return;
+  }
+  const single = cities.length === 1;
+  const title = single ? entry.cityName : `${entry.cityName} & ${cities.length - 1} nearby`;
+  openCityPanel(title, figures, single);
+}
+
+function openCityPanel(title, figures, single) {
+  document.getElementById('panel-city-name').textContent = title;
+  document.getElementById('panel-city-count').textContent =
+    `${figures.length} figure${figures.length !== 1 ? 's' : ''} ` +
+    (single ? `born in ${title}` : 'born in this area');
+  const list = document.getElementById('panel-list');
+  list.innerHTML = '';
+  for (const fig of figures) {
+    const yearTxt = fig.century_year != null
+      ? (fig.century_year < 0 ? `${Math.abs(Math.round(fig.century_year))} BCE` : `${Math.round(fig.century_year)} CE`)
+      : '';
+    const row = document.createElement('a');
+    row.className = 'panel-row';
+    row.href = `person/profile.html?p=${fig.slug}`;
+    row.innerHTML = `
+      <div class="row-portrait" style="background-image: url('${portraitURL(fig.slug, fig.has_portrait)}')"></div>
+      <div class="row-text">
+        <div class="row-name">${fig.display}</div>
+        <div class="row-meta">${!single && fig.city ? `${fig.city} · ` : ''}${yearTxt}${fig.n_adj ? ` · ${Math.round(fig.n_adj)} mentions` : ''}</div>
+      </div>`;
+    list.appendChild(row);
+  }
+  document.getElementById('city-panel').classList.add('open');
+}
+
+function closeCityPanel() {
+  document.getElementById('city-panel').classList.remove('open');
+}
+
+// Close panel on Escape
+document.addEventListener('keydown', e => {
+  if (e.key === 'Escape') closeCityPanel();
+});
+// Close panel only when clicking on EMPTY map (land/water/dot, NOT a marker).
+// Markers stop propagation, so this only fires for non-marker clicks.
+document.getElementById('map').addEventListener('click', (e) => {
+  closeCityPanel();
+});
+</script>
+</body>
+</html>

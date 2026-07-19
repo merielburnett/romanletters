@@ -1,0 +1,5447 @@
+{
+"Marcus Aurelius, Roman Emperor (r. 161-180)": {
+"file": "marcus_aurelius_roman_emperor_r_161_180.jpg",
+"source_filename": "marcus_aurelius.jpg"
+},
+"Cicero, Roman Orator and Statesman (106-43 BCE)": {
+"file": "cicero_roman_orator_and_statesman_106_43_bce.jpg",
+"source_filename": "cicero.jpg"
+},
+"Augustus, Roman Emperor (r. 27 BCE - 14 CE)": {
+"file": "augustus_roman_emperor_r_27_bce_14_ce.jpg",
+"source_filename": "augustus.jpg"
+},
+"Seneca, Roman Stoic Philosopher (c. 4 BCE - 65 CE)": {
+"file": "seneca_roman_stoic_philosopher_c_4_bce_65_ce.jpg",
+"source_filename": "seneca.jpg"
+},
+"Nero, Roman Emperor (r. 54-68)": {
+"file": "nero_roman_emperor_r_54_68.jpg",
+"source_filename": "nero.jpg"
+},
+"Trajan, Roman Emperor (r. 98-117)": {
+"file": "trajan_roman_emperor_r_98_117.jpg",
+"source_filename": "trajan.jpg"
+},
+"Hadrian, Roman Emperor (r. 117-138)": {
+"file": "hadrian_roman_emperor_r_117_138.jpg",
+"source_filename": "hadrian.jpg"
+},
+"Julius Caesar, Roman Dictator (100-44 BCE)": {
+"file": "julius_caesar_roman_dictator_100_44_bce.jpg",
+"source_filename": "julius_caesar.jpg"
+},
+"Vespasian, Roman Emperor (r. 69-79)": {
+"file": "vespasian_roman_emperor_r_69_79.jpg",
+"source_filename": "vespasian.jpg"
+},
+"Domitian, Roman Emperor (r. 81-96)": {
+"file": "domitian_roman_emperor_r_81_96.jpg",
+"source_filename": "domitian.jpg"
+},
+"Titus, Roman Emperor (r. 79-81)": {
+"file": "titus_roman_emperor_r_79_81.jpg",
+"source_filename": "titus.jpg"
+},
+"Commodus, Roman Emperor (r. 177-192)": {
+"file": "commodus_roman_emperor_r_177_192.jpg",
+"source_filename": "commodus.jpg"
+},
+"Septimius Severus, Roman Emperor (r. 193-211)": {
+"file": "septimius_severus_roman_emperor_r_193_211.jpg",
+"source_filename": "septimius_severus.jpg"
+},
+"Caracalla, Roman Emperor (r. 198-217)": {
+"file": "caracalla_roman_emperor_r_198_217.jpg",
+"source_filename": "caracalla.jpg"
+},
+"Diocletian, Roman Emperor (r. 284-305)": {
+"file": "diocletian_roman_emperor_r_284_305.jpg",
+"source_filename": "diocletian.jpg"
+},
+"Constantine I, Roman Emperor (r. 306-337)": {
+"file": "constantine_i_roman_emperor_r_306_337.jpg",
+"source_filename": "constantine_i.jpg"
+},
+"Theodosius I, Roman Emperor (r. 379-395)": {
+"file": "theodosius_i_roman_emperor_r_379_395.jpg",
+"source_filename": "theodosius_i.jpg"
+},
+"Claudius, Roman Emperor (r. 41-54)": {
+"file": "claudius_roman_emperor_r_41_54.jpg",
+"source_filename": "claudius.jpg"
+},
+"Caligula, Roman Emperor (r. 37-41)": {
+"file": "caligula_roman_emperor_r_37_41.jpg",
+"source_filename": "caligula.jpg"
+},
+"Livia Drusilla, Roman Empress (58 BCE - 29 CE)": {
+"file": "livia_drusilla_roman_empress_58_bce_29_ce.jpg",
+"source_filename": "livia_drusilla.jpg"
+},
+"Agrippina the Younger, Roman Empress (15-59 CE)": {
+"file": "agrippina_the_younger_roman_empress_15_59_ce.jpg",
+"source_filename": "agrippina_the_younger.jpg"
+},
+"Paul of Tarsus, Apostle (c. 5-64/67 CE)": {
+"file": "paul_of_tarsus_apostle_c_5_64_67_ce.jpg",
+"source_filename": "paul_of_tarsus.jpg"
+},
+"Jesus Christ, Founder of Christianity": {
+"file": "jesus_christ_founder_of_christianity.jpg",
+"source_filename": "jesus_christ.jpg"
+},
+"Virgil, Roman Poet (70-19 BCE)": {
+"file": "virgil_roman_poet_70_19_bce.jpg",
+"source_filename": "virgil.jpg"
+},
+"Horace, Roman Lyric Poet (65-8 BCE)": {
+"file": "horace_roman_lyric_poet_65_8_bce.jpg",
+"source_filename": "horace.jpg"
+},
+"Ovid, Roman Poet (43 BCE - 17/18 CE)": {
+"file": "ovid_roman_poet_43_bce_17_18_ce.jpg",
+"source_filename": "ovid.jpg"
+},
+"Tacitus, Roman Historian (c. 56-120 CE)": {
+"file": "tacitus_roman_historian_c_56_120_ce.jpg",
+"source_filename": "tacitus.jpg"
+},
+"Suetonius, Roman Historian (c. 69-122 CE)": {
+"file": "suetonius_roman_historian_c_69_122_ce.jpg",
+"source_filename": "suetonius.jpg"
+},
+"Alexander of Heliopolis, governor of Syria under Julian": {
+"file": "alexander_of_heliopolis_governor_of_syria_under_julian.jpg",
+"source_filename": "alexander_of_heliopolis.jpg"
+},
+"Aurelian, Roman Emperor (r. 270-275)": true,
+"Gallienus": {
+"file": "gallienus.jpg",
+"source_filename": "gallienus.jpg"
+},
+"Commodus, Roman Emperor (r. 180-192)": true,
+"Timesitheus": {
+"file": "timesitheus.jpg",
+"source_filename": "timesitheus.jpg"
+},
+"Severus Alexander, Roman Emperor (r. 222–235), son of Julia Mamaea": {
+"file": "severus_alexander_roman_emperor_r_222_235_son_of_julia_mamaea.jpg",
+"source_filename": "severus_alexander.jpg"
+},
+"Marcus Tullius Cicero": {
+"file": "marcus_tullius_cicero.jpg",
+"source_filename": "marcus_tullius_cicero.jpg"
+},
+"Macrinus": {
+"file": "macrinus.jpg",
+"source_filename": "macrinus.jpg"
+},
+"Clodius Albinus": {
+"file": "clodius_albinus.jpg",
+"source_filename": "clodius_albinus.jpg"
+},
+"Pertinax": {
+"file": "pertinax.jpg",
+"source_filename": "pertinax.jpg"
+},
+"Antoninus Pius, Roman Emperor (r. 138-161)": true,
+"Jerome": {
+"file": "jerome.jpg",
+"source_filename": "jerome.jpg"
+},
+"Elagabalus, Roman Emperor (r. 218-222), adoptive father of Severus Alexander": {
+"file": "elagabalus_roman_emperor_r_218_222_adoptive_father_of_severus_alexander.jpg",
+"source_filename": "elagabalus.jpg"
+},
+"Diocletian, Roman Emperor (r. 284-305), originally named Diocles": true,
+"Lucius Verus, Roman Emperor (co-emperor with Marcus Aurelius, r. 161-169)": {
+"file": "lucius_verus_roman_emperor_co_emperor_with_marcus_aurelius_r_161_169.jpg",
+"source_filename": "lucius_verus.jpg"
+},
+"Pescennius Niger, Roman usurper (d. 194 CE)": {
+"file": "pescennius_niger_roman_usurper_d_194_ce.jpg",
+"source_filename": "pescennius_niger.jpg"
+},
+"Avidius Cassius": {
+"file": "avidius_cassius.jpg",
+"source_filename": "avidius_cassius.jpg"
+},
+"Balbinus": {
+"file": "balbinus.jpg",
+"source_filename": "balbinus.jpg"
+},
+"Carinus": {
+"file": "carinus.jpg",
+"source_filename": "carinus.jpg"
+},
+"Nero": true,
+"Odaenathus, King of Palmyra (d. 267)": {
+"file": "odaenathus_king_of_palmyra_d_267.jpg",
+"source_filename": "odaenathus.jpg"
+},
+"Quintillus": {
+"file": "quintillus.jpg",
+"source_filename": "quintillus.jpg"
+},
+"Elagabalus (Marcus Aurelius Antoninus Augustus), Roman Emperor (r. 218–222)": true,
+"Jesus of Nazareth (Jesus Christ, central figure of Christianity, c. 4 BCE–30 CE)": {
+"file": "jesus_of_nazareth_jesus_christ_central_figure_of_christianity_c_4_bce_30_ce.jpg",
+"source_filename": "jesus_of_nazareth.jpg"
+},
+"Augustine of Hippo": {
+"file": "augustine_of_hippo.jpg",
+"source_filename": "augustine_of_hippo.jpg"
+},
+"Quintus Aurelius Symmachus": {
+"file": "quintus_aurelius_symmachus.jpg",
+"source_filename": "quintus_aurelius_symmachus.jpg"
+},
+"Augustus": true,
+"Diadumenianus": {
+"file": "diadumenianus.jpg",
+"source_filename": "diadumenianus.jpg"
+},
+"Jesus Christ (the Son of God, central figure of Christianity, 1st century CE)": {
+"file": "jesus_christ_the_son_of_god_central_figure_of_christianity_1st_century_ce.jpg",
+"source_filename": "jesus_christ.jpg"
+},
+"Pliny the Younger": {
+"file": "pliny_the_younger.jpg",
+"source_filename": "pliny_the_younger.jpg"
+},
+"Aureolus, commander of Gallienus' cavalry and usurper (d. 268)": {
+"file": "aureolus_commander_of_gallienus_cavalry_and_usurper_d_268.jpg",
+"source_filename": "aureolus.jpg"
+},
+"Cato the Younger": {
+"file": "cato_the_younger.jpg",
+"source_filename": "cato_the_younger.jpg"
+},
+"Julius Caesar": {
+"file": "julius_caesar.jpg",
+"source_filename": "julius_caesar.jpg"
+},
+"Constantius II, Roman Emperor (r. 337-361)": {
+"file": "constantius_ii_roman_emperor_r_337_361.jpg",
+"source_filename": "constantius_ii.jpg"
+},
+"Pyrrhus of Epirus, King of Epirus (r. 306–302, 297–272 BCE)": {
+"file": "pyrrhus_of_epirus_king_of_epirus_r_306_302_297_272_bce.jpg",
+"source_filename": "pyrrhus_of_epirus.jpg"
+},
+"Gordian II, Roman Emperor (r. 238, co-emperor with Gordian I)": {
+"file": "gordian_ii_roman_emperor_r_238_co_emperor_with_gordian_i.jpg",
+"source_filename": "gordian_ii.jpg"
+},
+"Didius Julianus": {
+"file": "didius_julianus.jpg",
+"source_filename": "didius_julianus.jpg"
+},
+"Numerian": {
+"file": "numerian.jpg",
+"source_filename": "numerian.jpg"
+},
+"Paula of Rome (Saint Paula, ascetic and patron of Jerome, d. 404)": {
+"file": "paula_of_rome_saint_paula_ascetic_and_patron_of_jerome_d_404.jpg",
+"source_filename": "paula_of_rome.jpg"
+},
+"Agesilaus": {
+"file": "agesilaus.jpg",
+"source_filename": "agesilaus.jpg"
+},
+"Pope Gregory the Great": {
+"file": "pope_gregory_the_great.jpg",
+"source_filename": "pope_gregory_the_great.jpg"
+},
+"Gordian I (Marcus Antonius Gordianus Sempronianus Romanus), Roman Emperor (r. 238)": {
+"file": "gordian_i_marcus_antonius_gordianus_sempronianus_romanus_roman_emperor_r_238.jpg",
+"source_filename": "gordian_i.jpg"
+},
+"Quintus Tullius Cicero (brother of Marcus Tullius Cicero, Roman general and politician, 102–43 BCE)": {
+"file": "quintus_tullius_cicero_brother_of_marcus_tullius_cicero_roman_general_and_b28498.jpg",
+"source_filename": "quintus_tullius_cicero.jpg"
+},
+"Cato": {
+"file": "cato.jpg",
+"source_filename": "cato.jpg"
+},
+"Justinian, Roman Emperor (r. 527-565) [in Procopius]; Justinian, Roman lawyer and assistant to Stilicho [in Zosimus]": {
+"file": "justinian_roman_emperor_r_527_565_in_procopius_justinian_roman_lawyer_and_92af93.jpg",
+"source_filename": "justinian.jpg"
+},
+"Caius Marius": {
+"file": "caius_marius.jpg",
+"source_filename": "caius_marius.jpg"
+},
+"Alcibiades": {
+"file": "alcibiades.jpg",
+"source_filename": "alcibiades.jpg"
+},
+"Basil of Caesarea": {
+"file": "basil_of_caesarea.jpg",
+"source_filename": "basil_of_caesarea.jpg"
+},
+"Paulinus of Nola": {
+"file": "paulinus_of_nola.jpg",
+"source_filename": "paulinus_of_nola.jpg"
+},
+"Caligula": {
+"file": "caligula.jpg",
+"source_filename": "caligula.jpg"
+},
+"Athanasius of Alexandria, Bishop (c. 296–373)": {
+"file": "athanasius_of_alexandria_bishop_c_296_373.jpg",
+"source_filename": "athanasius_of_alexandria.jpg"
+},
+"Paul the Apostle (Saint Paul, d. c. 64 CE)": {
+"file": "paul_the_apostle_saint_paul_d_c_64_ce.jpg",
+"source_filename": "paul_the_apostle.jpg"
+},
+"Pericles, Athenian statesman (c. 495–429 BCE)": {
+"file": "pericles_athenian_statesman_c_495_429_bce.jpg",
+"source_filename": "pericles.jpg"
+},
+"Peter the Apostle (Saint Peter, first Bishop of Rome)": {
+"file": "peter_the_apostle_saint_peter_first_bishop_of_rome.jpg",
+"source_filename": "peter_the_apostle.jpg"
+},
+"Regalianus": {
+"file": "regalianus.jpg",
+"source_filename": "regalianus.jpg"
+},
+"Sulla": {
+"file": "sulla.jpg",
+"source_filename": "sulla.jpg"
+},
+"Postumus, Gallic Emperor (r. 260-269)": {
+"file": "postumus_gallic_emperor_r_260_269.jpg",
+"source_filename": "postumus.jpg"
+},
+"Themistocles": {
+"file": "themistocles.jpg",
+"source_filename": "themistocles.jpg"
+},
+"Demosthenes": {
+"file": "demosthenes.jpg",
+"source_filename": "demosthenes.jpg"
+},
+"Vitellius": {
+"file": "vitellius.jpg",
+"source_filename": "vitellius.jpg"
+},
+"Ambrose of Milan": {
+"file": "ambrose_of_milan.jpg",
+"source_filename": "ambrose_of_milan.jpg"
+},
+"Caracalla": true,
+"Maximinus Thrax, Roman Emperor (r. 235-238)": {
+"file": "maximinus_thrax_roman_emperor_r_235_238.jpg",
+"source_filename": "maximinus_thrax.jpg"
+},
+"Aratus": {
+"file": "aratus.jpg",
+"source_filename": "aratus.jpg"
+},
+"Quietus": {
+"file": "quietus.jpg",
+"source_filename": "quietus.jpg"
+},
+"Solon": {
+"file": "solon.jpg",
+"source_filename": "solon.jpg"
+},
+"Lucullus": {
+"file": "lucullus.jpg",
+"source_filename": "lucullus.jpg"
+},
+"Agrippina": {
+"file": "agrippina.jpg",
+"source_filename": "agrippina.jpg"
+},
+"Maximus of Madaura": {
+"file": "maximus_of_madaura.jpg",
+"source_filename": "maximus_of_madaura.jpg"
+},
+"Cimon": {
+"file": "cimon.jpg",
+"source_filename": "cimon.jpg"
+},
+"Crassus": {
+"file": "crassus.jpg",
+"source_filename": "crassus.jpg"
+},
+"Phocion": {
+"file": "phocion.jpg",
+"source_filename": "phocion.jpg"
+},
+"Claudius II Gothicus, Roman Emperor (r. 268-270)": {
+"file": "claudius_ii_gothicus_roman_emperor_r_268_270.jpg",
+"source_filename": "claudius_ii_gothicus.jpg"
+},
+"Tiberius Gracchus": true,
+"Origen": {
+"file": "origen.jpg",
+"source_filename": "origen.jpg"
+},
+"Socrates": {
+"file": "socrates.jpg",
+"source_filename": "socrates.jpg"
+},
+"Valentinian I, Roman Emperor (r. 364-375)": {
+"file": "valentinian_i_roman_emperor_r_364_375.jpg",
+"source_filename": "valentinian_i.jpg"
+},
+"Cassiodorus": {
+"file": "cassiodorus.jpg",
+"source_filename": "cassiodorus.jpg"
+},
+"Germanicus": {
+"file": "germanicus.jpg",
+"source_filename": "germanicus.jpg"
+},
+"Gordian I, Roman Emperor (r. 238, the elder Gordian)": {
+"file": "gordian_i_roman_emperor_r_238_the_elder_gordian.jpg",
+"source_filename": "gordian_i.jpg"
+},
+"Macrianus Major (Macrianus the Elder, usurper, died 261)": {
+"file": "macrianus_major_macrianus_the_elder_usurper_died_261.jpg",
+"source_filename": "macrianus_major.jpg"
+},
+"Seneca": {
+"file": "seneca.jpg",
+"source_filename": "seneca.jpg"
+},
+"Sertorius": {
+"file": "sertorius.jpg",
+"source_filename": "sertorius.jpg"
+},
+"Julian the Apostate, Roman Emperor (r. 361-363)": {
+"file": "julian_the_apostate_roman_emperor_r_361_363.jpg",
+"source_filename": "julian_the_apostate.jpg"
+},
+"Quintus Aemilius Laetus, Praetorian Prefect under Commodus": {
+"file": "quintus_aemilius_laetus_praetorian_prefect_under_commodus.jpg",
+"source_filename": "quintus_aemilius_laetus.jpg"
+},
+"John of Jerusalem, Bishop of Jerusalem (c. 387–417)": {
+"file": "john_of_jerusalem_bishop_of_jerusalem_c_387_417.jpg",
+"source_filename": "john_of_jerusalem.jpg"
+},
+"Braulio of Zaragoza": {
+"file": "braulio_of_zaragoza.jpg",
+"source_filename": "braulio_of_zaragoza.jpg"
+},
+"Clement of Alexandria (Titus Flavius Clemens, Christian theologian, c. 150–215 CE)": {
+"file": "clement_of_alexandria_titus_flavius_clemens_christian_theologian_c_150_215_ce.jpg",
+"source_filename": "clement_of_alexandria.jpg"
+},
+"Geta, Roman Emperor (r. 209–211), brother of Caracalla": {
+"file": "geta_roman_emperor_r_209_211_brother_of_caracalla.jpg",
+"source_filename": "geta.jpg"
+},
+"Julian of Antioch": {
+"file": "julian_of_antioch.jpg",
+"source_filename": "julian_of_antioch.jpg"
+},
+"Marcus Claudius Tacitus, Roman Emperor (r. 275-276 CE)": {
+"file": "marcus_claudius_tacitus_roman_emperor_r_275_276_ce.jpg",
+"source_filename": "marcus_claudius_tacitus.jpg"
+},
+"Trajan": true,
+"Avitus of Vienne, Bishop of Vienne (c. 494–518)": {
+"file": "avitus_of_vienne_bishop_of_vienne_c_494_518.jpg",
+"source_filename": "avitus_of_vienne.jpg"
+},
+"Jesus Christ of Nazareth (Jesus, central figure of Christianity, c. 4 BCE – c. 30 CE)": {
+"file": "jesus_christ_of_nazareth_jesus_central_figure_of_christianity_c_4_bce_c_30_ce.jpg",
+"source_filename": "jesus_christ_of_nazareth.jpg"
+},
+"Lucius Antistius Burrus, Roman official (late 2nd century CE)": {
+"file": "lucius_antistius_burrus_roman_official_late_2nd_century_ce.jpg",
+"source_filename": "lucius_antistius_burrus.jpg"
+},
+"Theoderic the Great, King of the Ostrogoths (r. 471–526)": {
+"file": "theoderic_the_great_king_of_the_ostrogoths_r_471_526.jpg",
+"source_filename": "theoderic_the_great.jpg"
+},
+"Scipio Africanus": true,
+"Apollonius of Tyana": true,
+"Gratian, Roman Emperor (r. 367–383)": {
+"file": "gratian_roman_emperor_r_367_383.jpg",
+"source_filename": "gratian.jpg"
+},
+"Plato": {
+"file": "plato.jpg",
+"source_filename": "plato.jpg"
+},
+"Polycarp": {
+"file": "polycarp.jpg",
+"source_filename": "polycarp.jpg"
+},
+"Ulpian": {
+"file": "ulpian.jpg",
+"source_filename": "ulpian.jpg"
+},
+"Marcus Aurelius Cleander, Praetorian Prefect under Commodus (d. 190 CE)": {
+"file": "marcus_aurelius_cleander_praetorian_prefect_under_commodus_d_190_ce.jpg",
+"source_filename": "marcus_aurelius_cleander.jpg"
+},
+"Mother of Bonosus, usurper against Probus": {
+"file": "mother_of_bonosus_usurper_against_probus.jpg",
+"source_filename": "mother_of_bonosus.jpg"
+},
+"Gaius Fulvius Plautianus, Praetorian Prefect under Septimius Severus": {
+"file": "gaius_fulvius_plautianus_praetorian_prefect_under_septimius_severus.jpg",
+"source_filename": "gaius_fulvius_plautianus.jpg"
+},
+"Macrianus Minor (son of Macrianus Major, usurper under Gallienus, d. 261)": {
+"file": "macrianus_minor_son_of_macrianus_major_usurper_under_gallienus_d_261.jpg",
+"source_filename": "macrianus_minor.jpg"
+},
+"Olympias the Deaconess": {
+"file": "olympias_the_deaconess.jpg",
+"source_filename": "olympias_the_deaconess.jpg"
+},
+"Augustine": {
+"file": "augustine.jpg",
+"source_filename": "augustine.jpg"
+},
+"Iamblichus": {
+"file": "iamblichus.jpg",
+"source_filename": "iamblichus.jpg"
+},
+"Lucius Aemilius Paullus Macedonicus, Roman general and conqueror of Macedonia (consul 182 and 168 BCE, d. 160 BCE)": {
+"file": "lucius_aemilius_paullus_macedonicus_roman_general_and_conqueror_of_macedo_0af6c9.jpg",
+"source_filename": "lucius_aemilius_paullus_macedonicus.jpg"
+},
+"Papinian (Aemilius Papinianus), Roman jurist (d. 212 CE)": {
+"file": "papinian_aemilius_papinianus_roman_jurist_d_212_ce.jpg",
+"source_filename": "papinian.jpg"
+},
+"Theodoric the Great, King of the Ostrogoths (r. 471–526)": {
+"file": "theodoric_the_great_king_of_the_ostrogoths_r_471_526.jpg",
+"source_filename": "theodoric_the_great.jpg"
+},
+"James the Just, first Bishop of Jerusalem": {
+"file": "james_the_just_first_bishop_of_jerusalem.jpg",
+"source_filename": "james_the_just.jpg"
+},
+"Martin of Tours (Saint Martin, Bishop of Tours, d. 397)": {
+"file": "martin_of_tours_saint_martin_bishop_of_tours_d_397.jpg",
+"source_filename": "martin_of_tours.jpg"
+},
+"Serenus Sammonicus": {
+"file": "serenus_sammonicus.jpg",
+"source_filename": "serenus_sammonicus.jpg"
+},
+"Columbanus, Irish missionary monk (c. 540–615)": {
+"file": "columbanus_irish_missionary_monk_c_540_615.jpg",
+"source_filename": "columbanus.jpg"
+},
+"Faustus of Riez": {
+"file": "faustus_of_riez.jpg",
+"source_filename": "faustus_of_riez.jpg"
+},
+"Justinian I, Roman Emperor (r. 527-565)": {
+"file": "justinian_i_roman_emperor_r_527_565.jpg",
+"source_filename": "justinian_i.jpg"
+},
+"Domitius Ulpianus": {
+"file": "domitius_ulpianus.jpg",
+"source_filename": "domitius_ulpianus.jpg"
+},
+"Gregory of Nazianzus": {
+"file": "gregory_of_nazianzus.jpg",
+"source_filename": "gregory_of_nazianzus.jpg"
+},
+"Pope Gregory the Great (Gregory I, r. 590-604)": {
+"file": "pope_gregory_the_great_gregory_i_r_590_604.jpg",
+"source_filename": "pope_gregory_the_great.jpg"
+},
+"Pope Leo the Great": {
+"file": "pope_leo_the_great.jpg",
+"source_filename": "pope_leo_the_great.jpg"
+},
+"Sejanus": {
+"file": "sejanus.jpg",
+"source_filename": "sejanus.jpg"
+},
+"Acacius": {
+"file": "acacius.jpg",
+"source_filename": "acacius.jpg"
+},
+"John Chrysostom": {
+"file": "john_chrysostom.jpg",
+"source_filename": "john_chrysostom.jpg"
+},
+"Philopoemen": {
+"file": "philopoemen.jpg",
+"source_filename": "philopoemen.jpg"
+},
+"Valeria Messalina, Empress and third wife of Claudius": {
+"file": "valeria_messalina_empress_and_third_wife_of_claudius.jpg",
+"source_filename": "valeria_messalina.jpg"
+},
+"Venantius Fortunatus": {
+"file": "venantius_fortunatus.jpg",
+"source_filename": "venantius_fortunatus.jpg"
+},
+"Epaminondas": {
+"file": "epaminondas.jpg",
+"source_filename": "epaminondas.jpg"
+},
+"Pliny the Elder (Gaius Plinius Secundus, author of Natural History, 23-79 CE)": {
+"file": "pliny_the_elder_gaius_plinius_secundus_author_of_natural_history_23_79_ce.jpg",
+"source_filename": "pliny_the_elder.jpg"
+},
+"Maximian": {
+"file": "maximian.jpg",
+"source_filename": "maximian.jpg"
+},
+"Theodosius II, Roman Emperor (r. 402-450)": {
+"file": "theodosius_ii_roman_emperor_r_402_450.jpg",
+"source_filename": "theodosius_ii.jpg"
+},
+"Athalaric, King of the Ostrogoths (r. 526–534)": {
+"file": "athalaric_king_of_the_ostrogoths_r_526_534.jpg",
+"source_filename": "athalaric.jpg"
+},
+"Cyprian of Carthage": {
+"file": "cyprian_of_carthage.jpg",
+"source_filename": "cyprian_of_carthage.jpg"
+},
+"Horace": {
+"file": "horace.jpg",
+"source_filename": "horace.jpg"
+},
+"Pope Innocent I": {
+"file": "pope_innocent_i.jpg",
+"source_filename": "pope_innocent_i.jpg"
+},
+"Alexander the Great": {
+"file": "alexander_the_great.jpg",
+"source_filename": "alexander_the_great.jpg"
+},
+"Antinous": {
+"file": "antinous.jpg",
+"source_filename": "antinous.jpg"
+},
+"Caracalla (Marcus Aurelius Severus Antoninus Augustus), Roman Emperor (r. 198-217)": {
+"file": "caracalla_marcus_aurelius_severus_antoninus_augustus_roman_emperor_r_198_217.jpg",
+"source_filename": "caracalla.jpg"
+},
+"Isaeus": {
+"file": "isaeus.jpg",
+"source_filename": "isaeus.jpg"
+},
+"Novatian": {
+"file": "novatian.jpg",
+"source_filename": "novatian.jpg"
+},
+"Pope Innocent I (Bishop of Rome, r. 401–417)": {
+"file": "pope_innocent_i_bishop_of_rome_r_401_417.jpg",
+"source_filename": "pope_innocent_i.jpg"
+},
+"Priscus of Epirus, Neoplatonist philosopher and friend of Julian the Apostate": {
+"file": "priscus_of_epirus_neoplatonist_philosopher_and_friend_of_julian_the_apostate.jpg",
+"source_filename": "priscus_of_epirus.jpg"
+},
+"Valens the Elder (usurper listed in Historia Augusta, 3rd century CE)": {
+"file": "valens_the_elder_usurper_listed_in_historia_augusta_3rd_century_ce.jpg",
+"source_filename": "valens_the_elder.jpg"
+},
+"Archimedes": true,
+"Catiline": {
+"file": "catiline.jpg",
+"source_filename": "catiline.jpg"
+},
+"Eustochium": {
+"file": "eustochium.jpg",
+"source_filename": "eustochium.jpg"
+},
+"Hasdrubal Barca (brother of Hannibal, Carthaginian general, d. 207 BCE)": {
+"file": "hasdrubal_barca_brother_of_hannibal_carthaginian_general_d_207_bce.jpg",
+"source_filename": "hasdrubal_barca.jpg"
+},
+"Licinius": {
+"file": "licinius.jpg",
+"source_filename": "licinius.jpg"
+},
+"Alexander (son of Demetrius, subject of Plutarch's Life of Demetrius)": {
+"file": "alexander_son_of_demetrius_subject_of_plutarch_s_life_of_demetrius.jpg",
+"source_filename": "alexander.jpg"
+},
+"Belisarius": {
+"file": "belisarius.jpg",
+"source_filename": "belisarius.jpg"
+},
+"Gordian III, Roman Emperor (r. 238-244)": {
+"file": "gordian_iii_roman_emperor_r_238_244.jpg",
+"source_filename": "gordian_iii.jpg"
+},
+"Gregory of Tours": {
+"file": "gregory_of_tours.jpg",
+"source_filename": "gregory_of_tours.jpg"
+},
+"Jovian": {
+"file": "jovian.jpg",
+"source_filename": "jovian.jpg"
+},
+"Theodoret of Cyrrhus, Bishop and Theologian (c. 393–c. 458)": {
+"file": "theodoret_of_cyrrhus_bishop_and_theologian_c_393_c_458.jpg",
+"source_filename": "theodoret_of_cyrrhus.jpg"
+},
+"Anicia Faltonia Proba, Roman Christian noblewoman (c. 360–c. 432)": {
+"file": "anicia_faltonia_proba_roman_christian_noblewoman_c_360_c_432.jpg",
+"source_filename": "anicia_faltonia_proba.jpg"
+},
+"Mithridates VI Eupator, King of Pontus (r. 120–63 BCE)": {
+"file": "mithridates_vi_eupator_king_of_pontus_r_120_63_bce.jpg",
+"source_filename": "mithridates_vi_eupator.jpg"
+},
+"Nestorius": {
+"file": "nestorius.jpg",
+"source_filename": "nestorius.jpg"
+},
+"the young man": {
+"file": "the_young_man.jpg",
+"source_filename": "the_young_man.jpg"
+},
+"Alcuin of York": {
+"file": "alcuin_of_york.jpg",
+"source_filename": "alcuin_of_york.jpg"
+},
+"Cornelius Tacitus": {
+"file": "cornelius_tacitus.jpg",
+"source_filename": "cornelius_tacitus.jpg"
+},
+"Gaius Julius Caesar (Julius Caesar, Roman Dictator, 100–44 BCE)": {
+"file": "gaius_julius_caesar_julius_caesar_roman_dictator_100_44_bce.jpg",
+"source_filename": "gaius_julius_caesar.jpg"
+},
+"Isidore of Pelusium": {
+"file": "isidore_of_pelusium.jpg",
+"source_filename": "isidore_of_pelusium.jpg"
+},
+"Justin I, Roman Emperor (r. 518–527), of Bederiana": {
+"file": "justin_i_roman_emperor_r_518_527_of_bederiana.jpg",
+"source_filename": "justin_i.jpg"
+},
+"Lepidus": {
+"file": "lepidus.jpg",
+"source_filename": "lepidus.jpg"
+},
+"Synesius of Cyrene": {
+"file": "synesius_of_cyrene.jpg",
+"source_filename": "synesius_of_cyrene.jpg"
+},
+"Themistius": {
+"file": "themistius.jpg",
+"source_filename": "themistius.jpg"
+},
+"Valentinian II, Roman Emperor (r. 375–392)": {
+"file": "valentinian_ii_roman_emperor_r_375_392.jpg",
+"source_filename": "valentinian_ii.jpg"
+},
+"Varro": {
+"file": "varro.jpg",
+"source_filename": "varro.jpg"
+},
+"Virgil": {
+"file": "virgil.jpg",
+"source_filename": "virgil.jpg"
+},
+"Zeno of Citium (Zeno the Stoic, founder of Stoicism, c. 334–262 BCE)": {
+"file": "zeno_of_citium_zeno_the_stoic_founder_of_stoicism_c_334_262_bce.jpg",
+"source_filename": "zeno_of_citium.jpg"
+},
+"Arbogastes, Frankish magister militum (d. 394)": {
+"file": "arbogastes_frankish_magister_militum_d_394.jpg",
+"source_filename": "arbogastes.jpg"
+},
+"Cleopatra VII Philopator, Queen of Egypt (r. 51–30 BCE)": {
+"file": "cleopatra_vii_philopator_queen_of_egypt_r_51_30_bce.jpg",
+"source_filename": "cleopatra_vii_philopator.jpg"
+},
+"Herod the Great, King of Judea (r. 37–4 BCE)": {
+"file": "herod_the_great_king_of_judea_r_37_4_bce.jpg",
+"source_filename": "herod_the_great.jpg"
+},
+"Isidore of Seville": {
+"file": "isidore_of_seville.jpg",
+"source_filename": "isidore_of_seville.jpg"
+},
+"Longinus the philosopher (executed after Zenobia's defeat, 3rd century CE)": {
+"file": "longinus_the_philosopher_executed_after_zenobia_s_defeat_3rd_century_ce.jpg",
+"source_filename": "longinus_the_philosopher.jpg"
+},
+"Ovid": {
+"file": "ovid.jpg",
+"source_filename": "ovid.jpg"
+},
+"Callisthenes": {
+"file": "callisthenes.jpg",
+"source_filename": "callisthenes.jpg"
+},
+"Charlemagne": {
+"file": "charlemagne.jpg",
+"source_filename": "charlemagne.jpg"
+},
+"Emperor Theodosius II": {
+"file": "emperor_theodosius_ii.jpg",
+"source_filename": "emperor_theodosius_ii.jpg"
+},
+"Hercules": {
+"file": "hercules.jpg",
+"source_filename": "hercules.jpg"
+},
+"Pisistratus": {
+"file": "pisistratus.jpg",
+"source_filename": "pisistratus.jpg"
+},
+"Servius Galba": {
+"file": "servius_galba.jpg",
+"source_filename": "servius_galba.jpg"
+},
+"Vibia Perpetua, Christian martyr of Carthage (d. 203)": {
+"file": "vibia_perpetua_christian_martyr_of_carthage_d_203.jpg",
+"source_filename": "vibia_perpetua.jpg"
+},
+"Aemilius Papinianus, Roman jurist (d. 212)": {
+"file": "aemilius_papinianus_roman_jurist_d_212.jpg",
+"source_filename": "aemilius_papinianus.jpg"
+},
+"Alaric I, King of the Visigoths (r. 395-410)": {
+"file": "alaric_i_king_of_the_visigoths_r_395_410.jpg",
+"source_filename": "alaric_i.jpg"
+},
+"Bibulus": {
+"file": "bibulus.jpg",
+"source_filename": "bibulus.jpg"
+},
+"Clovis I, King of the Franks (r. 481–511)": {
+"file": "clovis_i_king_of_the_franks_r_481_511.jpg",
+"source_filename": "clovis_i.jpg"
+},
+"Corbulo": {
+"file": "corbulo.jpg",
+"source_filename": "corbulo.jpg"
+},
+"Martin of Tours (St. Martin, Bishop of Tours, d. 397)": {
+"file": "martin_of_tours_st_martin_bishop_of_tours_d_397.jpg",
+"source_filename": "martin_of_tours.jpg"
+},
+"Maxentius": {
+"file": "maxentius.jpg",
+"source_filename": "maxentius.jpg"
+},
+"Pope Leo I (Leo the Great), Bishop of Rome (r. 440-461)": {
+"file": "pope_leo_i_leo_the_great_bishop_of_rome_r_440_461.jpg",
+"source_filename": "pope_leo_i.jpg"
+},
+"Thrasamund, King of the Vandals (r. 496–523)": {
+"file": "thrasamund_king_of_the_vandals_r_496_523.jpg",
+"source_filename": "thrasamund.jpg"
+},
+"Titus Quinctius Flamininus, Roman general and consul (c. 229–174 BCE)": {
+"file": "titus_quinctius_flamininus_roman_general_and_consul_c_229_174_bce.jpg",
+"source_filename": "titus_quinctius_flamininus.jpg"
+},
+"Verginius Rufus, Roman general and consul (d. 97 CE)": {
+"file": "verginius_rufus_roman_general_and_consul_d_97_ce.jpg",
+"source_filename": "verginius_rufus.jpg"
+},
+"Aelius Sejanus": {
+"file": "aelius_sejanus.jpg",
+"source_filename": "aelius_sejanus.jpg"
+},
+"Aristotle": {
+"file": "aristotle.jpg",
+"source_filename": "aristotle.jpg"
+},
+"Bede": {
+"file": "bede.jpg",
+"source_filename": "bede.jpg"
+},
+"Boethius": {
+"file": "boethius.jpg",
+"source_filename": "boethius.jpg"
+},
+"Britannicus": {
+"file": "britannicus.jpg",
+"source_filename": "britannicus.jpg"
+},
+"Chrysippus": {
+"file": "chrysippus.jpg",
+"source_filename": "chrysippus.jpg"
+},
+"Emperor Maurice": {
+"file": "emperor_maurice.jpg",
+"source_filename": "emperor_maurice.jpg"
+},
+"Ennodius": {
+"file": "ennodius.jpg",
+"source_filename": "ennodius.jpg"
+},
+"George of Cappadocia, Arian Bishop of Alexandria (d. 361)": {
+"file": "george_of_cappadocia_arian_bishop_of_alexandria_d_361.jpg",
+"source_filename": "george_of_cappadocia.jpg"
+},
+"Hordeonius Flaccus, Roman general (d. 69 CE)": {
+"file": "hordeonius_flaccus_roman_general_d_69_ce.jpg",
+"source_filename": "hordeonius_flaccus.jpg"
+},
+"King Theodoric": {
+"file": "king_theodoric.jpg",
+"source_filename": "king_theodoric.jpg"
+},
+"Marcus Julius Philippus (Philip the Arab), Roman Emperor (r. 244-249)": {
+"file": "marcus_julius_philippus_philip_the_arab_roman_emperor_r_244_249.jpg",
+"source_filename": "marcus_julius_philippus.jpg"
+},
+"Polemon of Athens, head of the Academy and successor of Xenocrates (Academic philosopher, c. 350–270 BCE)": {
+"file": "polemon_of_athens_head_of_the_academy_and_successor_of_xenocrates_academi_1dab19.jpg",
+"source_filename": "polemon_of_athens.jpg"
+},
+"Servius Sulpicius Galba, Roman Emperor (r. 68-69)": {
+"file": "servius_sulpicius_galba_roman_emperor_r_68_69.jpg",
+"source_filename": "servius_sulpicius_galba.jpg"
+},
+"Alypius, Bishop of Thagaste (friend of Augustine of Hippo)": {
+"file": "alypius_bishop_of_thagaste_friend_of_augustine_of_hippo.jpg",
+"source_filename": "alypius.jpg"
+},
+"Blandina": {
+"file": "blandina.jpg",
+"source_filename": "blandina.jpg"
+},
+"Caius Caesar": {
+"file": "caius_caesar.jpg",
+"source_filename": "caius_caesar.jpg"
+},
+"Cyril of Alexandria": {
+"file": "cyril_of_alexandria.jpg",
+"source_filename": "cyril_of_alexandria.jpg"
+},
+"Deusdedit": {
+"file": "deusdedit.jpg",
+"source_filename": "deusdedit.jpg"
+},
+"Euphemia": {
+"file": "euphemia.jpg",
+"source_filename": "euphemia.jpg"
+},
+"Gaius Sallustius Crispus (Sallust), Roman historian (86–c. 35 BCE)": {
+"file": "gaius_sallustius_crispus_sallust_roman_historian_86_c_35_bce.jpg",
+"source_filename": "gaius_sallustius_crispus.jpg"
+},
+"Heraclitus": {
+"file": "heraclitus.jpg",
+"source_filename": "heraclitus.jpg"
+},
+"Holy Father (addressee of Columbanus's letter, likely a pope or senior bishop, early 7th century)": {
+"file": "holy_father_addressee_of_columbanus_s_letter_likely_a_pope_or_senior_bish_0a6b18.jpg",
+"source_filename": "holy_father.jpg"
+},
+"Juvenal": {
+"file": "juvenal.jpg",
+"source_filename": "juvenal.jpg"
+},
+"Marcus Favonius": {
+"file": "marcus_favonius.jpg",
+"source_filename": "marcus_favonius.jpg"
+},
+"Paul the Apostle (d. c. 64–67 CE)": {
+"file": "paul_the_apostle_d_c_64_67_ce.jpg",
+"source_filename": "paul_the_apostle.jpg"
+},
+"Petronius Maximus, Roman Emperor (r. 455)": {
+"file": "petronius_maximus_roman_emperor_r_455.jpg",
+"source_filename": "petronius_maximus.jpg"
+},
+"Publius Cornelius Scipio Africanus (Scipio Africanus the Elder, Roman general, 236–183 BCE)": {
+"file": "publius_cornelius_scipio_africanus_scipio_africanus_the_elder_roman_gener_6d3fc4.jpg",
+"source_filename": "publius_cornelius_scipio_africanus.jpg"
+},
+"Vettius Agorius Praetextatus, Roman senator and governor of Achaia (d. 384)": {
+"file": "vettius_agorius_praetextatus_roman_senator_and_governor_of_achaia_d_384.jpg",
+"source_filename": "vettius_agorius_praetextatus.jpg"
+},
+"Adherbal, King of Numidia (d. 112 BCE)": {
+"file": "adherbal_king_of_numidia_d_112_bce.jpg",
+"source_filename": "adherbal.jpg"
+},
+"Amalasuntha, Queen of the Ostrogoths (regent, d. 535)": {
+"file": "amalasuntha_queen_of_the_ostrogoths_regent_d_535.jpg",
+"source_filename": "amalasuntha.jpg"
+},
+"Arcadius": {
+"file": "arcadius.jpg",
+"source_filename": "arcadius.jpg"
+},
+"Archilochus": {
+"file": "archilochus.jpg",
+"source_filename": "archilochus.jpg"
+},
+"Caesarius of Arles": {
+"file": "caesarius_of_arles.jpg",
+"source_filename": "caesarius_of_arles.jpg"
+},
+"Dicaearchus": {
+"file": "dicaearchus.jpg",
+"source_filename": "dicaearchus.jpg"
+},
+"Didymus the Blind (Didymus of Alexandria, Christian theologian, c. 313–398)": {
+"file": "didymus_the_blind_didymus_of_alexandria_christian_theologian_c_313_398.jpg",
+"source_filename": "didymus_the_blind.jpg"
+},
+"Epiphanius of Salamis, Bishop of Salamis (c. 310–403)": {
+"file": "epiphanius_of_salamis_bishop_of_salamis_c_310_403.jpg",
+"source_filename": "epiphanius_of_salamis.jpg"
+},
+"Eucherius, Bishop of Lyon (d. c. 449/450)": {
+"file": "eucherius_bishop_of_lyon_d_c_449_450.jpg",
+"source_filename": "eucherius.jpg"
+},
+"Gainas, Gothic general in the Eastern Roman Empire (d. 401)": {
+"file": "gainas_gothic_general_in_the_eastern_roman_empire_d_401.jpg",
+"source_filename": "gainas.jpg"
+},
+"Honorius, Western Roman Emperor (r. 393-423)": {
+"file": "honorius_western_roman_emperor_r_393_423.jpg",
+"source_filename": "honorius.jpg"
+},
+"Lysimachus": {
+"file": "lysimachus.jpg",
+"source_filename": "lysimachus.jpg"
+},
+"M. Porcius Cato": {
+"file": "m_porcius_cato.jpg",
+"source_filename": "m_porcius_cato.jpg"
+},
+"Marcellus of Dalmatia": {
+"file": "marcellus_of_dalmatia.jpg",
+"source_filename": "marcellus_of_dalmatia.jpg"
+},
+"Paul the Apostle": {
+"file": "paul_the_apostle.jpg",
+"source_filename": "paul_the_apostle.jpg"
+},
+"Quintilian (Marcus Fabius Quintilianus, Roman rhetorician, c. 35–c. 100 CE)": {
+"file": "quintilian_marcus_fabius_quintilianus_roman_rhetorician_c_35_c_100_ce.jpg",
+"source_filename": "quintilian.jpg"
+},
+"the Apostle (Paul, as cited in early Christian letters)": {
+"file": "the_apostle_paul_as_cited_in_early_christian_letters.jpg",
+"source_filename": "the_apostle.jpg"
+},
+"Agilulf": {
+"file": "agilulf.jpg",
+"source_filename": "agilulf.jpg"
+},
+"Anaxagoras": {
+"file": "anaxagoras.jpg",
+"source_filename": "anaxagoras.jpg"
+},
+"Aristippus": {
+"file": "aristippus.jpg",
+"source_filename": "aristippus.jpg"
+},
+"Charlemagne (Charles the Great), King of the Franks (r. 768–814)": {
+"file": "charlemagne_charles_the_great_king_of_the_franks_r_768_814.jpg",
+"source_filename": "charlemagne.jpg"
+},
+"Clement of Alexandria": {
+"file": "clement_of_alexandria.jpg",
+"source_filename": "clement_of_alexandria.jpg"
+},
+"Cornelius Gallus": {
+"file": "cornelius_gallus.jpg",
+"source_filename": "cornelius_gallus.jpg"
+},
+"Gaius Flaminius, Roman Consul (d. 217 BCE)": {
+"file": "gaius_flaminius_roman_consul_d_217_bce.jpg",
+"source_filename": "gaius_flaminius.jpg"
+},
+"Gaius Mucius Scaevola, legendary Roman hero (early Republic)": {
+"file": "gaius_mucius_scaevola_legendary_roman_hero_early_republic.jpg",
+"source_filename": "gaius_mucius_scaevola.jpg"
+},
+"Governor of Neocaesarea": {
+"file": "governor_of_neocaesarea.jpg",
+"source_filename": "governor_of_neocaesarea.jpg"
+},
+"Hilary of Arles, Bishop of Arles (c. 403–449)": {
+"file": "hilary_of_arles_bishop_of_arles_c_403_449.jpg",
+"source_filename": "hilary_of_arles.jpg"
+},
+"Hyperides": {
+"file": "hyperides.jpg",
+"source_filename": "hyperides.jpg"
+},
+"Lord my brother": {
+"file": "lord_my_brother.jpg",
+"source_filename": "lord_my_brother.jpg"
+},
+"Lucius Arruntius, Roman senator (d. 37 CE)": {
+"file": "lucius_arruntius_roman_senator_d_37_ce.jpg",
+"source_filename": "lucius_arruntius.jpg"
+},
+"Magnus Magnentius, Roman usurper emperor (r. 350-353)": {
+"file": "magnus_magnentius_roman_usurper_emperor_r_350_353.jpg",
+"source_filename": "magnus_magnentius.jpg"
+},
+"Marcus Antonius, Roman orator and consul (d. 87 BCE)": {
+"file": "marcus_antonius_roman_orator_and_consul_d_87_bce.jpg",
+"source_filename": "marcus_antonius.jpg"
+},
+"Marcus Tullius": {
+"file": "marcus_tullius.jpg",
+"source_filename": "marcus_tullius.jpg"
+},
+"Martin of Braga": {
+"file": "martin_of_braga.jpg",
+"source_filename": "martin_of_braga.jpg"
+},
+"Maximianus Herculius": {
+"file": "maximianus_herculius.jpg",
+"source_filename": "maximianus_herculius.jpg"
+},
+"Maximinus Daia (Gaius Valerius Galerius Maximinus), Roman Emperor (r. 310-313)": {
+"file": "maximinus_daia_gaius_valerius_galerius_maximinus_roman_emperor_r_310_313.jpg",
+"source_filename": "maximinus_daia.jpg"
+},
+"Musonius": {
+"file": "musonius.jpg",
+"source_filename": "musonius.jpg"
+},
+"Perpetuus of Tours, Bishop of Tours (d. 490)": {
+"file": "perpetuus_of_tours_bishop_of_tours_d_490.jpg",
+"source_filename": "perpetuus_of_tours.jpg"
+},
+"Phocas": {
+"file": "phocas.jpg",
+"source_filename": "phocas.jpg"
+},
+"Pope Damasus I (bishop of Rome, r. 366–384)": {
+"file": "pope_damasus_i_bishop_of_rome_r_366_384.jpg",
+"source_filename": "pope_damasus_i.jpg"
+},
+"Pope Zacharias": {
+"file": "pope_zacharias.jpg",
+"source_filename": "pope_zacharias.jpg"
+},
+"Poppaea Sabina, Empress and wife of Nero": {
+"file": "poppaea_sabina_empress_and_wife_of_nero.jpg",
+"source_filename": "poppaea_sabina.jpg"
+},
+"Propertius, Roman elegiac poet (c. 50–15 BCE)": {
+"file": "propertius_roman_elegiac_poet_c_50_15_bce.jpg",
+"source_filename": "propertius.jpg"
+},
+"Radegund, former Queen of the Franks and founder of Holy Cross Monastery, Poitiers (c. 520–587)": {
+"file": "radegund_former_queen_of_the_franks_and_founder_of_holy_cross_monastery_p_62b6e0.jpg",
+"source_filename": "radegund.jpg"
+},
+"Reccared I, King of the Visigoths (r. 586–601)": {
+"file": "reccared_i_king_of_the_visigoths_r_586_601.jpg",
+"source_filename": "reccared_i.jpg"
+},
+"letter recipient of Symmachus (distinguished, forgiving, generous)": {
+"file": "letter_recipient_of_symmachus_distinguished_forgiving_generous.jpg",
+"source_filename": "letter_recipient_of_symmachus.jpg"
+},
+"wife of Severus Alexander, Roman Emperor (r. 222-235)": {
+"file": "wife_of_severus_alexander_roman_emperor_r_222_235.jpg",
+"source_filename": "wife_of_severus_alexander.jpg"
+},
+"Ambrose": {
+"file": "ambrose.jpg",
+"source_filename": "ambrose.jpg"
+},
+"Amun of Nitria, Egyptian Christian monk (d. c. 357)": {
+"file": "amun_of_nitria_egyptian_christian_monk_d_c_357.jpg",
+"source_filename": "amun_of_nitria.jpg"
+},
+"Antiochus III the Great, Seleucid King (r. 222–187 BCE)": {
+"file": "antiochus_iii_the_great_seleucid_king_r_222_187_bce.jpg",
+"source_filename": "antiochus_iii_the_great.jpg"
+},
+"Antony of Crete (father of Mark Antony, fl. 1st century BCE)": {
+"file": "antony_of_crete_father_of_mark_antony_fl_1st_century_bce.jpg",
+"source_filename": "antony_of_crete.jpg"
+},
+"Apollinaris of Laodicea": {
+"file": "apollinaris_of_laodicea.jpg",
+"source_filename": "apollinaris_of_laodicea.jpg"
+},
+"Apollinarius": {
+"file": "apollinarius.jpg",
+"source_filename": "apollinarius.jpg"
+},
+"Arius": {
+"file": "arius.jpg",
+"source_filename": "arius.jpg"
+},
+"Arno of Salzburg": {
+"file": "arno_of_salzburg.jpg",
+"source_filename": "arno_of_salzburg.jpg"
+},
+"Bardaisan (Bardesanes of Edessa, Syriac Christian philosopher, c. 154–222 CE)": {
+"file": "bardaisan_bardesanes_of_edessa_syriac_christian_philosopher_c_154_222_ce.jpg",
+"source_filename": "bardaisan.jpg"
+},
+"Caius Sallustius": {
+"file": "caius_sallustius.jpg",
+"source_filename": "caius_sallustius.jpg"
+},
+"Constans, Roman Emperor (r. 337-350)": {
+"file": "constans_roman_emperor_r_337_350.jpg",
+"source_filename": "constans.jpg"
+},
+"Craterus": {
+"file": "craterus.jpg",
+"source_filename": "craterus.jpg"
+},
+"Cremutius Cordus, Roman historian (d. 25 CE)": {
+"file": "cremutius_cordus_roman_historian_d_25_ce.jpg",
+"source_filename": "cremutius_cordus.jpg"
+},
+"Ephorus": {
+"file": "ephorus.jpg",
+"source_filename": "ephorus.jpg"
+},
+"Epictetus": {
+"file": "epictetus.jpg",
+"source_filename": "epictetus.jpg"
+},
+"Euripides": {
+"file": "euripides.jpg",
+"source_filename": "euripides.jpg"
+},
+"Fructuosus of Braga": {
+"file": "fructuosus_of_braga.jpg",
+"source_filename": "fructuosus_of_braga.jpg"
+},
+"Gaius Julius Caesar, Roman Dictator (100–44 BCE)": {
+"file": "gaius_julius_caesar_roman_dictator_100_44_bce.jpg",
+"source_filename": "gaius_julius_caesar.jpg"
+},
+"Gnaeus Pompeius Magnus (Pompey the Great, Roman general and consul, 106–48 BCE)": {
+"file": "gnaeus_pompeius_magnus_pompey_the_great_roman_general_and_consul_106_48_bce.jpg",
+"source_filename": "gnaeus_pompeius_magnus.jpg"
+},
+"Gorgias": {
+"file": "gorgias.jpg",
+"source_filename": "gorgias.jpg"
+},
+"Hilary of Rome": {
+"file": "hilary_of_rome.jpg",
+"source_filename": "hilary_of_rome.jpg"
+},
+"Holy One of God": {
+"file": "holy_one_of_god.jpg",
+"source_filename": "holy_one_of_god.jpg"
+},
+"Iphicrates": {
+"file": "iphicrates.jpg",
+"source_filename": "iphicrates.jpg"
+},
+"Irenaeus (disciple of Polycarp, early Christian, correspondent of Ambrose)": {
+"file": "irenaeus_disciple_of_polycarp_early_christian_correspondent_of_ambrose.jpg",
+"source_filename": "irenaeus.jpg"
+},
+"Jacob": {
+"file": "jacob.jpg",
+"source_filename": "jacob.jpg"
+},
+"Jesus Christ (Christ the Lord, central figure of Christianity)": {
+"file": "jesus_christ_christ_the_lord_central_figure_of_christianity.jpg",
+"source_filename": "jesus_christ.jpg"
+},
+"Julius Briganticus, Roman cavalry commander and nephew of Civilis (d. 69 CE)": {
+"file": "julius_briganticus_roman_cavalry_commander_and_nephew_of_civilis_d_69_ce.jpg",
+"source_filename": "julius_briganticus.jpg"
+},
+"Leander of Seville": {
+"file": "leander_of_seville.jpg",
+"source_filename": "leander_of_seville.jpg"
+},
+"Lucretius": {
+"file": "lucretius.jpg",
+"source_filename": "lucretius.jpg"
+},
+"Marcus Crassus": {
+"file": "marcus_crassus.jpg",
+"source_filename": "marcus_crassus.jpg"
+},
+"Marcus Valerius Corvus (Corvinus), Roman consul and general (4th century BCE)": {
+"file": "marcus_valerius_corvus_corvinus_roman_consul_and_general_4th_century_bce.jpg",
+"source_filename": "marcus_valerius_corvus.jpg"
+},
+"Mark Antony": {
+"file": "mark_antony.jpg",
+"source_filename": "mark_antony.jpg"
+},
+"Paul of Concordia": {
+"file": "paul_of_concordia.jpg",
+"source_filename": "paul_of_concordia.jpg"
+},
+"Perdiccas, Regent of the Macedonian Empire (d. 321 BCE)": {
+"file": "perdiccas_regent_of_the_macedonian_empire_d_321_bce.jpg",
+"source_filename": "perdiccas.jpg"
+},
+"Peter of Terracina, Subdeacon and Gregory the Great's delegate in Sicily (late 6th century)": {
+"file": "peter_of_terracina_subdeacon_and_gregory_the_great_s_delegate_in_sicily_l_6e227d.jpg",
+"source_filename": "peter_of_terracina.jpg"
+},
+"Polycrates of Samos, Tyrant of Samos (r. c. 538–522 BCE)": {
+"file": "polycrates_of_samos_tyrant_of_samos_r_c_538_522_bce.jpg",
+"source_filename": "polycrates_of_samos.jpg"
+},
+"Ptolemaeus, son of Juba, King of Mauretania (r. 23–40 CE)": {
+"file": "ptolemaeus_son_of_juba_king_of_mauretania_r_23_40_ce.jpg",
+"source_filename": "ptolemaeus.jpg"
+},
+"Publius Valerius Laevinus, Roman consul (early 3rd century BCE)": {
+"file": "publius_valerius_laevinus_roman_consul_early_3rd_century_bce.jpg",
+"source_filename": "publius_valerius_laevinus.jpg"
+},
+"Quintus Mucius Scaevola, Pontifex Maximus and Roman jurist (consul 95 BCE, d. 82 BCE)": {
+"file": "quintus_mucius_scaevola_pontifex_maximus_and_roman_jurist_consul_95_bce_d_82_bce.jpg",
+"source_filename": "quintus_mucius_scaevola.jpg"
+},
+"Saint Peter": {
+"file": "saint_peter.jpg",
+"source_filename": "saint_peter.jpg"
+},
+"Severus, Roman Emperor (Lucius Septimius Severus, r. 193-211)": {
+"file": "severus_roman_emperor_lucius_septimius_severus_r_193_211.jpg",
+"source_filename": "severus.jpg"
+},
+"Tarquin the Proud": true,
+"Theodosius the Presbyter": {
+"file": "theodosius_the_presbyter.jpg",
+"source_filename": "theodosius_the_presbyter.jpg"
+},
+"Theophilos the Reader": {
+"file": "theophilos_the_reader.jpg",
+"source_filename": "theophilos_the_reader.jpg"
+},
+"Theophilus of Alexandria": {
+"file": "theophilus_of_alexandria.jpg",
+"source_filename": "theophilus_of_alexandria.jpg"
+},
+"Theophrastus": {
+"file": "theophrastus.jpg",
+"source_filename": "theophrastus.jpg"
+},
+"This young man (son of Macrianus, executed with Ballista, Historia Augusta; student of Libanius, Libanius Letters)": {
+"file": "this_young_man_son_of_macrianus_executed_with_ballista_historia_augusta_s_d47d7d.jpg",
+"source_filename": "this_young_man.jpg"
+},
+"Thucydides of Alopece": {
+"file": "thucydides_of_alopece.jpg",
+"source_filename": "thucydides_of_alopece.jpg"
+},
+"Xenocrates": {
+"file": "xenocrates.jpg",
+"source_filename": "xenocrates.jpg"
+},
+"a chaste widow (unnamed, cited by Jerome)": {
+"file": "a_chaste_widow_unnamed_cited_by_jerome.jpg",
+"source_filename": "a_chaste_widow.jpg"
+},
+"the free woman (Sarah, wife of Abraham, in Pauline allegory)": {
+"file": "the_free_woman_sarah_wife_of_abraham_in_pauline_allegory.jpg",
+"source_filename": "the_free_woman.jpg"
+},
+"the most devout piety of our religious emperor (likely Theodosius II or Marcian, Eastern Roman Emperor, mid-5th century)": {
+"file": "the_most_devout_piety_of_our_religious_emperor_likely_theodosius_ii_or_ma_791f4c.jpg",
+"source_filename": "the_most_devout_piety_of_our_religious_emperor.jpg"
+},
+"the rule of Gordian (Roman Emperor Gordian III, r. 238-244)": {
+"file": "the_rule_of_gordian_roman_emperor_gordian_iii_r_238_244.jpg",
+"source_filename": "the_rule_of_gordian.jpg"
+},
+"unnamed Roman woman who committed suicide after being outraged (Cassius Dio, Book II)": {
+"file": "unnamed_roman_woman_who_committed_suicide_after_being_outraged_cassius_di_ec02b4.jpg",
+"source_filename": "unnamed_roman_woman_who_committed_suicide_after_being_outrag.jpg"
+},
+"wife of Marcus Aurelius": {
+"file": "wife_of_marcus_aurelius.jpg",
+"source_filename": "wife_of_marcus_aurelius.jpg"
+},
+"your mother": {
+"file": "your_mother.jpg",
+"source_filename": "your_mother.jpg"
+},
+"Abgar V Ukkama, King of Osroene (r. c. 4 BCE–50 CE)": {
+"file": "abgar_v_ukkama_king_of_osroene_r_c_4_bce_50_ce.jpg",
+"source_filename": "abgar_v_ukkama.jpg"
+},
+"Aeschylus": {
+"file": "aeschylus.jpg",
+"source_filename": "aeschylus.jpg"
+},
+"Agilulph, King of the Lombards (r. 590–616)": {
+"file": "agilulph_king_of_the_lombards_r_590_616.jpg",
+"source_filename": "agilulph.jpg"
+},
+"Ammianus Marcellinus, Roman historian (c. 330–c. 391)": {
+"file": "ammianus_marcellinus_roman_historian_c_330_c_391.jpg",
+"source_filename": "ammianus_marcellinus.jpg"
+},
+"Ananus ben Ananus, High Priest of Jerusalem (d. 68 CE)": {
+"file": "ananus_ben_ananus_high_priest_of_jerusalem_d_68_ce.jpg",
+"source_filename": "ananus_ben_ananus.jpg"
+},
+"Andocides": {
+"file": "andocides.jpg",
+"source_filename": "andocides.jpg"
+},
+"Anicius Manlius Severinus Boethius (Boethius, philosopher and statesman, c. 477–524)": {
+"file": "anicius_manlius_severinus_boethius_boethius_philosopher_and_statesman_c_477_524.jpg",
+"source_filename": "anicius_manlius_severinus_boethius.jpg"
+},
+"Annaeus Seneca": {
+"file": "annaeus_seneca.jpg",
+"source_filename": "annaeus_seneca.jpg"
+},
+"Annia Galeria Faustina (Faustina the Elder), Roman Empress and wife of Antoninus Pius": {
+"file": "annia_galeria_faustina_faustina_the_elder_roman_empress_and_wife_of_anton_d6359d.jpg",
+"source_filename": "annia_galeria_faustina.jpg"
+},
+"Antiochus of Ascalon": {
+"file": "antiochus_of_ascalon.jpg",
+"source_filename": "antiochus_of_ascalon.jpg"
+},
+"Antisthenes of Athens (Antisthenes the Cynic philosopher, c. 445–365 BCE)": {
+"file": "antisthenes_of_athens_antisthenes_the_cynic_philosopher_c_445_365_bce.jpg",
+"source_filename": "antisthenes_of_athens.jpg"
+},
+"Antoninus Pius's father-in-law": {
+"file": "antoninus_pius_s_father_in_law.jpg",
+"source_filename": "antoninus_piuss_father-in-law.jpg"
+},
+"Arcesilaus, Greek philosopher (head of the Platonic Academy, c. 316–241 BCE)": {
+"file": "arcesilaus_greek_philosopher_head_of_the_platonic_academy_c_316_241_bce.jpg",
+"source_filename": "arcesilaus.jpg"
+},
+"Arion of Methymna, legendary Greek poet and lyre-player": {
+"file": "arion_of_methymna_legendary_greek_poet_and_lyre_player.jpg",
+"source_filename": "arion_of_methymna.jpg"
+},
+"Audoenus (Dado, Ouen), Bishop of Rouen (d. 684)": {
+"file": "audoenus_dado_ouen_bishop_of_rouen_d_684.jpg",
+"source_filename": "audoenus.jpg"
+},
+"Aunarius, Bishop of Auxerre (Saint Aunarius, d. c. 603)": {
+"file": "aunarius_bishop_of_auxerre_saint_aunarius_d_c_603.jpg",
+"source_filename": "aunarius.jpg"
+},
+"Babylas, Bishop of Antioch (d. c. 253)": {
+"file": "babylas_bishop_of_antioch_d_c_253.jpg",
+"source_filename": "babylas.jpg"
+},
+"Bacurius, Armenian general (d. 394)": {
+"file": "bacurius_armenian_general_d_394.jpg",
+"source_filename": "bacurius.jpg"
+},
+"Cassander": {
+"file": "cassander.jpg",
+"source_filename": "cassander.jpg"
+},
+"Cassius Chaerea": {
+"file": "cassius_chaerea.jpg",
+"source_filename": "cassius_chaerea.jpg"
+},
+"Cassius Dio, Roman historian and senator (c. 155–235 CE)": {
+"file": "cassius_dio_roman_historian_and_senator_c_155_235_ce.jpg",
+"source_filename": "cassius_dio.jpg"
+},
+"Cato of Tusculum": {
+"file": "cato_of_tusculum.jpg",
+"source_filename": "cato_of_tusculum.jpg"
+},
+"Catullus": {
+"file": "catullus.jpg",
+"source_filename": "catullus.jpg"
+},
+"Childebert II, King of the Franks (r. 575–596)": {
+"file": "childebert_ii_king_of_the_franks_r_575_596.jpg",
+"source_filename": "childebert_ii.jpg"
+},
+"Chilperic I, King of the Franks (r. 561–584)": {
+"file": "chilperic_i_king_of_the_franks_r_561_584.jpg",
+"source_filename": "chilperic_i.jpg"
+},
+"Constantine I (Constantine the Great), Roman Emperor (r. 306-337)": {
+"file": "constantine_i_constantine_the_great_roman_emperor_r_306_337.jpg",
+"source_filename": "constantine_i.jpg"
+},
+"Cornelius Laco, Praetorian Prefect under Galba (d. 69 CE)": {
+"file": "cornelius_laco_praetorian_prefect_under_galba_d_69_ce.jpg",
+"source_filename": "cornelius_laco.jpg"
+},
+"Cyrus the Great (Cyrus II of Persia, r. c. 559–530 BCE)": {
+"file": "cyrus_the_great_cyrus_ii_of_persia_r_c_559_530_bce.jpg",
+"source_filename": "cyrus_the_great.jpg"
+},
+"Demetrius of Phalerum (Demetrius the Phalerian, Athenian statesman and philosopher, c. 350–c. 280 BCE)": {
+"file": "demetrius_of_phalerum_demetrius_the_phalerian_athenian_statesman_and_phil_3158c2.jpg",
+"source_filename": "demetrius_of_phalerum.jpg"
+},
+"Diadumenian (Marcus Opellius Antoninus Diadumenianus), Roman Emperor and son of Macrinus (r. 217-218)": {
+"file": "diadumenian_marcus_opellius_antoninus_diadumenianus_roman_emperor_and_son_ff71e6.jpg",
+"source_filename": "diadumenian.jpg"
+},
+"Diadumenian, son of Macrinus and Roman Caesar (d. 218)": {
+"file": "diadumenian_son_of_macrinus_and_roman_caesar_d_218.jpg",
+"source_filename": "diadumenian.jpg"
+},
+"Dionysius of Rome": {
+"file": "dionysius_of_rome.jpg",
+"source_filename": "dionysius_of_rome.jpg"
+},
+"Duris of Samos": true,
+"Emperor Anastasius of Constantinople": {
+"file": "emperor_anastasius_of_constantinople.jpg",
+"source_filename": "emperor_anastasius_of_constantinople.jpg"
+},
+"Emperor Justinian": {
+"file": "emperor_justinian.jpg",
+"source_filename": "emperor_justinian.jpg"
+},
+"Emperor of the East (contemporary of Cassiodorus, early 6th century)": {
+"file": "emperor_of_the_east_contemporary_of_cassiodorus_early_6th_century.jpg",
+"source_filename": "emperor_of_the_east.jpg"
+},
+"Epicharis, female conspirator against Nero (d. 65 CE)": {
+"file": "epicharis_female_conspirator_against_nero_d_65_ce.jpg",
+"source_filename": "epicharis.jpg"
+},
+"Eunomius": {
+"file": "eunomius.jpg",
+"source_filename": "eunomius.jpg"
+},
+"Father of Bergantinus, distinguished and faithful servant under Cassiodorus's predecessors": {
+"file": "father_of_bergantinus_distinguished_and_faithful_servant_under_cassiodoru_8344e4.jpg",
+"source_filename": "father_of_bergantinus.jpg"
+},
+"Father of the girl sentenced by Claudius (Cassius Dio, Book 5)": {
+"file": "father_of_the_girl_sentenced_by_claudius_cassius_dio_book_5.jpg",
+"source_filename": "father_of_the_girl_sentenced_by_claudius.jpg"
+},
+"Fulgentius of Ruspe": {
+"file": "fulgentius_of_ruspe.jpg",
+"source_filename": "fulgentius_of_ruspe.jpg"
+},
+"Gaius Sempronius Gracchus (Gaius Gracchus, Roman tribune, d. 121 BCE)": {
+"file": "gaius_sempronius_gracchus_gaius_gracchus_roman_tribune_d_121_bce.jpg",
+"source_filename": "gaius_sempronius_gracchus.jpg"
+},
+"George of Paspasus (Christian cleric, contemporary of Gregory of Nazianzus)": {
+"file": "george_of_paspasus_christian_cleric_contemporary_of_gregory_of_nazianzus.jpg",
+"source_filename": "george_of_paspasus.jpg"
+},
+"Gnaeus Pompeius Magnus (Pompey the Great)": {
+"file": "gnaeus_pompeius_magnus_pompey_the_great.jpg",
+"source_filename": "gnaeus_pompeius_magnus.jpg"
+},
+"Gnaeus Pompeius Magnus (Pompey the Great), Roman Proconsul": {
+"file": "gnaeus_pompeius_magnus_pompey_the_great_roman_proconsul.jpg",
+"source_filename": "gnaeus_pompeius_magnus.jpg"
+},
+"Jesus Christ (Jesus the Son of God, central figure of Christianity)": {
+"file": "jesus_christ_jesus_the_son_of_god_central_figure_of_christianity.jpg",
+"source_filename": "jesus_christ.jpg"
+},
+"John of Antioch (bishop, opponent of Cyril at Council of Ephesus, fl. early 5th century)": {
+"file": "john_of_antioch_bishop_opponent_of_cyril_at_council_of_ephesus_fl_early_5_242dc9.jpg",
+"source_filename": "john_of_antioch.jpg"
+},
+"John of Cappadocia, Praetorian Prefect under Justinian I": {
+"file": "john_of_cappadocia_praetorian_prefect_under_justinian_i.jpg",
+"source_filename": "john_of_cappadocia.jpg"
+},
+"John the Baptist": {
+"file": "john_the_baptist.jpg",
+"source_filename": "john_the_baptist.jpg"
+},
+"Julia Soaemias Bassiana (Soaemias Augusta, mother of Elagabalus, c. 180–222 CE)": {
+"file": "julia_soaemias_bassiana_soaemias_augusta_mother_of_elagabalus_c_180_222_ce.jpg",
+"source_filename": "julia_soaemias_bassiana.jpg"
+},
+"Julia the Younger (granddaughter of Augustus, daughter of Julia the Elder)": true,
+"Julius Agricola": {
+"file": "julius_agricola.jpg",
+"source_filename": "julius_agricola.jpg"
+},
+"King Agrippa": {
+"file": "king_agrippa.jpg",
+"source_filename": "king_agrippa.jpg"
+},
+"King Pippin": {
+"file": "king_pippin.jpg",
+"source_filename": "king_pippin.jpg"
+},
+"Leoba": {
+"file": "leoba.jpg",
+"source_filename": "leoba.jpg"
+},
+"Lucius Sulla": {
+"file": "lucius_sulla.jpg",
+"source_filename": "lucius_sulla.jpg"
+},
+"Marcus Annaeus Lucanus (Lucan), Roman poet (39–65 CE)": {
+"file": "marcus_annaeus_lucanus_lucan_roman_poet_39_65_ce.jpg",
+"source_filename": "marcus_annaeus_lucanus.jpg"
+},
+"Marcus Brutus": {
+"file": "marcus_brutus.jpg",
+"source_filename": "marcus_brutus.jpg"
+},
+"Marcus Porcius Cato (Cato the Elder), Roman orator and statesman (234–149 BCE)": {
+"file": "marcus_porcius_cato_cato_the_elder_roman_orator_and_statesman_234_149_bce.jpg",
+"source_filename": "marcus_porcius_cato.jpg"
+},
+"Marcus Salvius Otho, Roman Emperor (r. 69 CE)": {
+"file": "marcus_salvius_otho_roman_emperor_r_69_ce.jpg",
+"source_filename": "marcus_salvius_otho.jpg"
+},
+"Marcus Terentius Varro, Roman scholar and writer (116–27 BCE)": {
+"file": "marcus_terentius_varro_roman_scholar_and_writer_116_27_bce.jpg",
+"source_filename": "marcus_terentius_varro.jpg"
+},
+"Marcus Vipsanius Agrippa, Roman general and son-in-law of Augustus": {
+"file": "marcus_vipsanius_agrippa_roman_general_and_son_in_law_of_augustus.jpg",
+"source_filename": "marcus_vipsanius_agrippa.jpg"
+},
+"Maximian Herculius": {
+"file": "maximian_herculius.jpg",
+"source_filename": "maximian_herculius.jpg"
+},
+"Maximus the Cynic": {
+"file": "maximus_the_cynic.jpg",
+"source_filename": "maximus_the_cynic.jpg"
+},
+"Menedemus": {
+"file": "menedemus.jpg",
+"source_filename": "menedemus.jpg"
+},
+"Musonius Rufus": {
+"file": "musonius_rufus.jpg",
+"source_filename": "musonius_rufus.jpg"
+},
+"Persius": {
+"file": "persius.jpg",
+"source_filename": "persius.jpg"
+},
+"Peter the Apostle": {
+"file": "peter_the_apostle.jpg",
+"source_filename": "peter_the_apostle.jpg"
+},
+"Pope Leo I": {
+"file": "pope_leo_i.jpg",
+"source_filename": "pope_leo_i.jpg"
+},
+"Pope Stephen III (r. 752-757)": {
+"file": "pope_stephen_iii_r_752_757.jpg",
+"source_filename": "pope_stephen_iii.jpg"
+},
+"Pope Symmachus": {
+"file": "pope_symmachus.jpg",
+"source_filename": "pope_symmachus.jpg"
+},
+"Porphyry of Tyre (Porphyrios, Neoplatonist philosopher, c. 234–c. 305)": {
+"file": "porphyry_of_tyre_porphyrios_neoplatonist_philosopher_c_234_c_305.jpg",
+"source_filename": "porphyry_of_tyre.jpg"
+},
+"Priscillian": {
+"file": "priscillian.jpg",
+"source_filename": "priscillian.jpg"
+},
+"Ptolemy of Mauretania (king, d. 40 CE)": {
+"file": "ptolemy_of_mauretania_king_d_40_ce.jpg",
+"source_filename": "ptolemy_of_mauretania.jpg"
+},
+"Publius Decius Mus, Roman consul and general (d. 295 BCE)": {
+"file": "publius_decius_mus_roman_consul_and_general_d_295_bce.jpg",
+"source_filename": "publius_decius_mus.jpg"
+},
+"Publius Ostorius Scapula, Roman governor of Britain (d. 52 CE)": {
+"file": "publius_ostorius_scapula_roman_governor_of_britain_d_52_ce.jpg",
+"source_filename": "publius_ostorius_scapula.jpg"
+},
+"Publius Valerius Publicola": {
+"file": "publius_valerius_publicola.jpg",
+"source_filename": "publius_valerius_publicola.jpg"
+},
+"Salvian of Marseille": {
+"file": "salvian_of_marseille.jpg",
+"source_filename": "salvian_of_marseille.jpg"
+},
+"Scipio the Great": {
+"file": "scipio_the_great.jpg",
+"source_filename": "scipio_the_great.jpg"
+},
+"Septimia Zenobia, Queen of Palmyra (r. 267–272)": {
+"file": "septimia_zenobia_queen_of_palmyra_r_267_272.jpg",
+"source_filename": "septimia_zenobia.jpg"
+},
+"Silius Italicus": {
+"file": "silius_italicus.jpg",
+"source_filename": "silius_italicus.jpg"
+},
+"Simonides": {
+"file": "simonides.jpg",
+"source_filename": "simonides.jpg"
+},
+"Speusippus": {
+"file": "speusippus.jpg",
+"source_filename": "speusippus.jpg"
+},
+"Stephen the deacon": {
+"file": "stephen_the_deacon.jpg",
+"source_filename": "stephen_the_deacon.jpg"
+},
+"Terence": {
+"file": "terence.jpg",
+"source_filename": "terence.jpg"
+},
+"Thales of Miletus (pre-Socratic philosopher, fl. 6th century BCE)": {
+"file": "thales_of_miletus_pre_socratic_philosopher_fl_6th_century_bce.jpg",
+"source_filename": "thales_of_miletus.jpg"
+},
+"The Count of Ravenna": {
+"file": "the_count_of_ravenna.jpg",
+"source_filename": "the_count_of_ravenna.jpg"
+},
+"Theudebert I": {
+"file": "theudebert_i.jpg",
+"source_filename": "theudebert_i.jpg"
+},
+"Thucydides": {
+"file": "thucydides.jpg",
+"source_filename": "thucydides.jpg"
+},
+"Tibullus": {
+"file": "tibullus.jpg",
+"source_filename": "tibullus.jpg"
+},
+"Titus Flamininus": {
+"file": "titus_flamininus.jpg",
+"source_filename": "titus_flamininus.jpg"
+},
+"an aged Christian virgin of approved faith and chastity (Jerome, Letter 107)": {
+"file": "an_aged_christian_virgin_of_approved_faith_and_chastity_jerome_letter_107.jpg",
+"source_filename": "an_aged_christian_virgin_of_approved_faith_and_chastity.jpg"
+},
+"anonymous Christian confessor (martyr figure, early 3rd century)": {
+"file": "anonymous_christian_confessor_martyr_figure_early_3rd_century.jpg",
+"source_filename": "anonymous_christian_confessor.jpg"
+},
+"beloved son in Christ (anonymous Christian addressee in Boniface's letter)": {
+"file": "beloved_son_in_christ_anonymous_christian_addressee_in_boniface_s_letter.jpg",
+"source_filename": "beloved_son_in_christ.jpg"
+},
+"candidate for Holy Orders (prospective Christian cleric, as referenced by Boniface)": {
+"file": "candidate_for_holy_orders_prospective_christian_cleric_as_referenced_by_boniface.jpg",
+"source_filename": "candidate_for_holy_orders.jpg"
+},
+"he who was the first among those that were living a peaceful and happy life to lose his wings": {
+"file": "he_who_was_the_first_among_those_that_were_living_a_peaceful_and_happy_li_6820c2.jpg",
+"source_filename": "he_who_was_the_first_among_those_that_were_living_a_peaceful.jpg"
+},
+"holy mother": {
+"file": "holy_mother.jpg",
+"source_filename": "holy_mother.jpg"
+},
+"king of the Goths": {
+"file": "king_of_the_goths.jpg",
+"source_filename": "king_of_the_goths.jpg"
+},
+"queen of Carthage": {
+"file": "queen_of_carthage.jpg",
+"source_filename": "queen_of_carthage.jpg"
+},
+"religious rites in Gaul (performed by Pescennius Niger)": {
+"file": "religious_rites_in_gaul_performed_by_pescennius_niger.jpg",
+"source_filename": "religious_rites_in_gaul.jpg"
+},
+"that barbarian on the black horse with white feet (Italian warrior observed by Leonnatus in Plutarch's Life of Pyrrhus)": {
+"file": "that_barbarian_on_the_black_horse_with_white_feet_italian_warrior_observe_cf8d36.jpg",
+"source_filename": "that_barbarian_on_the_black_horse_with_white_feet.jpg"
+},
+"that evil brigand (interrupter of Egyptian grain supply, Historia Augusta)": {
+"file": "that_evil_brigand_interrupter_of_egyptian_grain_supply_historia_augusta.jpg",
+"source_filename": "that_evil_brigand.jpg"
+},
+"that remarkable and holy man (unnamed friend of Minucius Felix)": {
+"file": "that_remarkable_and_holy_man_unnamed_friend_of_minucius_felix.jpg",
+"source_filename": "that_remarkable_and_holy_man.jpg"
+},
+"the bishop who is patron of Luminosus (correspondent of Ennodius of Pavia)": {
+"file": "the_bishop_who_is_patron_of_luminosus_correspondent_of_ennodius_of_pavia.jpg",
+"source_filename": "the_bishop_who_is_patron_of_luminosus.jpg"
+},
+"the boy mentioned in Cicero's letter to Annalis (mid-1st century BCE)": {
+"file": "the_boy_mentioned_in_cicero_s_letter_to_annalis_mid_1st_century_bce.jpg",
+"source_filename": "the_boy_mentioned_in_ciceros_letter_to_annalis.jpg"
+},
+"the dolphin of Baiae (Pliny the Younger, Epistulae 9.33)": {
+"file": "the_dolphin_of_baiae_pliny_the_younger_epistulae_9_33.jpg",
+"source_filename": "the_dolphin_of_baiae.jpg"
+},
+"the lord of the realm (Cassiodorus' royal addressee, likely Ostrogothic king, early 6th c.)": {
+"file": "the_lord_of_the_realm_cassiodorus_royal_addressee_likely_ostrogothic_king_1573ef.jpg",
+"source_filename": "the_lord_of_the_realm.jpg"
+},
+"the merciful father in the Parable of the Prodigal Son (Gospel of Luke 15:11-32)": {
+"file": "the_merciful_father_in_the_parable_of_the_prodigal_son_gospel_of_luke_15_11_32.jpg",
+"source_filename": "the_merciful_father_in_the_parable_of_the_prodigal_son.jpg"
+},
+"the present king": {
+"file": "the_present_king.jpg",
+"source_filename": "the_present_king.jpg"
+},
+"the righteous Lawgiver (possibly God or Moses, as referenced by Theodoret of Cyrrhus)": {
+"file": "the_righteous_lawgiver_possibly_god_or_moses_as_referenced_by_theodoret_o_bf5e0e.jpg",
+"source_filename": "the_righteous_lawgiver.jpg"
+},
+"this brother of mine": {
+"file": "this_brother_of_mine.jpg",
+"source_filename": "this_brother_of_mine.jpg"
+},
+"Aelia Eudoxia, Empress consort of Arcadius (d. 404)": {
+"file": "aelia_eudoxia_empress_consort_of_arcadius_d_404.jpg",
+"source_filename": "aelia_eudoxia.jpg"
+},
+"Aelius Verus, adopted heir of Hadrian (Lucius Aelius Caesar, d. 138 CE)": {
+"file": "aelius_verus_adopted_heir_of_hadrian_lucius_aelius_caesar_d_138_ce.jpg",
+"source_filename": "aelius_verus.jpg"
+},
+"Aemilius Pacensis, Roman military commander under Otho (d. 69 CE)": {
+"file": "aemilius_pacensis_roman_military_commander_under_otho_d_69_ce.jpg",
+"source_filename": "aemilius_pacensis.jpg"
+},
+"Aesop": {
+"file": "aesop.jpg",
+"source_filename": "aesop.jpg"
+},
+"Agapitus I, Pope of Rome (r. 535-536)": {
+"file": "agapitus_i_pope_of_rome_r_535_536.jpg",
+"source_filename": "agapitus_i.jpg"
+},
+"Agrippa Postumus, grandson of Augustus (exiled to Planasia)": {
+"file": "agrippa_postumus_grandson_of_augustus_exiled_to_planasia.jpg",
+"source_filename": "agrippa_postumus.jpg"
+},
+"Agrippina the Younger (mother of Nero, wife of Claudius)": true,
+"Albinus of Angers (Saint Albinus, Bishop of Angers, d. 550)": {
+"file": "albinus_of_angers_saint_albinus_bishop_of_angers_d_550.jpg",
+"source_filename": "albinus_of_angers.jpg"
+},
+"Alexander (son of Pyrrhus of Epirus)": {
+"file": "alexander_son_of_pyrrhus_of_epirus.jpg",
+"source_filename": "alexander.jpg"
+},
+"Alexander of Jerusalem, Bishop of Jerusalem (early 3rd century)": {
+"file": "alexander_of_jerusalem_bishop_of_jerusalem_early_3rd_century.jpg",
+"source_filename": "alexander_of_jerusalem.jpg"
+},
+"Alexander the Platonist (philosopher, teacher of Marcus Aurelius)": {
+"file": "alexander_the_platonist_philosopher_teacher_of_marcus_aurelius.jpg",
+"source_filename": "alexander_the_platonist.jpg"
+},
+"Alexander the grammarian": {
+"file": "alexander_the_grammarian.jpg",
+"source_filename": "alexander_the_grammarian.jpg"
+},
+"Amalasuintha, Queen and Regent of the Ostrogoths (regent for Athalaric, d. 535)": {
+"file": "amalasuintha_queen_and_regent_of_the_ostrogoths_regent_for_athalaric_d_535.jpg",
+"source_filename": "amalasuintha.jpg"
+},
+"Amalasunta": {
+"file": "amalasunta.jpg",
+"source_filename": "amalasunta.jpg"
+},
+"Anastasius the patriarch": {
+"file": "anastasius_the_patriarch.jpg",
+"source_filename": "anastasius_the_patriarch.jpg"
+},
+"Anaximenes of Miletus (pre-Socratic philosopher, fl. 6th century BCE)": {
+"file": "anaximenes_of_miletus_pre_socratic_philosopher_fl_6th_century_bce.jpg",
+"source_filename": "anaximenes_of_miletus.jpg"
+},
+"Angel of God (heavenly messenger in Origen, Contra Celsum)": {
+"file": "angel_of_god_heavenly_messenger_in_origen_contra_celsum.jpg",
+"source_filename": "angel_of_god.jpg"
+},
+"Antoninus Pius' father-in-law": {
+"file": "antoninus_pius_father_in_law.jpg",
+"source_filename": "antoninus_pius_father-in-law.jpg"
+},
+"Apollinarius of Laodicea (bishop, Christian theologian, 4th century)": {
+"file": "apollinarius_of_laodicea_bishop_christian_theologian_4th_century.jpg",
+"source_filename": "apollinarius_of_laodicea.jpg"
+},
+"Appointee to the Count of Rome (Cassiodorus, c. 523-527)": {
+"file": "appointee_to_the_count_of_rome_cassiodorus_c_523_527.jpg",
+"source_filename": "appointee_to_the_count_of_rome.jpg"
+},
+"Appointee to the Prefect of the Night Watch of Ravenna (early 6th century)": {
+"file": "appointee_to_the_prefect_of_the_night_watch_of_ravenna_early_6th_century.jpg",
+"source_filename": "appointee_to_the_prefect_of_the_night_watch_of_ravenna.jpg"
+},
+"Archbishop of Rome": {
+"file": "archbishop_of_rome.jpg",
+"source_filename": "archbishop_of_rome.jpg"
+},
+"Archytas of Tarentum, Pythagorean philosopher and statesman (fl. 4th c. BCE)": {
+"file": "archytas_of_tarentum_pythagorean_philosopher_and_statesman_fl_4th_c_bce.jpg",
+"source_filename": "archytas_of_tarentum.jpg"
+},
+"Aristophanes, Athenian Comic Playwright (c. 446–c. 386 BCE)": {
+"file": "aristophanes_athenian_comic_playwright_c_446_c_386_bce.jpg",
+"source_filename": "aristophanes.jpg"
+},
+"Augustine of Canterbury": {
+"file": "augustine_of_canterbury.jpg",
+"source_filename": "augustine_of_canterbury.jpg"
+},
+"Bishop of Vienne (active during the pontificate of Leo the Great, mid-5th century)": {
+"file": "bishop_of_vienne_active_during_the_pontificate_of_leo_the_great_mid_5th_century.jpg",
+"source_filename": "bishop_of_vienne.jpg"
+},
+"Boniface I, Pope of Rome (r. 418-422)": {
+"file": "boniface_i_pope_of_rome_r_418_422.jpg",
+"source_filename": "boniface_i.jpg"
+},
+"Boudicea": {
+"file": "boudicea.jpg",
+"source_filename": "boudicea.jpg"
+},
+"Caesonia": {
+"file": "caesonia.jpg",
+"source_filename": "caesonia.jpg"
+},
+"Callimachus of Cyrene (Callimachus the Cyrenian, Hellenistic poet, c. 310–c. 240 BCE)": {
+"file": "callimachus_of_cyrene_callimachus_the_cyrenian_hellenistic_poet_c_310_c_240_bce.jpg",
+"source_filename": "callimachus_of_cyrene.jpg"
+},
+"Cassiodorus's own father": {
+"file": "cassiodorus_s_own_father.jpg",
+"source_filename": "cassiodoruss_own_father.jpg"
+},
+"Ceolred, King of Mercia (d. 716)": {
+"file": "ceolred_king_of_mercia_d_716.jpg",
+"source_filename": "ceolred.jpg"
+},
+"Christ Jesus": {
+"file": "christ_jesus.jpg",
+"source_filename": "christ_jesus.jpg"
+},
+"Christ as conceived by Marcion of Sinope (Marcion's Christ)": {
+"file": "christ_as_conceived_by_marcion_of_sinope_marcion_s_christ.jpg",
+"source_filename": "christ_as_conceived_by_marcion_of_sinope.jpg"
+},
+"Clovis I (Luduin), King of the Franks (r. c. 481–511)": {
+"file": "clovis_i_luduin_king_of_the_franks_r_c_481_511.jpg",
+"source_filename": "clovis_i.jpg"
+},
+"Constantina Augusta, wife of Constantius II (d. 354), Roman Empress": {
+"file": "constantina_augusta_wife_of_constantius_ii_d_354_roman_empress.jpg",
+"source_filename": "constantina_augusta.jpg"
+},
+"Count Julius, military commander in Thrace under Valens": {
+"file": "count_julius_military_commander_in_thrace_under_valens.jpg",
+"source_filename": "count_julius.jpg"
+},
+"Count of the Private Estates (Cassiodorus' correspondent)": {
+"file": "count_of_the_private_estates_cassiodorus_correspondent.jpg",
+"source_filename": "count_of_the_private_estates.jpg"
+},
+"Decimus Brutus, Roman politician and general (d. 43 BCE)": {
+"file": "decimus_brutus_roman_politician_and_general_d_43_bce.jpg",
+"source_filename": "decimus_brutus.jpg"
+},
+"Didymus the Blind": {
+"file": "didymus_the_blind.jpg",
+"source_filename": "didymus_the_blind.jpg"
+},
+"Diogenes of Sinope": {
+"file": "diogenes_of_sinope.jpg",
+"source_filename": "diogenes_of_sinope.jpg"
+},
+"Dionysius of Alexandria": {
+"file": "dionysius_of_alexandria.jpg",
+"source_filename": "dionysius_of_alexandria.jpg"
+},
+"Dionysius of Heraclea": {
+"file": "dionysius_of_heraclea.jpg",
+"source_filename": "dionysius_of_heraclea.jpg"
+},
+"Dionysius the Slender": {
+"file": "dionysius_the_slender.jpg",
+"source_filename": "dionysius_the_slender.jpg"
+},
+"Eastern Roman (Byzantine) Emperor (r. ca. 615 AD)": {
+"file": "eastern_roman_byzantine_emperor_r_ca_615_ad.jpg",
+"source_filename": "eastern_roman.jpg"
+},
+"Eligius, Bishop of Noyon (c. 588–660), former goldsmith and Frankish saint": {
+"file": "eligius_bishop_of_noyon_c_588_660_former_goldsmith_and_frankish_saint.jpg",
+"source_filename": "eligius.jpg"
+},
+"Emperor Maurice Tiberius": {
+"file": "emperor_maurice_tiberius.jpg",
+"source_filename": "emperor_maurice_tiberius.jpg"
+},
+"Eugippius, Abbot of Lucullanum (compiler of the Vita Sancti Severini, d. after 535)": {
+"file": "eugippius_abbot_of_lucullanum_compiler_of_the_vita_sancti_severini_d_after_535.jpg",
+"source_filename": "eugippius.jpg"
+},
+"Euric": {
+"file": "euric.jpg",
+"source_filename": "euric.jpg"
+},
+"Evodius": {
+"file": "evodius.jpg",
+"source_filename": "evodius.jpg"
+},
+"Firmilian": {
+"file": "firmilian.jpg",
+"source_filename": "firmilian.jpg"
+},
+"Flavian of Constantinople, Bishop (d. 449)": {
+"file": "flavian_of_constantinople_bishop_d_449.jpg",
+"source_filename": "flavian_of_constantinople.jpg"
+},
+"Fredegund, Queen of Neustria (wife of Chilperic I, d. 597)": {
+"file": "fredegund_queen_of_neustria_wife_of_chilperic_i_d_597.jpg",
+"source_filename": "fredegund.jpg"
+},
+"Gaius Caesar (Caius Caesar, grandson of Augustus, adopted son and heir, d. 4 CE)": {
+"file": "gaius_caesar_caius_caesar_grandson_of_augustus_adopted_son_and_heir_d_4_ce.jpg",
+"source_filename": "gaius_caesar.jpg"
+},
+"Gaius Scribonius Curio (the Younger), Roman politician and ally of Julius Caesar (d. 49 BCE)": {
+"file": "gaius_scribonius_curio_the_younger_roman_politician_and_ally_of_julius_ca_048a76.jpg",
+"source_filename": "gaius_scribonius_curio.jpg"
+},
+"Galerius Maximianus, Roman Emperor (r. 305-311)": {
+"file": "galerius_maximianus_roman_emperor_r_305_311.jpg",
+"source_filename": "galerius_maximianus.jpg"
+},
+"Germanicus' son who died young (depicted as Cupid, early 1st century CE)": {
+"file": "germanicus_son_who_died_young_depicted_as_cupid_early_1st_century_ce.jpg",
+"source_filename": "germanicus_son_who_died_young.jpg"
+},
+"Gildo, Comes Africae (d. 398), rebel against Honorius": true,
+"Gregory of Nazianzus (Gregory the Theologian, c. 329–390), Archbishop of Constantinople": {
+"file": "gregory_of_nazianzus_gregory_the_theologian_c_329_390_archbishop_of_const_f8b4bc.jpg",
+"source_filename": "gregory_of_nazianzus.jpg"
+},
+"Gregory of Nyssa (brother of Basil of Caesarea)": {
+"file": "gregory_of_nyssa_brother_of_basil_of_caesarea.jpg",
+"source_filename": "gregory_of_nyssa.jpg"
+},
+"Gregory the prefect": {
+"file": "gregory_the_prefect.jpg",
+"source_filename": "gregory_the_prefect.jpg"
+},
+"Hermogenes of Pontus": {
+"file": "hermogenes_of_pontus.jpg",
+"source_filename": "hermogenes_of_pontus.jpg"
+},
+"Hilary of Poitiers": {
+"file": "hilary_of_poitiers.jpg",
+"source_filename": "hilary_of_poitiers.jpg"
+},
+"Hippias of Elis": {
+"file": "hippias_of_elis.jpg",
+"source_filename": "hippias_of_elis.jpg"
+},
+"Hippolytus of Rome, Christian theologian (c. 170–235)": {
+"file": "hippolytus_of_rome_christian_theologian_c_170_235.jpg",
+"source_filename": "hippolytus_of_rome.jpg"
+},
+"Isocrates": {
+"file": "isocrates.jpg",
+"source_filename": "isocrates.jpg"
+},
+"Jerome (author, referring to his own humble abilities)": {
+"file": "jerome_author_referring_to_his_own_humble_abilities.jpg",
+"source_filename": "jerome.jpg"
+},
+"Jesus Christ (as addressed in Psalm 45, 'O most mighty')": {
+"file": "jesus_christ_as_addressed_in_psalm_45_o_most_mighty.jpg",
+"source_filename": "jesus_christ.jpg"
+},
+"John IV the Faster, Patriarch of Constantinople (r. 582–595)": {
+"file": "john_iv_the_faster_patriarch_of_constantinople_r_582_595.jpg",
+"source_filename": "john_iv_the_faster.jpg"
+},
+"John the Deacon (administrator of Ravenna patrimony, fl. c. 601, correspondent of Gregory the Great)": {
+"file": "john_the_deacon_administrator_of_ravenna_patrimony_fl_c_601_correspondent_19830a.jpg",
+"source_filename": "john_the_deacon.jpg"
+},
+"John the Deacon (correspondent of Venantius Fortunatus, fl. late 6th c.)": {
+"file": "john_the_deacon_correspondent_of_venantius_fortunatus_fl_late_6th_c.jpg",
+"source_filename": "john_the_deacon.jpg"
+},
+"John the Evangelist": {
+"file": "john_the_evangelist.jpg",
+"source_filename": "john_the_evangelist.jpg"
+},
+"John the Religious, administrator of the poorhouse and diaconia in Rome (fl. c. 601)": {
+"file": "john_the_religious_administrator_of_the_poorhouse_and_diaconia_in_rome_fl_c_601.jpg",
+"source_filename": "john_the_religious.jpg"
+},
+"Judith": {
+"file": "judith.jpg",
+"source_filename": "judith.jpg"
+},
+"Julia Drusilla": {
+"file": "julia_drusilla.jpg",
+"source_filename": "julia_drusilla.jpg"
+},
+"Julian of Antioch's daughter (Christian woman mentioned by Jerome)": {
+"file": "julian_of_antioch_s_daughter_christian_woman_mentioned_by_jerome.jpg",
+"source_filename": "julian_of_antiochs_daughter.jpg"
+},
+"Julius Nepos": {
+"file": "julius_nepos.jpg",
+"source_filename": "julius_nepos.jpg"
+},
+"King Agilulph": {
+"file": "king_agilulph.jpg",
+"source_filename": "king_agilulph.jpg"
+},
+"King Reccared": {
+"file": "king_reccared.jpg",
+"source_filename": "king_reccared.jpg"
+},
+"King Theodahad": {
+"file": "king_theodahad.jpg",
+"source_filename": "king_theodahad.jpg"
+},
+"King of Antioch": {
+"file": "king_of_antioch.jpg",
+"source_filename": "king_of_antioch.jpg"
+},
+"King of Persia (reigning during Alexander the Great's campaigns)": {
+"file": "king_of_persia_reigning_during_alexander_the_great_s_campaigns.jpg",
+"source_filename": "king_of_persia.jpg"
+},
+"King of the Sedochezi (fl. early 1st century CE, mentioned by Tacitus)": {
+"file": "king_of_the_sedochezi_fl_early_1st_century_ce_mentioned_by_tacitus.jpg",
+"source_filename": "king_of_the_sedochezi.jpg"
+},
+"King of the Susian Shore (ruler in Susiana, 5th century CE, persecutor of Christians)": {
+"file": "king_of_the_susian_shore_ruler_in_susiana_5th_century_ce_persecutor_of_ch_c9cff8.jpg",
+"source_filename": "king_of_the_susian_shore.jpg"
+},
+"Lactantius (Lucius Caecilius Firmianus Lactantius, Christian apologist and author, c. 250–c. 325)": {
+"file": "lactantius_lucius_caecilius_firmianus_lactantius_christian_apologist_and__4c83e7.jpg",
+"source_filename": "lactantius.jpg"
+},
+"Leonidas I, King of Sparta (r. c. 490–480 BCE)": {
+"file": "leonidas_i_king_of_sparta_r_c_490_480_bce.jpg",
+"source_filename": "leonidas_i.jpg"
+},
+"Lucius Licinius Lucullus, Roman general and consul (c. 118–57 BCE)": {
+"file": "lucius_licinius_lucullus_roman_general_and_consul_c_118_57_bce.jpg",
+"source_filename": "lucius_licinius_lucullus.jpg"
+},
+"Lucius Sergius Catilina (Catiline), Roman senator and conspirator (d. 62 BCE)": {
+"file": "lucius_sergius_catilina_catiline_roman_senator_and_conspirator_d_62_bce.jpg",
+"source_filename": "lucius_sergius_catilina.jpg"
+},
+"Lucius Verginius Rufus, Roman general and consul (d. 97 CE)": {
+"file": "lucius_verginius_rufus_roman_general_and_consul_d_97_ce.jpg",
+"source_filename": "lucius_verginius_rufus.jpg"
+},
+"Luke the Evangelist": {
+"file": "luke_the_evangelist.jpg",
+"source_filename": "luke_the_evangelist.jpg"
+},
+"Lupus of Troyes, Bishop of Troyes (d. ca. 479)": {
+"file": "lupus_of_troyes_bishop_of_troyes_d_ca_479.jpg",
+"source_filename": "lupus_of_troyes.jpg"
+},
+"Majorian, Western Roman Emperor (r. 457–461)": {
+"file": "majorian_western_roman_emperor_r_457_461.jpg",
+"source_filename": "majorian.jpg"
+},
+"Mamertus, Bishop of Vienne (c. 420–477)": {
+"file": "mamertus_bishop_of_vienne_c_420_477.jpg",
+"source_filename": "mamertus.jpg"
+},
+"Marcellus of Ancyra, Bishop of Ancyra (4th century)": {
+"file": "marcellus_of_ancyra_bishop_of_ancyra_4th_century.jpg",
+"source_filename": "marcellus_of_ancyra.jpg"
+},
+"Marcion of Sinope (the heretic, founder of Marcionism)": {
+"file": "marcion_of_sinope_the_heretic_founder_of_marcionism.jpg",
+"source_filename": "marcion_of_sinope.jpg"
+},
+"Marcus Cornelius Fronto, Roman orator and tutor to Marcus Aurelius": {
+"file": "marcus_cornelius_fronto_roman_orator_and_tutor_to_marcus_aurelius.jpg",
+"source_filename": "marcus_cornelius_fronto.jpg"
+},
+"Marcus Licinius Crassus (d. 53 BCE), Roman Triumvir, and his associates": {
+"file": "marcus_licinius_crassus_d_53_bce_roman_triumvir_and_his_associates.jpg",
+"source_filename": "marcus_licinius_crassus.jpg"
+},
+"Marcus Pacuvius, Roman tragic poet (c. 220–130 BCE)": {
+"file": "marcus_pacuvius_roman_tragic_poet_c_220_130_bce.jpg",
+"source_filename": "marcus_pacuvius.jpg"
+},
+"Marcus Valerius Messalla Corvinus, Roman general and orator (c. 64 BCE – c. 8 CE)": {
+"file": "marcus_valerius_messalla_corvinus_roman_general_and_orator_c_64_bce_c_8_ce.jpg",
+"source_filename": "marcus_valerius_messalla_corvinus.jpg"
+},
+"Maria, first wife of Honorius (daughter of Stilicho and Serena)": {
+"file": "maria_first_wife_of_honorius_daughter_of_stilicho_and_serena.jpg",
+"source_filename": "maria.jpg"
+},
+"Martial": {
+"file": "martial.jpg",
+"source_filename": "martial.jpg"
+},
+"Martin of Tours": {
+"file": "martin_of_tours.jpg",
+"source_filename": "martin_of_tours.jpg"
+},
+"Masinissa": {
+"file": "masinissa.jpg",
+"source_filename": "masinissa.jpg"
+},
+"Matthias the Apostle (replaced Judas Iscariot)": {
+"file": "matthias_the_apostle_replaced_judas_iscariot.jpg",
+"source_filename": "matthias_the_apostle.jpg"
+},
+"Mauricius, Roman Emperor (r. 582–602)": {
+"file": "mauricius_roman_emperor_r_582_602.jpg",
+"source_filename": "mauricius.jpg"
+},
+"Maximian, Roman Emperor (r. 286–305, d. 310), as 'the old man' in Lactantius": {
+"file": "maximian_roman_emperor_r_286_305_d_310_as_the_old_man_in_lactantius.jpg",
+"source_filename": "maximian.jpg"
+},
+"Maximus the Presbyter (correspondent of Cyprian of Carthage)": {
+"file": "maximus_the_presbyter_correspondent_of_cyprian_of_carthage.jpg",
+"source_filename": "maximus_the_presbyter.jpg"
+},
+"Melania the Elder": {
+"file": "melania_the_elder.jpg",
+"source_filename": "melania_the_elder.jpg"
+},
+"Mother of Bonosus (usurper, 3rd century Roman Empire)": {
+"file": "mother_of_bonosus_usurper_3rd_century_roman_empire.jpg",
+"source_filename": "mother_of_bonosus.jpg"
+},
+"Mother of Chromatius (Christian matron, late 4th century)": {
+"file": "mother_of_chromatius_christian_matron_late_4th_century.jpg",
+"source_filename": "mother_of_chromatius.jpg"
+},
+"Mother of Demosthenes (daughter of Gylon, 4th century BCE Athens)": {
+"file": "mother_of_demosthenes_daughter_of_gylon_4th_century_bce_athens.jpg",
+"source_filename": "mother_of_demosthenes.jpg"
+},
+"Mother of Maria, first wife of Honorius": {
+"file": "mother_of_maria_first_wife_of_honorius.jpg",
+"source_filename": "mother_of_maria.jpg"
+},
+"Mother of Probus, Roman Emperor (r. 276-282)": {
+"file": "mother_of_probus_roman_emperor_r_276_282.jpg",
+"source_filename": "mother_of_probus.jpg"
+},
+"Octavian": {
+"file": "octavian.jpg",
+"source_filename": "octavian.jpg"
+},
+"Origenes": {
+"file": "origenes.jpg",
+"source_filename": "origenes.jpg"
+},
+"Paseas, father of Abantidas and tyrant of Sicyon (d. c. 252 BCE)": {
+"file": "paseas_father_of_abantidas_and_tyrant_of_sicyon_d_c_252_bce.jpg",
+"source_filename": "paseas.jpg"
+},
+"Paul the Apostle (the herald of good, as cited by Tertullian)": {
+"file": "paul_the_apostle_the_herald_of_good_as_cited_by_tertullian.jpg",
+"source_filename": "paul_the_apostle.jpg"
+},
+"Peregrinus Proteus, Cynic philosopher (d. ca. 165 CE)": {
+"file": "peregrinus_proteus_cynic_philosopher_d_ca_165_ce.jpg",
+"source_filename": "peregrinus_proteus.jpg"
+},
+"Phidias, Athenian sculptor (5th century BCE)": {
+"file": "phidias_athenian_sculptor_5th_century_bce.jpg",
+"source_filename": "phidias.jpg"
+},
+"Philip the Arab, Roman Emperor (r. 244-249)": {
+"file": "philip_the_arab_roman_emperor_r_244_249.jpg",
+"source_filename": "philip_the_arab.jpg"
+},
+"Pittacus": {
+"file": "pittacus.jpg",
+"source_filename": "pittacus.jpg"
+},
+"Plautus, Roman comic playwright (c. 254–184 BCE)": {
+"file": "plautus_roman_comic_playwright_c_254_184_bce.jpg",
+"source_filename": "plautus.jpg"
+},
+"Pompey the Great": {
+"file": "pompey_the_great.jpg",
+"source_filename": "pompey_the_great.jpg"
+},
+"Pope Felix III": {
+"file": "pope_felix_iii.jpg",
+"source_filename": "pope_felix_iii.jpg"
+},
+"Pope Hilary": {
+"file": "pope_hilary.jpg",
+"source_filename": "pope_hilary.jpg"
+},
+"Pope Pelagius II (predecessor of Gregory the Great)": {
+"file": "pope_pelagius_ii_predecessor_of_gregory_the_great.jpg",
+"source_filename": "pope_pelagius_ii.jpg"
+},
+"Poppaea": {
+"file": "poppaea.jpg",
+"source_filename": "poppaea.jpg"
+},
+"Proclus of Constantinople, Archbishop (Bishop) of Constantinople (r. 434–446)": {
+"file": "proclus_of_constantinople_archbishop_bishop_of_constantinople_r_434_446.jpg",
+"source_filename": "proclus_of_constantinople.jpg"
+},
+"Proterius of Alexandria": {
+"file": "proterius_of_alexandria.jpg",
+"source_filename": "proterius_of_alexandria.jpg"
+},
+"Ptolemy I Soter, King of Egypt (son of Lagus, r. 323–283 BCE)": {
+"file": "ptolemy_i_soter_king_of_egypt_son_of_lagus_r_323_283_bce.jpg",
+"source_filename": "ptolemy_i_soter.jpg"
+},
+"Ptolemy II Philadelphus, King of Egypt (r. 283–246 BCE)": {
+"file": "ptolemy_ii_philadelphus_king_of_egypt_r_283_246_bce.jpg",
+"source_filename": "ptolemy_ii_philadelphus.jpg"
+},
+"Publius Clodius Pulcher, Roman politician (c. 93–52 BCE)": {
+"file": "publius_clodius_pulcher_roman_politician_c_93_52_bce.jpg",
+"source_filename": "publius_clodius_pulcher.jpg"
+},
+"Publius Cornelius Scipio Africanus (Scipio Africanus, Roman general, 236–183 BCE)": {
+"file": "publius_cornelius_scipio_africanus_scipio_africanus_roman_general_236_183_bce.jpg",
+"source_filename": "publius_cornelius_scipio_africanus.jpg"
+},
+"Pytheas": {
+"file": "pytheas.jpg",
+"source_filename": "pytheas.jpg"
+},
+"Q. Ennius": {
+"file": "q_ennius.jpg",
+"source_filename": "q_ennius.jpg"
+},
+"Queen Gudeliva of Italy": {
+"file": "queen_gudeliva_of_italy.jpg",
+"source_filename": "queen_gudeliva_of_italy.jpg"
+},
+"Quintus Caecilius Metellus Celer, Roman politician and consul (d. 59 BCE)": {
+"file": "quintus_caecilius_metellus_celer_roman_politician_and_consul_d_59_bce.jpg",
+"source_filename": "quintus_caecilius_metellus_celer.jpg"
+},
+"Remigius of Reims": {
+"file": "remigius_of_reims.jpg",
+"source_filename": "remigius_of_reims.jpg"
+},
+"Ricimer": {
+"file": "ricimer.jpg",
+"source_filename": "ricimer.jpg"
+},
+"Saint Alexander, Christian bishop transferred to Jerusalem (mentioned by Socrates Scholasticus, Church History VII.36)": {
+"file": "saint_alexander_christian_bishop_transferred_to_jerusalem_mentioned_by_so_12562d.jpg",
+"source_filename": "saint_alexander.jpg"
+},
+"Saint Besas, Christian soldier and martyr (d. early 3rd century)": {
+"file": "saint_besas_christian_soldier_and_martyr_d_early_3rd_century.jpg",
+"source_filename": "saint_besas.jpg"
+},
+"Saint Juliana (early Christian martyr)": {
+"file": "saint_juliana_early_christian_martyr.jpg",
+"source_filename": "saint_juliana.jpg"
+},
+"Saint Quinta, Christian martyr of Alexandria (3rd century)": {
+"file": "saint_quinta_christian_martyr_of_alexandria_3rd_century.jpg",
+"source_filename": "saint_quinta.jpg"
+},
+"Sanctus of Vienne, Christian deacon and martyr (d. c. 177 CE)": {
+"file": "sanctus_of_vienne_christian_deacon_and_martyr_d_c_177_ce.jpg",
+"source_filename": "sanctus_of_vienne.jpg"
+},
+"Saturus, martyr of Carthage (companion of Perpetua and Felicity, d. 203 CE)": {
+"file": "saturus_martyr_of_carthage_companion_of_perpetua_and_felicity_d_203_ce.jpg",
+"source_filename": "saturus.jpg"
+},
+"Scipio Aemilianus": {
+"file": "scipio_aemilianus.jpg",
+"source_filename": "scipio_aemilianus.jpg"
+},
+"Seneca the Elder (Lucius Annaeus Seneca, rhetorician, father of Seneca the Younger)": {
+"file": "seneca_the_elder_lucius_annaeus_seneca_rhetorician_father_of_seneca_the_younger.jpg",
+"source_filename": "seneca_the_elder.jpg"
+},
+"Severus the Scholastic, layman correspondent of Ferrandus of Carthage": {
+"file": "severus_the_scholastic_layman_correspondent_of_ferrandus_of_carthage.jpg",
+"source_filename": "severus_the_scholastic.jpg"
+},
+"Simon the Zealot, Apostle of Jesus": {
+"file": "simon_the_zealot_apostle_of_jesus.jpg",
+"source_filename": "simon_the_zealot.jpg"
+},
+"Sisenand, King of the Visigoths (r. 631-636)": {
+"file": "sisenand_king_of_the_visigoths_r_631_636.jpg",
+"source_filename": "sisenand.jpg"
+},
+"Sophocles": {
+"file": "sophocles.jpg",
+"source_filename": "sophocles.jpg"
+},
+"Strabo": {
+"file": "strabo.jpg",
+"source_filename": "strabo.jpg"
+},
+"The younger son (Fronto's grandson)": {
+"file": "the_younger_son_fronto_s_grandson.jpg",
+"source_filename": "the_younger_son.jpg"
+},
+"Theodoret, Bishop of Cyrrhus": {
+"file": "theodoret_bishop_of_cyrrhus.jpg",
+"source_filename": "theodoret.jpg"
+},
+"Theodosius the Scholar": {
+"file": "theodosius_the_scholar.jpg",
+"source_filename": "theodosius_the_scholar.jpg"
+},
+"Theodosius the Younger, Duke of Moesia (4th century general)": {
+"file": "theodosius_the_younger_duke_of_moesia_4th_century_general.jpg",
+"source_filename": "theodosius_the_younger.jpg"
+},
+"Theuderic II, King of Burgundy and Austrasia (r. 595–613)": {
+"file": "theuderic_ii_king_of_burgundy_and_austrasia_r_595_613.jpg",
+"source_filename": "theuderic_ii.jpg"
+},
+"Tiberius Gemellus (grandson of Tiberius)": {
+"file": "tiberius_gemellus_grandson_of_tiberius.jpg",
+"source_filename": "tiberius_gemellus.jpg"
+},
+"Titus Annius Milo, Roman politician and supporter of Cicero (d. 48 BCE)": {
+"file": "titus_annius_milo_roman_politician_and_supporter_of_cicero_d_48_bce.jpg",
+"source_filename": "titus_annius_milo.jpg"
+},
+"Titus Flavius Petro, grandfather of Vespasian": {
+"file": "titus_flavius_petro_grandfather_of_vespasian.jpg",
+"source_filename": "titus_flavius_petro.jpg"
+},
+"Titus Livius (Livy), Roman historian (59 BCE – 17 CE)": {
+"file": "titus_livius_livy_roman_historian_59_bce_17_ce.jpg",
+"source_filename": "titus_livius.jpg"
+},
+"Totila, King of the Ostrogoths (r. 541–552)": {
+"file": "totila_king_of_the_ostrogoths_r_541_552.jpg",
+"source_filename": "totila.jpg"
+},
+"Vergil (Publius Vergilius Maro, Roman poet, 70–19 BCE)": {
+"file": "vergil_publius_vergilius_maro_roman_poet_70_19_bce.jpg",
+"source_filename": "vergil.jpg"
+},
+"Vespasian (Titus Flavius Vespasianus), Roman Emperor (r. 69-79)": {
+"file": "vespasian_titus_flavius_vespasianus_roman_emperor_r_69_79.jpg",
+"source_filename": "vespasian.jpg"
+},
+"Vestal Virgin of the Claudii family (active during the early Roman Empire)": {
+"file": "vestal_virgin_of_the_claudii_family_active_during_the_early_roman_empire.jpg",
+"source_filename": "vestal_virgin_of_the_claudii_family.jpg"
+},
+"Virgin Mary": {
+"file": "virgin_mary.jpg",
+"source_filename": "virgin_mary.jpg"
+},
+"Willibrord": {
+"file": "willibrord.jpg",
+"source_filename": "willibrord.jpg"
+},
+"Wynfrith (Saint Boniface), Archbishop and missionary to the Germans (c. 675–754)": {
+"file": "wynfrith_saint_boniface_archbishop_and_missionary_to_the_germans_c_675_754.jpg",
+"source_filename": "wynfrith.jpg"
+},
+"a Roman military commander (Plutarch, Life of Caius Marius)": {
+"file": "a_roman_military_commander_plutarch_life_of_caius_marius.jpg",
+"source_filename": "a_roman_military_commander.jpg"
+},
+"a lady who is Pliny the Younger's intimate friend": {
+"file": "a_lady_who_is_pliny_the_younger_s_intimate_friend.jpg",
+"source_filename": "a_lady_who_is_pliny_the_youngers_intimate_friend.jpg"
+},
+"an apostle or a prophet (generic, as referenced by Jerome)": {
+"file": "an_apostle_or_a_prophet_generic_as_referenced_by_jerome.jpg",
+"source_filename": "an_apostle_or_a_prophet.jpg"
+},
+"assessor in case of monks": {
+"file": "assessor_in_case_of_monks.jpg",
+"source_filename": "assessor_in_case_of_monks.jpg"
+},
+"bishop of Jerusalem": {
+"file": "bishop_of_jerusalem.jpg",
+"source_filename": "bishop_of_jerusalem.jpg"
+},
+"bishop of Regium (mentioned by Gregory the Great)": {
+"file": "bishop_of_regium_mentioned_by_gregory_the_great.jpg",
+"source_filename": "bishop_of_regium.jpg"
+},
+"bishop of Thessalonica": {
+"file": "bishop_of_thessalonica.jpg",
+"source_filename": "bishop_of_thessalonica.jpg"
+},
+"former husband of the woman addressed in Jerome, Letter 77": {
+"file": "former_husband_of_the_woman_addressed_in_jerome_letter_77.jpg",
+"source_filename": "former_husband_of_the_woman_addressed_in_jerome.jpg"
+},
+"grandmother of Bassianus (relative of Libanius, 4th century)": {
+"file": "grandmother_of_bassianus_relative_of_libanius_4th_century.jpg",
+"source_filename": "grandmother_of_bassianus.jpg"
+},
+"holy one of the other god (Marcionite Christ figure)": {
+"file": "holy_one_of_the_other_god_marcionite_christ_figure.jpg",
+"source_filename": "holy_one_of_the_other_god.jpg"
+},
+"holy son (unknown Christian, Jerome's letter 125)": {
+"file": "holy_son_unknown_christian_jerome_s_letter_125.jpg",
+"source_filename": "holy_son.jpg"
+},
+"most Christian of nobles (addressee of Jerome, Letter 57)": {
+"file": "most_christian_of_nobles_addressee_of_jerome_letter_57.jpg",
+"source_filename": "most_christian_of_nobles.jpg"
+},
+"mother of Galerius": {
+"file": "mother_of_galerius.jpg",
+"source_filename": "mother_of_galerius.jpg"
+},
+"my young son (as referenced in Tacitus, Annals)": {
+"file": "my_young_son_as_referenced_in_tacitus_annals.jpg",
+"source_filename": "my_young_son.jpg"
+},
+"noble-minded woman in Perpetua and Felicity (Christian martyrdom account, c. 203 CE)": {
+"file": "noble_minded_woman_in_perpetua_and_felicity_christian_martyrdom_account_c_203_ce.jpg",
+"source_filename": "noble-minded_woman_in_perpetua_and_felicity.jpg"
+},
+"ruler of Tyre (Ezekiel, Hebrew Bible)": {
+"file": "ruler_of_tyre_ezekiel_hebrew_bible.jpg",
+"source_filename": "ruler_of_tyre.jpg"
+},
+"senator who proposed the death sentence (Pliny the Younger, Roman Senate, early 2nd century CE)": {
+"file": "senator_who_proposed_the_death_sentence_pliny_the_younger_roman_senate_ea_63c66d.jpg",
+"source_filename": "senator_who_proposed_the_death_sentence.jpg"
+},
+"the Ethiopian eunuch in Acts 8 (New Testament figure)": {
+"file": "the_ethiopian_eunuch_in_acts_8_new_testament_figure.jpg",
+"source_filename": "the_ethiopian_eunuch_in_acts_8.jpg"
+},
+"the Pharisee in the Parable of the Pharisee and the Publican (Luke 18:9-14)": {
+"file": "the_pharisee_in_the_parable_of_the_pharisee_and_the_publican_luke_18_9_14.jpg",
+"source_filename": "the_pharisee_in_the_parable_of_the_pharisee_and_the_publican.jpg"
+},
+"the Virgin Mary, mother of Jesus": {
+"file": "the_virgin_mary_mother_of_jesus.jpg",
+"source_filename": "the_virgin_mary.jpg"
+},
+"the active statesman contrasted with the contemplative philosopher (Plutarch, Pericles)": {
+"file": "the_active_statesman_contrasted_with_the_contemplative_philosopher_plutar_f6e6df.jpg",
+"source_filename": "the_active_statesman_contrasted_with_the_contemplative_philo.jpg"
+},
+"the bishop of this province (Liguria, early 6th century, mentioned by Ennodius of Pavia)": {
+"file": "the_bishop_of_this_province_liguria_early_6th_century_mentioned_by_ennodi_504993.jpg",
+"source_filename": "the_bishop_of_this_province.jpg"
+},
+"the blind man who called Jesus Son of David (Luke 18:35-43)": {
+"file": "the_blind_man_who_called_jesus_son_of_david_luke_18_35_43.jpg",
+"source_filename": "the_blind_man_who_called_jesus_son_of_david.jpg"
+},
+"the centurion involved in the death of Drusus (Tacitus, Annals 6)": {
+"file": "the_centurion_involved_in_the_death_of_drusus_tacitus_annals_6.jpg",
+"source_filename": "the_centurion_involved_in_the_death_of_drusus.jpg"
+},
+"the consul-elect mentioned by Jerome": {
+"file": "the_consul_elect_mentioned_by_jerome.jpg",
+"source_filename": "the_consul-elect_mentioned_by_jerome.jpg"
+},
+"the corrupt Cappadocian (accused official in Isidore of Pelusium's letters, c. 410 AD)": {
+"file": "the_corrupt_cappadocian_accused_official_in_isidore_of_pelusium_s_letters_c7181a.jpg",
+"source_filename": "the_corrupt_cappadocian.jpg"
+},
+"the false prophet of Baalzebub (2 Kings 1:9-12)": {
+"file": "the_false_prophet_of_baalzebub_2_kings_1_9_12.jpg",
+"source_filename": "the_false_prophet_of_baalzebub.jpg"
+},
+"the first Fabius": {
+"file": "the_first_fabius.jpg",
+"source_filename": "the_first_fabius.jpg"
+},
+"the godless woman who manipulated George at Doara (mentioned by Basil of Caesarea)": {
+"file": "the_godless_woman_who_manipulated_george_at_doara_mentioned_by_basil_of_caesarea.jpg",
+"source_filename": "the_godless_woman_who_manipulated_george_at_doara.jpg"
+},
+"the high priest (Jewish, biblical context, as referenced by Jerome)": {
+"file": "the_high_priest_jewish_biblical_context_as_referenced_by_jerome.jpg",
+"source_filename": "the_high_priest.jpg"
+},
+"the holy Pope": {
+"file": "the_holy_pope.jpg",
+"source_filename": "the_holy_pope.jpg"
+},
+"the lord emperor (reigning Roman emperor, c. 579-590, addressed by Pope Pelagius II)": {
+"file": "the_lord_emperor_reigning_roman_emperor_c_579_590_addressed_by_pope_pelagius_ii.jpg",
+"source_filename": "the_lord_emperor.jpg"
+},
+"the most clement emperor (reigning during Pope Simplicius, c. 468-483)": {
+"file": "the_most_clement_emperor_reigning_during_pope_simplicius_c_468_483.jpg",
+"source_filename": "the_most_clement_emperor.jpg"
+},
+"the most serene and Christian Emperor (reign contemporary with Pope Gregory the Great, c. 590-604)": {
+"file": "the_most_serene_and_christian_emperor_reign_contemporary_with_pope_gregor_836b62.jpg",
+"source_filename": "the_most_serene_and_christian_emperor.jpg"
+},
+"the newly appointed consul addressed by Cassiodorus": {
+"file": "the_newly_appointed_consul_addressed_by_cassiodorus.jpg",
+"source_filename": "the_newly_appointed_consul_addressed_by_cassiodorus.jpg"
+},
+"the officer who commanded for Mark Antony in Africa (Plutarch, Life of Antony)": {
+"file": "the_officer_who_commanded_for_mark_antony_in_africa_plutarch_life_of_antony.jpg",
+"source_filename": "the_officer_who_commanded_for_mark_antony_in_africa.jpg"
+},
+"the penitent whore-monger mentioned by Jerome": {
+"file": "the_penitent_whore_monger_mentioned_by_jerome.jpg",
+"source_filename": "the_penitent_whore-monger_mentioned_by_jerome.jpg"
+},
+"the praefect who interrogated a supporter of John Chrysostom (early 5th century)": {
+"file": "the_praefect_who_interrogated_a_supporter_of_john_chrysostom_early_5th_century.jpg",
+"source_filename": "the_praefect_who_interrogated_a_supporter_of_john_chrysostom.jpg"
+},
+"the predecessor of the new bishop of Constantinople (late 5th century)": {
+"file": "the_predecessor_of_the_new_bishop_of_constantinople_late_5th_century.jpg",
+"source_filename": "the_predecessor_of_the_new_bishop_of_constantinople.jpg"
+},
+"the prince of Tyre (allegorical figure in Tertullian, identified with the archangel or highest angel)": {
+"file": "the_prince_of_tyre_allegorical_figure_in_tertullian_identified_with_the_a_b5eae6.jpg",
+"source_filename": "the_prince_of_tyre.jpg"
+},
+"the sister of Paulinus (mentioned in Jerome, Letter 58)": {
+"file": "the_sister_of_paulinus_mentioned_in_jerome_letter_58.jpg",
+"source_filename": "the_sister_of_paulinus.jpg"
+},
+"the so-called friend (Sidonius Apollinaris' correspondent)": {
+"file": "the_so_called_friend_sidonius_apollinaris_correspondent.jpg",
+"source_filename": "the_so-called_friend.jpg"
+},
+"the spiritual mother (female Christian mentor in Jerome's Letter 22)": {
+"file": "the_spiritual_mother_female_christian_mentor_in_jerome_s_letter_22.jpg",
+"source_filename": "the_spiritual_mother.jpg"
+},
+"the uncle of Andronicus (correspondent of Libanius)": {
+"file": "the_uncle_of_andronicus_correspondent_of_libanius.jpg",
+"source_filename": "the_uncle_of_andronicus.jpg"
+},
+"the unnamed sinner addressed by Jerome in Letter 147": {
+"file": "the_unnamed_sinner_addressed_by_jerome_in_letter_147.jpg",
+"source_filename": "the_unnamed_sinner_addressed_by_jerome_in_letter_147.jpg"
+},
+"the wife of Dames (accuser in Ammianus Marcellinus, 4th century CE)": {
+"file": "the_wife_of_dames_accuser_in_ammianus_marcellinus_4th_century_ce.jpg",
+"source_filename": "the_wife_of_dames.jpg"
+},
+"the young girl": {
+"file": "the_young_girl.jpg",
+"source_filename": "the_young_girl.jpg"
+},
+"the young maiden cousin of Saturninus (Procopius, Secret History)": {
+"file": "the_young_maiden_cousin_of_saturninus_procopius_secret_history.jpg",
+"source_filename": "the_young_maiden_cousin_of_saturninus.jpg"
+},
+"unnamed priest of a temple (Historia Augusta, 4th century CE)": {
+"file": "unnamed_priest_of_a_temple_historia_augusta_4th_century_ce.jpg",
+"source_filename": "unnamed_priest_of_a_temple.jpg"
+},
+"wife of Arminius": {
+"file": "wife_of_arminius.jpg",
+"source_filename": "wife_of_arminius.jpg"
+},
+"wife of Classicus (defendant in Pliny the Younger's letters)": {
+"file": "wife_of_classicus_defendant_in_pliny_the_younger_s_letters.jpg",
+"source_filename": "wife_of_classicus.jpg"
+},
+"wife of Nectarius": {
+"file": "wife_of_nectarius.jpg",
+"source_filename": "wife_of_nectarius.jpg"
+},
+"wife of Nicias (fl. 5th century BCE, Syracuse)": {
+"file": "wife_of_nicias_fl_5th_century_bce_syracuse.jpg",
+"source_filename": "wife_of_nicias.jpg"
+},
+"wife of Scribonianus (accused in Claudius' reign)": {
+"file": "wife_of_scribonianus_accused_in_claudius_reign.jpg",
+"source_filename": "wife_of_scribonianus.jpg"
+},
+"wife of the letter recipient in John Chrysostom's correspondence": {
+"file": "wife_of_the_letter_recipient_in_john_chrysostom_s_correspondence.jpg",
+"source_filename": "wife_of_the_letter_recipient_in_john_chrysostoms_corresponde.jpg"
+},
+"Claudius": {
+"file": "claudius.jpg",
+"source_filename": "claudius.jpg"
+},
+"Probus, Roman Emperor (r. 276-282)": {
+"file": "probus_roman_emperor_r_276_282.jpg",
+"source_filename": "probus.jpg"
+},
+"Zenobia, Queen of Palmyra (ruled c. 267–272)": true,
+"Maximus, philosopher and associate of Emperor Julian": {
+"file": "maximus_philosopher_and_associate_of_emperor_julian.jpg",
+"source_filename": "maximus.jpg"
+},
+"Macrianus": {
+"file": "macrianus.jpg",
+"source_filename": "macrianus.jpg"
+},
+"Saturninus, Roman military official (fl. 4th century, in Ammianus Marcellinus and Historia Augusta)": {
+"file": "saturninus_roman_military_official_fl_4th_century_in_ammianus_marcellinus_02b9e7.jpg",
+"source_filename": "saturninus.jpg"
+},
+"Valens, Roman Emperor (r. 364-378)": {
+"file": "valens_roman_emperor_r_364_378.jpg",
+"source_filename": "valens.jpg"
+},
+"Atticus": {
+"file": "atticus.jpg",
+"source_filename": "atticus.jpg"
+},
+"Tiberius": {
+"file": "tiberius.jpg",
+"source_filename": "tiberius.jpg"
+},
+"Caesar": {
+"file": "caesar.jpg",
+"source_filename": "caesar.jpg"
+},
+"Messalla, consul and associate of Cicero (1st c. BCE)": {
+"file": "messalla_consul_and_associate_of_cicero_1st_c_bce.jpg",
+"source_filename": "messalla.jpg"
+},
+"Severus, Roman general (4th century, commander at Rheims)": {
+"file": "severus_roman_general_4th_century_commander_at_rheims.jpg",
+"source_filename": "severus.jpg"
+},
+"Brutus": {
+"file": "brutus.jpg",
+"source_filename": "brutus.jpg"
+},
+"Maeonius": {
+"file": "maeonius.jpg",
+"source_filename": "maeonius.jpg"
+},
+"Valerian, Roman Emperor (r. 253-260)": {
+"file": "valerian_roman_emperor_r_253_260.jpg",
+"source_filename": "valerian.jpg"
+},
+"Cleomenes": true,
+"Titus": {
+"file": "titus.jpg",
+"source_filename": "titus.jpg"
+},
+"Calpurnia, wife of Julius Caesar": {
+"file": "calpurnia_wife_of_julius_caesar.jpg",
+"source_filename": "calpurnia.jpg"
+},
+"Tetricus, Gallic Emperor and rebel leader subdued by Aurelian (r. 271–274)": {
+"file": "tetricus_gallic_emperor_and_rebel_leader_subdued_by_aurelian_r_271_274.jpg",
+"source_filename": "tetricus.jpg"
+},
+"Eusebius, Bishop of Vercellae (d. 371, opponent of Arianism)": {
+"file": "eusebius_bishop_of_vercellae_d_371_opponent_of_arianism.jpg",
+"source_filename": "eusebius.jpg"
+},
+"Theodora, Empress of the Eastern Roman Empire (wife of Justinian I, r. 527–548)": {
+"file": "theodora_empress_of_the_eastern_roman_empire_wife_of_justinian_i_r_527_548.jpg",
+"source_filename": "theodora.jpg"
+},
+"Mamaea": {
+"file": "mamaea.jpg",
+"source_filename": "mamaea.jpg"
+},
+"Domitianus": {
+"file": "domitianus.jpg",
+"source_filename": "domitianus.jpg"
+},
+"Gregory": {
+"file": "gregory.jpg",
+"source_filename": "gregory.jpg"
+},
+"Otho": {
+"file": "otho.jpg",
+"source_filename": "otho.jpg"
+},
+"Bassianus, Roman noble and secretary (4th century CE)": {
+"file": "bassianus_roman_noble_and_secretary_4th_century_ce.jpg",
+"source_filename": "bassianus.jpg"
+},
+"Valerian the Younger, son of Emperor Valerian and half-brother of Gallienus": {
+"file": "valerian_the_younger_son_of_emperor_valerian_and_half_brother_of_gallienus.jpg",
+"source_filename": "valerian_the_younger.jpg"
+},
+"Ballista, usurper during the Crisis of the Third Century": {
+"file": "ballista_usurper_during_the_crisis_of_the_third_century.jpg",
+"source_filename": "ballista.jpg"
+},
+"Marcellus, Roman general under Constantius II (fl. mid-4th century)": {
+"file": "marcellus_roman_general_under_constantius_ii_fl_mid_4th_century.jpg",
+"source_filename": "marcellus.jpg"
+},
+"Marius Victorinus, Roman philosopher and Christian convert (4th century)": {
+"file": "marius_victorinus_roman_philosopher_and_christian_convert_4th_century.jpg",
+"source_filename": "marius_victorinus.jpg"
+},
+"Metellus": {
+"file": "metellus.jpg",
+"source_filename": "metellus.jpg"
+},
+"Scipio": {
+"file": "scipio.jpg",
+"source_filename": "scipio.jpg"
+},
+"Constantine": {
+"file": "constantine.jpg",
+"source_filename": "constantine.jpg"
+},
+"Galba, Roman Emperor (r. 68-69 CE)": {
+"file": "galba_roman_emperor_r_68_69_ce.jpg",
+"source_filename": "galba.jpg"
+},
+"Lysander": {
+"file": "lysander.jpg",
+"source_filename": "lysander.jpg"
+},
+"Demetrias (Christian noblewoman, 5th century)": {
+"file": "demetrias_christian_noblewoman_5th_century.jpg",
+"source_filename": "demetrias.jpg"
+},
+"Regulus": {
+"file": "regulus.jpg",
+"source_filename": "regulus.jpg"
+},
+"Anatolius, Patrician and Prefect of the Northern Provinces (5th century)": {
+"file": "anatolius_patrician_and_prefect_of_the_northern_provinces_5th_century.jpg",
+"source_filename": "anatolius.jpg"
+},
+"Pammachius": {
+"file": "pammachius.jpg",
+"source_filename": "pammachius.jpg"
+},
+"Anastasius I, Roman Emperor (r. 491–518)": {
+"file": "anastasius_i_roman_emperor_r_491_518.jpg",
+"source_filename": "anastasius_i.jpg"
+},
+"Capelianus": {
+"file": "capelianus.jpg",
+"source_filename": "capelianus.jpg"
+},
+"Coriolanus": {
+"file": "coriolanus.jpg",
+"source_filename": "coriolanus.jpg"
+},
+"Maximinus (the young man mentioned in Historia Augusta, ha_maximini_duo)": {
+"file": "maximinus_the_young_man_mentioned_in_historia_augusta_ha_maximini_duo.jpg",
+"source_filename": "maximinus.jpg"
+},
+"Numa Pompilius, legendary second King of Rome (r. c. 715–673 BCE)": {
+"file": "numa_pompilius_legendary_second_king_of_rome_r_c_715_673_bce.jpg",
+"source_filename": "numa_pompilius.jpg"
+},
+"M. Gavius Apicius": {
+"file": "m_gavius_apicius.jpg",
+"source_filename": "m_gavius_apicius.jpg"
+},
+"Marcella": {
+"file": "marcella.jpg",
+"source_filename": "marcella.jpg"
+},
+"David, King of Israel (son of Jesse)": {
+"file": "david_king_of_israel_son_of_jesse.jpg",
+"source_filename": "david.jpg"
+},
+"Faustina": {
+"file": "faustina.jpg",
+"source_filename": "faustina.jpg"
+},
+"Marcion of Sinope (heresiarch, founder of Marcionism, fl. mid-2nd century CE)": {
+"file": "marcion_of_sinope_heresiarch_founder_of_marcionism_fl_mid_2nd_century_ce.jpg",
+"source_filename": "marcion_of_sinope.jpg"
+},
+"Shapur I, King of the Sasanian Persians (r. 240–270 CE)": {
+"file": "shapur_i_king_of_the_sasanian_persians_r_240_270_ce.jpg",
+"source_filename": "shapur_i.jpg"
+},
+"Asella": true,
+"Timoleon": {
+"file": "timoleon.jpg",
+"source_filename": "timoleon.jpg"
+},
+"Aemilius Paulus": {
+"file": "aemilius_paulus.jpg",
+"source_filename": "aemilius_paulus.jpg"
+},
+"Carus": {
+"file": "carus.jpg",
+"source_filename": "carus.jpg"
+},
+"Hierocles, imperial favorite and official under Elagabalus": {
+"file": "hierocles_imperial_favorite_and_official_under_elagabalus.jpg",
+"source_filename": "hierocles.jpg"
+},
+"Rufus": {
+"file": "rufus.jpg",
+"source_filename": "rufus.jpg"
+},
+"Antigonus": {
+"file": "antigonus.jpg",
+"source_filename": "antigonus.jpg"
+},
+"Caius Gracchus": {
+"file": "caius_gracchus.jpg",
+"source_filename": "caius_gracchus.jpg"
+},
+"Eumenes": {
+"file": "eumenes.jpg",
+"source_filename": "eumenes.jpg"
+},
+"Leontius, governor of Rome and tax assessor at Nicaea (late 4th century)": {
+"file": "leontius_governor_of_rome_and_tax_assessor_at_nicaea_late_4th_century.jpg",
+"source_filename": "leontius.jpg"
+},
+"Paulinus": {
+"file": "paulinus.jpg",
+"source_filename": "paulinus.jpg"
+},
+"Theophilus (Ammianus, accused of treason, 4th century Roman official)": {
+"file": "theophilus_ammianus_accused_of_treason_4th_century_roman_official.jpg",
+"source_filename": "theophilus.jpg"
+},
+"Eutropius, proconsul of Asia (4th century CE)": {
+"file": "eutropius_proconsul_of_asia_4th_century_ce.jpg",
+"source_filename": "eutropius.jpg"
+},
+"Pelopidas": {
+"file": "pelopidas.jpg",
+"source_filename": "pelopidas.jpg"
+},
+"Publius Cornelius Lentulus Spinther, Roman consul and governor (consul 57 BCE, 1st century BCE)": {
+"file": "publius_cornelius_lentulus_spinther_roman_consul_and_governor_consul_57_b_298e5a.jpg",
+"source_filename": "publius_cornelius_lentulus_spinther.jpg"
+},
+"Ruricius of Limoges": {
+"file": "ruricius_of_limoges.jpg",
+"source_filename": "ruricius_of_limoges.jpg"
+},
+"Nebridius (husband of Olympias, late 4th century nobleman)": {
+"file": "nebridius_husband_of_olympias_late_4th_century_nobleman.jpg",
+"source_filename": "nebridius.jpg"
+},
+"Nepotian, presbyter of Altinum (nephew of Heliodorus)": {
+"file": "nepotian_presbyter_of_altinum_nephew_of_heliodorus.jpg",
+"source_filename": "nepotian.jpg"
+},
+"Zoticus": {
+"file": "zoticus.jpg",
+"source_filename": "zoticus.jpg"
+},
+"Agis": true,
+"Theodahad, King of the Ostrogoths (r. 534-536), nephew of Theodoric the Great": {
+"file": "theodahad_king_of_the_ostrogoths_r_534_536_nephew_of_theodoric_the_great.jpg",
+"source_filename": "theodahad.jpg"
+},
+"Lucius Quinctius Cincinnatus, Roman consul and dictator (fl. 5th century BCE)": true,
+"Symmachus": {
+"file": "symmachus.jpg",
+"source_filename": "symmachus.jpg"
+},
+"Claudius Pompeianus, Roman general and son-in-law of Marcus Aurelius": {
+"file": "claudius_pompeianus_roman_general_and_son_in_law_of_marcus_aurelius.jpg",
+"source_filename": "claudius_pompeianus.jpg"
+},
+"Domitius Modestus, Praetorian Prefect under Valens (fl. 4th century)": {
+"file": "domitius_modestus_praetorian_prefect_under_valens_fl_4th_century.jpg",
+"source_filename": "domitius_modestus.jpg"
+},
+"Lucius Tarquinius": {
+"file": "lucius_tarquinius.jpg",
+"source_filename": "lucius_tarquinius.jpg"
+},
+"Perseus": {
+"file": "perseus.jpg",
+"source_filename": "perseus.jpg"
+},
+"Petronius, father-in-law of the emperor and patrician under Valens": {
+"file": "petronius_father_in_law_of_the_emperor_and_patrician_under_valens.jpg",
+"source_filename": "petronius.jpg"
+},
+"Cassius": {
+"file": "cassius.jpg",
+"source_filename": "cassius.jpg"
+},
+"Drusus": {
+"file": "drusus.jpg",
+"source_filename": "drusus.jpg"
+},
+"Honoratus, Count of the East under Constantius II (fl. mid-4th century)": {
+"file": "honoratus_count_of_the_east_under_constantius_ii_fl_mid_4th_century.jpg",
+"source_filename": "honoratus.jpg"
+},
+"Liberius, Praetorian Prefect of Gaul and Patrician under Theoderic (fl. late 5th–early 6th c.)": {
+"file": "liberius_praetorian_prefect_of_gaul_and_patrician_under_theoderic_fl_late_839ed7.jpg",
+"source_filename": "liberius.jpg"
+},
+"Lucius Catilius Severus, Roman senator and kinsman of Severus Alexander": {
+"file": "lucius_catilius_severus_roman_senator_and_kinsman_of_severus_alexander.jpg",
+"source_filename": "lucius_catilius_severus.jpg"
+},
+"Lusius Quietus, Moorish general and governor of Judaea under Trajan": {
+"file": "lusius_quietus_moorish_general_and_governor_of_judaea_under_trajan.jpg",
+"source_filename": "lusius_quietus.jpg"
+},
+"Procopius": {
+"file": "procopius.jpg",
+"source_filename": "procopius.jpg"
+},
+"Zosimus": {
+"file": "zosimus.jpg",
+"source_filename": "zosimus.jpg"
+},
+"Amphilochius, Bishop of Iconium (fl. late 4th century)": {
+"file": "amphilochius_bishop_of_iconium_fl_late_4th_century.jpg",
+"source_filename": "amphilochius.jpg"
+},
+"Cyriacus": {
+"file": "cyriacus.jpg",
+"source_filename": "cyriacus.jpg"
+},
+"Florentius, Praetorian Prefect under Constantius II": {
+"file": "florentius_praetorian_prefect_under_constantius_ii.jpg",
+"source_filename": "florentius.jpg"
+},
+"Nectarius": {
+"file": "nectarius.jpg",
+"source_filename": "nectarius.jpg"
+},
+"Syagrius": {
+"file": "syagrius.jpg",
+"source_filename": "syagrius.jpg"
+},
+"Artabanus": {
+"file": "artabanus.jpg",
+"source_filename": "artabanus.jpg"
+},
+"Avienus": {
+"file": "avienus.jpg",
+"source_filename": "avienus.jpg"
+},
+"Brunichild": {
+"file": "brunichild.jpg",
+"source_filename": "brunichild.jpg"
+},
+"Elpidius": {
+"file": "elpidius.jpg",
+"source_filename": "elpidius.jpg"
+},
+"Gaius Calpurnius Crassus Frugi, Roman senator and conspirator against Nerva and Trajan (late 1st–early 2nd c. CE)": {
+"file": "gaius_calpurnius_crassus_frugi_roman_senator_and_conspirator_against_nerv_6398a3.jpg",
+"source_filename": "gaius_calpurnius_crassus_frugi.jpg"
+},
+"Heraclides": {
+"file": "heraclides.jpg",
+"source_filename": "heraclides.jpg"
+},
+"Innocent (Christian figure, possibly Innocent I, Bishop of Rome, d. 417)": {
+"file": "innocent_christian_figure_possibly_innocent_i_bishop_of_rome_d_417.jpg",
+"source_filename": "innocent.jpg"
+},
+"Seleucus": {
+"file": "seleucus.jpg",
+"source_filename": "seleucus.jpg"
+},
+"Valerius, Bishop of Hippo (late 4th century)": {
+"file": "valerius_bishop_of_hippo_late_4th_century.jpg",
+"source_filename": "valerius.jpg"
+},
+"Dynamius": {
+"file": "dynamius.jpg",
+"source_filename": "dynamius.jpg"
+},
+"Eugenius, Roman Emperor (usurper, r. 392-394)": {
+"file": "eugenius_roman_emperor_usurper_r_392_394.jpg",
+"source_filename": "eugenius.jpg"
+},
+"Longinus (Cassius Longinus), philosopher and rhetorician (c. 213–273 CE)": {
+"file": "longinus_cassius_longinus_philosopher_and_rhetorician_c_213_273_ce.jpg",
+"source_filename": "longinus.jpg"
+},
+"Bonosus": {
+"file": "bonosus.jpg",
+"source_filename": "bonosus.jpg"
+},
+"Eutyches": {
+"file": "eutyches.jpg",
+"source_filename": "eutyches.jpg"
+},
+"Rusticus, young monk of Toulouse (addressee of Jerome, Letter 125)": {
+"file": "rusticus_young_monk_of_toulouse_addressee_of_jerome_letter_125.jpg",
+"source_filename": "rusticus.jpg"
+},
+"Sabinus, city prefect under Maximus and Balbinus (Historia Augusta)": {
+"file": "sabinus_city_prefect_under_maximus_and_balbinus_historia_augusta.jpg",
+"source_filename": "sabinus.jpg"
+},
+"Terentia": {
+"file": "terentia.jpg",
+"source_filename": "terentia.jpg"
+},
+"Aemilianus": {
+"file": "aemilianus.jpg",
+"source_filename": "aemilianus.jpg"
+},
+"Antonina": {
+"file": "antonina.jpg",
+"source_filename": "antonina.jpg"
+},
+"Barbatio": {
+"file": "barbatio.jpg",
+"source_filename": "barbatio.jpg"
+},
+"Dioscorus": {
+"file": "dioscorus.jpg",
+"source_filename": "dioscorus.jpg"
+},
+"Palladius, Master of the Ceremonies under Constantius Gallus (4th century)": {
+"file": "palladius_master_of_the_ceremonies_under_constantius_gallus_4th_century.jpg",
+"source_filename": "palladius.jpg"
+},
+"Pompeianus": {
+"file": "pompeianus.jpg",
+"source_filename": "pompeianus.jpg"
+},
+"Ursicinus": {
+"file": "ursicinus.jpg",
+"source_filename": "ursicinus.jpg"
+},
+"Cordius, favorite of Elagabalus (early 3rd century CE)": {
+"file": "cordius_favorite_of_elagabalus_early_3rd_century_ce.jpg",
+"source_filename": "cordius.jpg"
+},
+"Decius": {
+"file": "decius.jpg",
+"source_filename": "decius.jpg"
+},
+"Maximinus (son of Maximinus Thrax, Roman Emperor)": {
+"file": "maximinus_son_of_maximinus_thrax_roman_emperor.jpg",
+"source_filename": "maximinus.jpg"
+},
+"Pope Boniface": {
+"file": "pope_boniface.jpg",
+"source_filename": "pope_boniface.jpg"
+},
+"Publius": {
+"file": "publius.jpg",
+"source_filename": "publius.jpg"
+},
+"Tigranes": {
+"file": "tigranes.jpg",
+"source_filename": "tigranes.jpg"
+},
+"Vitruvia": {
+"file": "vitruvia.jpg",
+"source_filename": "vitruvia.jpg"
+},
+"Arbetio": {
+"file": "arbetio.jpg",
+"source_filename": "arbetio.jpg"
+},
+"Aulus Caecina Alienus, Roman general under Vitellius (fl. 1st century CE)": {
+"file": "aulus_caecina_alienus_roman_general_under_vitellius_fl_1st_century_ce.jpg",
+"source_filename": "aulus_caecina_alienus.jpg"
+},
+"Claudianus Mamertus": {
+"file": "claudianus_mamertus.jpg",
+"source_filename": "claudianus_mamertus.jpg"
+},
+"Domnus, Bishop of Apamea (early 5th century)": {
+"file": "domnus_bishop_of_apamea_early_5th_century.jpg",
+"source_filename": "domnus.jpg"
+},
+"Eulogius of Alexandria, Patriarch (Bishop) of Alexandria (r. c. 581–607)": {
+"file": "eulogius_of_alexandria_patriarch_bishop_of_alexandria_r_c_581_607.jpg",
+"source_filename": "eulogius_of_alexandria.jpg"
+},
+"Euphronius": {
+"file": "euphronius.jpg",
+"source_filename": "euphronius.jpg"
+},
+"Gabinius (local king mentioned by Ammianus Marcellinus; Roman politician in Plutarch)": {
+"file": "gabinius_local_king_mentioned_by_ammianus_marcellinus_roman_politician_in_0f3441.jpg",
+"source_filename": "gabinius.jpg"
+},
+"Livia": {
+"file": "livia.jpg",
+"source_filename": "livia.jpg"
+},
+"Vigilantius": {
+"file": "vigilantius.jpg",
+"source_filename": "vigilantius.jpg"
+},
+"Apollonius, anti-Montanist ecclesiastical writer (late 2nd century)": {
+"file": "apollonius_anti_montanist_ecclesiastical_writer_late_2nd_century.jpg",
+"source_filename": "apollonius.jpg"
+},
+"Blæsilla, Roman noblewoman and relative of Jerome's correspondent": {
+"file": "bl_silla_roman_noblewoman_and_relative_of_jerome_s_correspondent.jpg",
+"source_filename": "blsilla.jpg"
+},
+"Cornelius, Bishop of Rome (pope, d. 253)": {
+"file": "cornelius_bishop_of_rome_pope_d_253.jpg",
+"source_filename": "cornelius.jpg"
+},
+"Ingenuus, usurper in Moesia (3rd century CE)": {
+"file": "ingenuus_usurper_in_moesia_3rd_century_ce.jpg",
+"source_filename": "ingenuus.jpg"
+},
+"Optatus": {
+"file": "optatus.jpg",
+"source_filename": "optatus.jpg"
+},
+"Sergius": {
+"file": "sergius.jpg",
+"source_filename": "sergius.jpg"
+},
+"Stephen, Bishop of Rome (mid-3rd century)": {
+"file": "stephen_bishop_of_rome_mid_3rd_century.jpg",
+"source_filename": "stephen.jpg"
+},
+"Agapitus": {
+"file": "agapitus.jpg",
+"source_filename": "agapitus.jpg"
+},
+"Amandus": {
+"file": "amandus.jpg",
+"source_filename": "amandus.jpg"
+},
+"Aulus Vitellius (consul under Caligula and Claudius, father of Emperor Vitellius)": {
+"file": "aulus_vitellius_consul_under_caligula_and_claudius_father_of_emperor_vitellius.jpg",
+"source_filename": "aulus_vitellius.jpg"
+},
+"Brunhild, Queen of the Franks (Austrasia) (c. 543–613)": {
+"file": "brunhild_queen_of_the_franks_austrasia_c_543_613.jpg",
+"source_filename": "brunhild.jpg"
+},
+"Eusebius, Archbishop of Thessalonica (4th century)": {
+"file": "eusebius_archbishop_of_thessalonica_4th_century.jpg",
+"source_filename": "eusebius.jpg"
+},
+"Herennianus": {
+"file": "herennianus.jpg",
+"source_filename": "herennianus.jpg"
+},
+"Meletius": true,
+"Patiens of Lyon, Bishop of Lyon (5th century)": {
+"file": "patiens_of_lyon_bishop_of_lyon_5th_century.jpg",
+"source_filename": "patiens_of_lyon.jpg"
+},
+"Agrippa": {
+"file": "agrippa.jpg",
+"source_filename": "agrippa.jpg"
+},
+"Chromatius (Christian leader, correspondent of Basil and Gregory, 4th century)": {
+"file": "chromatius_christian_leader_correspondent_of_basil_and_gregory_4th_century.jpg",
+"source_filename": "chromatius.jpg"
+},
+"Eustathius": {
+"file": "eustathius.jpg",
+"source_filename": "eustathius.jpg"
+},
+"Maximianus": {
+"file": "maximianus.jpg",
+"source_filename": "maximianus.jpg"
+},
+"Pausanias": {
+"file": "pausanias.jpg",
+"source_filename": "pausanias.jpg"
+},
+"Verconius Turinus, intimate of Severus Alexander": {
+"file": "verconius_turinus_intimate_of_severus_alexander.jpg",
+"source_filename": "verconius_turinus.jpg"
+},
+"Anatolios": {
+"file": "anatolios.jpg",
+"source_filename": "anatolios.jpg"
+},
+"Arminius": {
+"file": "arminius.jpg",
+"source_filename": "arminius.jpg"
+},
+"Diophantus": {
+"file": "diophantus.jpg",
+"source_filename": "diophantus.jpg"
+},
+"Domitius Afer, Roman prosecutor and orator (fl. early 1st century CE)": {
+"file": "domitius_afer_roman_prosecutor_and_orator_fl_early_1st_century_ce.jpg",
+"source_filename": "domitius_afer.jpg"
+},
+"Gennadius": {
+"file": "gennadius.jpg",
+"source_filename": "gennadius.jpg"
+},
+"Grimoald I": {
+"file": "grimoald_i.jpg",
+"source_filename": "grimoald_i.jpg"
+},
+"Marcianus": {
+"file": "marcianus.jpg",
+"source_filename": "marcianus.jpg"
+},
+"Prusias II of Bithynia (king, r. 182–149 BCE)": {
+"file": "prusias_ii_of_bithynia_king_r_182_149_bce.jpg",
+"source_filename": "prusias_ii_of_bithynia.jpg"
+},
+"Simon": {
+"file": "simon.jpg",
+"source_filename": "simon.jpg"
+},
+"Sophronius": {
+"file": "sophronius.jpg",
+"source_filename": "sophronius.jpg"
+},
+"Valerianus": {
+"file": "valerianus.jpg",
+"source_filename": "valerianus.jpg"
+},
+"Venantius": {
+"file": "venantius.jpg",
+"source_filename": "venantius.jpg"
+},
+"Arrius Antoninus": {
+"file": "arrius_antoninus.jpg",
+"source_filename": "arrius_antoninus.jpg"
+},
+"Auxanius": {
+"file": "auxanius.jpg",
+"source_filename": "auxanius.jpg"
+},
+"Bocchus": {
+"file": "bocchus.jpg",
+"source_filename": "bocchus.jpg"
+},
+"Burrus": {
+"file": "burrus.jpg",
+"source_filename": "burrus.jpg"
+},
+"Childebert": {
+"file": "childebert.jpg",
+"source_filename": "childebert.jpg"
+},
+"Constantius Gallus, Caesar (r. 351-354 CE)": {
+"file": "constantius_gallus_caesar_r_351_354_ce.jpg",
+"source_filename": "constantius_gallus.jpg"
+},
+"Cyriades": {
+"file": "cyriades.jpg",
+"source_filename": "cyriades.jpg"
+},
+"Junius Cordus, historian cited in the Historia Augusta": {
+"file": "junius_cordus_historian_cited_in_the_historia_augusta.jpg",
+"source_filename": "junius_cordus.jpg"
+},
+"Lucifer of Cagliari, Bishop (fl. mid-4th century)": {
+"file": "lucifer_of_cagliari_bishop_fl_mid_4th_century.jpg",
+"source_filename": "lucifer_of_cagliari.jpg"
+},
+"Marcus Vestinus Atticus, consul under Nero": {
+"file": "marcus_vestinus_atticus_consul_under_nero.jpg",
+"source_filename": "marcus_vestinus_atticus.jpg"
+},
+"Pelagius, British Monk and Theologian (fl. late 4th–early 5th c.)": {
+"file": "pelagius_british_monk_and_theologian_fl_late_4th_early_5th_c.jpg",
+"source_filename": "pelagius.jpg"
+},
+"Philoxenus": {
+"file": "philoxenus.jpg",
+"source_filename": "philoxenus.jpg"
+},
+"Thalassius, Praetorian Prefect of the East under Constantius II (fl. mid-4th century)": {
+"file": "thalassius_praetorian_prefect_of_the_east_under_constantius_ii_fl_mid_4th_26df3b.jpg",
+"source_filename": "thalassius.jpg"
+},
+"Tigellinus": {
+"file": "tigellinus.jpg",
+"source_filename": "tigellinus.jpg"
+},
+"Vigilius (subdeacon, Ennodius's correspondent, 6th century)": {
+"file": "vigilius_subdeacon_ennodius_s_correspondent_6th_century.jpg",
+"source_filename": "vigilius.jpg"
+},
+"Zenobius": {
+"file": "zenobius.jpg",
+"source_filename": "zenobius.jpg"
+},
+"Adeodatus": {
+"file": "adeodatus.jpg",
+"source_filename": "adeodatus.jpg"
+},
+"Anthemius": {
+"file": "anthemius.jpg",
+"source_filename": "anthemius.jpg"
+},
+"Arigius, Bishop (late 6th–early 7th century Gaul)": {
+"file": "arigius_bishop_late_6th_early_7th_century_gaul.jpg",
+"source_filename": "arigius.jpg"
+},
+"Aristainetos": {
+"file": "aristainetos.jpg",
+"source_filename": "aristainetos.jpg"
+},
+"Ausonius": {
+"file": "ausonius.jpg",
+"source_filename": "ausonius.jpg"
+},
+"Caractacus": {
+"file": "caractacus.jpg",
+"source_filename": "caractacus.jpg"
+},
+"Castorius, correspondent of Ennodius and official addressed by Gregory the Great": {
+"file": "castorius_correspondent_of_ennodius_and_official_addressed_by_gregory_the_great.jpg",
+"source_filename": "castorius.jpg"
+},
+"Chilonis": {
+"file": "chilonis.jpg",
+"source_filename": "chilonis.jpg"
+},
+"Chosroes": {
+"file": "chosroes.jpg",
+"source_filename": "chosroes.jpg"
+},
+"Cotys I, King of the Bosporan Kingdom (r. c. 45–63 CE), brother of Mithridates": {
+"file": "cotys_i_king_of_the_bosporan_kingdom_r_c_45_63_ce_brother_of_mithridates.jpg",
+"source_filename": "cotys_i.jpg"
+},
+"Cyprian": {
+"file": "cyprian.jpg",
+"source_filename": "cyprian.jpg"
+},
+"Demetrias, great-grandmother of Demetrias (Christian noblewoman, 5th century)": {
+"file": "demetrias_great_grandmother_of_demetrias_christian_noblewoman_5th_century.jpg",
+"source_filename": "demetrias.jpg"
+},
+"Eusebia, Empress and wife of Constantius II": {
+"file": "eusebia_empress_and_wife_of_constantius_ii.jpg",
+"source_filename": "eusebia.jpg"
+},
+"Eustathius of Sebaste": {
+"file": "eustathius_of_sebaste.jpg",
+"source_filename": "eustathius_of_sebaste.jpg"
+},
+"Florentinus, Bishop of Chiusi (fl. mid-6th century)": {
+"file": "florentinus_bishop_of_chiusi_fl_mid_6th_century.jpg",
+"source_filename": "florentinus.jpg"
+},
+"Gaius Scribonius Curio (consul 76 BCE, general and politician of the late Roman Republic)": {
+"file": "gaius_scribonius_curio_consul_76_bce_general_and_politician_of_the_late_r_6ae7fa.jpg",
+"source_filename": "gaius_scribonius_curio.jpg"
+},
+"Grumbates": {
+"file": "grumbates.jpg",
+"source_filename": "grumbates.jpg"
+},
+"Helvidius Priscus": {
+"file": "helvidius_priscus.jpg",
+"source_filename": "helvidius_priscus.jpg"
+},
+"Hilarius, palace official and soothsayer (associate of Patricius, 4th century, Ammianus Marcellinus)": {
+"file": "hilarius_palace_official_and_soothsayer_associate_of_patricius_4th_centur_faa32f.jpg",
+"source_filename": "hilarius.jpg"
+},
+"Marcus Claudius Marcellus": {
+"file": "marcus_claudius_marcellus.jpg",
+"source_filename": "marcus_claudius_marcellus.jpg"
+},
+"Matthew": {
+"file": "matthew.jpg",
+"source_filename": "matthew.jpg"
+},
+"Petilius Cerialis": {
+"file": "petilius_cerialis.jpg",
+"source_filename": "petilius_cerialis.jpg"
+},
+"Porcia": {
+"file": "porcia.jpg",
+"source_filename": "porcia.jpg"
+},
+"Quintus Serenus, author of medical prescriptions in hexameter (possibly Serenus Sammonicus)": {
+"file": "quintus_serenus_author_of_medical_prescriptions_in_hexameter_possibly_ser_678e9f.jpg",
+"source_filename": "quintus_serenus.jpg"
+},
+"Scudilo": {
+"file": "scudilo.jpg",
+"source_filename": "scudilo.jpg"
+},
+"Statius, associate of Cicero and his brother Quintus (1st century BCE)": {
+"file": "statius_associate_of_cicero_and_his_brother_quintus_1st_century_bce.jpg",
+"source_filename": "statius.jpg"
+},
+"Terentius, Roman military official (duke, 4th century, Ammianus Marcellinus)": {
+"file": "terentius_roman_military_official_duke_4th_century_ammianus_marcellinus.jpg",
+"source_filename": "terentius.jpg"
+},
+"Titus Vinius": {
+"file": "titus_vinius.jpg",
+"source_filename": "titus_vinius.jpg"
+},
+"Valerius Flaccus": {
+"file": "valerius_flaccus.jpg",
+"source_filename": "valerius_flaccus.jpg"
+},
+"Achilles": {
+"file": "achilles.jpg",
+"source_filename": "achilles.jpg"
+},
+"Agnellus": {
+"file": "agnellus.jpg",
+"source_filename": "agnellus.jpg"
+},
+"Anicetus": {
+"file": "anicetus.jpg",
+"source_filename": "anicetus.jpg"
+},
+"Apodemius": {
+"file": "apodemius.jpg",
+"source_filename": "apodemius.jpg"
+},
+"Aristaenetus": {
+"file": "aristaenetus.jpg",
+"source_filename": "aristaenetus.jpg"
+},
+"Arvandus": {
+"file": "arvandus.jpg",
+"source_filename": "arvandus.jpg"
+},
+"Bassula, mother of Sulpicius Severus": {
+"file": "bassula_mother_of_sulpicius_severus.jpg",
+"source_filename": "bassula.jpg"
+},
+"Diodorus of Tarsus, Bishop and Anti-Arian Theologian (fl. late 4th century)": {
+"file": "diodorus_of_tarsus_bishop_and_anti_arian_theologian_fl_late_4th_century.jpg",
+"source_filename": "diodorus_of_tarsus.jpg"
+},
+"Exuperantius": {
+"file": "exuperantius.jpg",
+"source_filename": "exuperantius.jpg"
+},
+"Fortunatus": {
+"file": "fortunatus.jpg",
+"source_filename": "fortunatus.jpg"
+},
+"Gaius Licinius Mucianus, Roman general and statesman (fl. 1st century CE)": {
+"file": "gaius_licinius_mucianus_roman_general_and_statesman_fl_1st_century_ce.jpg",
+"source_filename": "gaius_licinius_mucianus.jpg"
+},
+"Heraclas of Alexandria, Bishop of Alexandria (early 3rd century)": {
+"file": "heraclas_of_alexandria_bishop_of_alexandria_early_3rd_century.jpg",
+"source_filename": "heraclas_of_alexandria.jpg"
+},
+"Importunus": {
+"file": "importunus.jpg",
+"source_filename": "importunus.jpg"
+},
+"Jugurtha, King of Numidia (r. c. 118–104 BCE)": {
+"file": "jugurtha_king_of_numidia_r_c_118_104_bce.jpg",
+"source_filename": "jugurtha.jpg"
+},
+"Lucian": {
+"file": "lucian.jpg",
+"source_filename": "lucian.jpg"
+},
+"Maiorinus": {
+"file": "maiorinus.jpg",
+"source_filename": "maiorinus.jpg"
+},
+"Marcus Lepidus": {
+"file": "marcus_lepidus.jpg",
+"source_filename": "marcus_lepidus.jpg"
+},
+"Mary, Mother of Jesus (the Virgin Mary, Theotokos)": {
+"file": "mary_mother_of_jesus_the_virgin_mary_theotokos.jpg",
+"source_filename": "mary.jpg"
+},
+"Pipara": {
+"file": "pipara.jpg",
+"source_filename": "pipara.jpg"
+},
+"Ptolemy": {
+"file": "ptolemy.jpg",
+"source_filename": "ptolemy.jpg"
+},
+"Quintus Caecilius Metellus": {
+"file": "quintus_caecilius_metellus.jpg",
+"source_filename": "quintus_caecilius_metellus.jpg"
+},
+"Quintus Naevius Sutorius Macro, Praetorian Prefect under Tiberius and Caligula": {
+"file": "quintus_naevius_sutorius_macro_praetorian_prefect_under_tiberius_and_caligula.jpg",
+"source_filename": "quintus_naevius_sutorius_macro.jpg"
+},
+"Secundinus, Bishop (late 5th–early 6th century)": {
+"file": "secundinus_bishop_late_5th_early_6th_century.jpg",
+"source_filename": "secundinus.jpg"
+},
+"Sulpicius Cornelianus": {
+"file": "sulpicius_cornelianus.jpg",
+"source_filename": "sulpicius_cornelianus.jpg"
+},
+"Theodebert, early medieval Frankish king (recipient of letters from Boniface and Gregory the Great)": {
+"file": "theodebert_early_medieval_frankish_king_recipient_of_letters_from_bonifac_5a192d.jpg",
+"source_filename": "theodebert.jpg"
+},
+"Theotecnus": {
+"file": "theotecnus.jpg",
+"source_filename": "theotecnus.jpg"
+},
+"Tonantius": {
+"file": "tonantius.jpg",
+"source_filename": "tonantius.jpg"
+},
+"Trebatius": {
+"file": "trebatius.jpg",
+"source_filename": "trebatius.jpg"
+},
+"Ummidius Quadratus, young Roman advocate in Pliny the Younger's correspondence": {
+"file": "ummidius_quadratus_young_roman_advocate_in_pliny_the_younger_s_correspondence.jpg",
+"source_filename": "ummidius_quadratus.jpg"
+},
+"Vadomarius": {
+"file": "vadomarius.jpg",
+"source_filename": "vadomarius.jpg"
+},
+"Victorius": {
+"file": "victorius.jpg",
+"source_filename": "victorius.jpg"
+},
+"Zosimos": {
+"file": "zosimos.jpg",
+"source_filename": "zosimos.jpg"
+},
+"Acacius Presbyter": {
+"file": "acacius_presbyter.jpg",
+"source_filename": "acacius_presbyter.jpg"
+},
+"Agapius": {
+"file": "agapius.jpg",
+"source_filename": "agapius.jpg"
+},
+"Akakios": {
+"file": "akakios.jpg",
+"source_filename": "akakios.jpg"
+},
+"Apostle Paul (Paul of Tarsus, Christian Apostle, 1st century CE)": {
+"file": "apostle_paul_paul_of_tarsus_christian_apostle_1st_century_ce.jpg",
+"source_filename": "apostle_paul.jpg"
+},
+"Arator, Christian poet and subdeacon of Rome (fl. early 6th century)": {
+"file": "arator_christian_poet_and_subdeacon_of_rome_fl_early_6th_century.jpg",
+"source_filename": "arator.jpg"
+},
+"Asclepiades of Antioch, Bishop and Confessor (early 3rd century)": {
+"file": "asclepiades_of_antioch_bishop_and_confessor_early_3rd_century.jpg",
+"source_filename": "asclepiades_of_antioch.jpg"
+},
+"Caecilianus, son of Quintus Aurelius Symmachus and Roman grain commissioner (fl. late 4th century)": {
+"file": "caecilianus_son_of_quintus_aurelius_symmachus_and_roman_grain_commissione_b60bc4.jpg",
+"source_filename": "caecilianus.jpg"
+},
+"Carloman": {
+"file": "carloman.jpg",
+"source_filename": "carloman.jpg"
+},
+"Cerinthus": true,
+"Cornutus Tertullus": {
+"file": "cornutus_tertullus.jpg",
+"source_filename": "cornutus_tertullus.jpg"
+},
+"Domnio": {
+"file": "domnio.jpg",
+"source_filename": "domnio.jpg"
+},
+"Equitius": {
+"file": "equitius.jpg",
+"source_filename": "equitius.jpg"
+},
+"Exuperius": {
+"file": "exuperius.jpg",
+"source_filename": "exuperius.jpg"
+},
+"Fabianus, associate of Fronto and Roman civil official (2nd century CE)": {
+"file": "fabianus_associate_of_fronto_and_roman_civil_official_2nd_century_ce.jpg",
+"source_filename": "fabianus.jpg"
+},
+"Fabius Valens": {
+"file": "fabius_valens.jpg",
+"source_filename": "fabius_valens.jpg"
+},
+"Ferrandus of Carthage": {
+"file": "ferrandus_of_carthage.jpg",
+"source_filename": "ferrandus_of_carthage.jpg"
+},
+"Flavius Sabinus": {
+"file": "flavius_sabinus.jpg",
+"source_filename": "flavius_sabinus.jpg"
+},
+"Flavius Scaevinus, Roman senator and Pisonian conspirator (active 65 CE)": {
+"file": "flavius_scaevinus_roman_senator_and_pisonian_conspirator_active_65_ce.jpg",
+"source_filename": "flavius_scaevinus.jpg"
+},
+"Flavius Severus, Magister Equitum under Constantius II": {
+"file": "flavius_severus_magister_equitum_under_constantius_ii.jpg",
+"source_filename": "flavius_severus.jpg"
+},
+"Hypatius": {
+"file": "hypatius.jpg",
+"source_filename": "hypatius.jpg"
+},
+"Italicus": {
+"file": "italicus.jpg",
+"source_filename": "italicus.jpg"
+},
+"Julia Augusta": {
+"file": "julia_augusta.jpg",
+"source_filename": "julia_augusta.jpg"
+},
+"Julius Africanus": {
+"file": "julius_africanus.jpg",
+"source_filename": "julius_africanus.jpg"
+},
+"Junius Blaesus, Roman general (d. 69 CE)": {
+"file": "junius_blaesus_roman_general_d_69_ce.jpg",
+"source_filename": "junius_blaesus.jpg"
+},
+"Lucius Cornelius Scipio Asiaticus, Roman general and consul (victor over Antiochus III)": {
+"file": "lucius_cornelius_scipio_asiaticus_roman_general_and_consul_victor_over_an_da76cf.jpg",
+"source_filename": "lucius_cornelius_scipio_asiaticus.jpg"
+},
+"Lucius Vitellius": {
+"file": "lucius_vitellius.jpg",
+"source_filename": "lucius_vitellius.jpg"
+},
+"Lupicinus": {
+"file": "lupicinus.jpg",
+"source_filename": "lupicinus.jpg"
+},
+"Marcus Otho": {
+"file": "marcus_otho.jpg",
+"source_filename": "marcus_otho.jpg"
+},
+"Martinianus": {
+"file": "martinianus.jpg",
+"source_filename": "martinianus.jpg"
+},
+"Micipsa": {
+"file": "micipsa.jpg",
+"source_filename": "micipsa.jpg"
+},
+"Narses, Patrician (Christian correspondent of Gregory the Great, late 6th century)": {
+"file": "narses_patrician_christian_correspondent_of_gregory_the_great_late_6th_century.jpg",
+"source_filename": "narses.jpg"
+},
+"Nicocles": {
+"file": "nicocles.jpg",
+"source_filename": "nicocles.jpg"
+},
+"Olympios": {
+"file": "olympios.jpg",
+"source_filename": "olympios.jpg"
+},
+"Pierius": {
+"file": "pierius.jpg",
+"source_filename": "pierius.jpg"
+},
+"Pomponia Graecina": {
+"file": "pomponia_graecina.jpg",
+"source_filename": "pomponia_graecina.jpg"
+},
+"Pomponius Secundus (Roman general and tragedian, 1st century CE)": {
+"file": "pomponius_secundus_roman_general_and_tragedian_1st_century_ce.jpg",
+"source_filename": "pomponius_secundus.jpg"
+},
+"Postumus the Younger": {
+"file": "postumus_the_younger.jpg",
+"source_filename": "postumus_the_younger.jpg"
+},
+"Publius Clodius": {
+"file": "publius_clodius.jpg",
+"source_filename": "publius_clodius.jpg"
+},
+"Segestes, Cheruscan noble and Roman ally (fl. early 1st century CE)": true,
+"Sempronius Gracchus": {
+"file": "sempronius_gracchus.jpg",
+"source_filename": "sempronius_gracchus.jpg"
+},
+"Serapion": {
+"file": "serapion.jpg",
+"source_filename": "serapion.jpg"
+},
+"Seronatus": true,
+"Tatianus": {
+"file": "tatianus.jpg",
+"source_filename": "tatianus.jpg"
+},
+"Titiana": {
+"file": "titiana.jpg",
+"source_filename": "titiana.jpg"
+},
+"Ummidia Quadratilla, wealthy Roman matron (grandmother of Ummidius Quadratus, fl. 1st century CE)": {
+"file": "ummidia_quadratilla_wealthy_roman_matron_grandmother_of_ummidius_quadratu_347af6.jpg",
+"source_filename": "ummidia_quadratilla.jpg"
+},
+"Valentine": {
+"file": "valentine.jpg",
+"source_filename": "valentine.jpg"
+},
+"Valerius Maximus": {
+"file": "valerius_maximus.jpg",
+"source_filename": "valerius_maximus.jpg"
+},
+"Vologeses": {
+"file": "vologeses.jpg",
+"source_filename": "vologeses.jpg"
+},
+"Witigis, King of the Ostrogoths (r. 536–540)": {
+"file": "witigis_king_of_the_ostrogoths_r_536_540.jpg",
+"source_filename": "witigis.jpg"
+},
+"Abundantius": {
+"file": "abundantius.jpg",
+"source_filename": "abundantius.jpg"
+},
+"Ammonius": {
+"file": "ammonius.jpg",
+"source_filename": "ammonius.jpg"
+},
+"Anicius": {
+"file": "anicius.jpg",
+"source_filename": "anicius.jpg"
+},
+"Anthimus": {
+"file": "anthimus.jpg",
+"source_filename": "anthimus.jpg"
+},
+"Antonia (associate of Mark Antony, as described by Plutarch)": {
+"file": "antonia_associate_of_mark_antony_as_described_by_plutarch.jpg",
+"source_filename": "antonia.jpg"
+},
+"Antonius Natalis, conspirator against Nero (Pisonian conspiracy, 65 CE)": {
+"file": "antonius_natalis_conspirator_against_nero_pisonian_conspiracy_65_ce.jpg",
+"source_filename": "antonius_natalis.jpg"
+},
+"Areius, philosopher in Alexandria (contemporary of Augustus)": {
+"file": "areius_philosopher_in_alexandria_contemporary_of_augustus.jpg",
+"source_filename": "areius.jpg"
+},
+"Ariobarzanes": {
+"file": "ariobarzanes.jpg",
+"source_filename": "ariobarzanes.jpg"
+},
+"Athanaric": {
+"file": "athanaric.jpg",
+"source_filename": "athanaric.jpg"
+},
+"Caius Septicius": {
+"file": "caius_septicius.jpg",
+"source_filename": "caius_septicius.jpg"
+},
+"Calpurnia Hispulla": {
+"file": "calpurnia_hispulla.jpg",
+"source_filename": "calpurnia_hispulla.jpg"
+},
+"Chnodomarius": {
+"file": "chnodomarius.jpg",
+"source_filename": "chnodomarius.jpg"
+},
+"Clodia": {
+"file": "clodia.jpg",
+"source_filename": "clodia.jpg"
+},
+"Curtius Rufus": {
+"file": "curtius_rufus.jpg",
+"source_filename": "curtius_rufus.jpg"
+},
+"Deiotarus, King of Galatia (1st century BCE)": {
+"file": "deiotarus_king_of_galatia_1st_century_bce.jpg",
+"source_filename": "deiotarus.jpg"
+},
+"Deuterius": {
+"file": "deuterius.jpg",
+"source_filename": "deuterius.jpg"
+},
+"Diognetus, teacher of Marcus Aurelius": {
+"file": "diognetus_teacher_of_marcus_aurelius.jpg",
+"source_filename": "diognetus.jpg"
+},
+"Eudocia Augusta": {
+"file": "eudocia_augusta.jpg",
+"source_filename": "eudocia_augusta.jpg"
+},
+"Eulalius": {
+"file": "eulalius.jpg",
+"source_filename": "eulalius.jpg"
+},
+"Euodius": {
+"file": "euodius.jpg",
+"source_filename": "euodius.jpg"
+},
+"Evagrius (correspondent and friend of Jerome, 4th century Christian layman)": {
+"file": "evagrius_correspondent_and_friend_of_jerome_4th_century_christian_layman.jpg",
+"source_filename": "evagrius.jpg"
+},
+"Faenius Rufus": {
+"file": "faenius_rufus.jpg",
+"source_filename": "faenius_rufus.jpg"
+},
+"Ferreolus": {
+"file": "ferreolus.jpg",
+"source_filename": "ferreolus.jpg"
+},
+"Fonteius": {
+"file": "fonteius.jpg",
+"source_filename": "fonteius.jpg"
+},
+"Fritigern": {
+"file": "fritigern.jpg",
+"source_filename": "fritigern.jpg"
+},
+"Gaius Trebatius": {
+"file": "gaius_trebatius.jpg",
+"source_filename": "gaius_trebatius.jpg"
+},
+"Gennadius Avienus": {
+"file": "gennadius_avienus.jpg",
+"source_filename": "gennadius_avienus.jpg"
+},
+"Gnaeus": {
+"file": "gnaeus.jpg",
+"source_filename": "gnaeus.jpg"
+},
+"Gogo": {
+"file": "gogo.jpg",
+"source_filename": "gogo.jpg"
+},
+"Helvius Pertinax, son of Emperor Pertinax": {
+"file": "helvius_pertinax_son_of_emperor_pertinax.jpg",
+"source_filename": "helvius_pertinax.jpg"
+},
+"Hieronymus": {
+"file": "hieronymus.jpg",
+"source_filename": "hieronymus.jpg"
+},
+"Ibas, Bishop of Edessa (fl. mid-5th century)": {
+"file": "ibas_bishop_of_edessa_fl_mid_5th_century.jpg",
+"source_filename": "ibas.jpg"
+},
+"Inguiomerus, uncle of Arminius (Cheruscan noble, early 1st century CE)": {
+"file": "inguiomerus_uncle_of_arminius_cheruscan_noble_early_1st_century_ce.jpg",
+"source_filename": "inguiomerus.jpg"
+},
+"Javolenus Priscus": {
+"file": "javolenus_priscus.jpg",
+"source_filename": "javolenus_priscus.jpg"
+},
+"Jovinian": {
+"file": "jovinian.jpg",
+"source_filename": "jovinian.jpg"
+},
+"Jovinus": {
+"file": "jovinus.jpg",
+"source_filename": "jovinus.jpg"
+},
+"Julia Soaemias Bassiana (Julia Soaemias Augusta), mother of Elagabalus": {
+"file": "julia_soaemias_bassiana_julia_soaemias_augusta_mother_of_elagabalus.jpg",
+"source_filename": "julia_soaemias_bassiana.jpg"
+},
+"Julius Sabinus": {
+"file": "julius_sabinus.jpg",
+"source_filename": "julius_sabinus.jpg"
+},
+"Justina, Empress of the Western Roman Empire (wife of Valentinian I, mother of Valentinian II, ardent Arian)": {
+"file": "justina_empress_of_the_western_roman_empire_wife_of_valentinian_i_mother__a181ac.jpg",
+"source_filename": "justina.jpg"
+},
+"Licinius Mucianus": {
+"file": "licinius_mucianus.jpg",
+"source_filename": "licinius_mucianus.jpg"
+},
+"Locusta, notorious poisoner in the court of Nero and Claudius": {
+"file": "locusta_notorious_poisoner_in_the_court_of_nero_and_claudius.jpg",
+"source_filename": "locusta.jpg"
+},
+"Lucillianus": {
+"file": "lucillianus.jpg",
+"source_filename": "lucillianus.jpg"
+},
+"Lucius Caesar": {
+"file": "lucius_caesar.jpg",
+"source_filename": "lucius_caesar.jpg"
+},
+"Lucius Lucceius, Roman historian and friend of Cicero": {
+"file": "lucius_lucceius_roman_historian_and_friend_of_cicero.jpg",
+"source_filename": "lucius_lucceius.jpg"
+},
+"Luke": {
+"file": "luke.jpg",
+"source_filename": "luke.jpg"
+},
+"Marcian, Roman Emperor (r. 450-457)": {
+"file": "marcian_roman_emperor_r_450_457.jpg",
+"source_filename": "marcian.jpg"
+},
+"Marcus Octavius, Tribune of the Plebs (2nd c. BCE, opponent of Tiberius Gracchus)": {
+"file": "marcus_octavius_tribune_of_the_plebs_2nd_c_bce_opponent_of_tiberius_gracchus.jpg",
+"source_filename": "marcus_octavius.jpg"
+},
+"Marullus, farce writer in the time of Marcus Aurelius": {
+"file": "marullus_farce_writer_in_the_time_of_marcus_aurelius.jpg",
+"source_filename": "marullus.jpg"
+},
+"Meletius of Antioch": {
+"file": "meletius_of_antioch.jpg",
+"source_filename": "meletius_of_antioch.jpg"
+},
+"Mellobaudes": {
+"file": "mellobaudes.jpg",
+"source_filename": "mellobaudes.jpg"
+},
+"Nabis": {
+"file": "nabis.jpg",
+"source_filename": "nabis.jpg"
+},
+"Nemesius, son of a friend of Symmachus (fl. late 4th century)": {
+"file": "nemesius_son_of_a_friend_of_symmachus_fl_late_4th_century.jpg",
+"source_filename": "nemesius.jpg"
+},
+"Nevitta": {
+"file": "nevitta.jpg",
+"source_filename": "nevitta.jpg"
+},
+"Nomus": {
+"file": "nomus.jpg",
+"source_filename": "nomus.jpg"
+},
+"Pharasmanes I of Iberia, King of Iberia (early 1st century CE)": {
+"file": "pharasmanes_i_of_iberia_king_of_iberia_early_1st_century_ce.jpg",
+"source_filename": "pharasmanes_i_of_iberia.jpg"
+},
+"Photius": {
+"file": "photius.jpg",
+"source_filename": "photius.jpg"
+},
+"Plancina (wife of Gnaeus Calpurnius Piso, accused in the death of Germanicus, early 1st century CE)": {
+"file": "plancina_wife_of_gnaeus_calpurnius_piso_accused_in_the_death_of_germanicu_7b1588.jpg",
+"source_filename": "plancina.jpg"
+},
+"Possessor": {
+"file": "possessor.jpg",
+"source_filename": "possessor.jpg"
+},
+"Promotus, magister militum under Theodosius I": {
+"file": "promotus_magister_militum_under_theodosius_i.jpg",
+"source_filename": "promotus.jpg"
+},
+"Publius Egnatius": {
+"file": "publius_egnatius.jpg",
+"source_filename": "publius_egnatius.jpg"
+},
+"Ravennius, Bishop of Arles (mid-5th century)": {
+"file": "ravennius_bishop_of_arles_mid_5th_century.jpg",
+"source_filename": "ravennius.jpg"
+},
+"Reparatus": {
+"file": "reparatus.jpg",
+"source_filename": "reparatus.jpg"
+},
+"Sextilia, mother of Emperor Vitellius": {
+"file": "sextilia_mother_of_emperor_vitellius.jpg",
+"source_filename": "sextilia.jpg"
+},
+"Suomarius": {
+"file": "suomarius.jpg",
+"source_filename": "suomarius.jpg"
+},
+"Tertullus (official in Ammianus Marcellinus and Christian correspondent in Cyprian of Carthage)": {
+"file": "tertullus_official_in_ammianus_marcellinus_and_christian_correspondent_in_ce3b67.jpg",
+"source_filename": "tertullus.jpg"
+},
+"Vardanes": {
+"file": "vardanes.jpg",
+"source_filename": "vardanes.jpg"
+},
+"Vergilius Romanus, poet and acquaintance of Pliny the Younger": {
+"file": "vergilius_romanus_poet_and_acquaintance_of_pliny_the_younger.jpg",
+"source_filename": "vergilius_romanus.jpg"
+},
+"Vibius Serenus": {
+"file": "vibius_serenus.jpg",
+"source_filename": "vibius_serenus.jpg"
+},
+"Vipstanus Messalla": {
+"file": "vipstanus_messalla.jpg",
+"source_filename": "vipstanus_messalla.jpg"
+},
+"Vitalianus, usurper in the Eastern Roman Empire (early 6th century)": {
+"file": "vitalianus_usurper_in_the_eastern_roman_empire_early_6th_century.jpg",
+"source_filename": "vitalianus.jpg"
+},
+"Vonones I, King of Parthia (r. 8–12 CE)": {
+"file": "vonones_i_king_of_parthia_r_8_12_ce.jpg",
+"source_filename": "vonones_i.jpg"
+},
+"Abramius, chorepiscopus (rural bishop) mentioned by Theodoret of Cyrrhus": {
+"file": "abramius_chorepiscopus_rural_bishop_mentioned_by_theodoret_of_cyrrhus.jpg",
+"source_filename": "abramius.jpg"
+},
+"Adamantius": {
+"file": "adamantius.jpg",
+"source_filename": "adamantius.jpg"
+},
+"Adelphius, prefect of Rome under Magnentius": {
+"file": "adelphius_prefect_of_rome_under_magnentius.jpg",
+"source_filename": "adelphius.jpg"
+},
+"Aelius Cordus, purported historian cited in Historia Augusta": {
+"file": "aelius_cordus_purported_historian_cited_in_historia_augusta.jpg",
+"source_filename": "aelius_cordus.jpg"
+},
+"Aetios": {
+"file": "aetios.jpg",
+"source_filename": "aetios.jpg"
+},
+"Aetius, associate of Libanius (4th century Antioch)": {
+"file": "aetius_associate_of_libanius_4th_century_antioch.jpg",
+"source_filename": "aetius.jpg"
+},
+"Agatho (Christian devotee mentioned by Gregory the Great)": {
+"file": "agatho_christian_devotee_mentioned_by_gregory_the_great.jpg",
+"source_filename": "agatho.jpg"
+},
+"Ananias (husband of Sapphira, Acts 5, early Christian in Jerusalem)": {
+"file": "ananias_husband_of_sapphira_acts_5_early_christian_in_jerusalem.jpg",
+"source_filename": "ananias.jpg"
+},
+"Anianus": {
+"file": "anianus.jpg",
+"source_filename": "anianus.jpg"
+},
+"Antoninus (child mentioned in Fronto's correspondence with Marcus Aurelius, c. 139-166 CE)": {
+"file": "antoninus_child_mentioned_in_fronto_s_correspondence_with_marcus_aurelius_8a5eb6.jpg",
+"source_filename": "antoninus.jpg"
+},
+"Antonius Primus": {
+"file": "antonius_primus.jpg",
+"source_filename": "antonius_primus.jpg"
+},
+"Arioald": {
+"file": "arioald.jpg",
+"source_filename": "arioald.jpg"
+},
+"Arrhidaeus": {
+"file": "arrhidaeus.jpg",
+"source_filename": "arrhidaeus.jpg"
+},
+"Asinius Pollio": {
+"file": "asinius_pollio.jpg",
+"source_filename": "asinius_pollio.jpg"
+},
+"Assyria": {
+"file": "assyria.jpg",
+"source_filename": "assyria.jpg"
+},
+"Ateius Capito": {
+"file": "ateius_capito.jpg",
+"source_filename": "ateius_capito.jpg"
+},
+"Aulus Plautius": {
+"file": "aulus_plautius.jpg",
+"source_filename": "aulus_plautius.jpg"
+},
+"Aurelia": {
+"file": "aurelia.jpg",
+"source_filename": "aurelia.jpg"
+},
+"Barses, Bishop (correspondent of Basil of Caesarea)": {
+"file": "barses_bishop_correspondent_of_basil_of_caesarea.jpg",
+"source_filename": "barses.jpg"
+},
+"Caesellius Bassus": {
+"file": "caesellius_bassus.jpg",
+"source_filename": "caesellius_bassus.jpg"
+},
+"Caius Trebonius, Roman official (late Republic)": {
+"file": "caius_trebonius_roman_official_late_republic.jpg",
+"source_filename": "caius_trebonius.jpg"
+},
+"Candidus, Christian presbyter and archimandrite (correspondent of Theodoret of Cyrrhus)": {
+"file": "candidus_christian_presbyter_and_archimandrite_correspondent_of_theodoret_afd009.jpg",
+"source_filename": "candidus.jpg"
+},
+"Cartismandua, Queen of the Brigantes (mid-1st century CE)": {
+"file": "cartismandua_queen_of_the_brigantes_mid_1st_century_ce.jpg",
+"source_filename": "cartismandua.jpg"
+},
+"Cassianus": {
+"file": "cassianus.jpg",
+"source_filename": "cassianus.jpg"
+},
+"Censorius": {
+"file": "censorius.jpg",
+"source_filename": "censorius.jpg"
+},
+"Charietto, Germanic warrior and scout under Julian (4th century)": {
+"file": "charietto_germanic_warrior_and_scout_under_julian_4th_century.jpg",
+"source_filename": "charietto.jpg"
+},
+"Chlodulf": {
+"file": "chlodulf.jpg",
+"source_filename": "chlodulf.jpg"
+},
+"Claudianus": {
+"file": "claudianus.jpg",
+"source_filename": "claudianus.jpg"
+},
+"Cluvius Rufus": {
+"file": "cluvius_rufus.jpg",
+"source_filename": "cluvius_rufus.jpg"
+},
+"Cossutianus Capito, Roman senator and delator under Nero": {
+"file": "cossutianus_capito_roman_senator_and_delator_under_nero.jpg",
+"source_filename": "cossutianus_capito.jpg"
+},
+"Cottius": {
+"file": "cottius.jpg",
+"source_filename": "cottius.jpg"
+},
+"Cratippus": {
+"file": "cratippus.jpg",
+"source_filename": "cratippus.jpg"
+},
+"Crispinus": {
+"file": "crispinus.jpg",
+"source_filename": "crispinus.jpg"
+},
+"Decrius, Roman centurion in Africa (d. 20 CE)": {
+"file": "decrius_roman_centurion_in_africa_d_20_ce.jpg",
+"source_filename": "decrius.jpg"
+},
+"Didymus of Alexandria": {
+"file": "didymus_of_alexandria.jpg",
+"source_filename": "didymus_of_alexandria.jpg"
+},
+"Domitia": {
+"file": "domitia.jpg",
+"source_filename": "domitia.jpg"
+},
+"Domitia Longina, wife of Domitian": {
+"file": "domitia_longina_wife_of_domitian.jpg",
+"source_filename": "domitia_longina.jpg"
+},
+"Eadburga, Abbess (correspondent of Boniface, 8th century)": {
+"file": "eadburga_abbess_correspondent_of_boniface_8th_century.jpg",
+"source_filename": "eadburga.jpg"
+},
+"Ermenrichus": {
+"file": "ermenrichus.jpg",
+"source_filename": "ermenrichus.jpg"
+},
+"Ethelred I, King of Northumbria (r. 774–779, 790–796)": {
+"file": "ethelred_i_king_of_northumbria_r_774_779_790_796.jpg",
+"source_filename": "ethelred_i.jpg"
+},
+"Fortunatianus": {
+"file": "fortunatianus.jpg",
+"source_filename": "fortunatianus.jpg"
+},
+"Frontinus": {
+"file": "frontinus.jpg",
+"source_filename": "frontinus.jpg"
+},
+"Gaianus (correspondent of Libanius)": {
+"file": "gaianus_correspondent_of_libanius.jpg",
+"source_filename": "gaianus.jpg"
+},
+"Gaius Aufidius": {
+"file": "gaius_aufidius.jpg",
+"source_filename": "gaius_aufidius.jpg"
+},
+"Gamaliel, Jewish Patriarch (1st century CE)": {
+"file": "gamaliel_jewish_patriarch_1st_century_ce.jpg",
+"source_filename": "gamaliel.jpg"
+},
+"Genthius": {
+"file": "genthius.jpg",
+"source_filename": "genthius.jpg"
+},
+"Glycerius": {
+"file": "glycerius.jpg",
+"source_filename": "glycerius.jpg"
+},
+"Gregory Thaumaturgus (Gregory the Wonderworker, Bishop of Neocaesarea, 3rd century)": {
+"file": "gregory_thaumaturgus_gregory_the_wonderworker_bishop_of_neocaesarea_3rd_century.jpg",
+"source_filename": "gregory_thaumaturgus.jpg"
+},
+"Gundomadus": {
+"file": "gundomadus.jpg",
+"source_filename": "gundomadus.jpg"
+},
+"Guntchramn": {
+"file": "guntchramn.jpg",
+"source_filename": "guntchramn.jpg"
+},
+"Heraclius, distinguished layman and correspondent of Avitus of Vienne (fl. early 6th c.)": {
+"file": "heraclius_distinguished_layman_and_correspondent_of_avitus_of_vienne_fl_e_bf7821.jpg",
+"source_filename": "heraclius.jpg"
+},
+"Hierax, correspondent of Libanius in the Troad (fl. 4th century)": {
+"file": "hierax_correspondent_of_libanius_in_the_troad_fl_4th_century.jpg",
+"source_filename": "hierax.jpg"
+},
+"Himerius": {
+"file": "himerius.jpg",
+"source_filename": "himerius.jpg"
+},
+"Hortarius": {
+"file": "hortarius.jpg",
+"source_filename": "hortarius.jpg"
+},
+"Icelus Martianus, freedman and adviser of Emperor Galba": {
+"file": "icelus_martianus_freedman_and_adviser_of_emperor_galba.jpg",
+"source_filename": "icelus_martianus.jpg"
+},
+"Irenaeus, presbyter of the church (late 2nd century, mentioned by Eusebius)": {
+"file": "irenaeus_presbyter_of_the_church_late_2nd_century_mentioned_by_eusebius.jpg",
+"source_filename": "irenaeus.jpg"
+},
+"Jovianus": {
+"file": "jovianus.jpg",
+"source_filename": "jovianus.jpg"
+},
+"Julia Mamaea, mother of Severus Alexander, Roman Empress": {
+"file": "julia_mamaea_mother_of_severus_alexander_roman_empress.jpg",
+"source_filename": "julia_mamaea.jpg"
+},
+"Julius Sacrovir": {
+"file": "julius_sacrovir.jpg",
+"source_filename": "julius_sacrovir.jpg"
+},
+"Julius Servianus": {
+"file": "julius_servianus.jpg",
+"source_filename": "julius_servianus.jpg"
+},
+"Junia Silana": {
+"file": "junia_silana.jpg",
+"source_filename": "junia_silana.jpg"
+},
+"Junius Mauricus": {
+"file": "junius_mauricus.jpg",
+"source_filename": "junius_mauricus.jpg"
+},
+"Junius Rusticus": {
+"file": "junius_rusticus.jpg",
+"source_filename": "junius_rusticus.jpg"
+},
+"Lucceius Albinus": {
+"file": "lucceius_albinus.jpg",
+"source_filename": "lucceius_albinus.jpg"
+},
+"Lucius Junius": {
+"file": "lucius_junius.jpg",
+"source_filename": "lucius_junius.jpg"
+},
+"Lucius Munatius Plancus, Roman praetor-elect and politician (1st century BCE)": {
+"file": "lucius_munatius_plancus_roman_praetor_elect_and_politician_1st_century_bce.jpg",
+"source_filename": "lucius_munatius_plancus.jpg"
+},
+"Malchus": {
+"file": "malchus.jpg",
+"source_filename": "malchus.jpg"
+},
+"Marcus Antistius Labeo, Roman jurist (late 1st century BCE – early 1st century CE)": {
+"file": "marcus_antistius_labeo_roman_jurist_late_1st_century_bce_early_1st_century_ce.jpg",
+"source_filename": "marcus_antistius_labeo.jpg"
+},
+"Marcus Servilius": {
+"file": "marcus_servilius.jpg",
+"source_filename": "marcus_servilius.jpg"
+},
+"Maroboduus": {
+"file": "maroboduus.jpg",
+"source_filename": "maroboduus.jpg"
+},
+"Maurice Tiberius, Roman Emperor (r. 582–602)": {
+"file": "maurice_tiberius_roman_emperor_r_582_602.jpg",
+"source_filename": "maurice_tiberius.jpg"
+},
+"Memnon of Ephesus": {
+"file": "memnon_of_ephesus.jpg",
+"source_filename": "memnon_of_ephesus.jpg"
+},
+"Nepotianus": {
+"file": "nepotianus.jpg",
+"source_filename": "nepotianus.jpg"
+},
+"Numenius of Apamea (Pythagorean philosopher, 2nd century CE)": true,
+"Numenius of Apamea, Pythagorean philosopher (fl. 2nd century CE)": {
+"file": "numenius_of_apamea_pythagorean_philosopher_fl_2nd_century_ce.jpg",
+"source_filename": "numenius_of_apamea.jpg"
+},
+"Onesimus": {
+"file": "onesimus.jpg",
+"source_filename": "onesimus.jpg"
+},
+"Pentadius": {
+"file": "pentadius.jpg",
+"source_filename": "pentadius.jpg"
+},
+"Percennius": {
+"file": "percennius.jpg",
+"source_filename": "percennius.jpg"
+},
+"Porphyrius": {
+"file": "porphyrius.jpg",
+"source_filename": "porphyrius.jpg"
+},
+"Priarius": {
+"file": "priarius.jpg",
+"source_filename": "priarius.jpg"
+},
+"Primus Antonius": {
+"file": "primus_antonius.jpg",
+"source_filename": "primus_antonius.jpg"
+},
+"Proterius": {
+"file": "proterius.jpg",
+"source_filename": "proterius.jpg"
+},
+"Publius Anteius, Roman elite under Nero": {
+"file": "publius_anteius_roman_elite_under_nero.jpg",
+"source_filename": "publius_anteius.jpg"
+},
+"Rutilius": {
+"file": "rutilius.jpg",
+"source_filename": "rutilius.jpg"
+},
+"Salonius, Bishop of Geneva (son of Eucherius of Lyon, former monk of Lérins)": {
+"file": "salonius_bishop_of_geneva_son_of_eucherius_of_lyon_former_monk_of_l_rins.jpg",
+"source_filename": "salonius.jpg"
+},
+"Sapaudus, Bishop (recipient of letter from Pope Pelagius I)": {
+"file": "sapaudus_bishop_recipient_of_letter_from_pope_pelagius_i.jpg",
+"source_filename": "sapaudus.jpg"
+},
+"Saufeius": {
+"file": "saufeius.jpg",
+"source_filename": "saufeius.jpg"
+},
+"Sedatus, Bishop (correspondent of Ruricius of Limoges, late 5th century)": {
+"file": "sedatus_bishop_correspondent_of_ruricius_of_limoges_late_5th_century.jpg",
+"source_filename": "sedatus.jpg"
+},
+"Serenianus": {
+"file": "serenianus.jpg",
+"source_filename": "serenianus.jpg"
+},
+"Serenus of Marseilles, Bishop (fl. late 6th century)": {
+"file": "serenus_of_marseilles_bishop_fl_late_6th_century.jpg",
+"source_filename": "serenus_of_marseilles.jpg"
+},
+"Servilia": {
+"file": "servilia.jpg",
+"source_filename": "servilia.jpg"
+},
+"Severinus": {
+"file": "severinus.jpg",
+"source_filename": "severinus.jpg"
+},
+"Sporacius, Christian correspondent of Theodoret of Cyrrhus": {
+"file": "sporacius_christian_correspondent_of_theodoret_of_cyrrhus.jpg",
+"source_filename": "sporacius.jpg"
+},
+"Suetonius Paullinus": {
+"file": "suetonius_paullinus.jpg",
+"source_filename": "suetonius_paullinus.jpg"
+},
+"Tacfarinas": {
+"file": "tacfarinas.jpg",
+"source_filename": "tacfarinas.jpg"
+},
+"Theodoric II": {
+"file": "theodoric_ii.jpg",
+"source_filename": "theodoric_ii.jpg"
+},
+"Timotheos, Reader (deacon) mentioned in Isidore of Pelusium's letters (early 5th century)": {
+"file": "timotheos_reader_deacon_mentioned_in_isidore_of_pelusium_s_letters_early__437d52.jpg",
+"source_filename": "timotheos.jpg"
+},
+"Tubero": {
+"file": "tubero.jpg",
+"source_filename": "tubero.jpg"
+},
+"Tuscianus": {
+"file": "tuscianus.jpg",
+"source_filename": "tuscianus.jpg"
+},
+"Ulpius, intimate associate of Fronto and Marcus Aurelius (mid-2nd century CE)": {
+"file": "ulpius_intimate_associate_of_fronto_and_marcus_aurelius_mid_2nd_century_ce.jpg",
+"source_filename": "ulpius.jpg"
+},
+"Ursinus": {
+"file": "ursinus.jpg",
+"source_filename": "ursinus.jpg"
+},
+"Varronianus": {
+"file": "varronianus.jpg",
+"source_filename": "varronianus.jpg"
+},
+"Vestricius Spurinna, Roman senator and correspondent of Pliny the Younger (fl. late 1st–early 2nd c. CE)": {
+"file": "vestricius_spurinna_roman_senator_and_correspondent_of_pliny_the_younger__0272fc.jpg",
+"source_filename": "vestricius_spurinna.jpg"
+},
+"Victricius, Christian soldier and confessor (late 4th century)": {
+"file": "victricius_christian_soldier_and_confessor_late_4th_century.jpg",
+"source_filename": "victricius.jpg"
+},
+"Virgilius, Bishop addressed by Gregory the Great (late 6th century)": {
+"file": "virgilius_bishop_addressed_by_gregory_the_great_late_6th_century.jpg",
+"source_filename": "virgilius.jpg"
+},
+"Ædesius, associate of Eusebius (Ammianus Marcellinus, 4th century)": {
+"file": "desius_associate_of_eusebius_ammianus_marcellinus_4th_century.jpg",
+"source_filename": "desius.jpg"
+},
+"Ablabius, Praetorian Prefect under Constantine I": {
+"file": "ablabius_praetorian_prefect_under_constantine_i.jpg",
+"source_filename": "ablabius.jpg"
+},
+"Abundius, Bishop of Como (mid-5th century)": {
+"file": "abundius_bishop_of_como_mid_5th_century.jpg",
+"source_filename": "abundius.jpg"
+},
+"Adaloald": {
+"file": "adaloald.jpg",
+"source_filename": "adaloald.jpg"
+},
+"Aemilia, wife of Pompey the Great": {
+"file": "aemilia_wife_of_pompey_the_great.jpg",
+"source_filename": "aemilia.jpg"
+},
+"Agilo, envoy under Julian the Apostate": {
+"file": "agilo_envoy_under_julian_the_apostate.jpg",
+"source_filename": "agilo.jpg"
+},
+"Akesias (proverbial incompetent healer in Greek literature)": {
+"file": "akesias_proverbial_incompetent_healer_in_greek_literature.jpg",
+"source_filename": "akesias.jpg"
+},
+"Ansfrid": {
+"file": "ansfrid.jpg",
+"source_filename": "ansfrid.jpg"
+},
+"Antonius Felix": {
+"file": "antonius_felix.jpg",
+"source_filename": "antonius_felix.jpg"
+},
+"Apolinarios, associate of Eustathius in Libanius' correspondence": {
+"file": "apolinarios_associate_of_eustathius_in_libanius_correspondence.jpg",
+"source_filename": "apolinarios.jpg"
+},
+"Archelaus of Cappadocia, King of Cappadocia (r. c. 36 BCE–17 CE)": {
+"file": "archelaus_of_cappadocia_king_of_cappadocia_r_c_36_bce_17_ce.jpg",
+"source_filename": "archelaus_of_cappadocia.jpg"
+},
+"Aregius, Christian cleric addressed by Pope Gregory the Great": {
+"file": "aregius_christian_cleric_addressed_by_pope_gregory_the_great.jpg",
+"source_filename": "aregius.jpg"
+},
+"Arintheus, Roman general under Constantius II and Valens": {
+"file": "arintheus_roman_general_under_constantius_ii_and_valens.jpg",
+"source_filename": "arintheus.jpg"
+},
+"Arsacius": {
+"file": "arsacius.jpg",
+"source_filename": "arsacius.jpg"
+},
+"Artavasdes II, King of Armenia (r. c. 55–34 BCE)": {
+"file": "artavasdes_ii_king_of_armenia_r_c_55_34_bce.jpg",
+"source_filename": "artavasdes_ii.jpg"
+},
+"Artaxias, son of Artavasdes, King of Armenia (1st century BCE)": {
+"file": "artaxias_son_of_artavasdes_king_of_armenia_1st_century_bce.jpg",
+"source_filename": "artaxias.jpg"
+},
+"Arulenus Rusticus": {
+"file": "arulenus_rusticus.jpg",
+"source_filename": "arulenus_rusticus.jpg"
+},
+"Ascholius, Bishop of Thessalonica (late 4th century)": {
+"file": "ascholius_bishop_of_thessalonica_late_4th_century.jpg",
+"source_filename": "ascholius.jpg"
+},
+"Asinius Saloninus, grandson of Marcus Agrippa": {
+"file": "asinius_saloninus_grandson_of_marcus_agrippa.jpg",
+"source_filename": "asinius_saloninus.jpg"
+},
+"Aspasius, presbyter and teacher in Carthage (early 3rd century)": {
+"file": "aspasius_presbyter_and_teacher_in_carthage_early_3rd_century.jpg",
+"source_filename": "aspasius.jpg"
+},
+"Athanasios (associate of Libanius, mentioned in letter 8519)": {
+"file": "athanasios_associate_of_libanius_mentioned_in_letter_8519.jpg",
+"source_filename": "athanasios.jpg"
+},
+"Atilia": {
+"file": "atilia.jpg",
+"source_filename": "atilia.jpg"
+},
+"Atimetus, freedman of Domitia Lepida (aunt of Nero)": {
+"file": "atimetus_freedman_of_domitia_lepida_aunt_of_nero.jpg",
+"source_filename": "atimetus.jpg"
+},
+"Bainobaudes, tribune of the Cornuti under Constantius II": {
+"file": "bainobaudes_tribune_of_the_cornuti_under_constantius_ii.jpg",
+"source_filename": "bainobaudes.jpg"
+},
+"Barbation": {
+"file": "barbation.jpg",
+"source_filename": "barbation.jpg"
+},
+"Barnabas, early Christian apostle and companion of Paul": {
+"file": "barnabas_early_christian_apostle_and_companion_of_paul.jpg",
+"source_filename": "barnabas.jpg"
+},
+"Basilina, mother of Julian the Apostate": {
+"file": "basilina_mother_of_julian_the_apostate.jpg",
+"source_filename": "basilina.jpg"
+},
+"Bassiana": {
+"file": "bassiana.jpg",
+"source_filename": "bassiana.jpg"
+},
+"Bathyllus": {
+"file": "bathyllus.jpg",
+"source_filename": "bathyllus.jpg"
+},
+"Benignus, Archbishop (late 6th century)": {
+"file": "benignus_archbishop_late_6th_century.jpg",
+"source_filename": "benignus.jpg"
+},
+"Blossius of Cumae, Italian philosopher (student of Antipater of Tarsus)": {
+"file": "blossius_of_cumae_italian_philosopher_student_of_antipater_of_tarsus.jpg",
+"source_filename": "blossius_of_cumae.jpg"
+},
+"Boudica": {
+"file": "boudica.jpg",
+"source_filename": "boudica.jpg"
+},
+"Caecilianus, early 4th-century Christian bishop of Carthage": {
+"file": "caecilianus_early_4th_century_christian_bishop_of_carthage.jpg",
+"source_filename": "caecilianus.jpg"
+},
+"Caecilius Metellus, Roman consul (context: colleague of Gaius Furius, early Republic)": {
+"file": "caecilius_metellus_roman_consul_context_colleague_of_gaius_furius_early_republic.jpg",
+"source_filename": "caecilius_metellus.jpg"
+},
+"Caius Asinius": {
+"file": "caius_asinius.jpg",
+"source_filename": "caius_asinius.jpg"
+},
+"Caius Cestius": {
+"file": "caius_cestius.jpg",
+"source_filename": "caius_cestius.jpg"
+},
+"Caius Octavius (father of Augustus)": {
+"file": "caius_octavius_father_of_augustus.jpg",
+"source_filename": "caius_octavius.jpg"
+},
+"Calpurnius Piso": {
+"file": "calpurnius_piso.jpg",
+"source_filename": "calpurnius_piso.jpg"
+},
+"Cartimandua, Queen of the Brigantes (1st century CE)": {
+"file": "cartimandua_queen_of_the_brigantes_1st_century_ce.jpg",
+"source_filename": "cartimandua.jpg"
+},
+"Cassius Severus": {
+"file": "cassius_severus.jpg",
+"source_filename": "cassius_severus.jpg"
+},
+"Celestius, Pelagian theologian (early 5th century)": {
+"file": "celestius_pelagian_theologian_early_5th_century.jpg",
+"source_filename": "celestius.jpg"
+},
+"Celsus, Roman medical writer (fl. early 1st century CE)": {
+"file": "celsus_roman_medical_writer_fl_early_1st_century_ce.jpg",
+"source_filename": "celsus.jpg"
+},
+"Ceolwulf, King of Northumbria (r. 729–737)": {
+"file": "ceolwulf_king_of_northumbria_r_729_737.jpg",
+"source_filename": "ceolwulf.jpg"
+},
+"Ceretius, addressee of Avitus of Vienne's letter": {
+"file": "ceretius_addressee_of_avitus_of_vienne_s_letter.jpg",
+"source_filename": "ceretius.jpg"
+},
+"Chrysogonus": {
+"file": "chrysogonus.jpg",
+"source_filename": "chrysogonus.jpg"
+},
+"Claudius Pulcher": {
+"file": "claudius_pulcher.jpg",
+"source_filename": "claudius_pulcher.jpg"
+},
+"Clodius Macer": {
+"file": "clodius_macer.jpg",
+"source_filename": "clodius_macer.jpg"
+},
+"Consentius": {
+"file": "consentius.jpg",
+"source_filename": "consentius.jpg"
+},
+"Cornelius Dolabella, companion of Julius Caesar (late 1st century BCE)": {
+"file": "cornelius_dolabella_companion_of_julius_caesar_late_1st_century_bce.jpg",
+"source_filename": "cornelius_dolabella.jpg"
+},
+"Crispinianus, Christian soldier known to Paulinus of Nola": {
+"file": "crispinianus_christian_soldier_known_to_paulinus_of_nola.jpg",
+"source_filename": "crispinianus.jpg"
+},
+"Curius Fortunatianus, historian cited in the Historia Augusta": {
+"file": "curius_fortunatianus_historian_cited_in_the_historia_augusta.jpg",
+"source_filename": "curius_fortunatianus.jpg"
+},
+"Cuthbert of Canterbury": {
+"file": "cuthbert_of_canterbury.jpg",
+"source_filename": "cuthbert_of_canterbury.jpg"
+},
+"Cylaces, Armenian eunuch and court official (4th century)": {
+"file": "cylaces_armenian_eunuch_and_court_official_4th_century.jpg",
+"source_filename": "cylaces.jpg"
+},
+"Cynegius": {
+"file": "cynegius.jpg",
+"source_filename": "cynegius.jpg"
+},
+"Cyria": {
+"file": "cyria.jpg",
+"source_filename": "cyria.jpg"
+},
+"Demetrius Chytras, philosopher accused of sacrificial practices (4th century, Ammianus Marcellinus)": {
+"file": "demetrius_chytras_philosopher_accused_of_sacrificial_practices_4th_centur_b2fa1c.jpg",
+"source_filename": "demetrius_chytras.jpg"
+},
+"Donus": {
+"file": "donus.jpg",
+"source_filename": "donus.jpg"
+},
+"Eleutherius": {
+"file": "eleutherius.jpg",
+"source_filename": "eleutherius.jpg"
+},
+"Eparchius": {
+"file": "eparchius.jpg",
+"source_filename": "eparchius.jpg"
+},
+"Epponina": {
+"file": "epponina.jpg",
+"source_filename": "epponina.jpg"
+},
+"Eprius Marcellus": {
+"file": "eprius_marcellus.jpg",
+"source_filename": "eprius_marcellus.jpg"
+},
+"Eudoxia, Empress (referenced by Theodoret of Cyrrhus)": {
+"file": "eudoxia_empress_referenced_by_theodoret_of_cyrrhus.jpg",
+"source_filename": "eudoxia.jpg"
+},
+"Eumenius (addressee of Julian the Apostate's letter, Gaul, 4th century)": {
+"file": "eumenius_addressee_of_julian_the_apostate_s_letter_gaul_4th_century.jpg",
+"source_filename": "eumenius.jpg"
+},
+"Euphrasius": {
+"file": "euphrasius.jpg",
+"source_filename": "euphrasius.jpg"
+},
+"Eusignius (associate of Symmachus, late 4th century)": {
+"file": "eusignius_associate_of_symmachus_late_4th_century.jpg",
+"source_filename": "eusignius.jpg"
+},
+"Euthalius": {
+"file": "euthalius.jpg",
+"source_filename": "euthalius.jpg"
+},
+"Eutolmius": {
+"file": "eutolmius.jpg",
+"source_filename": "eutolmius.jpg"
+},
+"Eutropius of Valencia": {
+"file": "eutropius_of_valencia.jpg",
+"source_filename": "eutropius_of_valencia.jpg"
+},
+"Euzoius": {
+"file": "euzoius.jpg",
+"source_filename": "euzoius.jpg"
+},
+"Evasius": {
+"file": "evasius.jpg",
+"source_filename": "evasius.jpg"
+},
+"Exsuperius, soldier of the Victorian legion (Ammianus Marcellinus, 4th century)": {
+"file": "exsuperius_soldier_of_the_victorian_legion_ammianus_marcellinus_4th_century.jpg",
+"source_filename": "exsuperius.jpg"
+},
+"Fabricius Veiento, Roman senator (1st century CE)": {
+"file": "fabricius_veiento_roman_senator_1st_century_ce.jpg",
+"source_filename": "fabricius_veiento.jpg"
+},
+"Farnobius": {
+"file": "farnobius.jpg",
+"source_filename": "farnobius.jpg"
+},
+"Ferriolus, distinguished man addressed by Theoderic the Great (fl. early 6th century)": {
+"file": "ferriolus_distinguished_man_addressed_by_theoderic_the_great_fl_early_6th_6eca49.jpg",
+"source_filename": "ferriolus.jpg"
+},
+"Firmius Catus": {
+"file": "firmius_catus.jpg",
+"source_filename": "firmius_catus.jpg"
+},
+"Fulgentius": {
+"file": "fulgentius.jpg",
+"source_filename": "fulgentius.jpg"
+},
+"Fuscus": {
+"file": "fuscus.jpg",
+"source_filename": "fuscus.jpg"
+},
+"Gaius Fufius Geminus, Roman consul (consul in 29 CE, associate of Livia Augusta)": {
+"file": "gaius_fufius_geminus_roman_consul_consul_in_29_ce_associate_of_livia_augusta.jpg",
+"source_filename": "gaius_fufius_geminus.jpg"
+},
+"Gaius Proculeius, confidant of Octavian (d. after 30 BCE)": {
+"file": "gaius_proculeius_confidant_of_octavian_d_after_30_bce.jpg",
+"source_filename": "gaius_proculeius.jpg"
+},
+"Galeria, wife of Emperor Vitellius": {
+"file": "galeria_wife_of_emperor_vitellius.jpg",
+"source_filename": "galeria.jpg"
+},
+"Gallus Antipater, historian mentioned in Historia Augusta": {
+"file": "gallus_antipater_historian_mentioned_in_historia_augusta.jpg",
+"source_filename": "gallus_antipater.jpg"
+},
+"Generidus, Roman general under Honorius (commander in Dalmatia, Pannonia, Noricum, and Rhaetia)": {
+"file": "generidus_roman_general_under_honorius_commander_in_dalmatia_pannonia_nor_f0be3f.jpg",
+"source_filename": "generidus.jpg"
+},
+"Genucius, tribune of the people (Republican Rome)": {
+"file": "genucius_tribune_of_the_people_republican_rome.jpg",
+"source_filename": "genucius.jpg"
+},
+"Germanus (described as holy man by Pope Pelagius II)": {
+"file": "germanus_described_as_holy_man_by_pope_pelagius_ii.jpg",
+"source_filename": "germanus.jpg"
+},
+"Gerontios, nobleman addressed by Libanius": {
+"file": "gerontios_nobleman_addressed_by_libanius.jpg",
+"source_filename": "gerontios.jpg"
+},
+"Gnaeus Sentius Saturninus, Roman general and governor (early 1st century CE)": {
+"file": "gnaeus_sentius_saturninus_roman_general_and_governor_early_1st_century_ce.jpg",
+"source_filename": "gnaeus_sentius_saturninus.jpg"
+},
+"Gomoarius": {
+"file": "gomoarius.jpg",
+"source_filename": "gomoarius.jpg"
+},
+"Gotarzes II of Parthia, King of Parthia (r. c. 40–51 CE)": {
+"file": "gotarzes_ii_of_parthia_king_of_parthia_r_c_40_51_ce.jpg",
+"source_filename": "gotarzes_ii_of_parthia.jpg"
+},
+"Gregory of Nazianzus the Elder (father of Gregory of Nazianzus, bishop of Nazianzus, 4th century)": {
+"file": "gregory_of_nazianzus_the_elder_father_of_gregory_of_nazianzus_bishop_of_n_f31c7e.jpg",
+"source_filename": "gregory_of_nazianzus_the_elder.jpg"
+},
+"Gundeperga": {
+"file": "gundeperga.jpg",
+"source_filename": "gundeperga.jpg"
+},
+"Hariobaudes": {
+"file": "hariobaudes.jpg",
+"source_filename": "hariobaudes.jpg"
+},
+"Hegesippus": {
+"file": "hegesippus.jpg",
+"source_filename": "hegesippus.jpg"
+},
+"Helpidius, Bishop (mentioned by Pope Pelagius I, mid-6th century)": {
+"file": "helpidius_bishop_mentioned_by_pope_pelagius_i_mid_6th_century.jpg",
+"source_filename": "helpidius.jpg"
+},
+"Herculius (friend of Symmachus)": {
+"file": "herculius_friend_of_symmachus.jpg",
+"source_filename": "herculius.jpg"
+},
+"Hiero": {
+"file": "hiero.jpg",
+"source_filename": "hiero.jpg"
+},
+"Higbald, Bishop of Lindisfarne (fl. late 8th century)": {
+"file": "higbald_bishop_of_lindisfarne_fl_late_8th_century.jpg",
+"source_filename": "higbald.jpg"
+},
+"Hyginus, freedman of Augustus (1st c. BCE – 1st c. CE), author": {
+"file": "hyginus_freedman_of_augustus_1st_c_bce_1st_c_ce_author.jpg",
+"source_filename": "hyginus.jpg"
+},
+"Iulia, wife of Cicero's correspondent (mid-1st century BCE)": {
+"file": "iulia_wife_of_cicero_s_correspondent_mid_1st_century_bce.jpg",
+"source_filename": "iulia.jpg"
+},
+"Jovinianus": {
+"file": "jovinianus.jpg",
+"source_filename": "jovinianus.jpg"
+},
+"Julius Bassianus, high priest of the Sun at Emesa (maternal grandfather of Caracalla)": {
+"file": "julius_bassianus_high_priest_of_the_sun_at_emesa_maternal_grandfather_of__64e7c0.jpg",
+"source_filename": "julius_bassianus.jpg"
+},
+"Julius Civilis": {
+"file": "julius_civilis.jpg",
+"source_filename": "julius_civilis.jpg"
+},
+"Julius Florus": {
+"file": "julius_florus.jpg",
+"source_filename": "julius_florus.jpg"
+},
+"Julius Indus": {
+"file": "julius_indus.jpg",
+"source_filename": "julius_indus.jpg"
+},
+"Junia Calvina": {
+"file": "junia_calvina.jpg",
+"source_filename": "junia_calvina.jpg"
+},
+"Junius Blaesus, uncle of Sejanus and Roman governor (early 1st century CE)": {
+"file": "junius_blaesus_uncle_of_sejanus_and_roman_governor_early_1st_century_ce.jpg",
+"source_filename": "junius_blaesus.jpg"
+},
+"Junius Silanus": {
+"file": "junius_silanus.jpg",
+"source_filename": "junius_silanus.jpg"
+},
+"Justinus I, Roman Emperor (r. 518–527)": {
+"file": "justinus_i_roman_emperor_r_518_527.jpg",
+"source_filename": "justinus_i.jpg"
+},
+"Laeta": {
+"file": "laeta.jpg",
+"source_filename": "laeta.jpg"
+},
+"Leontius, Bishop (correspondent of Sidonius Apollinaris, 5th century Gaul)": {
+"file": "leontius_bishop_correspondent_of_sidonius_apollinaris_5th_century_gaul.jpg",
+"source_filename": "leontius.jpg"
+},
+"Livilla": {
+"file": "livilla.jpg",
+"source_filename": "livilla.jpg"
+},
+"Lucilius Bassus": {
+"file": "lucilius_bassus.jpg",
+"source_filename": "lucilius_bassus.jpg"
+},
+"Lucilius Longus, Roman senator and intimate friend of Tiberius": {
+"file": "lucilius_longus_roman_senator_and_intimate_friend_of_tiberius.jpg",
+"source_filename": "lucilius_longus.jpg"
+},
+"Lucius Antistius (nobleman, father-in-law mentioned in Tacitus, Annals 14)": {
+"file": "lucius_antistius_nobleman_father_in_law_mentioned_in_tacitus_annals_14.jpg",
+"source_filename": "lucius_antistius.jpg"
+},
+"Lucius Domitius (Roman politician, contemporary of Pompey and Crassus)": {
+"file": "lucius_domitius_roman_politician_contemporary_of_pompey_and_crassus.jpg",
+"source_filename": "lucius_domitius.jpg"
+},
+"Lucius Lamia": {
+"file": "lucius_lamia.jpg",
+"source_filename": "lucius_lamia.jpg"
+},
+"Lucius Volusius": {
+"file": "lucius_volusius.jpg",
+"source_filename": "lucius_volusius.jpg"
+},
+"Lucius, Bishop of Rome (mid-3rd century)": {
+"file": "lucius_bishop_of_rome_mid_3rd_century.jpg",
+"source_filename": "lucius.jpg"
+},
+"Lupicina": {
+"file": "lupicina.jpg",
+"source_filename": "lupicina.jpg"
+},
+"Lydius, rebel leader in Egypt under Emperor Probus": {
+"file": "lydius_rebel_leader_in_egypt_under_emperor_probus.jpg",
+"source_filename": "lydius.jpg"
+},
+"Macarius": {
+"file": "macarius.jpg",
+"source_filename": "macarius.jpg"
+},
+"Marcellianus": {
+"file": "marcellianus.jpg",
+"source_filename": "marcellianus.jpg"
+},
+"Marcus Aemilius Lepidus, Roman politician (late Republic, associate of Cicero)": {
+"file": "marcus_aemilius_lepidus_roman_politician_late_republic_associate_of_cicero.jpg",
+"source_filename": "marcus_aemilius_lepidus.jpg"
+},
+"Marcus Annius Verus (great-grandfather of Marcus Aurelius, Roman consul and general)": {
+"file": "marcus_annius_verus_great_grandfather_of_marcus_aurelius_roman_consul_and_f517dc.jpg",
+"source_filename": "marcus_annius_verus.jpg"
+},
+"Marcus Vinicius": {
+"file": "marcus_vinicius.jpg",
+"source_filename": "marcus_vinicius.jpg"
+},
+"Marius Maximus": {
+"file": "marius_maximus.jpg",
+"source_filename": "marius_maximus.jpg"
+},
+"Markianos": {
+"file": "markianos.jpg",
+"source_filename": "markianos.jpg"
+},
+"Martyrius": {
+"file": "martyrius.jpg",
+"source_filename": "martyrius.jpg"
+},
+"Mary Magdalene (disciple of Jesus)": {
+"file": "mary_magdalene_disciple_of_jesus.jpg",
+"source_filename": "mary_magdalene.jpg"
+},
+"Matidia, noblewoman of high rank (died before 166 CE)": {
+"file": "matidia_noblewoman_of_high_rank_died_before_166_ce.jpg",
+"source_filename": "matidia.jpg"
+},
+"Megethius, rhetor and enthusiastic audience member in Libanius' lectures (fl. 4th century Antioch)": {
+"file": "megethius_rhetor_and_enthusiastic_audience_member_in_libanius_lectures_fl_926fa0.jpg",
+"source_filename": "megethius.jpg"
+},
+"Merobaudes": {
+"file": "merobaudes.jpg",
+"source_filename": "merobaudes.jpg"
+},
+"Mithridates, King of Iberia (early 1st century CE)": {
+"file": "mithridates_king_of_iberia_early_1st_century_ce.jpg",
+"source_filename": "mithridates.jpg"
+},
+"Mnester, performer implicated in Claudian court scandals": {
+"file": "mnester_performer_implicated_in_claudian_court_scandals.jpg",
+"source_filename": "mnester.jpg"
+},
+"Namatius": {
+"file": "namatius.jpg",
+"source_filename": "namatius.jpg"
+},
+"Neoterius, brother of Quintus Aurelius Symmachus": {
+"file": "neoterius_brother_of_quintus_aurelius_symmachus.jpg",
+"source_filename": "neoterius.jpg"
+},
+"Nicetius of Trier": {
+"file": "nicetius_of_trier.jpg",
+"source_filename": "nicetius_of_trier.jpg"
+},
+"Occia, Chief Vestal Virgin (fl. early 1st century CE)": {
+"file": "occia_chief_vestal_virgin_fl_early_1st_century_ce.jpg",
+"source_filename": "occia.jpg"
+},
+"Olympiodorus": {
+"file": "olympiodorus.jpg",
+"source_filename": "olympiodorus.jpg"
+},
+"Orodes II (Hyrodes), King of Parthia (r. c. 57–37 BCE)": {
+"file": "orodes_ii_hyrodes_king_of_parthia_r_c_57_37_bce.jpg",
+"source_filename": "orodes_ii.jpg"
+},
+"Osred": {
+"file": "osred.jpg",
+"source_filename": "osred.jpg"
+},
+"Paconius Agrippinus, Stoic philosopher exiled under Nero": {
+"file": "paconius_agrippinus_stoic_philosopher_exiled_under_nero.jpg",
+"source_filename": "paconius_agrippinus.jpg"
+},
+"Palladius of Galatia": {
+"file": "palladius_of_galatia.jpg",
+"source_filename": "palladius_of_galatia.jpg"
+},
+"Papianilla, granddaughter of Ruricius of Limoges": {
+"file": "papianilla_granddaughter_of_ruricius_of_limoges.jpg",
+"source_filename": "papianilla.jpg"
+},
+"Parthamasiris, Parthian prince installed by Trajan": {
+"file": "parthamasiris_parthian_prince_installed_by_trajan.jpg",
+"source_filename": "parthamasiris.jpg"
+},
+"Paulina, Christian woman mentioned by Jerome": {
+"file": "paulina_christian_woman_mentioned_by_jerome.jpg",
+"source_filename": "paulina.jpg"
+},
+"Paulinian, brother of Jerome": {
+"file": "paulinian_brother_of_jerome.jpg",
+"source_filename": "paulinian.jpg"
+},
+"Petronia, first wife of Aulus Vitellius (Roman Emperor)": {
+"file": "petronia_first_wife_of_aulus_vitellius_roman_emperor.jpg",
+"source_filename": "petronia.jpg"
+},
+"Phaedrus, Roman fabulist and translator of Aesop (active during Tiberius)": {
+"file": "phaedrus_roman_fabulist_and_translator_of_aesop_active_during_tiberius.jpg",
+"source_filename": "phaedrus.jpg"
+},
+"Philastrius": {
+"file": "philastrius.jpg",
+"source_filename": "philastrius.jpg"
+},
+"Phlabianos": {
+"file": "phlabianos.jpg",
+"source_filename": "phlabianos.jpg"
+},
+"Photinus": {
+"file": "photinus.jpg",
+"source_filename": "photinus.jpg"
+},
+"Phraates IV, King of Parthia (r. c. 37–2 BCE)": {
+"file": "phraates_iv_king_of_parthia_r_c_37_2_bce.jpg",
+"source_filename": "phraates_iv.jpg"
+},
+"Placidina": {
+"file": "placidina.jpg",
+"source_filename": "placidina.jpg"
+},
+"Plautia Urgulanilla, first wife of Claudius (Roman Emperor)": {
+"file": "plautia_urgulanilla_first_wife_of_claudius_roman_emperor.jpg",
+"source_filename": "plautia_urgulanilla.jpg"
+},
+"Plautian": {
+"file": "plautian.jpg",
+"source_filename": "plautian.jpg"
+},
+"Plautius Lateranus": {
+"file": "plautius_lateranus.jpg",
+"source_filename": "plautius_lateranus.jpg"
+},
+"Plotius Firmus": {
+"file": "plotius_firmus.jpg",
+"source_filename": "plotius_firmus.jpg"
+},
+"Pompeia, second wife of Julius Caesar (daughter of Quintus Pompeius, granddaughter of Lucius Sulla)": {
+"file": "pompeia_second_wife_of_julius_caesar_daughter_of_quintus_pompeius_grandda_eee418.jpg",
+"source_filename": "pompeia.jpg"
+},
+"Pomponia (wife of Quintus Cicero, sister of Atticus)": {
+"file": "pomponia_wife_of_quintus_cicero_sister_of_atticus.jpg",
+"source_filename": "pomponia.jpg"
+},
+"Pomponianus, associate of Pliny the Elder at Stabiae (79 CE eruption of Vesuvius)": {
+"file": "pomponianus_associate_of_pliny_the_elder_at_stabiae_79_ce_eruption_of_vesuvius.jpg",
+"source_filename": "pomponianus.jpg"
+},
+"Pomponius": {
+"file": "pomponius.jpg",
+"source_filename": "pomponius.jpg"
+},
+"Pope Leo": {
+"file": "pope_leo.jpg",
+"source_filename": "pope_leo.jpg"
+},
+"Popilius, praetor who banished Tiberius Gracchus's friends": {
+"file": "popilius_praetor_who_banished_tiberius_gracchus_s_friends.jpg",
+"source_filename": "popilius.jpg"
+},
+"Potentinus": {
+"file": "potentinus.jpg",
+"source_filename": "potentinus.jpg"
+},
+"Pragmatius": {
+"file": "pragmatius.jpg",
+"source_filename": "pragmatius.jpg"
+},
+"Proclus, Quaestor under Justinian I": {
+"file": "proclus_quaestor_under_justinian_i.jpg",
+"source_filename": "proclus.jpg"
+},
+"Profuturus (associate mentioned by Augustine of Hippo)": {
+"file": "profuturus_associate_mentioned_by_augustine_of_hippo.jpg",
+"source_filename": "profuturus.jpg"
+},
+"Prohaeresius": {
+"file": "prohaeresius.jpg",
+"source_filename": "prohaeresius.jpg"
+},
+"Publius Acilius": {
+"file": "publius_acilius.jpg",
+"source_filename": "publius_acilius.jpg"
+},
+"Publius Nigidius": {
+"file": "publius_nigidius.jpg",
+"source_filename": "publius_nigidius.jpg"
+},
+"Publius Suillius": {
+"file": "publius_suillius.jpg",
+"source_filename": "publius_suillius.jpg"
+},
+"Quintus Caecilius Metellus (consul at Rome, 1st century BCE)": {
+"file": "quintus_caecilius_metellus_consul_at_rome_1st_century_bce.jpg",
+"source_filename": "quintus_caecilius_metellus.jpg"
+},
+"Quintus Caecilius Metellus Creticus, Roman consul (cos. 69 BCE)": {
+"file": "quintus_caecilius_metellus_creticus_roman_consul_cos_69_bce.jpg",
+"source_filename": "quintus_caecilius_metellus_creticus.jpg"
+},
+"Quintus Pomponius": {
+"file": "quintus_pomponius.jpg",
+"source_filename": "quintus_pomponius.jpg"
+},
+"Rachel, wife of Jacob in Genesis": true,
+"Riothamus": {
+"file": "riothamus.jpg",
+"source_filename": "riothamus.jpg"
+},
+"Rodanus": {
+"file": "rodanus.jpg",
+"source_filename": "rodanus.jpg"
+},
+"Rogatus, descendant of Agamemnon (mentioned in Jerome, Letter 108)": {
+"file": "rogatus_descendant_of_agamemnon_mentioned_in_jerome_letter_108.jpg",
+"source_filename": "rogatus.jpg"
+},
+"Rothari": {
+"file": "rothari.jpg",
+"source_filename": "rothari.jpg"
+},
+"Rubellius Blandus": {
+"file": "rubellius_blandus.jpg",
+"source_filename": "rubellius_blandus.jpg"
+},
+"Rumoridus": {
+"file": "rumoridus.jpg",
+"source_filename": "rumoridus.jpg"
+},
+"Sallustius": {
+"file": "sallustius.jpg",
+"source_filename": "sallustius.jpg"
+},
+"Salutius": {
+"file": "salutius.jpg",
+"source_filename": "salutius.jpg"
+},
+"Sampsiceramus": {
+"file": "sampsiceramus.jpg",
+"source_filename": "sampsiceramus.jpg"
+},
+"Secundus, Bishop of Taormina (fl. mid-6th century)": {
+"file": "secundus_bishop_of_taormina_fl_mid_6th_century.jpg",
+"source_filename": "secundus.jpg"
+},
+"Sempronius Densus": {
+"file": "sempronius_densus.jpg",
+"source_filename": "sempronius_densus.jpg"
+},
+"Servius": {
+"file": "servius.jpg",
+"source_filename": "servius.jpg"
+},
+"Severus, Bishop of Naples (late 4th century)": {
+"file": "severus_bishop_of_naples_late_4th_century.jpg",
+"source_filename": "severus.jpg"
+},
+"Sextus Erucius": {
+"file": "sextus_erucius.jpg",
+"source_filename": "sextus_erucius.jpg"
+},
+"Sigismundus": {
+"file": "sigismundus.jpg",
+"source_filename": "sigismundus.jpg"
+},
+"Simon Magus": {
+"file": "simon_magus.jpg",
+"source_filename": "simon_magus.jpg"
+},
+"Simon Magus (Simon the Samaritan magician, 1st century CE)": {
+"file": "simon_magus_simon_the_samaritan_magician_1st_century_ce.jpg",
+"source_filename": "simon_magus.jpg"
+},
+"Simon Peter (Saint Peter, Apostle of Jesus)": {
+"file": "simon_peter_saint_peter_apostle_of_jesus.jpg",
+"source_filename": "simon_peter.jpg"
+},
+"Sisebut, King of the Visigoths (r. 612-621)": {
+"file": "sisebut_king_of_the_visigoths_r_612_621.jpg",
+"source_filename": "sisebut.jpg"
+},
+"Smaragdus, Exarch of Ravenna and Chartulary of the Sacred Palace (late 6th century)": {
+"file": "smaragdus_exarch_of_ravenna_and_chartulary_of_the_sacred_palace_late_6th_century.jpg",
+"source_filename": "smaragdus.jpg"
+},
+"Sosia Galla": {
+"file": "sosia_galla.jpg",
+"source_filename": "sosia_galla.jpg"
+},
+"Statius, Roman tribune (active during Nero's reign, 1st century CE)": {
+"file": "statius_roman_tribune_active_during_nero_s_reign_1st_century_ce.jpg",
+"source_filename": "statius.jpg"
+},
+"Successianus, Roman general and commander at Pityus": {
+"file": "successianus_roman_general_and_commander_at_pityus.jpg",
+"source_filename": "successianus.jpg"
+},
+"Suetonius": {
+"file": "suetonius.jpg",
+"source_filename": "suetonius.jpg"
+},
+"Suetonius Paulinus": {
+"file": "suetonius_paulinus.jpg",
+"source_filename": "suetonius_paulinus.jpg"
+},
+"Telauges, son of Pythagoras, Pythagorean philosopher": {
+"file": "telauges_son_of_pythagoras_pythagorean_philosopher.jpg",
+"source_filename": "telauges.jpg"
+},
+"Theognis": {
+"file": "theognis.jpg",
+"source_filename": "theognis.jpg"
+},
+"Theon": {
+"file": "theon.jpg",
+"source_filename": "theon.jpg"
+},
+"Theudas, Jewish claimant before Christ (mentioned by Origen)": {
+"file": "theudas_jewish_claimant_before_christ_mentioned_by_origen.jpg",
+"source_filename": "theudas.jpg"
+},
+"Tiberius Alexander": {
+"file": "tiberius_alexander.jpg",
+"source_filename": "tiberius_alexander.jpg"
+},
+"Timasius, magister militum under Theodosius I": {
+"file": "timasius_magister_militum_under_theodosius_i.jpg",
+"source_filename": "timasius.jpg"
+},
+"Titius Sabinus": {
+"file": "titius_sabinus.jpg",
+"source_filename": "titius_sabinus.jpg"
+},
+"Tranquillus": {
+"file": "tranquillus.jpg",
+"source_filename": "tranquillus.jpg"
+},
+"Triaria, wife of Lucius Vitellius (fl. 1st century CE)": {
+"file": "triaria_wife_of_lucius_vitellius_fl_1st_century_ce.jpg",
+"source_filename": "triaria.jpg"
+},
+"Tribonian, quaestor sacri palatii under Justinian I": {
+"file": "tribonian_quaestor_sacri_palatii_under_justinian_i.jpg",
+"source_filename": "tribonian.jpg"
+},
+"Turribius": {
+"file": "turribius.jpg",
+"source_filename": "turribius.jpg"
+},
+"Ursulus": {
+"file": "ursulus.jpg",
+"source_filename": "ursulus.jpg"
+},
+"Valentinianus, young devotee of literature known to Symmachus": {
+"file": "valentinianus_young_devotee_of_literature_known_to_symmachus.jpg",
+"source_filename": "valentinianus.jpg"
+},
+"Vannius, King of the Suebi (1st century CE)": {
+"file": "vannius_king_of_the_suebi_1st_century_ce.jpg",
+"source_filename": "vannius.jpg"
+},
+"Ventidius": {
+"file": "ventidius.jpg",
+"source_filename": "ventidius.jpg"
+},
+"Verginius Flavus": {
+"file": "verginius_flavus.jpg",
+"source_filename": "verginius_flavus.jpg"
+},
+"Vetranio": {
+"file": "vetranio.jpg",
+"source_filename": "vetranio.jpg"
+},
+"Victorius of Aquitaine": {
+"file": "victorius_of_aquitaine.jpg",
+"source_filename": "victorius_of_aquitaine.jpg"
+},
+"Vivilo, Bishop (consecrated by Boniface, 8th century)": {
+"file": "vivilo_bishop_consecrated_by_boniface_8th_century.jpg",
+"source_filename": "vivilo.jpg"
+},
+"Votienus Montanus, popular wit prosecuted under Tiberius": {
+"file": "votienus_montanus_popular_wit_prosecuted_under_tiberius.jpg",
+"source_filename": "votienus_montanus.jpg"
+},
+"Waldelenus": {
+"file": "waldelenus.jpg",
+"source_filename": "waldelenus.jpg"
+},
+"the Holy Lord and Father in Christ (likely the Pope, recipient of Columbanus' letter)": {
+"file": "the_holy_lord_and_father_in_christ_likely_the_pope_recipient_of_columbanu_261eb7.jpg",
+"source_filename": "the_holy_lord_and_father_in_christ.jpg"
+},
+"vice-prefect": {
+"file": "vice_prefect.jpg",
+"source_filename": "vice-prefect.jpg"
+},
+"Joseph, biblical patriarch (son of Jacob and Rachel)": true,
+"Marcus Aurelius": true,
+"Claudius II Gothicus": true,
+"Probus, Roman Emperor": true,
+"Cicero": true,
+"Severus Alexander": true,
+"Septimius Severus": true,
+"Emperor Justinian I": true,
+"Odaenathus": true,
+"Maximinus Thrax": true,
+"Alexander of Heliopolis, governor of Syria under Julian (pagan)": true,
+"Annius Verus (grandfather of Marcus Aurelius) (pagan)": true,
+"Herodes (Fronto's contemporary and Herodes, son of Odaenathus) (pagan)": true,
+"Vespasian": true,
+"Hannibal Barca, Carthaginian General (247–c. 183 BCE)": true,
+"Valerian": true,
+"Maximinus the Younger (son of Maximinus Thrax, Caesar 236–238 CE, d. 238 CE)": true,
+"Symiamira (Soaemias), mother of Elagabalus": true,
+"Aristides of Athens, Christian apologist (fl. early 2nd century)": true,
+"Solonius": true
+}

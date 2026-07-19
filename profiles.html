@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Profiles — Roman Personality</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --paper:#F1E8D2; --paper-2:#E8DCBE; --paper-3:#DDCEA8;
+  --ink:#2A1F18; --ink-soft:#54473A; --ink-mute:#8B7F6D;
+  --rule:#C8B98F; --rule-soft:#D8C9A1;
+  --gold:#B8954A; --gold-bright:#D4AE5F; --gold-deep:#8C6F30;
+  --pagan:#B85042; --pagan-deep:#7A2A1F; --christian:#6D8AA5; --dark:#1A140F;
+}
+*{box-sizing:border-box;}
+html,body{margin:0;padding:0;}
+body{background:var(--paper);color:var(--ink);font-family:'EB Garamond',Georgia,serif;-webkit-font-smoothing:antialiased;}
+.mosaic-strip{position:fixed;top:0;bottom:0;width:108px;z-index:10;background-image:url('assets/mosaic_strip.png');background-repeat:repeat-y;background-size:108px auto;background-color:var(--dark);}
+.mosaic-left{left:0;box-shadow:8px 0 18px -10px rgba(0,0,0,.45);}
+.mosaic-right{right:0;box-shadow:-8px 0 18px -10px rgba(0,0,0,.45);background-image:url('assets/mosaic_strip_right.png');}
+@media(max-width:1100px){.mosaic-strip{display:none;}}
+.page{max-width:1400px;margin:0 auto;padding:14px 130px 60px;}
+@media(max-width:1100px){.page{padding:14px 24px 60px;}}
+.landing-header{text-align:center;padding:2px 0 10px;}
+.landing-header h1{font-family:'Cinzel',serif;font-size:26px;font-weight:600;letter-spacing:.10em;text-transform:uppercase;margin:0;display:inline-flex;align-items:center;gap:14px;}
+.cypress{width:12px;height:40px;background-image:url('assets/cypress.png');background-size:contain;background-repeat:no-repeat;background-position:bottom center;opacity:.82;}
+.cypress.cypress-r{transform:scaleX(-1);}
+.tagline{font-style:normal;font-size:13px;color:var(--ink-soft);margin:3px 0 0;letter-spacing:.02em;}
+
+/* controls */
+.controls{position:sticky;top:0;z-index:5;background:linear-gradient(var(--paper) 75%,rgba(241,232,210,0));padding:12px 0 14px;display:flex;flex-wrap:wrap;gap:10px;align-items:center;justify-content:center;}
+.controls input[type=search],.controls select{font-family:inherit;font-size:14px;color:var(--ink);background:var(--paper-2);border:1px solid var(--rule);border-radius:3px;padding:7px 10px;}
+.controls input[type=search]{min-width:260px;}
+.controls input[type=search]:focus,.controls select:focus{outline:none;border-color:var(--gold);}
+.controls label.chk{font-size:13px;color:var(--ink-soft);display:inline-flex;align-items:center;gap:5px;cursor:pointer;}
+.count{text-align:center;font-style:normal;color:var(--ink-mute);font-size:13px;margin:0 0 14px;}
+
+/* grid */
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(168px,1fr));gap:16px;}
+.card{display:flex;flex-direction:column;text-decoration:none;color:inherit;background:var(--paper-2);border:1px solid var(--rule);border-radius:4px;padding:12px;transition:transform .12s,box-shadow .12s,border-color .12s;}
+.card:hover{transform:translateY(-3px);box-shadow:0 8px 20px -12px rgba(0,0,0,.5);border-color:var(--gold);}
+.thumb{position:relative;width:100%;aspect-ratio:1/1;border-radius:3px;overflow:hidden;background:var(--paper-3);border:1px solid var(--rule-soft);}
+.thumb img{width:100%;height:100%;object-fit:cover;display:block;filter:saturate(.92);}
+.dot{position:absolute;top:7px;right:7px;width:11px;height:11px;border-radius:50%;border:1.5px solid var(--paper);}
+.dot.pagan{background:var(--pagan);} .dot.christian{background:var(--christian);} .dot.other{background:var(--ink-mute);}
+.nm{font-family:'Cinzel',serif;font-size:14px;font-weight:600;margin:11px 0 2px;line-height:1.2;}
+.meta{font-size:12px;color:var(--ink-soft);line-height:1.35;}
+.desc{font-size:11.5px;color:var(--ink-mute);margin-top:6px;font-style:normal;}
+.empty{text-align:center;color:var(--ink-mute);font-style:normal;padding:50px 0;}
+
+/* nav */
+.bottom-nav{margin:40px auto 0;text-align:center;font-family:'Cinzel',serif;letter-spacing:.06em;text-transform:uppercase;font-size:14px;}
+.bottom-nav a{color:var(--ink-soft);text-decoration:none;}
+.bottom-nav a.active{color:var(--pagan-deep);font-weight:600;}
+.bottom-nav a:hover{color:var(--pagan-deep);}
+.nav-sep{color:var(--rule);margin:0 10px;}
+</style>
+</head>
+<body>
+<div class="mosaic-strip mosaic-left"></div>
+<div class="mosaic-strip mosaic-right"></div>
+<div class="page">
+  <header class="landing-header">
+    <h1><span class="cypress cypress-l"></span>The People<span class="cypress cypress-r"></span></h1>
+    <p class="tagline">every figure described in the corpus — search and open a portrait</p>
+  </header>
+
+  <div class="controls">
+    <input type="search" id="q" placeholder="Search a name…" autocomplete="off">
+    <select id="sort">
+      <option value="described">Most described</option>
+      <option value="az">Name A–Z</option>
+      <option value="earliest">Birth date — earliest</option>
+      <option value="latest">Birth date — latest</option>
+    </select>
+    <label class="chk"><input type="checkbox" id="portraitOnly"> With portrait</label>
+  </div>
+  <p class="count" id="count">Loading…</p>
+  <div class="grid" id="grid"></div>
+
+  <nav class="bottom-nav">
+    <a href="index.html">Explore</a><span class="nav-sep">·</span>
+    <a href="quiz.html">Quiz</a><span class="nav-sep">·</span>
+    <a href="profiles.html" class="active">Profiles</a><span class="nav-sep">·</span>
+    <a href="about.html">About</a>
+  </nav>
+  <p style="text-align:center;font-size:11px;color:var(--ink-mute);margin:14px 0 0">
+    Corpus: <a href="https://romanletters.org/" target="_blank" rel="noopener"
+    style="color:var(--gold-deep);text-decoration:none">Roman Letters</a>, compiled by Craig Vander Galien</p>
+</div>
+
+<script>
+const $ = id => document.getElementById(id);
+let PEOPLE = [], PORTRAITS = {};
+
+// a sortable birth year: real birth_year_approx if present, else the century midpoint
+function birthYear(p){
+  const b = p.birth_year_approx;
+  if(b!==null && b!=='' && b!==undefined && !isNaN(+b)) return +b;
+  const m = /(\d+)\s*(BCE|CE)/i.exec(p.approx_century||'');
+  if(!m) return null;
+  const mid = (parseInt(m[1])-1)*100 + 50;
+  return m[2].toUpperCase()==='BCE' ? -mid : mid;
+}
+function shortName(n){ return (n||'').split(',')[0].split('(')[0].trim() || n; }
+function cap(s){ return s ? s.charAt(0).toUpperCase()+s.slice(1) : s; }
+
+Promise.all([
+  fetch('persons.json').then(r=>r.json()),
+  fetch('assets/people/index.json').then(r=>r.ok?r.json():{}).catch(()=>({}))
+]).then(([persons, idx])=>{
+  PORTRAITS = idx || {};
+  PEOPLE = persons.map(p=>({
+    slug:p.slug, name:p.person_name, short:shortName(p.person_name),
+    faith:(p.display_tradition||p.person_religion||'').toLowerCase(),
+    role:(p.social_role||'').replace(/_/g,' '),
+    century:p.approx_century||'', byear:birthYear(p),
+    nadj:+(p.n_adjectives_external_unique||0),
+    hasPortrait:(p.person_name in PORTRAITS)
+  }));
+  ['q','sort','portraitOnly'].forEach(id=>$(id).addEventListener('input', render));
+  render();
+});
+
+function render(){
+  const q=$('q').value.trim().toLowerCase();
+  const sort=$('sort').value, pOnly=$('portraitOnly').checked;
+  let rows = PEOPLE.filter(p=>
+    (!q || p.name.toLowerCase().includes(q)) &&
+    (!pOnly || p.hasPortrait));
+  rows.sort(
+    sort==='az'       ? (a,b)=>a.short.localeCompare(b.short) :
+    sort==='earliest' ? (a,b)=>(a.byear??1e9)-(b.byear??1e9) || b.nadj-a.nadj :
+    sort==='latest'   ? (a,b)=>(b.byear??-1e9)-(a.byear??-1e9) || b.nadj-a.nadj :
+                        (a,b)=>b.nadj-a.nadj);
+  $('count').textContent = `Showing ${rows.length.toLocaleString()} of ${PEOPLE.length.toLocaleString()} figures`;
+  const grid=$('grid');
+  if(!rows.length){ grid.innerHTML='<p class="empty">No figures match your search.</p>'; return; }
+  grid.innerHTML = rows.map(p=>{
+    const cls = p.faith==='pagan'?'pagan':p.faith==='christian'?'christian':'other';
+    const src = p.hasPortrait ? `assets/people/processed/${p.slug}.jpg` : `assets/people/processed/_anon.jpg`;
+    const meta = [cap(p.role), p.century].filter(Boolean).join('  ·  ');
+    return `<a class="card" href="person/profile.html?p=${encodeURIComponent(p.slug)}">
+      <div class="thumb"><img loading="lazy" src="${src}" alt="${p.short}"
+           onerror="this.src='assets/people/processed/_anon.jpg'"><span class="dot ${cls}" title="${cap(p.faith)}"></span></div>
+      <div class="nm">${p.short}</div>
+      <div class="meta">${meta||'&nbsp;'}</div>
+      <div class="desc">${p.nadj} descriptor${p.nadj===1?'':'s'}</div>
+    </a>`;
+  }).join('');
+}
+</script>
+</body>
+</html>

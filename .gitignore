@@ -1,0 +1,50 @@
+# ─────────────────────────────────────────────────────────────────────────
+# PUBLISH ONLY WHAT THE LIVE SITE SERVES.
+# Whitelist style: ignore everything, then re-include the exact files the
+# pages load. Anything not listed here (raw corpus, scripts, analyses,
+# backups, paper sources, intermediate data) stays local and off GitHub.
+# ─────────────────────────────────────────────────────────────────────────
+/*
+
+# --- root: the pages + the one data file fetched from root ---
+!.gitignore
+!.nojekyll
+!index.html
+!profiles.html
+!quiz.html
+!about.html
+!persons.json
+
+# --- the individual profile page ---
+!/person/
+/person/*
+!/person/profile.html
+
+# --- data the pages fetch at runtime ---
+!/data/
+/data/*
+!/data/places.json
+!/data/cities.json
+!/data/quiz.json
+!/data/people/
+/data/people/*
+!/data/people/*.json
+
+# --- assets: UI chrome, portrait manifest, processed portraits ---
+!/assets/
+/assets/*
+!/assets/*.png
+# drop raw/intermediate image scraps (leading-underscore files)
+/assets/_*
+!/assets/sprigs/
+!/assets/people/
+# drop the raw full-res portraits + any .bak manifests under assets/people/
+/assets/people/*
+!/assets/people/index.json
+!/assets/people/processed/
+/assets/people/processed/*
+!/assets/people/processed/*.jpg
+
+# --- always junk ---
+.DS_Store
+Thumbs.db

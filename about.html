@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About — Roman Personality</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --paper:#F1E8D2; --paper-2:#E8DCBE; --paper-3:#DDCEA8;
+  --ink:#2A1F18; --ink-soft:#54473A; --ink-mute:#8B7F6D;
+  --rule:#C8B98F; --rule-soft:#D8C9A1;
+  --gold:#B8954A; --gold-bright:#D4AE5F; --gold-deep:#8C6F30;
+  --pagan:#B85042; --pagan-deep:#7A2A1F; --christian:#6D8AA5; --dark:#1A140F;
+}
+*{box-sizing:border-box;}
+html,body{margin:0;padding:0;}
+body{background:var(--paper);color:var(--ink);font-family:'EB Garamond',Georgia,serif;-webkit-font-smoothing:antialiased;line-height:1.6;}
+.mosaic-strip{position:fixed;top:0;bottom:0;width:108px;z-index:10;background-image:url('assets/mosaic_strip.png');background-repeat:repeat-y;background-size:108px auto;background-color:var(--dark);}
+.mosaic-left{left:0;box-shadow:8px 0 18px -10px rgba(0,0,0,.45);}
+.mosaic-right{right:0;box-shadow:-8px 0 18px -10px rgba(0,0,0,.45);background-image:url('assets/mosaic_strip_right.png');}
+@media(max-width:1100px){.mosaic-strip{display:none;}}
+.page{max-width:1080px;margin:0 auto;padding:14px 130px 70px;}
+@media(max-width:1100px){.page{padding:14px 22px 70px;}}
+.landing-header{text-align:center;padding:2px 0 6px;}
+.landing-header h1{font-family:'Cinzel',serif;font-size:26px;font-weight:600;letter-spacing:.10em;text-transform:uppercase;margin:0;display:inline-flex;align-items:center;gap:14px;}
+.cypress{width:12px;height:40px;background-image:url('assets/cypress.png');background-size:contain;background-repeat:no-repeat;background-position:bottom center;opacity:.82;}
+.cypress.cypress-r{transform:scaleX(-1);}
+
+h2{font-family:'Cinzel',serif;font-weight:600;font-size:19px;letter-spacing:.04em;color:var(--pagan-deep);margin:34px 0 8px;}
+h2::before{content:'';display:inline-block;width:30px;height:1px;background:var(--pagan);vertical-align:middle;margin-right:12px;}
+h3{font-family:'Cinzel',serif;font-weight:600;font-size:14px;letter-spacing:.05em;color:var(--gold-deep);text-transform:uppercase;margin:20px 0 6px;}
+p{max-width:74ch;margin:0 0 12px;}
+a{color:var(--gold-deep);}
+.lead{font-size:17px;}
+.caveat{background:var(--paper-2);border:1px solid var(--rule);border-left:3px solid var(--gold);border-radius:4px;padding:14px 18px;max-width:76ch;}
+
+/* table */
+.tablewrap{overflow-x:auto;border:1px solid var(--rule);border-radius:4px;margin:10px 0 6px;}
+table{border-collapse:collapse;width:100%;font-size:13.5px;}
+caption{caption-side:top;text-align:left;font-size:12px;color:var(--ink-mute);padding:8px 10px;}
+th,td{padding:5px 10px;text-align:left;border-bottom:1px solid var(--rule-soft);white-space:nowrap;}
+th{background:var(--paper-3);font-family:'Cinzel',serif;font-weight:600;font-size:11px;letter-spacing:.04em;text-transform:uppercase;color:var(--ink-soft);position:sticky;top:0;}
+td.num{text-align:right;font-variant-numeric:tabular-nums;}
+tr.sec td{background:var(--paper-2);font-family:'Cinzel',serif;font-weight:600;font-size:12px;letter-spacing:.03em;color:var(--pagan-deep);text-transform:uppercase;white-space:normal;}
+tr.tot td{font-weight:600;background:var(--paper-3);}
+tbody tr:hover:not(.sec):not(.tot){background:rgba(184,149,74,.07);}
+.legend{font-size:12px;color:var(--ink-mute);margin-top:4px;}
+
+.refs{font-size:14px;}
+.refs p{padding-left:2.2em;text-indent:-2.2em;max-width:80ch;margin:0 0 9px;}
+
+.bottom-nav{margin:44px auto 6px;text-align:center;font-family:'Cinzel',serif;letter-spacing:.06em;text-transform:uppercase;font-size:14px;}
+.bottom-nav a{color:var(--ink-soft);text-decoration:none;}
+.bottom-nav a.active{color:var(--pagan-deep);font-weight:600;}
+.bottom-nav a:hover{color:var(--pagan-deep);}
+.nav-sep{color:var(--rule);margin:0 10px;}
+</style>
+</head>
+<body>
+<div class="mosaic-strip mosaic-left"></div>
+<div class="mosaic-strip mosaic-right"></div>
+<div class="page">
+  <header class="landing-header">
+    <h1><span class="cypress cypress-l"></span>About<span class="cypress cypress-r"></span></h1>
+  </header>
+
+  <h2>What this is</h2>
+  <p class="lead">This site was inspired by our <a href="https://osf.io/preprints/psyarxiv/24bev_v1" target="_blank" rel="noopener">"Roman Personality" paper</a> — a study in which we attempted to
+    reconstruct a personality model from ancient Roman historical texts.</p>
+  <p>We used GPT-4o to code each incidence of person-description for whether or not the adjective in question
+    was truly trait descriptive, and also for who that adjective pertained to. Then we used GPT-4.1 to
+    disambiguate between these named individuals, merging those who were identical (e.g., "Julius Caesar" and
+    "Caesar"), assign a birthplace to each person, and assign a religion to each person. Wikipedia was then
+    scraped for the top image in relation to each person's name, and added that as their "portrait." This
+    yielded some really cool, rich data, where for each individual we have a list of documents in which they
+    appeared, and the adjectives used to describe them. I thought people might like to explore this data, so I
+    built this website.</p>
+
+  <p><strong>However, it's important to note that since the data processing was automated, there are occasional
+    mistakes.</strong> People who are distinct sometimes get merged, people get the wrong birthplace assigned to
+    them, some portraits are wrong (sometimes hilariously), and some adjectives aren't really used in the
+    trait-descriptive sense (e.g., "Good Solonius" might get assigned "good" even though, in this case, it's
+    just part of his name).</p>
+
+  <p>If you catch a mistake, please <a href="mailto:miburnett@umass.edu">email me</a>!
+    If you like this work and want to see some of my other stuff, check out
+    <a href="https://merielburnett.github.io/" target="_blank" rel="noopener">my website</a>.</p>
+
+  <h2>The corpus</h2>
+  <p>The texts behind this site are English translations of ancient letters, biographies, histories,
+    apologetics, hagiographies, and philosophical writings, spanning roughly 100&nbsp;BCE to 800&nbsp;CE. The
+    core of the collection is the <a href="https://romanletters.org/" target="_blank" rel="noopener">Roman
+    Letters</a> corpus compiled by Craig Vander Galien; to it we added further letters and a set of
+    non-epistolary works, each drawn from the public digital editions listed below.</p>
+
+  <div class="tablewrap">
+  <table>
+    <caption>All 82 collections, grouped by provenance. Type: L&nbsp;=&nbsp;letter, B&nbsp;=&nbsp;biography,
+      H&nbsp;=&nbsp;history, A&nbsp;=&nbsp;apologetic, G&nbsp;=&nbsp;hagiography, P&nbsp;=&nbsp;philosophy.
+      Trad.: author's tradition (Pa&nbsp;=&nbsp;pagan, Ch&nbsp;=&nbsp;Christian). "Persons" = distinct people
+      described in that collection.</caption>
+    <thead>
+      <tr><th>Collection</th><th>Type</th><th>Trad.</th><th class="num">Docs</th><th class="num">Words</th><th class="num">Persons</th><th>Source</th></tr>
+    </thead>
+    <tbody>
+      <tr class="sec"><td colspan="7">A. Letters from the Roman Letters corpus — 54 collections (Vander Galien, 2026)</td></tr>
+      <tr><td>Libanius</td><td>L</td><td>Pa</td><td class="num">837</td><td class="num">154,984</td><td class="num">91</td><td>Roman Letters</td></tr>
+      <tr><td>Gregory the Great</td><td>L</td><td>Ch</td><td class="num">856</td><td class="num">190,233</td><td class="num">57</td><td>Roman Letters</td></tr>
+      <tr><td>Symmachus</td><td>L</td><td>Pa</td><td class="num">677</td><td class="num">85,603</td><td class="num">45</td><td>Roman Letters</td></tr>
+      <tr><td>Isidore of Pelusium</td><td>L</td><td>Ch</td><td class="num">630</td><td class="num">75,848</td><td class="num">23</td><td>Roman Letters</td></tr>
+      <tr><td>Cassiodorus</td><td>L</td><td>Ch</td><td class="num">477</td><td class="num">144,677</td><td class="num">40</td><td>Roman Letters</td></tr>
+      <tr><td>Pliny the Younger</td><td>L</td><td>Pa</td><td class="num">365</td><td class="num">133,383</td><td class="num">80</td><td>Roman Letters</td></tr>
+      <tr><td>Basil of Caesarea</td><td>L</td><td>Ch</td><td class="num">325</td><td class="num">91,587</td><td class="num">44</td><td>Roman Letters</td></tr>
+      <tr><td>Ennodius of Pavia</td><td>L</td><td>Ch</td><td class="num">297</td><td class="num">59,371</td><td class="num">22</td><td>Roman Letters</td></tr>
+      <tr><td>Jerome &dagger;</td><td>L</td><td>Ch</td><td class="num">279</td><td class="num">353,022</td><td class="num">88</td><td>Roman Letters / CCEL</td></tr>
+      <tr><td>Augustine of Hippo</td><td>L</td><td>Ch</td><td class="num">260</td><td class="num">143,975</td><td class="num">31</td><td>Roman Letters</td></tr>
+      <tr><td>Pope Hormisdas</td><td>L</td><td>Ch</td><td class="num">249</td><td class="num">46,609</td><td class="num">7</td><td>Roman Letters</td></tr>
+      <tr><td>Theodoret of Cyrrhus</td><td>L</td><td>Ch</td><td class="num">181</td><td class="num">52,614</td><td class="num">34</td><td>Roman Letters</td></tr>
+      <tr><td>Sidonius Apollinaris</td><td>L</td><td>Ch</td><td class="num">171</td><td class="num">72,404</td><td class="num">53</td><td>Roman Letters</td></tr>
+      <tr><td>Synesius of Cyrene</td><td>L</td><td>Ch</td><td class="num">159</td><td class="num">20,536</td><td class="num">23</td><td>Roman Letters</td></tr>
+      <tr><td>Ambrose of Milan</td><td>L</td><td>Ch</td><td class="num">119</td><td class="num">50,935</td><td class="num">18</td><td>Roman Letters</td></tr>
+      <tr><td>Venantius Fortunatus</td><td>L</td><td>Ch</td><td class="num">100</td><td class="num">23,123</td><td class="num">19</td><td>Roman Letters</td></tr>
+      <tr><td>Gregory of Nazianzus</td><td>L</td><td>Ch</td><td class="num">92</td><td class="num">15,539</td><td class="num">9</td><td>Roman Letters</td></tr>
+      <tr><td>Ruricius of Limoges</td><td>L</td><td>Ch</td><td class="num">91</td><td class="num">16,673</td><td class="num">10</td><td>Roman Letters</td></tr>
+      <tr><td>Julian the Apostate</td><td>L</td><td>Pa</td><td class="num">83</td><td class="num">15,786</td><td class="num">18</td><td>Roman Letters</td></tr>
+      <tr><td>Cyprian of Carthage</td><td>L</td><td>Ch</td><td class="num">82</td><td class="num">28,515</td><td class="num">13</td><td>Roman Letters</td></tr>
+      <tr><td>Pope Pelagius I</td><td>L</td><td>Ch</td><td class="num">82</td><td class="num">8,909</td><td class="num">2</td><td>Roman Letters</td></tr>
+      <tr><td>Avitus of Vienne</td><td>L</td><td>Ch</td><td class="num">77</td><td class="num">17,079</td><td class="num">4</td><td>Roman Letters</td></tr>
+      <tr><td>Pope Leo the Great</td><td>L</td><td>Ch</td><td class="num">73</td><td class="num">40,348</td><td class="num">23</td><td>Roman Letters</td></tr>
+      <tr><td>Paulinus of Nola</td><td>L</td><td>Ch</td><td class="num">51</td><td class="num">23,296</td><td class="num">12</td><td>Roman Letters</td></tr>
+      <tr><td>Boniface</td><td>L</td><td>Ch</td><td class="num">48</td><td class="num">30,675</td><td class="num">7</td><td>Roman Letters</td></tr>
+      <tr><td>Epistulae Austrasicae</td><td>L</td><td>Ch</td><td class="num">48</td><td class="num">12,308</td><td class="num">3</td><td>Roman Letters</td></tr>
+      <tr><td>Pope Gelasius I</td><td>L</td><td>Ch</td><td class="num">45</td><td class="num">3,746</td><td class="num">2</td><td>Roman Letters</td></tr>
+      <tr><td>Athanasius of Alexandria</td><td>L</td><td>Ch</td><td class="num">44</td><td class="num">59,757</td><td class="num">15</td><td>Roman Letters</td></tr>
+      <tr><td>Braulio of Zaragoza</td><td>L</td><td>Ch</td><td class="num">44</td><td class="num">12,893</td><td class="num">3</td><td>Roman Letters</td></tr>
+      <tr><td>Desiderius of Cahors</td><td>L</td><td>Ch</td><td class="num">36</td><td class="num">9,418</td><td class="num">1</td><td>Roman Letters</td></tr>
+      <tr><td>Pope Innocent I</td><td>L</td><td>Ch</td><td class="num">34</td><td class="num">2,926</td><td class="num">1</td><td>Roman Letters</td></tr>
+      <tr><td>Simplicius</td><td>L</td><td>Ch</td><td class="num">31</td><td class="num">2,574</td><td class="num">2</td><td>Roman Letters</td></tr>
+      <tr><td>Epistulae Wisigothicae</td><td>L</td><td>Ch</td><td class="num">30</td><td class="num">5,986</td><td class="num">1</td><td>Roman Letters</td></tr>
+      <tr><td>Pope Felix III</td><td>L</td><td>Ch</td><td class="num">29</td><td class="num">7,400</td><td class="num">2</td><td>Roman Letters</td></tr>
+      <tr><td>Pope Hilary</td><td>L</td><td>Ch</td><td class="num">25</td><td class="num">6,080</td><td class="num">2</td><td>Roman Letters</td></tr>
+      <tr><td>Epistulae Langobardorum</td><td>L</td><td>Ch</td><td class="num">25</td><td class="num">6,542</td><td class="num">1</td><td>Roman Letters</td></tr>
+      <tr><td>Pope Symmachus</td><td>L</td><td>Ch</td><td class="num">23</td><td class="num">5,488</td><td class="num">3</td><td>Roman Letters</td></tr>
+      <tr><td>Epistulae Merowingici</td><td>L</td><td>Ch</td><td class="num">20</td><td class="num">5,484</td><td class="num">1</td><td>Roman Letters</td></tr>
+      <tr><td>Alcuin of York</td><td>L</td><td>Ch</td><td class="num">15</td><td class="num">4,192</td><td class="num">1</td><td>Roman Letters</td></tr>
+      <tr><td>John Chrysostom</td><td>L</td><td>Ch</td><td class="num">12</td><td class="num">35,169</td><td class="num">12</td><td>Roman Letters</td></tr>
+      <tr><td>Faustus of Riez</td><td>L</td><td>Ch</td><td class="num">11</td><td class="num">3,163</td><td class="num">1</td><td>Roman Letters</td></tr>
+      <tr><td>Pope Pelagius II</td><td>L</td><td>Ch</td><td class="num">11</td><td class="num">4,209</td><td class="num">2</td><td>Roman Letters</td></tr>
+      <tr><td>Sulpicius Severus</td><td>L</td><td>Ch</td><td class="num">10</td><td class="num">18,596</td><td class="num">7</td><td>Roman Letters</td></tr>
+      <tr><td>Salvian of Marseille</td><td>L</td><td>Ch</td><td class="num">9</td><td class="num">2,541</td><td class="num">2</td><td>Roman Letters</td></tr>
+      <tr><td>Ferrandus of Carthage</td><td>L</td><td>Ch</td><td class="num">7</td><td class="num">1,945</td><td class="num">0</td><td>Roman Letters</td></tr>
+      <tr><td>Pope Anastasius II</td><td>L</td><td>Ch</td><td class="num">6</td><td class="num">1,470</td><td class="num">0</td><td>Roman Letters</td></tr>
+      <tr><td>Columbanus</td><td>L</td><td>Ch</td><td class="num">5</td><td class="num">14,778</td><td class="num">3</td><td>Roman Letters</td></tr>
+      <tr><td>Bede</td><td>L</td><td>Ch</td><td class="num">5</td><td class="num">1,406</td><td class="num">0</td><td>Roman Letters</td></tr>
+      <tr><td>Caesarius of Arles</td><td>L</td><td>Ch</td><td class="num">3</td><td class="num">940</td><td class="num">1</td><td>Roman Letters</td></tr>
+      <tr><td>Pope Benedict I</td><td>L</td><td>Ch</td><td class="num">2</td><td class="num">1,703</td><td class="num">0</td><td>Roman Letters</td></tr>
+      <tr><td>Pope John II</td><td>L</td><td>Ch</td><td class="num">2</td><td class="num">541</td><td class="num">0</td><td>Roman Letters</td></tr>
+      <tr><td>Pope Agapetus I</td><td>L</td><td>Ch</td><td class="num">1</td><td class="num">264</td><td class="num">0</td><td>Roman Letters</td></tr>
+      <tr><td>Pope John III</td><td>L</td><td>Ch</td><td class="num">1</td><td class="num">28</td><td class="num">0</td><td>Roman Letters</td></tr>
+      <tr><td>Pope Vigilius</td><td>L</td><td>Ch</td><td class="num">1</td><td class="num">279</td><td class="num">0</td><td>Roman Letters</td></tr>
+
+      <tr class="sec"><td colspan="7">B. Further letters compiled by us — 7 collections</td></tr>
+      <tr><td>Cicero, Ad Atticum (chronological)</td><td>L</td><td>Pa</td><td class="num">190</td><td class="num">124,233</td><td class="num">38</td><td>Project Gutenberg</td></tr>
+      <tr><td>Cicero, Ad Atticum vol. 3</td><td>L</td><td>Pa</td><td class="num">188</td><td class="num">57,719</td><td class="num">14</td><td>Project Gutenberg</td></tr>
+      <tr><td>Cicero, Ad Atticum vol. 1</td><td>L</td><td>Pa</td><td class="num">122</td><td class="num">64,909</td><td class="num">19</td><td>Project Gutenberg</td></tr>
+      <tr><td>Cicero, Ad Atticum vol. 2</td><td>L</td><td>Pa</td><td class="num">56</td><td class="num">40,548</td><td class="num">12</td><td>Project Gutenberg</td></tr>
+      <tr><td>Cicero, mixed letters</td><td>L</td><td>Pa</td><td class="num">3</td><td class="num">39,551</td><td class="num">17</td><td>Project Gutenberg</td></tr>
+      <tr><td>Fronto &amp; Marcus Aurelius, correspondence</td><td>L</td><td>Pa</td><td class="num">2</td><td class="num">74,443</td><td class="num">43</td><td>Wikisource</td></tr>
+      <tr><td>Symmachus, Relatio III</td><td>L</td><td>Pa</td><td class="num">1</td><td class="num">5,539</td><td class="num">2</td><td>Early Church Texts</td></tr>
+
+      <tr class="sec"><td colspan="7">C. Non-epistolary works compiled by us — 21 collections</td></tr>
+      <tr><td>Historia Augusta</td><td>B</td><td>Pa</td><td class="num">30</td><td class="num">10,379,560</td><td class="num">142</td><td>LacusCurtius</td></tr>
+      <tr><td>Plutarch, Parallel Lives</td><td>B</td><td>Pa</td><td class="num">50</td><td class="num">714,811</td><td class="num">245</td><td>Project Gutenberg</td></tr>
+      <tr><td>Suetonius, Lives of the Caesars</td><td>B</td><td>Pa</td><td class="num">12</td><td class="num">212,620</td><td class="num">47</td><td>Project Gutenberg</td></tr>
+      <tr><td>Cassius Dio, Roman History</td><td>H</td><td>Pa</td><td class="num">68</td><td class="num">505,112</td><td class="num">33</td><td>LacusCurtius</td></tr>
+      <tr><td>Ammianus Marcellinus, Res Gestae</td><td>H</td><td>Pa</td><td class="num">18</td><td class="num">245,936</td><td class="num">132</td><td>Project Gutenberg</td></tr>
+      <tr><td>Tacitus, Annals</td><td>H</td><td>Pa</td><td class="num">12</td><td class="num">158,177</td><td class="num">86</td><td>Wikisource</td></tr>
+      <tr><td>Tacitus, Histories</td><td>H</td><td>Pa</td><td class="num">5</td><td class="num">99,918</td><td class="num">48</td><td>Wikisource</td></tr>
+      <tr><td>Procopius, Secret History</td><td>H</td><td>Pa</td><td class="num">30</td><td class="num">39,116</td><td class="num">18</td><td>Project Gutenberg</td></tr>
+      <tr><td>Zosimus, New History</td><td>H</td><td>Pa</td><td class="num">6</td><td class="num">79,188</td><td class="num">28</td><td>tertullian.org</td></tr>
+      <tr><td>Eusebius, Ecclesiastical History</td><td>H</td><td>Ch</td><td class="num">10</td><td class="num">133,987</td><td class="num">44</td><td>New Advent</td></tr>
+      <tr><td>Lactantius, De Mortibus Persecutorum</td><td>H</td><td>Ch</td><td class="num">1</td><td class="num">18,748</td><td class="num">18</td><td>New Advent</td></tr>
+      <tr><td>Marcus Aurelius, Meditations</td><td>P</td><td>Pa</td><td class="num">12</td><td class="num">42,395</td><td class="num">17</td><td>Wikisource</td></tr>
+      <tr><td>Origen, Contra Celsum</td><td>A</td><td>Ch</td><td class="num">8</td><td class="num">244,932</td><td class="num">45</td><td>New Advent</td></tr>
+      <tr><td>Tertullian, Apologeticum</td><td>A</td><td>Ch</td><td class="num">1</td><td class="num">35,678</td><td class="num">19</td><td>New Advent</td></tr>
+      <tr><td>Tertullian, Adversus Marcionem</td><td>A</td><td>Ch</td><td class="num">5</td><td class="num">152,505</td><td class="num">16</td><td>New Advent</td></tr>
+      <tr><td>Tertullian, De Praescriptione</td><td>A</td><td>Ch</td><td class="num">1</td><td class="num">15,666</td><td class="num">0</td><td>New Advent</td></tr>
+      <tr><td>Minucius Felix, Octavius</td><td>A</td><td>Ch</td><td class="num">1</td><td class="num">20,363</td><td class="num">8</td><td>New Advent</td></tr>
+      <tr><td>Athanasius, Life of Antony</td><td>G</td><td>Ch</td><td class="num">1</td><td class="num">24,801</td><td class="num">6</td><td>New Advent</td></tr>
+      <tr><td>Martyrdom of Polycarp</td><td>G</td><td>Ch</td><td class="num">1</td><td class="num">3,793</td><td class="num">4</td><td>New Advent</td></tr>
+      <tr><td>Acts of Justin Martyr</td><td>G</td><td>Ch</td><td class="num">1</td><td class="num">3,041</td><td class="num">3</td><td>New Advent</td></tr>
+      <tr><td>Passion of Perpetua and Felicity</td><td>G</td><td>Ch</td><td class="num">1</td><td class="num">5,698</td><td class="num">0</td><td>New Advent</td></tr>
+
+      <tr class="tot"><td>Total — 82 collections</td><td></td><td></td><td class="num">8,032</td><td class="num">15,670,537</td><td class="num">1,159</td><td></td></tr>
+    </tbody>
+  </table>
+  </div>
+  <p class="legend">&dagger; Jerome's 279 letters combine 148 documents from the Christian Classics Ethereal
+    Library (CCEL) and 131 from the Roman Letters corpus. The "Persons" total counts each individual once
+    across the whole corpus, so it is smaller than the column sum (many people appear in several collections).</p>
+
+  <h2>A note on the texts</h2>
+  <p>Everything here is an English translation, not the original Greek or Latin — so the adjectives reflect the
+    translators' vocabularies as much as the ancient authors'. The pagan works are mostly 19th- and early-20th-century
+    scholarly translations (the Loeb and Bohn Classical Libraries, Dryden's Plutarch, Shuckburgh's Cicero); the
+    Christian works come predominantly from the Ante-Nicene Fathers (1885–1896) and Nicene and Post-Nicene Fathers
+    (1886–1900) series. This shared Victorian prose register may soften, but should not erase, real differences in
+    how pagan and Christian authors described character.</p>
+
+  <h2>Sources &amp; references</h2>
+  <p>References are the specific editions and translations actually used, grouped by the archive that hosts
+    each. The bulk of the letters come from the Roman Letters dataset; the works below were compiled by us
+    from the public digital editions listed.</p>
+  <div class="refs">
+    <h3>Dataset</h3>
+    <p>Vander Galien, C. (2026). <em>Roman Letters: 7,049 letters from the late Roman world (100–800 AD)</em>
+      [Data set]. Zenodo. <a href="https://doi.org/10.5281/zenodo.19142059" target="_blank" rel="noopener">https://doi.org/10.5281/zenodo.19142059</a></p>
+
+    <h3>Project Gutenberg</h3>
+    <p>Ammianus Marcellinus. (2009). <em>The Roman history of Ammianus Marcellinus</em> (C. D. Yonge, Trans.). Project Gutenberg. (Original work published 1862). <a href="https://www.gutenberg.org/ebooks/28587" target="_blank" rel="noopener">gutenberg.org/ebooks/28587</a></p>
+    <p>Cicero, M. T. (2001). <em>Letters of Marcus Tullius Cicero</em> (E. S. Shuckburgh, Trans.). Project Gutenberg. (Original work published 1908). <a href="https://www.gutenberg.org/ebooks/2812" target="_blank" rel="noopener">gutenberg.org/ebooks/2812</a></p>
+    <p>Cicero, M. T. (2015). <em>Cicero: Letters to Atticus</em> (E. O. Winstedt, Trans.; Loeb Classical Library, 3 vols.). Project Gutenberg. <a href="https://www.gutenberg.org/ebooks/58418" target="_blank" rel="noopener">gutenberg.org/ebooks/58418</a></p>
+    <p>Plutarch. (1996). <em>Plutarch: Lives of the noble Grecians and Romans</em> (J. Dryden, Trans.; A. H. Clough, Rev.). Project Gutenberg. (Original work published 1683–1686). <a href="https://www.gutenberg.org/ebooks/674" target="_blank" rel="noopener">gutenberg.org/ebooks/674</a></p>
+    <p>Procopius. (2004). <em>The secret history of the court of Justinian</em> (R. Atwater, Trans.). Project Gutenberg. (Original work published 1927). <a href="https://www.gutenberg.org/ebooks/12916" target="_blank" rel="noopener">gutenberg.org/ebooks/12916</a></p>
+    <p>Suetonius. (2004). <em>The lives of the twelve Caesars</em> (A. Thomson, Trans.; T. Forester, Ed.). Project Gutenberg. (Original translation published 1889). <a href="https://www.gutenberg.org/ebooks/6386" target="_blank" rel="noopener">gutenberg.org/ebooks/6386</a></p>
+
+    <h3>LacusCurtius (transcribed by B. Thayer)</h3>
+    <p>Cassius Dio. (1914–1927). <em>Roman history</em> (E. Cary, Trans.; Loeb Classical Library, 9 vols.). Harvard University Press. <a href="https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Cassius_Dio/home.html" target="_blank" rel="noopener">LacusCurtius</a></p>
+    <p><em>Historia Augusta</em>. (1921–1932). (D. Magie, Trans.; Loeb Classical Library, 3 vols.). Harvard University Press. <a href="https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Historia_Augusta/home.html" target="_blank" rel="noopener">LacusCurtius</a></p>
+
+    <h3>Christian Classics Ethereal Library</h3>
+    <p>Jerome. (1893). <em>The principal works of St. Jerome</em> (W. H. Fremantle, G. Lewis, &amp; W. G. Martley, Trans.; P. Schaff &amp; H. Wace, Eds.; Nicene and Post-Nicene Fathers, 2nd ser., Vol. 6). Christian Literature Publishing Co. <a href="https://www.ccel.org/ccel/schaff/npnf206" target="_blank" rel="noopener">ccel.org</a></p>
+
+    <h3>New Advent (rev. K. Knight)</h3>
+    <p>Athanasius of Alexandria. (1892). <em>Life of St. Anthony</em> (H. Ellershaw, Trans.; NPNF, 2nd ser., Vol. 4). Christian Literature Publishing Co. <a href="https://www.newadvent.org/fathers/2811.htm" target="_blank" rel="noopener">newadvent.org</a></p>
+    <p>Anonymous. (1885). <em>The martyrdom of Polycarp</em> (A. Roberts &amp; J. Donaldson, Trans.; Ante-Nicene Fathers, Vol. 1). Christian Literature Publishing Co. <a href="https://www.newadvent.org/fathers/0102.htm" target="_blank" rel="noopener">newadvent.org</a></p>
+    <p>Anonymous. (1885). <em>The passion of Perpetua and Felicity</em> (R. E. Wallis, Trans.; ANF, Vol. 3). Christian Literature Publishing Co. <a href="https://www.newadvent.org/fathers/0324.htm" target="_blank" rel="noopener">newadvent.org</a></p>
+    <p>Eusebius of Caesarea. (1890). <em>Church history</em> (A. C. McGiffert, Trans.; NPNF, 2nd ser., Vol. 1). Christian Literature Publishing Co. <a href="https://www.newadvent.org/fathers/250101.htm" target="_blank" rel="noopener">newadvent.org</a></p>
+    <p>Justin Martyr. (1885). <em>On the sole government of God</em> (G. Reith, Trans.; ANF, Vol. 1). Christian Literature Publishing Co. <a href="https://www.newadvent.org/fathers/0130.htm" target="_blank" rel="noopener">newadvent.org</a></p>
+    <p>Lactantius. (1886). <em>Of the manner in which the persecutors died</em> (W. Fletcher, Trans.; ANF, Vol. 7). Christian Literature Publishing Co. <a href="https://www.newadvent.org/fathers/0705.htm" target="_blank" rel="noopener">newadvent.org</a></p>
+    <p>Minucius Felix. (1885). <em>Octavius</em> (R. E. Wallis, Trans.; ANF, Vol. 4). Christian Literature Publishing Co. <a href="https://www.newadvent.org/fathers/0410.htm" target="_blank" rel="noopener">newadvent.org</a></p>
+    <p>Origen. (1885). <em>Against Celsus (Contra Celsum)</em> (F. Crombie, Trans.; ANF, Vol. 4). Christian Literature Publishing Co. <a href="https://www.newadvent.org/fathers/04161.htm" target="_blank" rel="noopener">newadvent.org</a></p>
+    <p>Tertullian. (1885). <em>Against Marcion (Adversus Marcionem)</em> (P. Holmes, Trans.; ANF, Vol. 3). Christian Literature Publishing Co. <a href="https://www.newadvent.org/fathers/03121.htm" target="_blank" rel="noopener">newadvent.org</a></p>
+    <p>Tertullian. (1885). <em>Apology (Apologeticum)</em> (S. Thelwall, Trans.; ANF, Vol. 3). Christian Literature Publishing Co. <a href="https://www.newadvent.org/fathers/0301.htm" target="_blank" rel="noopener">newadvent.org</a></p>
+    <p>Tertullian. (1885). <em>The prescription against heretics (De Praescriptione Haereticorum)</em> (P. Holmes, Trans.; ANF, Vol. 3). Christian Literature Publishing Co. <a href="https://www.newadvent.org/fathers/0311.htm" target="_blank" rel="noopener">newadvent.org</a></p>
+
+    <h3>Wikisource</h3>
+    <p>Fronto, M. C. (1919). <em>The correspondence of Marcus Cornelius Fronto</em> (C. R. Haines, Trans.; Loeb Classical Library, 2 vols.). Wikisource. <a href="https://en.wikisource.org/wiki/The_Correspondence_of_Marcus_Cornelius_Fronto" target="_blank" rel="noopener">en.wikisource.org</a></p>
+    <p>Marcus Aurelius Antoninus. (1944). <em>The meditations of the Emperor Marcus Antoninus</em> (A. S. L. Farquharson, Trans.). Wikisource. <a href="https://en.wikisource.org/wiki/The_Meditations_of_the_Emperor_Marcus_Antoninus" target="_blank" rel="noopener">en.wikisource.org</a></p>
+    <p>Tacitus. (1876). <em>The annals</em> (A. J. Church &amp; W. J. Brodribb, Trans.). Wikisource. <a href="https://en.wikisource.org/wiki/The_Annals_(Tacitus)" target="_blank" rel="noopener">en.wikisource.org</a></p>
+    <p>Tacitus. (1876). <em>The histories</em> (A. J. Church &amp; W. J. Brodribb, Trans.). Wikisource. <a href="https://en.wikisource.org/wiki/The_Histories_(Tacitus)" target="_blank" rel="noopener">en.wikisource.org</a></p>
+
+    <h3>The Tertullian Project</h3>
+    <p>Zosimus. (1814). <em>New history (Historia Nova)</em> (Anonymous, Trans.). Green and Chaplin. Hosted at The Tertullian Project. <a href="https://www.tertullian.org/fathers/zosimus01_book1.htm" target="_blank" rel="noopener">tertullian.org</a></p>
+
+    <h3>Early Church Texts</h3>
+    <p>Symmachus, Q. A. (1896). <em>Relatio III: Memorial on the restoration of the Altar of Victory</em> (H. de Romestin, E. de Romestin, &amp; H. T. F. Duckworth, Trans.; P. Schaff &amp; H. Wace, Eds.; NPNF, 2nd ser., Vol. 10). Early Church Texts. <a href="https://www.earlychurchtexts.com/public/symmachus_plea.htm" target="_blank" rel="noopener">earlychurchtexts.com</a></p>
+  </div>
+
+  <nav class="bottom-nav">
+    <a href="index.html">Explore</a><span class="nav-sep">·</span>
+    <a href="quiz.html">Quiz</a><span class="nav-sep">·</span>
+    <a href="profiles.html">Profiles</a><span class="nav-sep">·</span>
+    <a href="about.html" class="active">About</a>
+  </nav>
+  <p style="text-align:center;font-size:11px;color:var(--ink-mute);margin:14px 0 0">
+    Corpus: <a href="https://romanletters.org/" target="_blank" rel="noopener" style="color:var(--gold-deep);text-decoration:none">Roman Letters</a>, compiled by Craig Vander Galien</p>
+</div>
+</body>
+</html>

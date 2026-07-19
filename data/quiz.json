@@ -1,0 +1,3866 @@
+{
+  "topics": [
+    {
+      "id": 0,
+      "label": "Fortitude",
+      "blurb": "Courage, resolve and learning — the warrior-scholar's virtues.",
+      "top_words": [
+        "wise",
+        "brave",
+        "steadfast",
+        "firm",
+        "learned",
+        "courageous",
+        "proud",
+        "covetous"
+      ]
+    },
+    {
+      "id": 1,
+      "label": "Justice",
+      "blurb": "Fairness, mercy and good faith — the just and humane ruler.",
+      "top_words": [
+        "just",
+        "merciful",
+        "careful",
+        "cruel",
+        "upright",
+        "faithful",
+        "kind",
+        "fond"
+      ]
+    },
+    {
+      "id": 2,
+      "label": "Severity",
+      "blurb": "Hardness, force and severity — unbending and formidable.",
+      "top_words": [
+        "stern",
+        "harsh",
+        "savage",
+        "severe",
+        "bravest",
+        "peaceful",
+        "unmanly",
+        "brave"
+      ]
+    },
+    {
+      "id": 3,
+      "label": "Loyalty",
+      "blurb": "Loyalty, valour and devotion — the steadfast, generous ally.",
+      "top_words": [
+        "loyal",
+        "righteous",
+        "valiant",
+        "courageous",
+        "clever",
+        "devoted",
+        "noble",
+        "frugal"
+      ]
+    },
+    {
+      "id": 4,
+      "label": "Vice",
+      "blurb": "Weakness and corruption — the cautionary, ignoble streak.",
+      "top_words": [
+        "weak",
+        "evil",
+        "cruel",
+        "indolent",
+        "active",
+        "righteous",
+        "considerate",
+        "resolute"
+      ]
+    }
+  ],
+  "adjectives": [
+    {
+      "adj": "wise",
+      "loadings": [
+        0.8691,
+        0.0,
+        0.0,
+        0.1309,
+        0.0
+      ],
+      "primary": 0
+    },
+    {
+      "adj": "brave",
+      "loadings": [
+        0.8334,
+        0.0,
+        0.1666,
+        0.0,
+        0.0
+      ],
+      "primary": 0
+    },
+    {
+      "adj": "steadfast",
+      "loadings": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary": 0
+    },
+    {
+      "adj": "firm",
+      "loadings": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary": 0
+    },
+    {
+      "adj": "learned",
+      "loadings": [
+        0.881,
+        0.119,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary": 0
+    },
+    {
+      "adj": "covetous",
+      "loadings": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary": 0
+    },
+    {
+      "adj": "just",
+      "loadings": [
+        0.0,
+        0.7312,
+        0.0,
+        0.2688,
+        0.0
+      ],
+      "primary": 1
+    },
+    {
+      "adj": "merciful",
+      "loadings": [
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary": 1
+    },
+    {
+      "adj": "careful",
+      "loadings": [
+        0.0,
+        0.5911,
+        0.0,
+        0.0,
+        0.4089
+      ],
+      "primary": 1
+    },
+    {
+      "adj": "upright",
+      "loadings": [
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary": 1
+    },
+    {
+      "adj": "faithful",
+      "loadings": [
+        0.2593,
+        0.7407,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary": 1
+    },
+    {
+      "adj": "kind",
+      "loadings": [
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary": 1
+    },
+    {
+      "adj": "stern",
+      "loadings": [
+        0.0,
+        0.0,
+        0.8575,
+        0.0,
+        0.1425
+      ],
+      "primary": 2
+    },
+    {
+      "adj": "harsh",
+      "loadings": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "primary": 2
+    },
+    {
+      "adj": "savage",
+      "loadings": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "primary": 2
+    },
+    {
+      "adj": "severe",
+      "loadings": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "primary": 2
+    },
+    {
+      "adj": "bravest",
+      "loadings": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "primary": 2
+    },
+    {
+      "adj": "peaceful",
+      "loadings": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "primary": 2
+    },
+    {
+      "adj": "loyal",
+      "loadings": [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      "primary": 3
+    },
+    {
+      "adj": "righteous",
+      "loadings": [
+        0.0,
+        0.0,
+        0.0,
+        0.7965,
+        0.2035
+      ],
+      "primary": 3
+    },
+    {
+      "adj": "valiant",
+      "loadings": [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      "primary": 3
+    },
+    {
+      "adj": "courageous",
+      "loadings": [
+        0.4354,
+        0.0,
+        0.0,
+        0.5646,
+        0.0
+      ],
+      "primary": 3
+    },
+    {
+      "adj": "clever",
+      "loadings": [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      "primary": 3
+    },
+    {
+      "adj": "devoted",
+      "loadings": [
+        0.0,
+        0.2591,
+        0.0,
+        0.7409,
+        0.0
+      ],
+      "primary": 3
+    },
+    {
+      "adj": "weak",
+      "loadings": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "primary": 4
+    },
+    {
+      "adj": "evil",
+      "loadings": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "primary": 4
+    },
+    {
+      "adj": "cruel",
+      "loadings": [
+        0.0,
+        0.2646,
+        0.0,
+        0.0,
+        0.7354
+      ],
+      "primary": 4
+    },
+    {
+      "adj": "indolent",
+      "loadings": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "primary": 4
+    },
+    {
+      "adj": "active",
+      "loadings": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "primary": 4
+    },
+    {
+      "adj": "considerate",
+      "loadings": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "primary": 4
+    }
+  ],
+  "people": [
+    {
+      "name": "Agesilaus",
+      "slug": "agesilaus",
+      "has_portrait": true,
+      "n_adj": 16,
+      "century": "4 BCE",
+      "role": "king",
+      "adjs": [
+        "gentle",
+        "kingly",
+        "humane",
+        "orderly",
+        "emulous",
+        "ambitious",
+        "exact",
+        "fond",
+        "stubborn",
+        "headstrong"
+      ],
+      "vec": [
+        0.0119,
+        0.0123,
+        0.5412,
+        0.2867,
+        0.1479
+      ]
+    },
+    {
+      "name": "Agrippina the Younger (mother of Nero, wife of Claudius)",
+      "slug": "agrippina_the_younger_mother_of_nero_wife_of_claudius",
+      "has_portrait": true,
+      "n_adj": 11,
+      "century": "1 CE",
+      "role": "empress",
+      "adjs": [
+        "imperious",
+        "haughty",
+        "overbearing",
+        "intriguing",
+        "violent",
+        "heroic",
+        "domineering",
+        "proud",
+        "impetuous",
+        "masculine"
+      ],
+      "vec": [
+        0.0167,
+        0.0167,
+        0.9332,
+        0.0167,
+        0.0167
+      ]
+    },
+    {
+      "name": "Alexander of Heliopolis, governor of Syria under Julian (pagan)",
+      "slug": "alexander_of_heliopolis_governor_of_syria_under_julian_pagan",
+      "has_portrait": false,
+      "n_adj": 267,
+      "century": "4 CE",
+      "role": "governor",
+      "adjs": [
+        "indolent",
+        "weak",
+        "righteous",
+        "agreeable",
+        "careful",
+        "stern",
+        "temperate",
+        "considerate",
+        "kindly",
+        "courteous"
+      ],
+      "vec": [
+        0.0007,
+        0.0008,
+        0.0008,
+        0.0008,
+        0.997
+      ]
+    },
+    {
+      "name": "Alexander's mother (ambiguous: could refer to Julia Mamaea, mother of Severus Alexander, or Olympias, mother of Alexander the Great)",
+      "slug": "alexander_s_mother_ambiguous_could_refer_to_julia_mamaea_mother_of_severus_alexander_or_olympias_mother_of_alexander_the_great",
+      "has_portrait": false,
+      "n_adj": 39,
+      "century": "4 BCE–3 CE",
+      "role": "mother",
+      "adjs": [
+        "righteous",
+        "clever",
+        "covetous",
+        "greedy"
+      ],
+      "vec": [
+        0.005,
+        0.005,
+        0.005,
+        0.9799,
+        0.005
+      ]
+    },
+    {
+      "name": "Annius Verus (grandfather of Marcus Aurelius) (pagan)",
+      "slug": "annius_verus_grandfather_of_marcus_aurelius_pagan",
+      "has_portrait": false,
+      "n_adj": 28,
+      "century": "1 CE",
+      "role": "other_elite",
+      "adjs": [
+        "kindly",
+        "considerate",
+        "honest"
+      ],
+      "vec": [
+        0.0067,
+        0.0068,
+        0.0068,
+        0.0072,
+        0.9725
+      ]
+    },
+    {
+      "name": "Antoninus Pius, Roman Emperor (r. 138-161)",
+      "slug": "antoninus_pius_roman_emperor_r_138_161",
+      "has_portrait": true,
+      "n_adj": 217,
+      "century": "2 CE",
+      "role": "emperor",
+      "adjs": [
+        "frugal",
+        "unstained",
+        "just",
+        "fond",
+        "generous",
+        "lenient",
+        "honourable",
+        "stingy",
+        "angry",
+        "agreeable"
+      ],
+      "vec": [
+        0.0477,
+        0.0009,
+        0.001,
+        0.9495,
+        0.0009
+      ]
+    },
+    {
+      "name": "Apollonius of Tyana",
+      "slug": "apollonius_of_tyana",
+      "has_portrait": true,
+      "n_adj": 26,
+      "century": "1 CE",
+      "role": "philosopher",
+      "adjs": [
+        "sage",
+        "holy",
+        "wiser"
+      ],
+      "vec": [
+        0.9702,
+        0.0075,
+        0.0074,
+        0.0074,
+        0.0074
+      ]
+    },
+    {
+      "name": "Aradio",
+      "slug": "aradio",
+      "has_portrait": false,
+      "n_adj": 46,
+      "century": "4 CE",
+      "role": "other_military",
+      "adjs": [
+        "valiant",
+        "resolute"
+      ],
+      "vec": [
+        0.0043,
+        0.0043,
+        0.0043,
+        0.5097,
+        0.4775
+      ]
+    },
+    {
+      "name": "Aristides of Athens, Christian apologist (fl. early 2nd century)",
+      "slug": "aristides_of_athens_christian_apologist_fl_early_2nd_century",
+      "has_portrait": false,
+      "n_adj": 19,
+      "century": "2 CE",
+      "role": "other",
+      "adjs": [
+        "just",
+        "determined",
+        "forward",
+        "noble",
+        "adventurous",
+        "cautious",
+        "proud",
+        "mild",
+        "nobler",
+        "devoted"
+      ],
+      "vec": [
+        0.0101,
+        0.9595,
+        0.0102,
+        0.0102,
+        0.01
+      ]
+    },
+    {
+      "name": "Augustus",
+      "slug": "augustus",
+      "has_portrait": true,
+      "n_adj": 74,
+      "century": "1 BCE",
+      "role": "emperor",
+      "adjs": [
+        "mild",
+        "ambitious",
+        "moderate",
+        "inconsistent",
+        "honourable",
+        "severe",
+        "strict",
+        "wanton",
+        "fond",
+        "affected"
+      ],
+      "vec": [
+        0.0027,
+        0.9419,
+        0.0028,
+        0.0027,
+        0.0499
+      ]
+    },
+    {
+      "name": "Aurelian, Roman Emperor (r. 270-275)",
+      "slug": "aurelian_roman_emperor_r_270_275",
+      "has_portrait": true,
+      "n_adj": 809,
+      "century": "3 CE",
+      "role": "emperor",
+      "adjs": [
+        "stern",
+        "savage",
+        "bravest",
+        "harsh",
+        "guileless",
+        "peaceful",
+        "brave",
+        "severe",
+        "violent",
+        "proud"
+      ],
+      "vec": [
+        0.0084,
+        0.0002,
+        0.9909,
+        0.0003,
+        0.0002
+      ]
+    },
+    {
+      "name": "Aurelianus, correspondent of Avitus of Vienne and Ennodius of Pavia (early 6th century)",
+      "slug": "aurelianus_correspondent_of_avitus_of_vienne_and_ennodius_of_pavia_early_6th_century",
+      "has_portrait": false,
+      "n_adj": 14,
+      "century": "6 CE",
+      "role": "other_elite",
+      "adjs": [
+        "sinister",
+        "ambitious",
+        "surprized"
+      ],
+      "vec": [
+        0.7329,
+        0.2337,
+        0.0111,
+        0.0112,
+        0.0111
+      ]
+    },
+    {
+      "name": "Aureolus, commander of Gallienus' cavalry and usurper (d. 268)",
+      "slug": "aureolus_commander_of_gallienus_cavalry_and_usurper_d_268",
+      "has_portrait": true,
+      "n_adj": 18,
+      "century": "3 CE",
+      "role": "general",
+      "adjs": [
+        "brave",
+        "dangerous"
+      ],
+      "vec": [
+        0.9578,
+        0.0105,
+        0.0106,
+        0.0105,
+        0.0106
+      ]
+    },
+    {
+      "name": "Avidius Cassius",
+      "slug": "avidius_cassius",
+      "has_portrait": true,
+      "n_adj": 17,
+      "century": "2 CE",
+      "role": "general",
+      "adjs": [
+        "strict",
+        "stern",
+        "false",
+        "brave"
+      ],
+      "vec": [
+        0.4937,
+        0.0112,
+        0.4727,
+        0.0113,
+        0.0111
+      ]
+    },
+    {
+      "name": "Balbinus",
+      "slug": "balbinus",
+      "has_portrait": true,
+      "n_adj": 88,
+      "century": "3 CE",
+      "role": "emperor",
+      "adjs": [
+        "timid",
+        "kindly",
+        "mild",
+        "righteous",
+        "modest",
+        "gentle",
+        "stern",
+        "gloomy",
+        "grave",
+        "just"
+      ],
+      "vec": [
+        0.0022,
+        0.0023,
+        0.0023,
+        0.9909,
+        0.0023
+      ]
+    },
+    {
+      "name": "Bassianus, Roman noble and secretary (4th century CE)",
+      "slug": "bassianus_roman_noble_and_secretary_4th_century_ce",
+      "has_portrait": true,
+      "n_adj": 10,
+      "century": "4 CE",
+      "role": "other_elite",
+      "adjs": [
+        "brave",
+        "mindful"
+      ],
+      "vec": [
+        0.927,
+        0.0182,
+        0.0183,
+        0.0183,
+        0.0182
+      ]
+    },
+    {
+      "name": "Caecilius (old eunuch, trusted messenger in Historia Augusta)",
+      "slug": "caecilius_old_eunuch_trusted_messenger_in_historia_augusta",
+      "has_portrait": false,
+      "n_adj": 12,
+      "century": "4 CE",
+      "role": "other",
+      "adjs": [
+        "trusted"
+      ],
+      "vec": [
+        0.0154,
+        0.0155,
+        0.9384,
+        0.0154,
+        0.0154
+      ]
+    },
+    {
+      "name": "Caligula",
+      "slug": "caligula",
+      "has_portrait": true,
+      "n_adj": 49,
+      "century": "1 CE",
+      "role": "emperor",
+      "adjs": [
+        "savage",
+        "fond",
+        "vicious",
+        "constant",
+        "merry",
+        "abject",
+        "crazy",
+        "obnoxious",
+        "dangerous",
+        "passionate"
+      ],
+      "vec": [
+        0.004,
+        0.2522,
+        0.0699,
+        0.0434,
+        0.6303
+      ]
+    },
+    {
+      "name": "Camillus",
+      "slug": "camillus",
+      "has_portrait": false,
+      "n_adj": 11,
+      "century": "4 BCE",
+      "role": "general",
+      "adjs": [
+        "law-abiding",
+        "scrupulous",
+        "mindful",
+        "mild",
+        "tender"
+      ],
+      "vec": [
+        0.8361,
+        0.0171,
+        0.0167,
+        0.1135,
+        0.0167
+      ]
+    },
+    {
+      "name": "Capelianus",
+      "slug": "capelianus",
+      "has_portrait": true,
+      "n_adj": 36,
+      "century": "3 CE",
+      "role": "governor",
+      "adjs": [
+        "hostile",
+        "bolder"
+      ],
+      "vec": [
+        0.9783,
+        0.0054,
+        0.0054,
+        0.0054,
+        0.0054
+      ]
+    },
+    {
+      "name": "Caracalla",
+      "slug": "caracalla",
+      "has_portrait": true,
+      "n_adj": 49,
+      "century": "3 CE",
+      "role": "emperor",
+      "adjs": [
+        "cruel",
+        "witless",
+        "savage",
+        "stern",
+        "arrogant",
+        "foolish",
+        "clever",
+        "reserved"
+      ],
+      "vec": [
+        0.004,
+        0.004,
+        0.0041,
+        0.004,
+        0.9839
+      ]
+    },
+    {
+      "name": "Carinus",
+      "slug": "carinus",
+      "has_portrait": true,
+      "n_adj": 48,
+      "century": "3 CE",
+      "role": "emperor",
+      "adjs": [
+        "evil"
+      ],
+      "vec": [
+        0.0041,
+        0.0041,
+        0.0041,
+        0.0041,
+        0.9837
+      ]
+    },
+    {
+      "name": "Cato the Elder",
+      "slug": "cato_the_elder",
+      "has_portrait": false,
+      "n_adj": 47,
+      "century": "2 BCE",
+      "role": "other_elite",
+      "adjs": [
+        "stern",
+        "virtuous",
+        "munificent",
+        "temperate",
+        "consummate",
+        "wise",
+        "despairing",
+        "pure",
+        "acute",
+        "eloquent"
+      ],
+      "vec": [
+        0.1195,
+        0.3956,
+        0.1116,
+        0.0277,
+        0.3455
+      ]
+    },
+    {
+      "name": "Cato the Younger",
+      "slug": "cato_the_younger",
+      "has_portrait": true,
+      "n_adj": 24,
+      "century": "1 BCE",
+      "role": "senator",
+      "adjs": [
+        "inflexible",
+        "wise",
+        "firm",
+        "unwavering",
+        "unmoved",
+        "resolute",
+        "rough",
+        "ungentle",
+        "unyielding",
+        "strict"
+      ],
+      "vec": [
+        0.4012,
+        0.0849,
+        0.008,
+        0.079,
+        0.4269
+      ]
+    },
+    {
+      "name": "Cicero",
+      "slug": "cicero",
+      "has_portrait": false,
+      "n_adj": 89,
+      "century": "1 BCE",
+      "role": "orator",
+      "adjs": [
+        "learned",
+        "amiable",
+        "philosophical",
+        "hard",
+        "witty",
+        "tyrannical",
+        "indulgent",
+        "brilliant",
+        "fond",
+        "honest"
+      ],
+      "vec": [
+        0.0092,
+        0.9511,
+        0.0006,
+        0.0195,
+        0.0196
+      ]
+    },
+    {
+      "name": "Cimon",
+      "slug": "cimon",
+      "has_portrait": true,
+      "n_adj": 12,
+      "century": "5 BCE",
+      "role": "general",
+      "adjs": [
+        "disinterested",
+        "valiant",
+        "amorous",
+        "noble",
+        "daring",
+        "just",
+        "honest",
+        "humane",
+        "clean",
+        "untainted"
+      ],
+      "vec": [
+        0.0155,
+        0.5712,
+        0.2627,
+        0.1351,
+        0.0156
+      ]
+    },
+    {
+      "name": "Claudius II Gothicus",
+      "slug": "claudius_ii_gothicus",
+      "has_portrait": false,
+      "n_adj": 474,
+      "century": "3 CE",
+      "role": "emperor",
+      "adjs": [
+        "loyal",
+        "valiant",
+        "rigid",
+        "courageous",
+        "earnest",
+        "respected",
+        "learned",
+        "angry",
+        "violent",
+        "righteous"
+      ],
+      "vec": [
+        0.0004,
+        0.0004,
+        0.0004,
+        0.9983,
+        0.0004
+      ]
+    },
+    {
+      "name": "Cleomenes",
+      "slug": "cleomenes",
+      "has_portrait": true,
+      "n_adj": 12,
+      "century": "3 BCE",
+      "role": "king",
+      "adjs": [
+        "daring",
+        "arbitrary",
+        "tyrannical",
+        "generous",
+        "temperate",
+        "moderate",
+        "manly",
+        "faithful"
+      ],
+      "vec": [
+        0.0154,
+        0.9374,
+        0.0155,
+        0.0155,
+        0.0162
+      ]
+    },
+    {
+      "name": "Clodius Albinus",
+      "slug": "clodius_albinus",
+      "has_portrait": true,
+      "n_adj": 143,
+      "century": "3 CE",
+      "role": "general",
+      "adjs": [
+        "brave",
+        "covetous",
+        "extravagant",
+        "quarrelsome",
+        "brutal",
+        "warlike",
+        "unprincipled",
+        "strict",
+        "respected",
+        "perfidious"
+      ],
+      "vec": [
+        0.9944,
+        0.0014,
+        0.0014,
+        0.0014,
+        0.0014
+      ]
+    },
+    {
+      "name": "Commodus, Roman Emperor (r. 180-192)",
+      "slug": "commodus_roman_emperor_r_180_192",
+      "has_portrait": true,
+      "n_adj": 141,
+      "century": "2 CE",
+      "role": "emperor",
+      "adjs": [
+        "weak",
+        "cruel",
+        "lewd",
+        "gluttonous",
+        "evil",
+        "depraved",
+        "stern",
+        "vicious",
+        "debauched",
+        "lazy"
+      ],
+      "vec": [
+        0.0014,
+        0.0014,
+        0.0014,
+        0.0014,
+        0.9943
+      ]
+    },
+    {
+      "name": "Constantine",
+      "slug": "constantine",
+      "has_portrait": true,
+      "n_adj": 29,
+      "century": "4 CE",
+      "role": "emperor",
+      "adjs": [
+        "pious",
+        "learned",
+        "just",
+        "kindest",
+        "virtuous",
+        "amiable",
+        "severe",
+        "strict",
+        "unsuspecting",
+        "steady"
+      ],
+      "vec": [
+        0.1151,
+        0.7828,
+        0.0067,
+        0.0067,
+        0.0886
+      ]
+    },
+    {
+      "name": "Constantius II, Roman Emperor (r. 337-361)",
+      "slug": "constantius_ii_roman_emperor_r_337_361",
+      "has_portrait": true,
+      "n_adj": 75,
+      "century": "4 CE",
+      "role": "emperor",
+      "adjs": [
+        "watchful",
+        "merciful",
+        "devoted",
+        "severe",
+        "cruel",
+        "implacable",
+        "kindly",
+        "wise",
+        "eager",
+        "ignorant"
+      ],
+      "vec": [
+        0.0027,
+        0.89,
+        0.0027,
+        0.0027,
+        0.1019
+      ]
+    },
+    {
+      "name": "Count Romanus, Roman military official under Valentinian I (4th century)",
+      "slug": "count_romanus_roman_military_official_under_valentinian_i_4th_century",
+      "has_portrait": false,
+      "n_adj": 16,
+      "century": "4 CE",
+      "role": "general",
+      "adjs": [
+        "generous",
+        "trustworthy",
+        "diligent",
+        "independent",
+        "careful",
+        "eager",
+        "wicked",
+        "holy",
+        "selective",
+        "civil"
+      ],
+      "vec": [
+        0.1506,
+        0.8129,
+        0.0121,
+        0.012,
+        0.0124
+      ]
+    },
+    {
+      "name": "Demosthenes",
+      "slug": "demosthenes",
+      "has_portrait": true,
+      "n_adj": 33,
+      "century": "4 BCE",
+      "role": "orator",
+      "adjs": [
+        "serious",
+        "firm",
+        "eager",
+        "just",
+        "effeminate",
+        "industrious",
+        "determined",
+        "resolute",
+        "fickle",
+        "constant"
+      ],
+      "vec": [
+        0.2666,
+        0.5558,
+        0.006,
+        0.0059,
+        0.1656
+      ]
+    },
+    {
+      "name": "Diadumenianus",
+      "slug": "diadumenianus",
+      "has_portrait": true,
+      "n_adj": 36,
+      "century": "3 CE",
+      "role": "emperor",
+      "adjs": [
+        "dignified",
+        "austere",
+        "cruel",
+        "strong"
+      ],
+      "vec": [
+        0.0054,
+        0.9783,
+        0.0054,
+        0.0054,
+        0.0055
+      ]
+    },
+    {
+      "name": "Diocletian, Roman Emperor (r. 284-305), originally named Diocles",
+      "slug": "diocletian_roman_emperor_r_284_305_originally_named_diocles",
+      "has_portrait": true,
+      "n_adj": 186,
+      "century": "3 CE",
+      "role": "emperor",
+      "adjs": [
+        "devoted",
+        "wise",
+        "reticent",
+        "restless",
+        "greedy",
+        "stingy",
+        "generous",
+        "righteous",
+        "brutal",
+        "timorous"
+      ],
+      "vec": [
+        0.0303,
+        0.0011,
+        0.0011,
+        0.9664,
+        0.0011
+      ]
+    },
+    {
+      "name": "Dion",
+      "slug": "dion",
+      "has_portrait": false,
+      "n_adj": 13,
+      "century": "4 BCE",
+      "role": "other_elite",
+      "adjs": [
+        "austere",
+        "lofty",
+        "noble",
+        "daring",
+        "plain-dealing",
+        "stately",
+        "reserved",
+        "unsociable",
+        "unmovable",
+        "undaunted"
+      ],
+      "vec": [
+        0.0145,
+        0.8487,
+        0.0144,
+        0.1079,
+        0.0145
+      ]
+    },
+    {
+      "name": "Domitian, Roman Emperor (r. 81-96)",
+      "slug": "domitian_roman_emperor_r_81_96",
+      "has_portrait": true,
+      "n_adj": 49,
+      "century": "1 CE",
+      "role": "emperor",
+      "adjs": [
+        "evil",
+        "graceful",
+        "modest",
+        "wicked",
+        "generous",
+        "courteous",
+        "forward",
+        "assuming",
+        "impious",
+        "wanton"
+      ],
+      "vec": [
+        0.0041,
+        0.2895,
+        0.0041,
+        0.0537,
+        0.6486
+      ]
+    },
+    {
+      "name": "Domitius Modestus, Praetorian Prefect under Valens (fl. 4th century)",
+      "slug": "domitius_modestus_praetorian_prefect_under_valens_fl_4th_century",
+      "has_portrait": true,
+      "n_adj": 10,
+      "century": "4 CE",
+      "role": "prefect",
+      "adjs": [
+        "just",
+        "generous",
+        "noble",
+        "rough",
+        "kind",
+        "constant"
+      ],
+      "vec": [
+        0.0182,
+        0.5412,
+        0.0183,
+        0.4041,
+        0.0182
+      ]
+    },
+    {
+      "name": "Elagabalus (Marcus Aurelius Antoninus Augustus), Roman Emperor (r. 218–222)",
+      "slug": "elagabalus_marcus_aurelius_antoninus_augustus_roman_emperor_r_218_222",
+      "has_portrait": true,
+      "n_adj": 26,
+      "century": "3 CE",
+      "role": "emperor",
+      "adjs": [
+        "brutal",
+        "extravagant",
+        "wasteful",
+        "gluttonous"
+      ],
+      "vec": [
+        0.0075,
+        0.0074,
+        0.0074,
+        0.0074,
+        0.9703
+      ]
+    },
+    {
+      "name": "Emperor Justinian I",
+      "slug": "emperor_justinian_i",
+      "has_portrait": false,
+      "n_adj": 50,
+      "century": "6 CE",
+      "role": "emperor",
+      "adjs": [
+        "evil",
+        "cruel",
+        "kindly",
+        "extravagant",
+        "affable",
+        "wicked",
+        "relentless",
+        "inconstant",
+        "untrustworthy",
+        "persistent"
+      ],
+      "vec": [
+        0.0039,
+        0.3431,
+        0.004,
+        0.004,
+        0.645
+      ]
+    },
+    {
+      "name": "Epaminondas",
+      "slug": "epaminondas",
+      "has_portrait": true,
+      "n_adj": 13,
+      "century": "4 BCE",
+      "role": "general",
+      "adjs": [
+        "justest",
+        "incorruptible",
+        "fearless",
+        "bold",
+        "eager",
+        "spare",
+        "unwearied",
+        "unshrinking",
+        "inactive",
+        "gallant"
+      ],
+      "vec": [
+        0.1697,
+        0.7873,
+        0.0144,
+        0.0144,
+        0.0143
+      ]
+    },
+    {
+      "name": "Eutropius, proconsul of Asia (4th century CE)",
+      "slug": "eutropius_proconsul_of_asia_4th_century_ce",
+      "has_portrait": true,
+      "n_adj": 25,
+      "century": "4 CE",
+      "role": "governor",
+      "adjs": [
+        "noblest",
+        "good-natured",
+        "partisan",
+        "energetic"
+      ],
+      "vec": [
+        0.0077,
+        0.0077,
+        0.9691,
+        0.0077,
+        0.0077
+      ]
+    },
+    {
+      "name": "Fabius",
+      "slug": "fabius",
+      "has_portrait": false,
+      "n_adj": 33,
+      "century": "3 BCE",
+      "role": "general",
+      "adjs": [
+        "timid",
+        "anxious",
+        "careless",
+        "wise",
+        "contented",
+        "happy",
+        "firm",
+        "mild",
+        "hard",
+        "just"
+      ],
+      "vec": [
+        0.0875,
+        0.6731,
+        0.006,
+        0.2275,
+        0.0059
+      ]
+    },
+    {
+      "name": "Firmus (rebel usurper)",
+      "slug": "firmus_rebel_usurper",
+      "has_portrait": false,
+      "n_adj": 12,
+      "century": "4 CE",
+      "role": "other_military",
+      "adjs": [
+        "resolute",
+        "violent",
+        "strong"
+      ],
+      "vec": [
+        0.0154,
+        0.3283,
+        0.2128,
+        0.0155,
+        0.428
+      ]
+    },
+    {
+      "name": "Gaius Fabricius Luscinus, Roman consul and envoy to Pyrrhus (early 3rd century BCE)",
+      "slug": "gaius_fabricius_luscinus_roman_consul_and_envoy_to_pyrrhus_early_3rd_century_bce",
+      "has_portrait": false,
+      "n_adj": 18,
+      "century": "3 BCE",
+      "role": "consul",
+      "adjs": [
+        "upright"
+      ],
+      "vec": [
+        0.0105,
+        0.9579,
+        0.0105,
+        0.0105,
+        0.0105
+      ]
+    },
+    {
+      "name": "Galba, Roman Emperor (r. 68-69 CE)",
+      "slug": "galba_roman_emperor_r_68_69_ce",
+      "has_portrait": true,
+      "n_adj": 35,
+      "century": "1 CE",
+      "role": "emperor",
+      "adjs": [
+        "parsimonious",
+        "noble",
+        "weak",
+        "quiet",
+        "mild",
+        "covetous",
+        "bold",
+        "miserly",
+        "resolute",
+        "ignorant"
+      ],
+      "vec": [
+        0.0976,
+        0.6815,
+        0.0058,
+        0.0845,
+        0.1306
+      ]
+    },
+    {
+      "name": "Gallienus",
+      "slug": "gallienus",
+      "has_portrait": true,
+      "n_adj": 157,
+      "century": "3 CE",
+      "role": "emperor",
+      "adjs": [
+        "evil",
+        "courageous",
+        "active",
+        "clever",
+        "foolish",
+        "weak",
+        "brutal",
+        "lovable",
+        "depraved",
+        "monstrous"
+      ],
+      "vec": [
+        0.0013,
+        0.0013,
+        0.0279,
+        0.2645,
+        0.7051
+      ]
+    },
+    {
+      "name": "Gavius Maximus",
+      "slug": "gavius_maximus",
+      "has_portrait": false,
+      "n_adj": 14,
+      "century": "2 CE",
+      "role": "prefect",
+      "adjs": [
+        "stern"
+      ],
+      "vec": [
+        0.0133,
+        0.0133,
+        0.9466,
+        0.0133,
+        0.0134
+      ]
+    },
+    {
+      "name": "Germanicus",
+      "slug": "germanicus",
+      "has_portrait": true,
+      "n_adj": 25,
+      "century": "1 CE",
+      "role": "general",
+      "adjs": [
+        "noble",
+        "gracious",
+        "noblest",
+        "civil",
+        "amiable",
+        "unaspiring",
+        "kind-hearted",
+        "temperate",
+        "engaging",
+        "unassuming"
+      ],
+      "vec": [
+        0.0077,
+        0.7875,
+        0.0081,
+        0.1889,
+        0.0078
+      ]
+    },
+    {
+      "name": "Gordian I (Marcus Antonius Gordianus Sempronianus Romanus), Roman Emperor (r. 238)",
+      "slug": "gordian_i_marcus_antonius_gordianus_sempronianus_romanus_roman_emperor_r_238",
+      "has_portrait": true,
+      "n_adj": 49,
+      "century": "3 CE",
+      "role": "emperor",
+      "adjs": [
+        "high-minded",
+        "eloquent",
+        "just",
+        "moderate",
+        "virtuous",
+        "temperate",
+        "restrained",
+        "deferential",
+        "kind"
+      ],
+      "vec": [
+        0.004,
+        0.9839,
+        0.0041,
+        0.004,
+        0.004
+      ]
+    },
+    {
+      "name": "Gordian, Roman Emperor (3rd century, possibly I, II, or III)",
+      "slug": "gordian_roman_emperor_3rd_century_possibly_i_ii_or_iii",
+      "has_portrait": false,
+      "n_adj": 39,
+      "century": "3 CE",
+      "role": "emperor",
+      "adjs": [
+        "righteous",
+        "kind",
+        "fond",
+        "temperate",
+        "restrained"
+      ],
+      "vec": [
+        0.005,
+        0.4801,
+        0.005,
+        0.5048,
+        0.005
+      ]
+    },
+    {
+      "name": "Hadrian, Roman Emperor (r. 117-138)",
+      "slug": "hadrian_roman_emperor_r_117_138",
+      "has_portrait": true,
+      "n_adj": 270,
+      "century": "2 CE",
+      "role": "emperor",
+      "adjs": [
+        "cruel",
+        "just",
+        "violent",
+        "controlled",
+        "soldierly",
+        "fond",
+        "witty",
+        "sagacious",
+        "dignified",
+        "democratic"
+      ],
+      "vec": [
+        0.0007,
+        0.9415,
+        0.0562,
+        0.0007,
+        0.0007
+      ]
+    },
+    {
+      "name": "Heraclides",
+      "slug": "heraclides",
+      "has_portrait": true,
+      "n_adj": 11,
+      "century": "4 BCE",
+      "role": "other_military",
+      "adjs": [
+        "fickle",
+        "gentle",
+        "insinuating",
+        "perfidious",
+        "malicious",
+        "perverse",
+        "jealous",
+        "turbulent",
+        "factious"
+      ],
+      "vec": [
+        0.0168,
+        0.0169,
+        0.0167,
+        0.0168,
+        0.9329
+      ]
+    },
+    {
+      "name": "Herodes (Fronto's contemporary and Herodes, son of Odaenathus) (pagan)",
+      "slug": "herodes_fronto_s_contemporary_and_herodes_son_of_odaenathus_pagan",
+      "has_portrait": false,
+      "n_adj": 16,
+      "century": "3 CE",
+      "role": "other_elite",
+      "adjs": [
+        "effeminate"
+      ],
+      "vec": [
+        0.9573,
+        0.011,
+        0.0105,
+        0.0105,
+        0.0106
+      ]
+    },
+    {
+      "name": "Hierocles, imperial favorite and official under Elagabalus",
+      "slug": "hierocles_imperial_favorite_and_official_under_elagabalus",
+      "has_portrait": true,
+      "n_adj": 25,
+      "century": "3 CE",
+      "role": "other_elite",
+      "adjs": [
+        "shameless",
+        "amiable"
+      ],
+      "vec": [
+        0.0077,
+        0.0077,
+        0.0077,
+        0.0077,
+        0.9692
+      ]
+    },
+    {
+      "name": "Horace",
+      "slug": "horace",
+      "has_portrait": true,
+      "n_adj": 10,
+      "century": "1 BCE",
+      "role": "poet",
+      "adjs": [
+        "acute",
+        "learned",
+        "abandoned",
+        "moral",
+        "refined",
+        "philosophical",
+        "cultivated",
+        "intuitive",
+        "devoted",
+        "keen"
+      ],
+      "vec": [
+        0.367,
+        0.5781,
+        0.0183,
+        0.0184,
+        0.0182
+      ]
+    },
+    {
+      "name": "Iamblichus",
+      "slug": "iamblichus",
+      "has_portrait": true,
+      "n_adj": 17,
+      "century": "3 CE",
+      "role": "philosopher",
+      "adjs": [
+        "noble",
+        "godlike",
+        "gentle",
+        "self-controlled",
+        "fair-minded",
+        "modest",
+        "devout",
+        "worldly",
+        "self-interested",
+        "charming"
+      ],
+      "vec": [
+        0.1205,
+        0.8458,
+        0.0112,
+        0.0114,
+        0.0112
+      ]
+    },
+    {
+      "name": "Julian",
+      "slug": "julian",
+      "has_portrait": false,
+      "n_adj": 93,
+      "century": "4 CE",
+      "role": "emperor",
+      "adjs": [
+        "prudent",
+        "devoted",
+        "eager",
+        "wise",
+        "virtuous",
+        "determined",
+        "just",
+        "holy",
+        "temperate",
+        "inexperienced"
+      ],
+      "vec": [
+        0.0564,
+        0.8754,
+        0.0022,
+        0.0639,
+        0.0022
+      ]
+    },
+    {
+      "name": "Julian of Antioch",
+      "slug": "julian_of_antioch",
+      "has_portrait": true,
+      "n_adj": 15,
+      "century": "5 CE",
+      "role": "other",
+      "adjs": [
+        "just",
+        "virtuous",
+        "vigorous",
+        "firm",
+        "watchful",
+        "faithful",
+        "understanding",
+        "mindful",
+        "forgetful",
+        "persuasive"
+      ],
+      "vec": [
+        0.2207,
+        0.7008,
+        0.0129,
+        0.0126,
+        0.053
+      ]
+    },
+    {
+      "name": "Julius Caesar",
+      "slug": "julius_caesar",
+      "has_portrait": true,
+      "n_adj": 26,
+      "century": "1 BCE",
+      "role": "general",
+      "adjs": [
+        "genial",
+        "liberal",
+        "daring",
+        "wicked",
+        "merciful",
+        "patient",
+        "warm",
+        "placable",
+        "clement",
+        "acute"
+      ],
+      "vec": [
+        0.1781,
+        0.7291,
+        0.0075,
+        0.0074,
+        0.0779
+      ]
+    },
+    {
+      "name": "Julius Paulus, Roman jurist (early 3rd century CE)",
+      "slug": "julius_paulus_roman_jurist_early_3rd_century_ce",
+      "has_portrait": false,
+      "n_adj": 19,
+      "century": "3 CE",
+      "role": "other_elite",
+      "adjs": [
+        "learned"
+      ],
+      "vec": [
+        0.9599,
+        0.01,
+        0.01,
+        0.01,
+        0.01
+      ]
+    },
+    {
+      "name": "Leontius, governor of Rome and tax assessor at Nicaea (late 4th century)",
+      "slug": "leontius_governor_of_rome_and_tax_assessor_at_nicaea_late_4th_century",
+      "has_portrait": true,
+      "n_adj": 21,
+      "century": "4 CE",
+      "role": "governor",
+      "adjs": [
+        "just",
+        "trustworthy",
+        "devoted",
+        "prompt",
+        "merciful",
+        "gentle",
+        "intelligent",
+        "blameless",
+        "amorous",
+        "respected"
+      ],
+      "vec": [
+        0.1369,
+        0.7301,
+        0.0091,
+        0.1146,
+        0.0093
+      ]
+    },
+    {
+      "name": "Longinus (Cassius Longinus), philosopher and rhetorician (c. 213–273 CE)",
+      "slug": "longinus_cassius_longinus_philosopher_and_rhetorician_c_213_273_ce",
+      "has_portrait": true,
+      "n_adj": 12,
+      "century": "3 CE",
+      "role": "philosopher",
+      "adjs": [
+        "cruel",
+        "critical",
+        "accurate"
+      ],
+      "vec": [
+        0.0154,
+        0.0155,
+        0.0154,
+        0.0154,
+        0.9383
+      ]
+    },
+    {
+      "name": "Lucius Catilius Severus, Roman senator and kinsman of Severus Alexander",
+      "slug": "lucius_catilius_severus_roman_senator_and_kinsman_of_severus_alexander",
+      "has_portrait": true,
+      "n_adj": 20,
+      "century": "3 CE",
+      "role": "senator",
+      "adjs": [
+        "learned"
+      ],
+      "vec": [
+        0.9618,
+        0.0096,
+        0.0095,
+        0.0096,
+        0.0095
+      ]
+    },
+    {
+      "name": "Lucius Verus, Roman Emperor (co-emperor with Marcus Aurelius, r. 161-169)",
+      "slug": "lucius_verus_roman_emperor_co_emperor_with_marcus_aurelius_r_161_169",
+      "has_portrait": true,
+      "n_adj": 15,
+      "century": "2 CE",
+      "role": "emperor",
+      "adjs": [
+        "reckless",
+        "ingenuous"
+      ],
+      "vec": [
+        0.0125,
+        0.95,
+        0.0125,
+        0.0125,
+        0.0125
+      ]
+    },
+    {
+      "name": "Lucullus",
+      "slug": "lucullus",
+      "has_portrait": true,
+      "n_adj": 12,
+      "century": "1 BCE",
+      "role": "general",
+      "adjs": [
+        "wise",
+        "incorrupt",
+        "just",
+        "humane",
+        "gentle",
+        "liberal",
+        "double-minded",
+        "unsociable",
+        "eloquent",
+        "well-read"
+      ],
+      "vec": [
+        0.3032,
+        0.5348,
+        0.1306,
+        0.0156,
+        0.0158
+      ]
+    },
+    {
+      "name": "M. Gavius Apicius",
+      "slug": "m_gavius_apicius",
+      "has_portrait": true,
+      "n_adj": 34,
+      "century": "1 CE",
+      "role": "other_elite",
+      "adjs": [
+        "gourmet"
+      ],
+      "vec": [
+        0.0057,
+        0.0057,
+        0.9771,
+        0.0057,
+        0.0057
+      ]
+    },
+    {
+      "name": "Macrianus",
+      "slug": "macrianus",
+      "has_portrait": true,
+      "n_adj": 30,
+      "century": "3 CE",
+      "role": "general",
+      "adjs": [
+        "loyal",
+        "wiser"
+      ],
+      "vec": [
+        0.0065,
+        0.0065,
+        0.0065,
+        0.9742,
+        0.0065
+      ]
+    },
+    {
+      "name": "Macrinus",
+      "slug": "macrinus",
+      "has_portrait": true,
+      "n_adj": 115,
+      "century": "3 CE",
+      "role": "emperor",
+      "adjs": [
+        "merciful",
+        "arrogant",
+        "stern",
+        "bloodthirsty",
+        "rigid",
+        "tyrannical",
+        "considerate",
+        "harsh",
+        "evil",
+        "ignoble"
+      ],
+      "vec": [
+        0.0017,
+        0.0018,
+        0.1735,
+        0.0017,
+        0.8213
+      ]
+    },
+    {
+      "name": "Mamaea",
+      "slug": "mamaea",
+      "has_portrait": true,
+      "n_adj": 51,
+      "century": "3 CE",
+      "role": "other_elite",
+      "adjs": [
+        "clever",
+        "covetous",
+        "greedy"
+      ],
+      "vec": [
+        0.0039,
+        0.0038,
+        0.0038,
+        0.9846,
+        0.0039
+      ]
+    },
+    {
+      "name": "Marcellus, Roman general under Constantius II (fl. mid-4th century)",
+      "slug": "marcellus_roman_general_under_constantius_ii_fl_mid_4th_century",
+      "has_portrait": true,
+      "n_adj": 24,
+      "century": "4 CE",
+      "role": "general",
+      "adjs": [
+        "careful",
+        "rigorous",
+        "harsh",
+        "angry",
+        "ignorant",
+        "honorable",
+        "vain",
+        "mad",
+        "cautious",
+        "prudent"
+      ],
+      "vec": [
+        0.008,
+        0.9675,
+        0.0083,
+        0.0082,
+        0.008
+      ]
+    },
+    {
+      "name": "Marcius",
+      "slug": "marcius",
+      "has_portrait": false,
+      "n_adj": 16,
+      "century": "7 BCE",
+      "role": "king",
+      "adjs": [
+        "peaceful",
+        "mild",
+        "noble",
+        "ambitious",
+        "straightforward",
+        "direct",
+        "valiant"
+      ],
+      "vec": [
+        0.0118,
+        0.012,
+        0.3758,
+        0.5887,
+        0.0118
+      ]
+    },
+    {
+      "name": "Marcus Aurelius",
+      "slug": "marcus_aurelius",
+      "has_portrait": false,
+      "n_adj": 439,
+      "century": "2 CE",
+      "role": "emperor",
+      "adjs": [
+        "merciful",
+        "just",
+        "guileless",
+        "reasonable",
+        "moral",
+        "righteous",
+        "harsh",
+        "careful",
+        "generous",
+        "religious"
+      ],
+      "vec": [
+        0.0004,
+        0.9291,
+        0.0004,
+        0.0698,
+        0.0004
+      ]
+    },
+    {
+      "name": "Marcus Brutus",
+      "slug": "marcus_brutus",
+      "has_portrait": true,
+      "n_adj": 13,
+      "century": "1 BCE",
+      "role": "senator",
+      "adjs": [
+        "gentle",
+        "friendly",
+        "grave",
+        "yielding",
+        "deliberate",
+        "steady",
+        "inflexible",
+        "honest",
+        "temperate",
+        "just"
+      ],
+      "vec": [
+        0.0143,
+        0.4639,
+        0.0145,
+        0.1018,
+        0.4055
+      ]
+    },
+    {
+      "name": "Marius (Gallic Emperor)",
+      "slug": "marius_gallic_emperor",
+      "has_portrait": false,
+      "n_adj": 12,
+      "century": "3 CE",
+      "role": "emperor",
+      "adjs": [
+        "active"
+      ],
+      "vec": [
+        0.0154,
+        0.0154,
+        0.0154,
+        0.0154,
+        0.9384
+      ]
+    },
+    {
+      "name": "Marius Victorinus, Roman philosopher and Christian convert (4th century)",
+      "slug": "marius_victorinus_roman_philosopher_and_christian_convert_4th_century",
+      "has_portrait": true,
+      "n_adj": 26,
+      "century": "4 CE",
+      "role": "philosopher",
+      "adjs": [
+        "valiant",
+        "soldierly",
+        "devoted",
+        "pious",
+        "blameless",
+        "philosophical",
+        "constant",
+        "noblest",
+        "holy"
+      ],
+      "vec": [
+        0.0074,
+        0.5655,
+        0.0079,
+        0.4117,
+        0.0075
+      ]
+    },
+    {
+      "name": "Mark Antony",
+      "slug": "mark_antony",
+      "has_portrait": true,
+      "n_adj": 10,
+      "century": "1 BCE",
+      "role": "general",
+      "adjs": [
+        "corrupt",
+        "generous",
+        "virtuous",
+        "savage",
+        "kindest",
+        "hard-hearted",
+        "insolent",
+        "honorable",
+        "firm",
+        "strong"
+      ],
+      "vec": [
+        0.1967,
+        0.2851,
+        0.2903,
+        0.2095,
+        0.0182
+      ]
+    },
+    {
+      "name": "Maximin (pagan)",
+      "slug": "maximin_pagan",
+      "has_portrait": false,
+      "n_adj": 10,
+      "century": "4 CE",
+      "role": "emperor",
+      "adjs": [
+        "cruel",
+        "wicked",
+        "malignant",
+        "implacable",
+        "eager"
+      ],
+      "vec": [
+        0.0182,
+        0.2449,
+        0.0183,
+        0.0182,
+        0.7003
+      ]
+    },
+    {
+      "name": "Maximinus Thrax",
+      "slug": "maximinus_thrax",
+      "has_portrait": false,
+      "n_adj": 101,
+      "century": "3 CE",
+      "role": "emperor",
+      "adjs": [
+        "hard",
+        "passionate",
+        "clever",
+        "savage",
+        "grim",
+        "fierce",
+        "haughty",
+        "rough",
+        "scornful",
+        "just"
+      ],
+      "vec": [
+        0.002,
+        0.7441,
+        0.1122,
+        0.1397,
+        0.002
+      ]
+    },
+    {
+      "name": "Maximinus the Younger (son of Maximinus Thrax, Caesar 236–238 CE, d. 238 CE)",
+      "slug": "maximinus_the_younger_son_of_maximinus_thrax_caesar_236_238_ce_d_238_ce",
+      "has_portrait": false,
+      "n_adj": 10,
+      "century": "3 CE",
+      "role": "caesar",
+      "adjs": [
+        "learned",
+        "haughty",
+        "insolent"
+      ],
+      "vec": [
+        0.5445,
+        0.0184,
+        0.4006,
+        0.0183,
+        0.0182
+      ]
+    },
+    {
+      "name": "Maximus, philosopher and associate of Emperor Julian",
+      "slug": "maximus_philosopher_and_associate_of_emperor_julian",
+      "has_portrait": true,
+      "n_adj": 196,
+      "century": "4 CE",
+      "role": "philosopher",
+      "adjs": [
+        "sagacious",
+        "rigorous",
+        "courageous",
+        "humble",
+        "just",
+        "continent",
+        "stern",
+        "gloomy",
+        "grave",
+        "cruel"
+      ],
+      "vec": [
+        0.001,
+        0.7628,
+        0.0011,
+        0.2341,
+        0.001
+      ]
+    },
+    {
+      "name": "Messalla, consul and associate of Cicero (1st c. BCE)",
+      "slug": "messalla_consul_and_associate_of_cicero_1st_c_bce",
+      "has_portrait": true,
+      "n_adj": 32,
+      "century": "1 BCE",
+      "role": "consul",
+      "adjs": [
+        "learned"
+      ],
+      "vec": [
+        0.9792,
+        0.0051,
+        0.0051,
+        0.0052,
+        0.0054
+      ]
+    },
+    {
+      "name": "Mother of Bonosus, usurper against Probus",
+      "slug": "mother_of_bonosus_usurper_against_probus",
+      "has_portrait": true,
+      "n_adj": 17,
+      "century": "3 CE",
+      "role": "other",
+      "adjs": [
+        "brave"
+      ],
+      "vec": [
+        0.9555,
+        0.0111,
+        0.0112,
+        0.0111,
+        0.0111
+      ]
+    },
+    {
+      "name": "Nero",
+      "slug": "nero",
+      "has_portrait": true,
+      "n_adj": 88,
+      "century": "1 CE",
+      "role": "emperor",
+      "adjs": [
+        "careful",
+        "filthy",
+        "unnatural",
+        "violent",
+        "daring",
+        "pernicious",
+        "depraved",
+        "shameful",
+        "timid",
+        "savage"
+      ],
+      "vec": [
+        0.0023,
+        0.3014,
+        0.0023,
+        0.0286,
+        0.6653
+      ]
+    },
+    {
+      "name": "Numerian",
+      "slug": "numerian",
+      "has_portrait": true,
+      "n_adj": 10,
+      "century": "3 CE",
+      "role": "emperor",
+      "adjs": [
+        "eloquent"
+      ],
+      "vec": [
+        0.0182,
+        0.0183,
+        0.9271,
+        0.0182,
+        0.0182
+      ]
+    },
+    {
+      "name": "Odaenathus",
+      "slug": "odaenathus",
+      "has_portrait": false,
+      "n_adj": 17,
+      "century": "3 CE",
+      "role": "king",
+      "adjs": [
+        "fierce"
+      ],
+      "vec": [
+        0.0111,
+        0.9556,
+        0.0111,
+        0.0111,
+        0.0111
+      ]
+    },
+    {
+      "name": "Olybrius",
+      "slug": "olybrius",
+      "has_portrait": false,
+      "n_adj": 15,
+      "century": "4 CE",
+      "role": "prefect",
+      "adjs": [
+        "careful",
+        "kind",
+        "equitable",
+        "gentle",
+        "tranquil",
+        "moderate",
+        "anxious",
+        "harsh",
+        "cruel",
+        "merciless"
+      ],
+      "vec": [
+        0.0125,
+        0.9494,
+        0.0128,
+        0.0126,
+        0.0127
+      ]
+    },
+    {
+      "name": "Otho",
+      "slug": "otho",
+      "has_portrait": true,
+      "n_adj": 36,
+      "century": "1 CE",
+      "role": "emperor",
+      "adjs": [
+        "gentle",
+        "ardent",
+        "extravagant",
+        "luxurious",
+        "unshaken",
+        "reckless",
+        "gallant",
+        "pleasure-loving",
+        "respectful",
+        "mean"
+      ],
+      "vec": [
+        0.0322,
+        0.4088,
+        0.0821,
+        0.0054,
+        0.4714
+      ]
+    },
+    {
+      "name": "Ovinius Camillus",
+      "slug": "ovinius_camillus",
+      "has_portrait": false,
+      "n_adj": 29,
+      "century": "3 CE",
+      "role": "senator",
+      "adjs": [
+        "pleasure-loving"
+      ],
+      "vec": [
+        0.0067,
+        0.0067,
+        0.9733,
+        0.0067,
+        0.0067
+      ]
+    },
+    {
+      "name": "Paulus (in Dio, uncertain)",
+      "slug": "paulus_in_dio_uncertain",
+      "has_portrait": false,
+      "n_adj": 10,
+      "century": "4 CE–6 CE",
+      "role": "other_elite",
+      "adjs": [
+        "inaccessible",
+        "shrewd"
+      ],
+      "vec": [
+        0.9273,
+        0.0182,
+        0.0182,
+        0.0182,
+        0.0182
+      ]
+    },
+    {
+      "name": "Pericles, Athenian statesman (c. 495–429 BCE)",
+      "slug": "pericles_athenian_statesman_c_495_429_bce",
+      "has_portrait": true,
+      "n_adj": 12,
+      "century": "5 BCE",
+      "role": "other_elite",
+      "adjs": [
+        "mild",
+        "forbearing",
+        "upright",
+        "careful",
+        "equitable",
+        "dispassionate",
+        "pure",
+        "unblemished",
+        "moderate",
+        "reasonable"
+      ],
+      "vec": [
+        0.0154,
+        0.9381,
+        0.0154,
+        0.0156,
+        0.0154
+      ]
+    },
+    {
+      "name": "Pertinax",
+      "slug": "pertinax",
+      "has_portrait": true,
+      "n_adj": 79,
+      "century": "2 CE",
+      "role": "emperor",
+      "adjs": [
+        "frugal",
+        "smooth-tongued",
+        "stingy",
+        "punctilious",
+        "stern",
+        "unbending",
+        "evil",
+        "strict",
+        "gentle",
+        "considerate"
+      ],
+      "vec": [
+        0.0025,
+        0.0025,
+        0.0026,
+        0.8386,
+        0.1538
+      ]
+    },
+    {
+      "name": "Pescennius Niger, Roman usurper (d. 194 CE)",
+      "slug": "pescennius_niger_roman_usurper_d_194_ce",
+      "has_portrait": true,
+      "n_adj": 74,
+      "century": "2 CE",
+      "role": "emperor",
+      "adjs": [
+        "unusual",
+        "faithful",
+        "dignified",
+        "brave",
+        "strict",
+        "thrifty",
+        "unbridled",
+        "stern",
+        "hypocritical",
+        "greedy"
+      ],
+      "vec": [
+        0.6298,
+        0.3438,
+        0.021,
+        0.0028,
+        0.0027
+      ]
+    },
+    {
+      "name": "Phocion",
+      "slug": "phocion",
+      "has_portrait": true,
+      "n_adj": 11,
+      "century": "4 BCE",
+      "role": "general",
+      "adjs": [
+        "humane",
+        "harsh",
+        "hardy",
+        "gentle",
+        "stern",
+        "severe",
+        "courteous",
+        "obliging",
+        "just"
+      ],
+      "vec": [
+        0.0167,
+        0.0174,
+        0.678,
+        0.0169,
+        0.271
+      ]
+    },
+    {
+      "name": "Plato",
+      "slug": "plato",
+      "has_portrait": true,
+      "n_adj": 13,
+      "century": "4 BCE",
+      "role": "philosopher",
+      "adjs": [
+        "wise",
+        "learned",
+        "philosophic",
+        "obedient",
+        "noble",
+        "careful",
+        "obeying",
+        "proud"
+      ],
+      "vec": [
+        0.5405,
+        0.4162,
+        0.0144,
+        0.0146,
+        0.0143
+      ]
+    },
+    {
+      "name": "Pompey",
+      "slug": "pompey",
+      "has_portrait": false,
+      "n_adj": 121,
+      "century": "1 BCE",
+      "role": "general",
+      "adjs": [
+        "angry",
+        "determined",
+        "ambitious",
+        "kind",
+        "prudent",
+        "kindly",
+        "affected",
+        "just",
+        "friendly",
+        "firm"
+      ],
+      "vec": [
+        0.0281,
+        0.9092,
+        0.0017,
+        0.0262,
+        0.0348
+      ]
+    },
+    {
+      "name": "Postumus, Gallic Emperor (r. 260-269)",
+      "slug": "postumus_gallic_emperor_r_260_269",
+      "has_portrait": true,
+      "n_adj": 20,
+      "century": "3 CE",
+      "role": "emperor",
+      "adjs": [
+        "independent",
+        "bravest",
+        "valiant",
+        "steadfast",
+        "respected"
+      ],
+      "vec": [
+        0.1104,
+        0.0095,
+        0.6903,
+        0.1802,
+        0.0095
+      ]
+    },
+    {
+      "name": "Probus, Roman Emperor",
+      "slug": "probus_roman_emperor",
+      "has_portrait": false,
+      "n_adj": 362,
+      "century": "3 CE",
+      "role": "emperor",
+      "adjs": [
+        "merciful",
+        "courageous",
+        "wise",
+        "brave",
+        "idle",
+        "just",
+        "upright",
+        "noble",
+        "strong",
+        "devoted"
+      ],
+      "vec": [
+        0.3256,
+        0.5845,
+        0.0006,
+        0.0888,
+        0.0006
+      ]
+    },
+    {
+      "name": "Procopius",
+      "slug": "procopius",
+      "has_portrait": true,
+      "n_adj": 17,
+      "century": "6 CE",
+      "role": "other_elite",
+      "adjs": [
+        "reserved",
+        "strict",
+        "silent",
+        "restless",
+        "covetous",
+        "fond",
+        "devout",
+        "violent",
+        "courteous",
+        "prudent"
+      ],
+      "vec": [
+        0.0114,
+        0.5893,
+        0.0113,
+        0.1753,
+        0.2128
+      ]
+    },
+    {
+      "name": "Proculus, Roman jurist or official (2nd century CE, contemporary of Fronto)",
+      "slug": "proculus_roman_jurist_or_official_2nd_century_ce_contemporary_of_fronto",
+      "has_portrait": false,
+      "n_adj": 49,
+      "century": "2 CE",
+      "role": "other_elite",
+      "adjs": [
+        "learned",
+        "merciful",
+        "implacable",
+        "harsh",
+        "severe",
+        "active"
+      ],
+      "vec": [
+        0.8378,
+        0.0804,
+        0.0743,
+        0.0038,
+        0.0038
+      ]
+    },
+    {
+      "name": "Pyrrhus of Epirus, King of Epirus (r. 306–302, 297–272 BCE)",
+      "slug": "pyrrhus_of_epirus_king_of_epirus_r_306_302_297_272_bce",
+      "has_portrait": true,
+      "n_adj": 11,
+      "century": "3 BCE",
+      "role": "king",
+      "adjs": [
+        "careful",
+        "brave",
+        "temperate",
+        "mild",
+        "faithless"
+      ],
+      "vec": [
+        0.098,
+        0.6317,
+        0.0168,
+        0.0169,
+        0.2366
+      ]
+    },
+    {
+      "name": "Quintilius Marcellus",
+      "slug": "quintilius_marcellus",
+      "has_portrait": false,
+      "n_adj": 21,
+      "century": "3 CE",
+      "role": "senator",
+      "adjs": [
+        "righteous"
+      ],
+      "vec": [
+        0.0091,
+        0.0091,
+        0.0091,
+        0.9636,
+        0.0092
+      ]
+    },
+    {
+      "name": "Quintillus",
+      "slug": "quintillus",
+      "has_portrait": true,
+      "n_adj": 74,
+      "century": "3 CE",
+      "role": "emperor",
+      "adjs": [
+        "righteous",
+        "unwarlike",
+        "stern",
+        "unbending"
+      ],
+      "vec": [
+        0.0027,
+        0.0027,
+        0.2045,
+        0.7874,
+        0.0027
+      ]
+    },
+    {
+      "name": "Romulus",
+      "slug": "romulus",
+      "has_portrait": false,
+      "n_adj": 20,
+      "century": "8 BCE",
+      "role": "king",
+      "adjs": [
+        "haughty",
+        "kindly",
+        "cruel",
+        "brave",
+        "religious",
+        "just",
+        "aspiring",
+        "wise",
+        "determined",
+        "imperious"
+      ],
+      "vec": [
+        0.0671,
+        0.4327,
+        0.2078,
+        0.0097,
+        0.2827
+      ]
+    },
+    {
+      "name": "Sabinus, city prefect under Maximus and Balbinus (Historia Augusta)",
+      "slug": "sabinus_city_prefect_under_maximus_and_balbinus_historia_augusta",
+      "has_portrait": true,
+      "n_adj": 11,
+      "century": "3 CE",
+      "role": "prefect",
+      "adjs": [
+        "serious",
+        "boastful",
+        "moderate",
+        "negligent",
+        "mad",
+        "kind",
+        "daring",
+        "civilian",
+        "wise"
+      ],
+      "vec": [
+        0.067,
+        0.8828,
+        0.0168,
+        0.0168,
+        0.0167
+      ]
+    },
+    {
+      "name": "Saturninus, Roman military official (fl. 4th century, in Ammianus Marcellinus and Historia Augusta)",
+      "slug": "saturninus_roman_military_official_fl_4th_century_in_ammianus_marcellinus_and_historia_augusta",
+      "has_portrait": true,
+      "n_adj": 105,
+      "century": "4 CE",
+      "role": "general",
+      "adjs": [
+        "lovable",
+        "harsh",
+        "severe",
+        "vigorous",
+        "prudent",
+        "talkative",
+        "just"
+      ],
+      "vec": [
+        0.0019,
+        0.0019,
+        0.9924,
+        0.0019,
+        0.0019
+      ]
+    },
+    {
+      "name": "Scaevola",
+      "slug": "scaevola",
+      "has_portrait": false,
+      "n_adj": 18,
+      "century": "1 BCE",
+      "role": "other_elite",
+      "adjs": [
+        "learned"
+      ],
+      "vec": [
+        0.9578,
+        0.0106,
+        0.0105,
+        0.0106,
+        0.0105
+      ]
+    },
+    {
+      "name": "Scipio Africanus",
+      "slug": "scipio_africanus",
+      "has_portrait": true,
+      "n_adj": 61,
+      "century": "3 BCE",
+      "role": "general",
+      "adjs": [
+        "bold",
+        "stern",
+        "active",
+        "agreeable",
+        "humane",
+        "terrifying",
+        "venturesome",
+        "amiable",
+        "moderate",
+        "fearless"
+      ],
+      "vec": [
+        0.0283,
+        0.3806,
+        0.4268,
+        0.0033,
+        0.161
+      ]
+    },
+    {
+      "name": "Septimius Severus",
+      "slug": "septimius_severus",
+      "has_portrait": false,
+      "n_adj": 78,
+      "century": "2 CE",
+      "role": "emperor",
+      "adjs": [
+        "cruel",
+        "determined",
+        "implacable",
+        "upright",
+        "brave",
+        "suspicious",
+        "strict",
+        "honourable",
+        "self-restrained",
+        "frugal"
+      ],
+      "vec": [
+        0.0723,
+        0.891,
+        0.0025,
+        0.0315,
+        0.0026
+      ]
+    },
+    {
+      "name": "Sertorius",
+      "slug": "sertorius",
+      "has_portrait": true,
+      "n_adj": 14,
+      "century": "1 BCE",
+      "role": "general",
+      "adjs": [
+        "bold",
+        "continent",
+        "faithful",
+        "merciful",
+        "undaunted",
+        "daring",
+        "bountiful",
+        "active",
+        "temperate",
+        "sincere"
+      ],
+      "vec": [
+        0.0137,
+        0.6392,
+        0.0133,
+        0.0135,
+        0.3203
+      ]
+    },
+    {
+      "name": "Severus Alexander",
+      "slug": "severus_alexander",
+      "has_portrait": false,
+      "n_adj": 83,
+      "century": "3 CE",
+      "role": "emperor",
+      "adjs": [
+        "weak",
+        "indolent",
+        "courageous",
+        "courteous",
+        "considerate",
+        "righteous",
+        "gracious",
+        "intrepid",
+        "stern",
+        "kindly"
+      ],
+      "vec": [
+        0.0024,
+        0.0024,
+        0.0024,
+        0.1878,
+        0.805
+      ]
+    },
+    {
+      "name": "Severus, Roman general (4th century, commander at Rheims)",
+      "slug": "severus_roman_general_4th_century_commander_at_rheims",
+      "has_portrait": true,
+      "n_adj": 69,
+      "century": "4 CE",
+      "role": "general",
+      "adjs": [
+        "stern",
+        "implacable",
+        "holy",
+        "ascetic",
+        "loving",
+        "loyal",
+        "weak",
+        "absurd",
+        "faithful",
+        "honorable"
+      ],
+      "vec": [
+        0.0029,
+        0.371,
+        0.5314,
+        0.0397,
+        0.055
+      ]
+    },
+    {
+      "name": "Socrates",
+      "slug": "socrates",
+      "has_portrait": true,
+      "n_adj": 33,
+      "century": "5 BCE",
+      "role": "philosopher",
+      "adjs": [
+        "wise",
+        "wisest",
+        "just",
+        "abstinent",
+        "righteous",
+        "wiser",
+        "contented",
+        "confident",
+        "crooked",
+        "bitter"
+      ],
+      "vec": [
+        0.1457,
+        0.6919,
+        0.0059,
+        0.0061,
+        0.1504
+      ]
+    },
+    {
+      "name": "Symiamira (Soaemias), mother of Elagabalus",
+      "slug": "symiamira_soaemias_mother_of_elagabalus",
+      "has_portrait": false,
+      "n_adj": 27,
+      "century": "3 CE",
+      "role": "mother",
+      "adjs": [
+        "depraved"
+      ],
+      "vec": [
+        0.0071,
+        0.0071,
+        0.0071,
+        0.0071,
+        0.9714
+      ]
+    },
+    {
+      "name": "Themistocles",
+      "slug": "themistocles",
+      "has_portrait": true,
+      "n_adj": 38,
+      "century": "5 BCE",
+      "role": "general",
+      "adjs": [
+        "wise",
+        "ambitious",
+        "honorable",
+        "passionate",
+        "just",
+        "eager",
+        "loving",
+        "splendid",
+        "magnanimous",
+        "staid"
+      ],
+      "vec": [
+        0.2209,
+        0.7635,
+        0.0052,
+        0.0052,
+        0.0053
+      ]
+    },
+    {
+      "name": "Theodora, Empress of the Eastern Roman Empire (wife of Justinian I, r. 527–548)",
+      "slug": "theodora_empress_of_the_eastern_roman_empire_wife_of_justinian_i_r_527_548",
+      "has_portrait": true,
+      "n_adj": 43,
+      "century": "6 CE",
+      "role": "empress",
+      "adjs": [
+        "holy",
+        "cruel",
+        "inhuman",
+        "eager",
+        "jealous",
+        "determined",
+        "hardened",
+        "inveterate",
+        "self-willed",
+        "harsh"
+      ],
+      "vec": [
+        0.0046,
+        0.9067,
+        0.0046,
+        0.0046,
+        0.0795
+      ]
+    },
+    {
+      "name": "Tiberius",
+      "slug": "tiberius",
+      "has_portrait": true,
+      "n_adj": 99,
+      "century": "1 CE",
+      "role": "emperor",
+      "adjs": [
+        "cruel",
+        "cunning",
+        "noble",
+        "vicious",
+        "unmoved",
+        "savage",
+        "crafty",
+        "careful",
+        "distrustful",
+        "just"
+      ],
+      "vec": [
+        0.0021,
+        0.3819,
+        0.0714,
+        0.0632,
+        0.4815
+      ]
+    },
+    {
+      "name": "Timestheus, Praetorian Prefect and father-in-law of Gordian III",
+      "slug": "timestheus_praetorian_prefect_and_father_in_law_of_gordian_iii",
+      "has_portrait": false,
+      "n_adj": 34,
+      "century": "3 CE",
+      "role": "prefect",
+      "adjs": [
+        "erudite"
+      ],
+      "vec": [
+        0.0057,
+        0.0057,
+        0.9771,
+        0.0057,
+        0.0057
+      ]
+    },
+    {
+      "name": "Trajan",
+      "slug": "trajan",
+      "has_portrait": true,
+      "n_adj": 21,
+      "century": "2 CE",
+      "role": "emperor",
+      "adjs": [
+        "hard",
+        "kind",
+        "noble",
+        "kindly",
+        "energetic",
+        "stoutest",
+        "generous",
+        "niggardly",
+        "just",
+        "upright"
+      ],
+      "vec": [
+        0.0091,
+        0.963,
+        0.0092,
+        0.0094,
+        0.0094
+      ]
+    },
+    {
+      "name": "Ulpian",
+      "slug": "ulpian",
+      "has_portrait": true,
+      "n_adj": 52,
+      "century": "3 CE",
+      "role": "other_elite",
+      "adjs": [
+        "righteous",
+        "learned",
+        "just",
+        "loyal",
+        "genuine"
+      ],
+      "vec": [
+        0.347,
+        0.0038,
+        0.0038,
+        0.6416,
+        0.0038
+      ]
+    },
+    {
+      "name": "Ursicinus",
+      "slug": "ursicinus",
+      "has_portrait": true,
+      "n_adj": 10,
+      "century": "4 CE",
+      "role": "priest",
+      "adjs": [
+        "gallant",
+        "ambitious",
+        "aloof",
+        "magnanimous",
+        "greedy",
+        "merciful",
+        "innocent"
+      ],
+      "vec": [
+        0.0182,
+        0.8306,
+        0.0187,
+        0.1143,
+        0.0182
+      ]
+    },
+    {
+      "name": "Valens, Roman Emperor (r. 364-378)",
+      "slug": "valens_roman_emperor_r_364_378",
+      "has_portrait": true,
+      "n_adj": 116,
+      "century": "4 CE",
+      "role": "emperor",
+      "adjs": [
+        "careful",
+        "learned",
+        "just",
+        "rustic",
+        "simple",
+        "obstinate",
+        "faithful",
+        "steady",
+        "severe",
+        "rigid"
+      ],
+      "vec": [
+        0.1423,
+        0.7999,
+        0.0017,
+        0.0286,
+        0.0275
+      ]
+    },
+    {
+      "name": "Valerian",
+      "slug": "valerian",
+      "has_portrait": false,
+      "n_adj": 53,
+      "century": "3 CE",
+      "role": "emperor",
+      "adjs": [
+        "noble",
+        "valiant",
+        "wise",
+        "modest",
+        "respected",
+        "mild",
+        "friendly",
+        "kindly",
+        "impious"
+      ],
+      "vec": [
+        0.0038,
+        0.0037,
+        0.0038,
+        0.9849,
+        0.0037
+      ]
+    },
+    {
+      "name": "Vitellius",
+      "slug": "vitellius",
+      "has_portrait": true,
+      "n_adj": 36,
+      "century": "1 CE",
+      "role": "emperor",
+      "adjs": [
+        "insatiable",
+        "extravagant",
+        "indolent",
+        "determined",
+        "reckless",
+        "cruel",
+        "feeble",
+        "complaisant",
+        "assuming",
+        "drunken"
+      ],
+      "vec": [
+        0.0054,
+        0.2763,
+        0.0055,
+        0.0054,
+        0.7074
+      ]
+    },
+    {
+      "name": "Zenobia, Queen of Palmyra (ruled c. 267–272)",
+      "slug": "zenobia_queen_of_palmyra_ruled_c_267_272",
+      "has_portrait": true,
+      "n_adj": 193,
+      "century": "3 CE",
+      "role": "queen",
+      "adjs": [
+        "wise",
+        "steadfast",
+        "firm",
+        "brave",
+        "courageous",
+        "proud"
+      ],
+      "vec": [
+        0.9959,
+        0.001,
+        0.001,
+        0.001,
+        0.001
+      ]
+    }
+  ],
+  "featured": {
+    "0": [
+      {
+        "name": "Zenobia, Queen of Palmyra (ruled c. 267–272)",
+        "slug": "zenobia_queen_of_palmyra_ruled_c_267_272",
+        "has_portrait": true,
+        "n_adj": 193,
+        "century": "3 CE",
+        "role": "queen",
+        "adjs": [
+          "wise",
+          "steadfast",
+          "firm",
+          "brave",
+          "courageous",
+          "proud"
+        ],
+        "vec": [
+          0.9959,
+          0.001,
+          0.001,
+          0.001,
+          0.001
+        ]
+      },
+      {
+        "name": "Apollonius of Tyana",
+        "slug": "apollonius_of_tyana",
+        "has_portrait": true,
+        "n_adj": 26,
+        "century": "1 CE",
+        "role": "philosopher",
+        "adjs": [
+          "sage",
+          "holy",
+          "wiser"
+        ],
+        "vec": [
+          0.9702,
+          0.0075,
+          0.0074,
+          0.0074,
+          0.0074
+        ]
+      },
+      {
+        "name": "Vespasian",
+        "slug": "vespasian",
+        "has_portrait": false,
+        "n_adj": 9,
+        "century": "1 CE",
+        "role": "emperor",
+        "adjs": [
+          "covetous",
+          "vigilant",
+          "active",
+          "persevering",
+          "indefatigable",
+          "parsimonious",
+          "old-fashioned",
+          "energetic",
+          "impartial"
+        ],
+        "vec": [
+          0.9193,
+          0.0201,
+          0.0201,
+          0.02,
+          0.0205
+        ]
+      }
+    ],
+    "1": [
+      {
+        "name": "Trajan",
+        "slug": "trajan",
+        "has_portrait": true,
+        "n_adj": 21,
+        "century": "2 CE",
+        "role": "emperor",
+        "adjs": [
+          "hard",
+          "kind",
+          "noble",
+          "kindly",
+          "energetic",
+          "stoutest",
+          "generous",
+          "niggardly",
+          "just",
+          "upright"
+        ],
+        "vec": [
+          0.0091,
+          0.963,
+          0.0092,
+          0.0094,
+          0.0094
+        ]
+      },
+      {
+        "name": "Cicero",
+        "slug": "cicero",
+        "has_portrait": false,
+        "n_adj": 89,
+        "century": "1 BCE",
+        "role": "orator",
+        "adjs": [
+          "learned",
+          "amiable",
+          "philosophical",
+          "hard",
+          "witty",
+          "tyrannical",
+          "indulgent",
+          "brilliant",
+          "fond",
+          "honest"
+        ],
+        "vec": [
+          0.0092,
+          0.9511,
+          0.0006,
+          0.0195,
+          0.0196
+        ]
+      },
+      {
+        "name": "Augustus",
+        "slug": "augustus",
+        "has_portrait": true,
+        "n_adj": 74,
+        "century": "1 BCE",
+        "role": "emperor",
+        "adjs": [
+          "mild",
+          "ambitious",
+          "moderate",
+          "inconsistent",
+          "honourable",
+          "severe",
+          "strict",
+          "wanton",
+          "fond",
+          "affected"
+        ],
+        "vec": [
+          0.0027,
+          0.9419,
+          0.0028,
+          0.0027,
+          0.0499
+        ]
+      },
+      {
+        "name": "Marcus Aurelius",
+        "slug": "marcus_aurelius",
+        "has_portrait": false,
+        "n_adj": 439,
+        "century": "2 CE",
+        "role": "emperor",
+        "adjs": [
+          "merciful",
+          "just",
+          "guileless",
+          "reasonable",
+          "moral",
+          "righteous",
+          "harsh",
+          "careful",
+          "generous",
+          "religious"
+        ],
+        "vec": [
+          0.0004,
+          0.9291,
+          0.0004,
+          0.0698,
+          0.0004
+        ]
+      }
+    ],
+    "2": [
+      {
+        "name": "Aurelian, Roman Emperor (r. 270-275)",
+        "slug": "aurelian_roman_emperor_r_270_275",
+        "has_portrait": true,
+        "n_adj": 809,
+        "century": "3 CE",
+        "role": "emperor",
+        "adjs": [
+          "stern",
+          "savage",
+          "bravest",
+          "harsh",
+          "guileless",
+          "peaceful",
+          "brave",
+          "severe",
+          "violent",
+          "proud"
+        ],
+        "vec": [
+          0.0084,
+          0.0002,
+          0.9909,
+          0.0003,
+          0.0002
+        ]
+      },
+      {
+        "name": "Agrippina the Younger (mother of Nero, wife of Claudius)",
+        "slug": "agrippina_the_younger_mother_of_nero_wife_of_claudius",
+        "has_portrait": true,
+        "n_adj": 11,
+        "century": "1 CE",
+        "role": "empress",
+        "adjs": [
+          "imperious",
+          "haughty",
+          "overbearing",
+          "intriguing",
+          "violent",
+          "heroic",
+          "domineering",
+          "proud",
+          "impetuous",
+          "masculine"
+        ],
+        "vec": [
+          0.0167,
+          0.0167,
+          0.9332,
+          0.0167,
+          0.0167
+        ]
+      },
+      {
+        "name": "Scipio Africanus",
+        "slug": "scipio_africanus",
+        "has_portrait": true,
+        "n_adj": 61,
+        "century": "3 BCE",
+        "role": "general",
+        "adjs": [
+          "bold",
+          "stern",
+          "active",
+          "agreeable",
+          "humane",
+          "terrifying",
+          "venturesome",
+          "amiable",
+          "moderate",
+          "fearless"
+        ],
+        "vec": [
+          0.0283,
+          0.3806,
+          0.4268,
+          0.0033,
+          0.161
+        ]
+      }
+    ],
+    "3": [
+      {
+        "name": "Diocletian, Roman Emperor (r. 284-305), originally named Diocles",
+        "slug": "diocletian_roman_emperor_r_284_305_originally_named_diocles",
+        "has_portrait": true,
+        "n_adj": 186,
+        "century": "3 CE",
+        "role": "emperor",
+        "adjs": [
+          "devoted",
+          "wise",
+          "reticent",
+          "restless",
+          "greedy",
+          "stingy",
+          "generous",
+          "righteous",
+          "brutal",
+          "timorous"
+        ],
+        "vec": [
+          0.0303,
+          0.0011,
+          0.0011,
+          0.9664,
+          0.0011
+        ]
+      },
+      {
+        "name": "Antoninus Pius, Roman Emperor (r. 138-161)",
+        "slug": "antoninus_pius_roman_emperor_r_138_161",
+        "has_portrait": true,
+        "n_adj": 217,
+        "century": "2 CE",
+        "role": "emperor",
+        "adjs": [
+          "frugal",
+          "unstained",
+          "just",
+          "fond",
+          "generous",
+          "lenient",
+          "honourable",
+          "stingy",
+          "angry",
+          "agreeable"
+        ],
+        "vec": [
+          0.0477,
+          0.0009,
+          0.001,
+          0.9495,
+          0.0009
+        ]
+      }
+    ],
+    "4": [
+      {
+        "name": "Commodus, Roman Emperor (r. 180-192)",
+        "slug": "commodus_roman_emperor_r_180_192",
+        "has_portrait": true,
+        "n_adj": 141,
+        "century": "2 CE",
+        "role": "emperor",
+        "adjs": [
+          "weak",
+          "cruel",
+          "lewd",
+          "gluttonous",
+          "evil",
+          "depraved",
+          "stern",
+          "vicious",
+          "debauched",
+          "lazy"
+        ],
+        "vec": [
+          0.0014,
+          0.0014,
+          0.0014,
+          0.0014,
+          0.9943
+        ]
+      },
+      {
+        "name": "Caracalla",
+        "slug": "caracalla",
+        "has_portrait": true,
+        "n_adj": 49,
+        "century": "3 CE",
+        "role": "emperor",
+        "adjs": [
+          "cruel",
+          "witless",
+          "savage",
+          "stern",
+          "arrogant",
+          "foolish",
+          "clever",
+          "reserved"
+        ],
+        "vec": [
+          0.004,
+          0.004,
+          0.0041,
+          0.004,
+          0.9839
+        ]
+      },
+      {
+        "name": "Elagabalus (Marcus Aurelius Antoninus Augustus), Roman Emperor (r. 218–222)",
+        "slug": "elagabalus_marcus_aurelius_antoninus_augustus_roman_emperor_r_218_222",
+        "has_portrait": true,
+        "n_adj": 26,
+        "century": "3 CE",
+        "role": "emperor",
+        "adjs": [
+          "brutal",
+          "extravagant",
+          "wasteful",
+          "gluttonous"
+        ],
+        "vec": [
+          0.0075,
+          0.0074,
+          0.0074,
+          0.0074,
+          0.9703
+        ]
+      },
+      {
+        "name": "Nero",
+        "slug": "nero",
+        "has_portrait": true,
+        "n_adj": 88,
+        "century": "1 CE",
+        "role": "emperor",
+        "adjs": [
+          "careful",
+          "filthy",
+          "unnatural",
+          "violent",
+          "daring",
+          "pernicious",
+          "depraved",
+          "shameful",
+          "timid",
+          "savage"
+        ],
+        "vec": [
+          0.0023,
+          0.3014,
+          0.0023,
+          0.0286,
+          0.6653
+        ]
+      }
+    ]
+  },
+  "min_adj": 10
+}
